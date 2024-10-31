@@ -1,0 +1,1 @@
+Web3 refers to the next generation of the internet that aims to decentralize services using blockchain technology. It focuses on giving users control over their data and enabling peer-to-peer interactions without reliance on centralized intermediaries.
