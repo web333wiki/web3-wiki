@@ -1,3 +1,8 @@
+> [!info]
+> This wiki aims to be a dedicated 
+
+# Web3
+
 ## Introduction
 
 Web3 (also known as Web 3.0) refers to the next generation of the World Wide Web, building on the concepts of decentralization, blockchain technologies, and token-based economics. Some key aspects of Web3 include:
