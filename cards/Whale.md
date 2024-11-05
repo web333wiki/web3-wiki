@@ -1,1 +1,1 @@
-TODO
+Whale is a term used in the cryptocurrency market to describe an individual or entity that holds a significant amount of a particular cryptocurrency. Whales are characterized by their large holdings, which can influence the price movements of a cryptocurrency. Whales are often associated with market manipulation due to their ability to buy or sell large amounts of cryptocurrency, causing significant price fluctuations. Traders and investors closely monitor whale activity to anticipate market trends and make informed decisions about buying or selling assets.
