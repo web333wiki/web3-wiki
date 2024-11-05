@@ -1,6 +1,3 @@
----
-tags:
-  - show-card
----
+
 
 %% todo %%

@@ -1,7 +1,1 @@
----
-tags:
-  - show-card
----
-
-
 %% todo %%
