@@ -1,1 +1,3 @@
+#explain-card 
+
 "When Lambo" is a slang term used in the cryptocurrency community to express the desire for financial success and wealth. The phrase originates from the idea that once an individual has made a substantial profit from investing in cryptocurrencies, they can afford to purchase a Lamborghini sports car. "When Lambo" is often used humorously or sarcastically to discuss price predictions, investment strategies, or market trends in the cryptocurrency space.

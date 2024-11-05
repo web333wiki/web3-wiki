@@ -1,4 +1,4 @@
-
+#explain-card 
 ## Introduction
 
 Non-fungible tokens (NFTs) are a type of digital asset that represent ownership of unique items or collectibles on a blockchain. Unlike cryptocurrencies such as [[Bitcoin]] or [[Ethereum]], which are fungible and can be exchanged on a one-to-one basis, NFTs are indivisible and cannot be exchanged on a like-for-like basis. This makes them ideal for representing digital art, virtual real estate, in-game items, and other unique assets.

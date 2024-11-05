@@ -1,7 +1,8 @@
+#explain-card 
+
 "Do Your Own Research" (DYOR) is a common term in the crypto community, emphasizing the importance of conducting personal research before investing in any project. This helps avoid falling victim to misinformation or scams.
 
 Key questions to consider during your research:
-
 ### Team
 
 * Who are the team members and the founder? What are their backgrounds?

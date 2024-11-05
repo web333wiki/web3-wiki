@@ -1,3 +1,4 @@
+#show-card 
 ## Introduction
 
 Acala is developing the [[Liquidity]] layer for web3 finance, aiming to provide sustainable infrastructure for hybrid finance (HyFi) solutions that integrate decentralized finance ([[DeFI]]) and centralized finance (CeFi) with both crypto and real-world assets. Acala offers a Universal Asset Hub that supports multichain liquid staking token (LST) protocols (e.g., liquid DOT - LDOT), an AMM decentralized exchange, and a customizable, EVM-compatible app platform built on [[Substrate]]. Secured by [[Polkadot]], Acala serves as the liquidity gateway for Polkadot [[Parachain]]s and L1/L2 blockchains.

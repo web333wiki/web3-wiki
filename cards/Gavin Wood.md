@@ -1,4 +1,4 @@
-
+#show-card 
 ## Introduction
 
 Gavin Wood is a British computer scientist and entrepreneur who has made significant contributions to the field of blockchain technology and cryptocurrency.

@@ -1,1 +1,3 @@
+#show-card
+
 %% todo %%

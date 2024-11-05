@@ -1,1 +1,3 @@
+#explain-card 
+
 An Initial Coin Offering (ICO) is a method used to raise funds for new cryptocurrency projects. Similar to an Initial Public Offering (IPO) in the stock market, where investors purchase shares of a company, in an ICO, investors acquire tokens of a new cryptocurrency project. ICOs are popular due to their quick and straightforward setup. However, they carry significant risks as they are unregulated, and there is no assurance of the project's success. Conducting thorough research before investing in an ICO is crucial to avoid potential financial loss.

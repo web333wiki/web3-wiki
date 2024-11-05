@@ -1,8 +1,3 @@
-## Introduction
+#show-card 
 
-## Technologies
-
-## Social Media
-
-## Latest Activity
-
+%% todo %%
