@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+In the context of blockchain, a system is Turing-complete if it can perform any computation that a Turing machine can. Ethereum is Turing-complete, meaning it can execute any computation via [[Smart Contract]]s, within the limits imposed by the [[Gas]] mechanism. This capability allows developers to create decentralized applications ([[DApp]]) that can perform complex operations, making [[Ethereum]] a versatile platform for innovation in the blockchain space.

@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+Total Value Locked (TVL) refers to the total value of assets that are currently being staked or locked in a decentralized finance ([[DeFI]]) protocol. It is a key metric used to measure the overall health and growth of a DeFi platform. TVL includes all the assets deposited in the protocol, such as cryptocurrencies, [[Stablecoin]]s, and tokens. A higher TVL indicates a higher level of trust and usage of the platform by users.

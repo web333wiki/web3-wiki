@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+A validator is a participant in a blockchain network that is responsible for verifying transactions and maintaining the integrity of the blockchain. Validators play a crucial role in the [[Consensus]] mechanism of the blockchain, ensuring that all transactions are legitimate and that the network remains secure. They are often required to stake a certain amount of cryptocurrency as collateral, which can be forfeited if they act maliciously or fail to perform their duties.

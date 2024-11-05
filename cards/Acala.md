@@ -5,7 +5,7 @@ Acala is developing the [[Liquidity]] layer for web3 finance, aiming to provide 
 
 ## Technology
 
-Acala's technology integrates advanced components to create a versatile ecosystem. The Acala EVM ([[Ethereum Virtual Machine]]) allows developers to create, test, and deploy [[DApps]] using familiar tools like [[Remix]] and Waffle, ensuring seamless interaction with Acala nodes via the web3 provider bodhi.js.
+Acala's technology integrates advanced components to create a versatile ecosystem. The Acala EVM ([[Ethereum Virtual Machine]]) allows developers to create, test, and deploy [[DApp]] using familiar tools like [[Remix]] and Waffle, ensuring seamless interaction with Acala nodes via the web3 provider bodhi.js.
 
 The blockchain on which Acala Token operates, Polkadot, is designed to support multiple interconnected blockchains, known as parachains. This architecture enhances scalability and interoperability, allowing different blockchains to communicate and share information securely. As a key player in the Polkadot ecosystem, Acala builds partnerships with industry leaders early to drive innovation and growth. It also focuses on providing a liquidity gateway for Polkadot parachains and features an [[AMM]] decentralized exchange for seamless asset trading within the ecosystem.
 

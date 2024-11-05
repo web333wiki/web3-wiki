@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+A rugpull is a type of scam in the cryptocurrency world where developers abandon a project and run away with investors' funds. This typically occurs in [[DeFI]] projects where developers create a new token, promote it to attract investors, and then withdraw all the liquidity, leaving investors with worthless tokens. Rugpulls highlight the importance of due diligence and caution when investing in new and unverified projects.

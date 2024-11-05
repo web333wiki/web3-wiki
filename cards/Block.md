@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+In the context of blockchain, a block refers to a collection of transactional data or information bundled together in a predetermined size. Once verified through consensus rules or protocols, the information within a block is added to the blockchain, becoming a permanent part of it. Each block is linked to the previous one through cryptographic hashes, forming a chain of blocks, hence the name "blockchain." This structure ensures the integrity and immutability of the data.

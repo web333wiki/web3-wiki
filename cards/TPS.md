@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+Transactions per second (TPS) is a crucial metric for assessing the performance of a blockchain network. It quantifies the number of transactions the network can process in one second. A higher TPS signifies a network's ability to handle a greater volume of transactions, which is vital for scalability and usability. However, TPS is constrained by factors such as block size limits and block time intervals. For instance, Bitcoin processes approximately 7 transactions per second, whereas newer blockchain networks like Ethereum and EOS boast higher TPS rates. Enhancing TPS is a primary objective for blockchain developers, as it can significantly boost the adoption and practicality of blockchain technology. To achieve higher TPS, various scaling solutions, including sharding and layer 2 solutions, are being explored and implemented.

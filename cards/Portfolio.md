@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+A portfolio in the context of cryptocurrency refers to a collection of various digital assets held by an individual or entity. Managing a cryptocurrency portfolio involves tracking the performance of different assets, diversifying investments to mitigate risk, and making informed decisions based on market trends and analysis. A well-balanced portfolio can help investors achieve their financial goals while minimizing potential losses.

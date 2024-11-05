@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+Salt is random data that is used as an additional input to a hash function to ensure that the output hash is unique. In the context of blockchain and cryptography, salt is used to enhance security by preventing attackers from using precomputed tables (rainbow tables) to crack hashed passwords. By adding a unique salt to each password before hashing, the resulting hash is different even for identical passwords.
