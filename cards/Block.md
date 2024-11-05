@@ -1,6 +1,3 @@
----
-tags:
-  - explain-card
----
+
 
 %% todo %%

@@ -1,7 +1,4 @@
----
-tags:
-  - explain-card
----
+
 
 
 A crypto airdrop is a strategy used by blockchain projects to distribute free tokens to a large number of users. The goal is to increase awareness and adoption of the project. Airdrops are typically conducted in the early stages to attract new users and build a community. They can also reward existing users and encourage continued use of the project.

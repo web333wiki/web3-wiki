@@ -1,7 +1,4 @@
----
-tags:
-  - explain-card
----
+
 
 All-time high (ATH) refers to the highest price a cryptocurrency has reached in its history. Conversely, all-time low ([[ATL]]) denotes the lowest price a cryptocurrency has ever recorded.
 
