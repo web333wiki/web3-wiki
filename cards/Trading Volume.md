@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+In the context of cryptocurrency, trading volume refers to the number of units of a cryptocurrency that are traded during a given period of time, typically measured in 24-hour increments. Trading volume is an important metric for assessing the liquidity and market activity of a cryptocurrency. High trading volume can indicate strong interest in a cryptocurrency, while low trading volume may suggest limited market activity. Traders often use trading volume as a key indicator when making investment decisions, as it can provide insights into market trends and potential price movements.

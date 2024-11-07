@@ -1,5 +1,6 @@
-> [!info]
-> This wiki is dedicated to the Web3 ecosystem, covering topics from the basics to the most advanced. It is an open-source, community-driven project, and we welcome contributions from anyone interested in Web3 technologies. If you would like to contribute, please submit a pull request to https://github.com/boundless-forest/web3-wiki.
+#explain-card 
+
+%% todo %%
 
 Web3, also known as Web 3.0, represents the next generation of the World Wide Web. It builds on the principles of decentralization, blockchain technologies, and token-based economics. Key aspects of Web3 include:
 
