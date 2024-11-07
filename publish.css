@@ -1,0 +1,4 @@
+/* Logo contains site name, no need to repeat it in the title. */
+.site-body-left-column-site-name {
+    display: none;
+}
