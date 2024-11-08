@@ -17,9 +17,10 @@ You can click on a tag within a card to see all cards with the same tag. That's 
 
 ## Contributing
 
-This is an open-source, community-driven project, and we welcome contributions from anyone interested in Web3 technologies. If you would like to contribute, please submit a pull request to [our GitHub repository](https://github.com/boundless-forest/web3-wiki) or join our [Telegram group](https://t.me/+yRR8fEa8x6VlMTc1) to discuss your ideas.
+>[!tip]
+> This wiki is built using [Obsidian](https://obsidian.md), so you'd better familiarize yourself with it before contributing, If not, you can still contribute by editing the markdown files directly on GitHub.
 
-This wiki is built using [Obsidian](https://obsidian.md), so you may need to familiarize yourself with it before contributing.
+This is an open-source, community-driven project, and we welcome contributions from anyone interested in Web3 technologies. If you would like to contribute, please submit a pull request to [our GitHub repository](https://github.com/boundless-forest/web3-wiki) or join our [Telegram group](https://t.me/+yRR8fEa8x6VlMTc1) to discuss your ideas.
 
 To contribute, you can submit a new card with a specific tag or improve an existing card. For new cards, you can follow the templates below:
 
