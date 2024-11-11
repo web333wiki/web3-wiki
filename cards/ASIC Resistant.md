@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+ASIC resistance refers to proof-of-work algorithms designed to prevent the advantages of specialized mining hardware known as ASICs (Application-Specific Integrated Circuits). By ensuring that these algorithms are inefficient on ASICs, they aim to level the playing field so that consumer hardware like CPUs and GPUs remain competitive. This helps to prevent mining centralization and promotes a more decentralized network by making it difficult for ASICs to dominate the mining process.

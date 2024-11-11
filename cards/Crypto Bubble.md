@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+A crypto bubble refers to a period of extreme speculation in the cryptocurrency market, where the prices of cryptocurrencies rise rapidly to unsustainable levels before crashing. One notable instance of a crypto bubble occurred in 2017, characterized by a surge in Initial Coin Offerings ([[ICO]]s). The bubble reached its peak on December 16, 2017, before experiencing a significant decline.

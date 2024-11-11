@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+A Dapp (short for decentralized application) is an application that runs on a blockchain or peer-to-peer network of computers instead of a single centralized server. Dapps are designed to be open-source, decentralized, and incentivized by tokens or other mechanisms. They leverage smart contracts to facilitate trustless interactions and can encompass a wide range of use cases, including finance (DeFi), gaming, and social media.

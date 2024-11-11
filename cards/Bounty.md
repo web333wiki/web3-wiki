@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+In the cryptocurrency space, a bounty is a reward offered by blockchain projects to individuals or groups, known as "bounty hunters," for completing specific tasks. These tasks can include promoting the project on social media, creating content, bug reporting, software development, or translating documents. Bounties are a common strategy to incentivize community engagement, enhance product development, and increase project visibility.

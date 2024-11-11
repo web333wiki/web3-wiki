@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+A burned token refers to a cryptocurrency token that has been intentionally sent to an unspendable address, effectively removing it from circulation. This process is used to reduce the total supply of tokens, potentially increasing the value of the remaining tokens. Tokens are burned by sending them to a "burn address," which is an address for which no one possesses the private key. Examples of burn addresses include `1BitcoinEaterAddressDontSendf59kuE` on the Bitcoin network and `0x0000000000000000000000000000000000000000` on the Ethereum network.

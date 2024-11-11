@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+A buy wall is a situation in cryptocurrency trading where a large buy order is placed at a specific price point in the order book. This creates the appearance of a "wall" when visualizing market depth charts. Buy walls can influence market perception by signaling strong demand at a certain price level, potentially preventing the price from falling below that point. They are sometimes used to manipulate trading behavior and affect price movements.
