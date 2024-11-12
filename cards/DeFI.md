@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+Decentralized Finance (DeFi) is a movement to build financial applications that operate without central authorities, using blockchain technology. DeFi applications are open-source, permissionless, and censorship-resistant, covering use cases like stablecoins, lending and borrowing, and decentralized exchanges ([[DEX]]s). By eliminating intermediaries, DeFi aims to provide better returns for users and lower barriers to entry, allowing anyone to participate without discrimination.

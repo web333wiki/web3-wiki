@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+
+A Decentralized Autonomous Organization (DAO) is an open-source, blockchain-based entity that operates without a central governing body. DAOs are governed by smart contracts, and members—typically token holders—can propose and vote on changes or decisions. Voting power is usually proportional to the number of tokens held, ensuring that influence aligns with stakeholders' investments. DAOs facilitate transparent and democratic decision-making processes, enabling decentralized management of projects and resources within the blockchain ecosystem.

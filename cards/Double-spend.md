@@ -1,2 +1,7 @@
 #explain-card 
-%% todo %%
+
+Double spending refers to the risk that a digital currency can be spent more than once. In the context of cryptocurrencies, this occurs when a malicious actor tries to use the same digital tokens in multiple transactions. Since digital information can be duplicated, cryptocurrencies need mechanisms to prevent this kind of fraud.
+
+A common method to attempt double spending is through a 51% attack. In this scenario, an attacker gains control of more than 50% of a cryptocurrency network's mining power or hash rate. With this control, the attacker can reverse transactions that were previously confirmed, allowing them to spend the same coins again. For example, an attacker might deposit cryptocurrency into an exchange and, after the transaction is confirmed and they've exchanged it for another asset, use their majority control to reverse the original deposit transaction on the blockchain. This effectively allows them to retain both the exchanged assets and the original cryptocurrency, defrauding the exchange.
+
+Blockchain networks use consensus mechanisms like Proof of Work to mitigate double spending. These mechanisms make it computationally infeasible for any single entity to control the majority of the network, thereby securing transactions once they've been confirmed.

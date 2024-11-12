@@ -1,2 +1,0 @@
-#explain-card 
-%% todo %%
