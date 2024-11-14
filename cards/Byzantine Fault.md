@@ -1,3 +1,3 @@
 #explain-card 
 
-%% todo %%
+Byzantine fault tolerance (BFT) is a property of a distributed network that allows it to reach consensus even when some of the nodes in the network fail or act maliciously. In the context of the crypto space, BFT is crucial for ensuring the security and reliability of blockchain networks. It helps in maintaining the integrity of the ledger by preventing double-spending and ensuring that all transactions are accurately recorded, even in the presence of faulty or malicious nodes.

@@ -6,8 +6,6 @@ Traders commonly use ATH as a metric to evaluate a cryptocurrency's performance.
 
 ## ATH for well-known cryptocurrencies
 
-%% todo: add more tokens~ %%
-
 | Cryptocurrency | ATH Price | Date Achieved     |
 | -------------- | --------- | ----------------- |
 | Bitcoin        | $73,750   | Mar 14, 2024      |
