@@ -1,3 +1,4 @@
 #show-card 
 
-%% todo %%
+>[!todo]
+> FINISH THIS CARD

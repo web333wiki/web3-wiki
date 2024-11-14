@@ -1,6 +1,7 @@
 #explain-card 
 
-%% todo %%
+>[!todo]
+> FINISH THIS CARD
 
 Web3, also known as Web 3.0, represents the next generation of the World Wide Web. It builds on the principles of decentralization, blockchain technologies, and token-based economics. Key aspects of Web3 include:
 

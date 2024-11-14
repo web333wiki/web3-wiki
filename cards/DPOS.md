@@ -1,2 +1,3 @@
 #explain-card 
-%% todo %%
+>[!todo]
+> FINISH THIS CARD
