@@ -1,3 +1,3 @@
 #explain-card 
->[!todo]
-> FINISH THIS CARD
+
+On-chain governance refers to a decentralized decision-making process where stakeholders of a blockchain network participate directly in the management and evolution of the protocol. Unlike traditional governance models that rely on off-chain discussions and voting, on-chain governance utilizes smart contracts and transparent voting mechanisms to propose, debate, and implement changes. This approach enhances transparency, ensures that decisions reflect the collective will of the community, and allows for timely and efficient upgrades to the network. By embedding governance within the blockchain itself, on-chain governance fosters greater trust and accountability among participants.

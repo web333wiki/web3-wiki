@@ -1,3 +1,3 @@
 #explain-card 
->[!todo]
-> FINISH THIS CARD
+
+A smart contract is a self-executing agreement with terms directly written into code. They operate on decentralized blockchain networks, ensuring trust, transparency, and security without needing intermediaries. Smart contracts function based on "if-then" conditions encoded into the blockchain. When predefined criteria are met, the contract automatically executes specified actions, such as transferring assets or enforcing agreements. These contracts are utilized in various industries, including finance, real estate, and supply chain management, to streamline operations and bolster trust among parties.

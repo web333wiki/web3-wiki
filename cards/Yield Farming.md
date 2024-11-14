@@ -1,3 +1,3 @@
 #explain-card 
->[!todo]
-> FINISH THIS CARD
+
+Yield farming is a strategy in the cryptocurrency space where users lock or lend their crypto assets in decentralized finance ([[DeFI]]) protocols to generate passive income. By providing [[Liquidity]] to platforms such as decentralized exchanges ([[DEX]]s), lending platforms, or liquidity pools, users earn rewards in the form of additional cryptocurrency tokens. These rewards are typically a combination of interest payments and platform-specific tokens, incentivizing users to participate and support the ecosystem. Yield farming can offer high returns, but it also carries risks such as smart contract vulnerabilities, impermanent loss, and market volatility. As the DeFi landscape continues to evolve, yield farming remains a popular method for investors seeking to maximize the potential of their crypto holdings.

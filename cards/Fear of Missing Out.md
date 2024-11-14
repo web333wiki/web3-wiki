@@ -1,3 +1,3 @@
 #explain-card 
->[!todo]
-> FINISH THIS CARD
+
+Fear of Missing Out (FOMO) is a widespread psychological phenomenon in the cryptocurrency market. It describes the unease or concern that one may miss a profitable investment opportunity or trend, leading to spontaneous and often illogical investment choices. In the crypto arena, FOMO is typically driven by swift market changes, social media excitement, and success stories of early investors who gained substantial profits. This fear can cause investors to make quick decisions without proper research, heightening the risk of financial losses. To alleviate FOMO, it's important to maintain a structured investment plan, conduct in-depth research, and avoid making decisions based on emotions. By focusing on long-term objectives and understanding the crypto market's volatility, investors can better handle the pressures brought on by FOMO.

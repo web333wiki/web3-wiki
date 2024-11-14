@@ -1,3 +1,3 @@
 #explain-card 
->[!todo]
-> FINISH THIS CARD
+
+Over-The-Counter (OTC) trading in the cryptocurrency space involves the direct exchange of digital assets between parties without the supervision of a centralized exchange or intermediary. OTC trading typically includes the buying and selling of large volumes of cryptocurrencies directly between individuals or institutions. This method offers greater privacy and can help minimize the significant market impact that might occur on public exchanges. While OTC trading provides flexibility and efficiency for large transactions, it may also involve higher counterparty risk compared to transactions conducted through regulated exchanges.
