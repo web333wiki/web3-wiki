@@ -14,7 +14,7 @@
 - [Polkadot Subscan: blockchain explorer](https://polkadot.subscan.io/)
 - [Polkadot StackExchange](https://polkadot.stackexchange.com/)
 - [Polkadot SubSquare: Governance discussion](https://polkadot.subsquare.io/)
-- [Polkadot Watercooler: Matrix chat room][https://matrix.to/#/#polkadot-watercooler:parity.io]
+- [Polkadot Watercooler: Matrix chat room](https://matrix.to/#/#polkadot-watercooler:parity.io)
 - [Polkadot Staking Dashboard](https://staking.polkadot.cloud/)
 - [Polkadot Multisig](https://polkadotmultisig.com/)
 - [Polkadot Data Dashboard](https://data.parity.io/home)

@@ -1,40 +1,13 @@
 #explain-card 
 
->[!todo]
-> FINISH THIS CARD
+Web3, also known as Web 3.0, represents the next generation of the World Wide Web.
 
-Web3, also known as Web 3.0, represents the next generation of the World Wide Web. It builds on the principles of decentralization, blockchain technologies, and token-based economics. Key aspects of Web3 include:
+Web3 aims to create a more decentralized, trustless, and transparent network that everyone can access and contribute to. In the current Web 2.0, the internet is dominated by a few large corporations. The apps built by them are permissioned, and they can change their rules at any time. This could result in users being unable to log in or entire countries being blocked from access, which has happened in various parts of the world. Web3 aims to change this by breaking down barriers to entry and giving everyone the opportunity to participate in the network. No one can prevent you from accessing the network or the applications built on it, and you can access it from anywhere in the world.
 
-* Creating a more decentralized internet where users have greater control over their data and identity.
-* Utilizing blockchain technology and cryptocurrency tokens to power decentralized applications and services.
-* Addressing issues of centralization and lack of user control that are prevalent in the current Web 2.0 era.
+Web3 aims to enhance user control over their data. In the current Web 2.0, users rely on centralized platforms to access information and services. Everything you create on Web 2.0 is owned by the platform. They can track your activity, retrieve your personal information, and even sell it to third parties without your control. Web3 aims to change this by giving users more control over their data, identity, and assets. This is achieved by using blockchain technology, which is based on cryptographic methods and is decentralized, secure, and transparent. What you do in applications on the blockchain is protected by battle-tested cryptographic methods, and no one can control or steal it without your permission.
 
-## History
+## The Application of Web3
 
-The concept of Web3 has evolved as follows:
+Compared to applications in Web 2.0, applications in Web3 are made by [[Smart Contract]], also called decentralized applications ([[DApp]]s). Smart contracts are pieces of code similar to HTML and CSS in Web 2.0 development, but the difference is that they are deployed and run on the blockchain. Due to the decentralized nature of the blockchain, smart contracts are secure, transparent, and tamper-proof. This means that once a smart contract is deployed, it cannot be changed or manipulated by anyone, including the creator of the contract. This is the biggest difference between applications in Web 2.0 and Web3. When you interact with applications in Web3, the data you create is stored on the blockchain, protected by cryptographic primitives, and you can access it from anywhere in the world. No one can prevent you from accessing it.
 
-* The term "Web3" was coined in 2014 by [[Gavin Wood]], co-founder of [[Ethereum]].
-* It gained significant interest in 2021, particularly among cryptocurrency enthusiasts, large technology companies, and venture capital firms.
-* The idea builds upon previous iterations of the web:
-    * Web 1.0 (1989-2004): Characterized by static websites with minimal user interaction.
-    * Web 2.0 (2004-present): Marked by an interactive web with user-generated content, dominated by social media platforms.
-    * Web3 (present-future): Envisioned as a decentralized web powered by blockchain and token economies.
-
-## Key Features 
-
-Web3 includes several main features:
-
-* Decentralized applications (dApps) that run on blockchain networks.
-* Cryptocurrencies and non-fungible tokens ([[NFT]]s) for transactions and asset ownership.
-* The use of artificial intelligence and machine learning to create a more intelligent and adaptive web.
-* Semantic organization of data to enhance search and information retrieval.
-* User-controlled data and identity management.
-
-## Reception and Criticism
-
-While Web3 has generated excitement, it has also faced criticism:
-
-* Some argue that it is more of a marketing buzzword than a concrete reality.
-* Concerns have been raised about the environmental impact of blockchain technologies.
-* Critics point out that many "Web3" solutions may not be as decentralized as claimed.
-* There are ongoing debates about the feasibility and practicality of widespread adoption.
+The most popular application blockchain is [[Ethereum]]. [[Bitcoin]] was the first blockchain and opened the door to the blockchain world, but it was not designed for smart contracts; it is just a digital currency. Ethereum is the second blockchain and the first to support smart contracts. It is currently the most popular blockchain for building decentralized applications (dApps) and smart contracts. As more applications have been built on Ethereum, the network has become congested, transaction fees are high, and transaction speeds are slow. To solve this problem, many new blockchains have been created, such as [[Binance Smart Chain]], [[Solana]], and [[Polkadot]]. These blockchains are designed to be faster, cheaper, and more scalable than Ethereum. As we can see, Web3 application development is still in its early stages but is evolving rapidly. Let's see what the future holds.
