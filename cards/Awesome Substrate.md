@@ -1,7 +1,5 @@
 #awesome-card 
 
-# Awesome Substrate
-
 ## What is [[Substrate]]?
 
 - [About Substrate](https://substrate.io/)

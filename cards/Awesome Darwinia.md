@@ -1,7 +1,5 @@
 #awesome-card
 
-# Awesome Darwinia
-
 ## What is [[Darwinia]]?
 
 - [Get started with Darwinia](https://docs.darwinia.network/)

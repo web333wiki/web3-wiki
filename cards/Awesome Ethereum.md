@@ -1,7 +1,5 @@
 #awesome-card 
 
-# Awesome Ethereum
-
 ## What is [[Ethereum]]?
 
 - [Ethereum](https://ethereum.org/)

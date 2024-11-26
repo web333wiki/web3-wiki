@@ -1,7 +1,5 @@
 #awesome-card 
 
-# Awesome Polkadot
-
 ## What is [[Polkadot]]?
 
 - [About Polkadot](https://polkadot.com/)
