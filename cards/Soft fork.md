@@ -1,3 +1,8 @@
 #explain-card 
 
-In a decentralized peer-to-peer cryptocurrency network, updates or changes must be agreed upon by all participating nodes. These changes occur via chain forks, where the network splits into two, each following different sets of rules. A soft fork refers to a fork where old nodes can still participate in the network. It is mostly used to upgrade or implement new features. Being backward-compatible, the new rules are a subset of the old rules. The new rules are more restrictive, and the new blocks are accepted by the old nodes. An example of a soft fork is the Segregated Witness (SegWit) upgrade in [[Bitcoin]].
+Due to the nature of the blockchain technology, 
+
+
+In a decentralized peer-to-peer cryptocurrency network, updates or changes must be agreed upon by all participating nodes. These changes occur via chain forks, where the network splits into two, each following different sets of rules. A soft fork refers to a fork where old nodes can still participate in the network. It is mostly used to upgrade or implement new features. Being backward-compatible, the new rules are a subset of the old rules. The new rules are more restrictive, and the new blocks are accepted by the old nodes. 
+
+An well-known example of a soft fork happened in the [[Bitcoin]] is Segregated Witness (SegWit).
