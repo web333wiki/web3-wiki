@@ -1,7 +1,5 @@
 #explain-card 
 
-A hard fork is opposite of a [[Soft fork]]. 
+A hard fork is the opposite of a [[Soft fork]]. Instead of maintaining compatibility with the old rules, a hard fork introduces changes that all nodes must upgrade to follow. If some nodes do not upgrade to the new rules, they will be left behind on the old chain and will not be able to accept new blocks. Generally, a hard fork requires a majority of the network node participants to agree to the changes to avoid a split in the network.
 
-A hard fork is a forced bifurcation of a blockchain, usually implemented when a significant change is made to the network's software code. It results in a permanent divergence of the blockchain into two separate blockchains. The original blockchain does not recognize the new version. 
-
-An well-known hard fork happened in the [[Ethereum]] network in 2016 after [The DAO Hack](https://cryptodose.net/learn/the-dao-hack/). 
+A well-known hard fork occurred in the [[Ethereum]] network in 2016 after [The DAO Hack](https://cryptodose.net/learn/the-dao-hack/).
