@@ -23,9 +23,9 @@
 - [DotTreasury: Polkadot Treasury Dashboard](https://polkadot.dotreasury.com/#/)
 - [Lastic: Polkadot Coretime Market](https://www.lastic.xyz/)
 - [Koda: NFT Market](https://koda.art/)
-- 
 
 ## Development Guide
 
 - [Plaza: Smart contract on Polkadot](https://www.rob.tech/blog/plaza/)
 - [Demystifying JAM](https://blog.kianenigma.com/posts/tech/demystifying-jam/)
+- [Polkadot developers hub](https://github.com/polkadot-developers/)
