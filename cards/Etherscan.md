@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[Etherscan](https://etherscan.io/) is the premier block explorer for the Ethereum blockchain. It enables users to investigate transactions, addresses, and smart contracts on the Ethereum network. Etherscan operates independently and is not affiliated with the Ethereum Foundation.
+[Etherscan](https://etherscan.io/) is the premier block explorer for the [[Ethereum]] blockchain. It enables users to investigate transactions, addresses, and smart contracts on the Ethereum network. Etherscan operates independently and is not affiliated with the Ethereum Foundation.
 
 ## Service Provided
 
@@ -25,7 +25,7 @@ Etherscan offers a suite of load-balanced and robust [API Services](https://docs
 
 ### Explorer as a Service (EaaS)
 
-Etherscan also provides [Explorer as a Service (EaaS)](https://etherscan.io/eaas) for other Ethereum-compatible blockchains, including Optimism, Arbitrum, Binance Smart Chain, and more.
+Etherscan also provides [Explorer as a Service (EaaS)](https://etherscan.io/eaas) for other Ethereum-compatible blockchains, including [[Optimism]], [[Arbitrum]], [[Binance Smart Chain]], and more.
 
 
 ## Technical Details
