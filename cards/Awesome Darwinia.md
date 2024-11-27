@@ -9,7 +9,7 @@
 - [Official Grant Program](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md)
 - [Darwinia Papers](https://darwinia.network/#/papers)
 
-## Tools for Ethereum Users or Developers
+## Tools for Users or Developers
 
 - [DCDAO Governance](https://www.tally.xyz/gov/dcdao)
 - [KtonDAO Governance](https://www.tally.xyz/gov/ktondao)

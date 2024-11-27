@@ -9,7 +9,7 @@
 - [The Polkadot Forum](https://forum.polkadot.network/)
 - [JAM gray paper](https://graypaper.com/)
 
-## Tools for Ethereum Users or Developers
+## Tools for Users or Developers
 
 - [Polkadot Subscan: blockchain explorer](https://polkadot.subscan.io/)
 - [Polkadot StackExchange](https://polkadot.stackexchange.com/)

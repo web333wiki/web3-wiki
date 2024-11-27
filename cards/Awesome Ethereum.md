@@ -8,7 +8,7 @@
 - [Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
 - [Ethereum: the World Computer](https://youtu.be/j23HnORQXvs?si=EkDSqe3NbMpotXsE)
 
-## Tools for Ethereum Users or Developers
+## Tools for Users or Developers
 
 - [Ethereum Price](https://milkroad.com/ethereum/)
 - [Ethereum Ecosystem Apps](https://www.ethereum-ecosystem.com/)
