@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Provide a brief introduction to the topic of the card.
+Provide a brief introduction to the project that the content is built around or link to an existing card.
 
 ## Service Provided (Better to have)
 

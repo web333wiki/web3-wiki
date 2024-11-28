@@ -1,3 +1,4 @@
+#awesome-card #explain-card #show-card #grant-card 
 
 ## Purpose
 
@@ -7,11 +8,15 @@ This wiki aims to provide comprehensive knowledge and product information about 
 
 The wiki is composed of thousands of cards, each representing a piece of knowledge, such as a concept explanation or a project analysis. You can search for any topic of interest using the search box in the top left corner.
 
-There are three types of cards in this wiki:
+There are four types of cards in this wiki:
 
-* `explain-card`: Explains a concept, technology, or protocol, such as [[Hard fork]] or [[Rollup]].
-* `show-card`: Showcases a project, tool, or service, such as [[Solana]] or [[Etherscan]].
-* `awesome-card`: Collects awesome resources, such as [[Awesome Ethereum]] or [[Awesome Polkadot]].
+
+| Card Type | Description |
+| :--------- | --- |
+| `explain-card` | Explains a concept, technology, or protocol, such as [[Hard fork]] or [[Rollup]]. |
+| `show-card`    | Showcases a project, tool, or service, such as [[Solana]] or [[Etherscan]]. |
+| `awesome-card` | Collects awesome resources, such as [[Awesome Ethereum]] or [[Awesome Polkadot]]. |
+| `grant-card`   | Describes grant programs, making it easier for developers to find the right grant to apply for, such as [[Grants Darwinia]]. |
 
 You can click on a tag within a card to see all cards with the same tag. That's all you need to know to start using this wiki.
 
@@ -27,3 +32,4 @@ To contribute, you can submit a new card with a specific tag or improve an exist
 * [[Template explain-card]]
 * [[Template show-card]]
 * [[Template awesome-card]]
+* [[Template grant-card]]
