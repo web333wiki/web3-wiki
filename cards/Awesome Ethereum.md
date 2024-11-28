@@ -18,6 +18,10 @@
 - [Evm Tools: Toolkit for evm chains](https://evmtools.xyz/)
 - [Ethereum StackExchange](https://ethereum.stackexchange.com/)
 - [Ethereum Improvement Proposals](https://eips.ethereum.org/)
+- [L2beat: Ethereum Layer 2 ecosystem](https://l2beat.com/)
+- [Growthepie: Curated analytics about Ethereum layer 2s](https://growthepie.xyz/)
+- [Chainlist: A place to import network rpc information](https://chainlist.org/)
+- [L2 fees: Ethereum Layer 2 fees](https://l2fees.info/)
 
 ## Development Guide
 
