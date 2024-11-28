@@ -1,4 +1,4 @@
-#show-card 
+#show-card
 
 ## Introduction
 
