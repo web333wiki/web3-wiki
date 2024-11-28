@@ -20,4 +20,4 @@ jobs:
         python -m pip install --upgrade pip
 
     - name: Run card check script
-      run: python check_cards.py
+      run: python scripts/check_cards.py
