@@ -20,8 +20,8 @@ ZK Rollup relies on validity proofs to verify that changes in the rollup network
 
 | Criteria | Optimistic Rollup | ZK Rollup |
 | :---: | --- | --- |
-| Costs | The major cost comes from submitting batches to the Ethereum  | The major cost comes from generating zk proof |
-| Ethereum Compatibility | It has highest smart contract compatiblity with Ethereum, support any contracts without modification| The smart contract compatiblity is not so good, require the developers to change or rewrite the contracts with dedicated tools |
-| Security | The security relies on the chain monitor within the challenge window | No monitor work, but zk-rollup requires a trusted setup assumeption |
-| Latency | Has lower latency for the transaction confirmatioin, but higher latency for the finality(due to challenge mechanism) | Has higher latency for the transaction confirmation(due to zk proof generation), but lower latency for the finality |
+| Costs | Major cost comes from submitting batches to Ethereum | Major cost comes from generating zk proofs |
+| Ethereum Compatibility | Highest smart contract compatibility with Ethereum; supports any contracts without modification | Lower smart contract compatibility; requires developers to change or rewrite contracts with dedicated tools |
+| Security | Relies on chain monitoring within the challenge window | No monitoring required, but relies on a trusted setup assumption |
+| Latency | Lower latency for transaction confirmation, but higher latency for finality due to the challenge mechanism | Higher latency for transaction confirmation due to zk proof generation, but lower latency for finality |
 
