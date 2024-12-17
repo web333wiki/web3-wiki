@@ -35,4 +35,5 @@
 - [Developer: Solana Smart Contract Tutorial: Using the Anchor Framework](https://youtu.be/CmG5_sIas1Q?si=yKeBbMa5QDT73uCA)
 - [Developer: Setup a Solana Validator tutorial](https://docs.anza.xyz/operations/setup-a-validator/)
 - [Developer: Solana Validator Operations Best Practices](https://docs.anza.xyz/operations/best-practices/general/)
+- [Developer: Solana Project Template](https://github.com/metaplex-foundation/solana-project-template)
 
