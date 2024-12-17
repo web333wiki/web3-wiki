@@ -7,5 +7,5 @@
 
 ## Tools for Users or Developers
 
-- [subalfred: An All-In-One Substrate Development Toolbox](https://github.com/hack-ink/subalfred)
-- [Polkadot-JS Apps: Front-end for Substrate-based chains](https://polkadot.js.org/apps/)
+- [Developer: subalfred - An All-In-One Substrate Development Toolbox](https://github.com/hack-ink/subalfred)
+- [User: Polkadot-JS Apps - Front-end for Substrate-based chains](https://polkadot.js.org/apps/)

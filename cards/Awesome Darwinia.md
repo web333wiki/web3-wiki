@@ -11,13 +11,13 @@
 
 ## Tools for Users or Developers
 
-- [DCDAO Governance](https://www.tally.xyz/gov/dcdao)
-- [KtonDAO Governance](https://www.tally.xyz/gov/ktondao)
-- [Darwinia Chain Onchain Governance](https://darwinia2.subsquare.io/)
-- [KtonDAO Stake](https://staking.ktondao.xyz/)
-- [Darwinia Chains Collator Stake](https://collator-staking.darwinia.network/)
-- [Darwinia Bridge](https://bridge.darwinia.network/)
-- [ParaLink](https://para.link/)
-- [Snowswap](https://snowswap.xyz/#/)
-- [Helix Bridge](https://helixbridge.app/)
-- [Darwinia 2.0 Account Migration](https://migration.darwinia.network/)
+- [User: DCDAO Governance](https://www.tally.xyz/gov/dcdao)
+- [User: KtonDAO Governance](https://www.tally.xyz/gov/ktondao)
+- [User: Darwinia Chain Onchain Governance](https://darwinia2.subsquare.io/)
+- [User: KtonDAO Stake](https://staking.ktondao.xyz/)
+- [User: Darwinia Chains Collator Stake](https://collator-staking.darwinia.network/)
+- [User: Darwinia Bridge](https://bridge.darwinia.network/)
+- [User: ParaLink](https://para.link/)
+- [User: Snowswap](https://snowswap.xyz/#/)
+- [User: Helix Bridge](https://helixbridge.app/)
+- [User: Darwinia 2.0 Account Migration](https://migration.darwinia.network/)

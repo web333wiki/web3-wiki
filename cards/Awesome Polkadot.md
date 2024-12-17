@@ -11,19 +11,16 @@
 
 ## Tools for Users or Developers
 
-- [Polkadot Subscan: blockchain explorer](https://polkadot.subscan.io/)
-- [Polkadot StackExchange](https://polkadot.stackexchange.com/)
-- [Polkadot SubSquare: Governance discussion](https://polkadot.subsquare.io/)
-- [Polkadot Watercooler: Matrix chat room](https://matrix.to/#/#polkadot-watercooler:parity.io)
-- [Polkadot Staking Dashboard](https://staking.polkadot.cloud/)
-- [Polkadot Multisig](https://polkadotmultisig.com/)
-- [Polkadot Data Dashboard](https://data.parity.io/home)
-- [DotTreasury: Polkadot Treasury Dashboard](https://polkadot.dotreasury.com/#/)
-- [Lastic: Polkadot Coretime Market](https://www.lastic.xyz/)
-- [Koda: NFT Market](https://koda.art/)
-
-## Development Guide
-
-- [Plaza: Smart contract on Polkadot](https://www.rob.tech/blog/plaza/)
-- [Demystifying JAM](https://blog.kianenigma.com/posts/tech/demystifying-jam/)
-- [Polkadot developers hub](https://github.com/polkadot-developers/)
+- [User: Polkadot Subscan](https://polkadot.subscan.io/)
+- [User: SubSquare - Governance discussion](https://polkadot.subsquare.io/)
+- [User: Watercooler - Matrix chat room](https://matrix.to/#/#polkadot-watercooler:parity.io)
+- [User: Polkadot Staking Dashboard](https://staking.polkadot.cloud/)
+- [User: Polkadot Multisig](https://polkadotmultisig.com/)
+- [User: Polkadot Data Dashboard](https://data.parity.io/home)
+- [User: DotTreasury - Polkadot Treasury Dashboard](https://polkadot.dotreasury.com/#/)
+- [User: Lastic - Polkadot Coretime Market](https://www.lastic.xyz/)
+- [User: Koda - NFT Market](https://koda.art/)
+- [Developer: Polkadot StackExchange](https://polkadot.stackexchange.com/)
+- [Developer: Plaza - Smart contract on Polkadot](https://www.rob.tech/blog/plaza/)
+- [Developer: Demystifying JAM](https://blog.kianenigma.com/posts/tech/demystifying-jam/)
+- [Developer: Polkadot developers hub](https://github.com/polkadot-developers/)
