@@ -1,8 +1,8 @@
 #awesome-card 
 
-## Cryptocurrency Tool
+## Awesome materials for Users or Developers
 
-- [Cryptocurrency Alerting](https://cryptocurrencyalerting.com/)
-- [Zapper](https://zapper.fi/)
-- [Zerion](https://zerion.io/)
-- [DeBank](https://debank.com/)
+- [User: Cryptocurrency Alerting](https://cryptocurrencyalerting.com/)
+- [User: Zapper](https://zapper.fi/)
+- [User: Zerion](https://zerion.io/)
+- [User: DeBank](https://debank.com/)

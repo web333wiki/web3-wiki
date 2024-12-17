@@ -9,7 +9,7 @@
 - [The Polkadot Forum](https://forum.polkadot.network/)
 - [JAM gray paper](https://graypaper.com/)
 
-## Tools for Users or Developers
+## Awesome materials for Users or Developers
 
 - [User: Polkadot Subscan](https://polkadot.subscan.io/)
 - [User: SubSquare - Governance discussion](https://polkadot.subsquare.io/)

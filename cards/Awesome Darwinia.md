@@ -9,7 +9,7 @@
 - [Official Grant Program](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md)
 - [Darwinia Papers](https://darwinia.network/#/papers)
 
-## Tools for Users or Developers
+## Awesome materials for Users or Developers
 
 - [User: DCDAO Governance](https://www.tally.xyz/gov/dcdao)
 - [User: KtonDAO Governance](https://www.tally.xyz/gov/ktondao)
