@@ -1,3 +1,3 @@
 #explain-card 
 >[!todo]
-> FINISH THIS CARD
+> update this card
