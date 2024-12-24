@@ -3,9 +3,9 @@
 ## What is [[Darwinia]]?
 
 - [Get started with Darwinia](https://docs.darwinia.network/)
-- [Official Github](https://github.com/darwinia-network)\
+- [Official Github](https://github.com/darwinia-network)
 - [Darwinia Improvement Proposal](https://dips.darwinia.network/)
-- [RFP(Request for Proposals)](https://github.com/darwinia-network/collaboration/issues)\
+- [RFP(Request for Proposals)](https://github.com/darwinia-network/collaboration/issues)
 - [Official Grant Program](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md)
 - [Darwinia Papers](https://darwinia.network/#/papers)
 
