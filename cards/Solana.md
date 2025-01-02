@@ -4,11 +4,6 @@
 
 Solana is a high-performance blockchain designed for mass adoption. Compared to rival blockchains like [[Ethereum]], it offers super-fast 400ms confirmation times and low transaction fees, with a median fee of 0.00064 SOL per transaction. Solana aims to provide the best experience for developers and users to build and use decentralized applications.
 
-## Service Provided
-
-> [!todo]
-> Add more details about the services provided by Solana foundation.
-
 ## Technical Details
 
 ### Innovative Consensus Mechanism
