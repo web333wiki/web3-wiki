@@ -1,7 +1,7 @@
 #awesome-card #explain-card #show-card #grant-card 
 
 >[!note]
->This is an open-source, community-driven project, and we welcome contributions from anyone interested in Web3 technologies. If you would like to contribute, please submit a pull request to [our GitHub repository](https://github.com/web333wiki/web3-wiki) or join our [Telegram group](https://t.me/+yRR8fEa8x6VlMTc1) to discuss your ideas.
+>This is an open-source, community-driven project, and we welcome contributions from anyone interested in Web3 technologies. If you would like to contribute, please submit a pull request to the [ GitHub repository](https://github.com/web333wiki/web3-wiki) to discuss your ideas.
 
 ## Purpose
 
