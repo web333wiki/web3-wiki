@@ -158,9 +158,11 @@
 
 ### [[Story]]
 
-| Testnet           | Faucet                                     | Request Limit | Requirements                      |
-| ----------------- | ------------------------------------------ | ------------- | --------------------------------- |
-| Testnet & Odyssey | https://faucet.quicknode.com/story/odyssey | Not sure      | 0.001 ETH on the Ethereum mainnet |
+| Testnet | Faucet                                     | Request Limit | Requirements                                                                             |
+| ------- | ------------------------------------------ | ------------- | ---------------------------------------------------------------------------------------- |
+| Odyssey | https://faucet.quicknode.com/story/odyssey | 1-2 IP        | 0.01 ETH balance on Ethereum mainnet                                                     |
+| Odyssey | https://faucet.story.foundation/           | 1 IP          | 0.01 ETH balance on Ethereum mainnet OR minimum 0.01 BNB balance on Binance Smart Chain. |
+
 
 ### [[UniChain]]
 
