@@ -6,31 +6,29 @@ Story is a purpose-built layer 1 blockchain designed specifically for intellectu
 
 ## Service Provided
 
-If it's a product show card, describe the service it provides, the problem it solves, and the value it brings.
+### Layer 1 Blockchain
 
+Story Network choose to build its own Layer 1 blockchain to innovate across the entire technical stack. This enables it to implement essential features like on-chain dispute resolution or on-chain IP graphs with precompiled contracts. 
 
+### Programmable IP Layer
 
-## Technical Details (Better to have)
+Story Network's Programmable IP Layer is a core component of the Story Protocol. It enables IP holders to encode IP rights, usage terms, and royalty structures directly into the blockchain. This allows for flexible IP management through smart contracts, automated enforcement of IP rights, transparent attribution of creative works, and dynamic revenue sharing models. At the heart of this system is the `IP Asset` and its associated `IP Account`, which is a smart contract account bound with `IP Asset` to manage
+the IP related activities.
 
-Highlight any innovative technical details behind the product here.
-
-## Social Media (Better to have)
+## Social Media
 
 - [X](https://x.com/StoryProtocol)
 - [Site](https://www.storyprotocol.xyz/)
 - [Docs](https://docs.story.foundation/)
-
-## Roadmap (Optional)
-
-Outline the product's roadmap here.
+- [Story Odyssey Explorer ↗️](https://explorer.story.foundation/)
 
 ## Latest Updates
 
-- 2024 Q2: Launch of mainnet with core IP management features
-- 2024 Q1: Public testnet release and developer onboarding
-- 2023 Q4: Protocol architecture and whitepaper released
+- Aug 27, 2024: Story Protocol live on testnet
+- Aug 2024: Raised $80M in Series B funding round
+- Sep 2023: Raised $25M in Series A funding round  
+- May 2023: Raised $29.3M in initial funding round
 - 2023 Q3: Initial protocol concept and team formation
-- 2023 Q2: Secured initial funding and strategic partnerships
 
 ## References
 
