@@ -20,10 +20,6 @@ Highlight any innovative technical details behind the product here.
 - [Site](https://www.storyprotocol.xyz/)
 - [Docs](https://docs.story.foundation/)
 
-## Team (Optional)
-
-Mention the team behind the product if they are noteworthy.
-
 ## Roadmap (Optional)
 
 Outline the product's roadmap here.
