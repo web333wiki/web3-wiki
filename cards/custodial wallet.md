@@ -1,0 +1,3 @@
+#explain-card 
+
+A custodial wallet is a type of cryptocurrency wallet that is managed by a third-party service provider. These wallets are typically used by individuals who do not have the technical expertise to manage their own cryptocurrency assets securely. Custodial wallets offer convenience and ease of use, but they also come with the risk of losing control over one's assets if the custodian's platform is compromised or goes out of business. Examples of custodial wallets include centralized exchanges, custodial services, and online wallet providers.

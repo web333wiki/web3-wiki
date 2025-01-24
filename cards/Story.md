@@ -20,7 +20,7 @@ the IP related activities.
 - [X](https://x.com/StoryProtocol)
 - [Site](https://www.storyprotocol.xyz/)
 - [Docs](https://docs.story.foundation/)
-- [Story Odyssey Explorer ↗️](https://explorer.story.foundation/)
+- [Story Odyssey Explorer](https://explorer.story.foundation/)
 
 ## Latest Updates
 
