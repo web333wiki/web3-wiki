@@ -1,4 +1,26 @@
 /* Logo contains site name, no need to repeat it in the title. */
 .site-body-left-column-site-name {
-    display: none;
+	display: none;
+}
+
+/* Applies to all text */
+body {
+	font-family: "Nunito", sans-serif !important;
+}
+
+/* Optional: Target specific elements if needed */
+.markdown-preview-view,
+.markdown-source-view,
+.cm-content {
+	font-family: "Nunito", sans-serif !important;
+}
+
+/* Headings (adjust if they use a different font) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Nunito", sans-serif !important;
 }
