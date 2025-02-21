@@ -4,7 +4,6 @@ The [Kaito](https://www.kaito.ai/) platform is a powerful information assembly t
 
 Kaito introduced its native token, `$KAITO`, in mid-February 2025. As an [[InfoFi]] token, it quickly became available on numerous exchanges and platforms. This token powers the platform's "attention economy," enabling users to guide focus within the network. Contributors providing high-quality content and data are rewarded, fostering an environment where valuable information is incentivized.
 
-
 ## References
 
 - [The Next-Gen Search Engine for Web3: Kaito - TOKEN2049 Singapore 2023](https://youtu.be/FfTNsu-aOEg?si=q_RYT-Cq9ARI9QX)

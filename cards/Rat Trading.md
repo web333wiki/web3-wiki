@@ -1,0 +1,5 @@
+#explain-card 
+
+"Rat Trading" describes an illegal form of insider trading where individuals with privileged access to nonpublic information exploit it for personal gain. Typically, fund managers, analysts, or other insiders buy or sell securities—usually stocks—before a significant market-moving event. This allows them to profit once the information is publicly released and the market reacts. The term "rat" suggests the sneaky, underhanded nature of the practice, much like a scavenging rodent. In the United States, this behavior is similar to front-running or insider trading, and it is regulated by the SEC, with penalties that can include fines, up to 20 years of imprisonment, and restitution.
+
+The decentralized nature of Web3 provides both unprecedented freedom and challenges. While its open structure invites innovation, it also creates opportunities for illicit activities reminiscent of underhanded "rat-like" behaviors. Without centralized oversight, bad actors can operate more freely, and the anonymity of blockchain transactions complicates efforts to track them down.
