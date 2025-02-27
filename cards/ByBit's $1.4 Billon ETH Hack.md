@@ -1,4 +1,4 @@
-#show-card
+#explain-card 
 
 # Bybit's $1.4 Billion ETH Hack
 
