@@ -15,4 +15,4 @@ The wiki is organized into thousands of cards, each representing an independent 
 
 You can click on a tag within a card to view all related cards with the same tag. We hope you find valuable insights each time you visit.
 
-![explain-card-example](./resource/explain-card-example.png)
+![explain-card-example](./public/images/explain-card-example.png)
