@@ -2,7 +2,7 @@ import os
 import sys
 
 def check_cards():
-    valid_tags = ['#show-card', '#awesome-card', '#explain-card', '#grant-card']
+    valid_tags = ['#show-card', '#awesome-card', '#explain-card']
     cards_dir = 'cards'
 
     for root, _, files in os.walk(cards_dir):

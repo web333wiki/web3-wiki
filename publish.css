@@ -57,3 +57,7 @@ h5,
 h6 {
   font-family: "Amazon Ember", "Nunito", sans-serif !important;
 }
+
+.published-container {
+	--component-title-font: "Amazon Ember", "Nunito", sans-serif !important;
+}
