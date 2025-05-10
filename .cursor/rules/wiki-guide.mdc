@@ -1,0 +1,51 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Web3 Wiki Guide
+
+This rule provides general guidelines for contributing to the Web3 Wiki and instructs the AI assistant on its role in maintaining and improving the wiki content.
+
+## Project Overview
+This project is an open-sourced, community-driven initiative to build a comprehensive wiki for the Web3 ecosystem. The entire project is built and published as a site using the Obsidian Publish system. Consequently, all content creation, including text writing and formatting, must adhere to Obsidian's conventions, particularly for features like jump links, backlinks, and overall markdown formatting.
+
+The wiki is organized into individual "cards," where each card is a distinct markdown file located within the `cards` directory. Cards are interconnected using Obsidian's internal linking system (e.g., `[[Ethereum]]`, `[[Bitcoin]]`) to create a navigable knowledge network.
+
+## Card Categories
+Each card must belong to one of the following three categories:
+1.  `explain-card`: For cards that explain a specific Web3 concept, technology, or protocol.
+2.  `show-card`: For cards that showcase a particular project, tool, or service.
+3.  `awesome-card`: For cards that curate a list of valuable resources related to a topic.
+
+## Card Naming and Format
+- **File Naming:**
+    - The filename of a card should accurately represent its core topic.
+    - The first letter of the filename must be uppercase.
+    - Examples: `Proof of Stake.md`, `Metamask.md`.
+- **Mandatory Category Tag:**
+    - The very first line of every card file _must_ be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`). This is further detailed in the specific card type rule files.
+
+## Card Content Rules
+To maintain consistency, each card type has specific content structure and formatting rules. Please refer to the individual rule files for details:
+- [`explain-card.mdc`](mdc:.cursor/rules/explain-card.mdc)
+- [`show-card.mdc`](mdc:.cursor/rules/show-card.mdc)
+- [`awesome-card.mdc`](mdc:.cursor/rules/awesome-card.mdc)
+
+## AI Assistant: Proactive Card Improvement
+As an AI assistant, you should proactively contribute to the quality and completeness of the Web3 Wiki. This includes:
+1.  **Review Existing Cards:** Regularly examine cards within the `cards` directory.
+2.  **Ensure Adherence to Rules:** Verify that cards comply with their respective content structure and formatting rules as defined in [`explain-card.mdc`](mdc:.cursor/rules/explain-card.mdc), [`show-card.mdc`](mdc:.cursor/rules/show-card.mdc), and [`awesome-card.mdc`](mdc:.cursor/rules/awesome-card.mdc).
+3.  **Identify Areas for Improvement:** Look for cards that are:
+    - Incomplete or just stubs.
+    - Missing mandatory sections as per their card type rule.
+    - Containing outdated information.
+    - Lacking clarity, depth, or sufficient detail.
+    - Missing relevant internal links (`[[Other Card]]`) to other wiki cards or necessary external resources.
+    - Not following Obsidian markdown conventions or the formatting guidelines specified in the card type rules.
+4.  **Suggest and Apply Improvements:**
+    - Propose specific, actionable changes to address the identified issues.
+    - When confident, and after clearly stating the intended changes, apply these improvements directly to the card files.
+    - Always aim to enhance the accuracy, comprehensiveness, and usability of the wiki.
+5.  **Cross-linking:** Actively look for opportunities to create relevant `[[Internal Links]]` between cards to improve the navigability and interconnectedness of the wiki. Ensure links are meaningful and contribute to the user's understanding.
+

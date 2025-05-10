@@ -1,0 +1,45 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Show Card Rule
+
+This rule defines the required content structure for a "show-card" in the Web3 Wiki, used to showcase a particular project, tool, or service.
+
+## Content Structure
+
+```markdown
+#show-card
+
+## Project Overview
+- Brief description of the project/tool/service
+- Core purpose and value proposition
+- Key features and functionalities
+
+## Technical Details
+- Underlying technology or blockchain (if applicable)
+- Architecture overview
+- Unique selling points or innovations
+
+## Use Cases
+- Main applications and how it's used
+- Target audience or users
+- Examples or success stories (if available)
+
+## Getting Started
+- How to use or access the project/tool/service
+- Links to official website, documentation, and community channels
+- Basic setup or integration steps (if applicable)
+
+## Related Links (Optional)
+- Links to relevant explain-cards (e.g., [[Underlying Technology]])
+- Comparisons with similar projects (if objective and informative)
+```
+
+## Formatting Guidelines
+- The card must start with the `#show-card` tag on the first line.
+- Use H2 (##) for main section titles.
+- Use bullet points (-) for sub-items.
+- Use Obsidian's internal linking format `[[Page Name]]` for backlinks.
+- Provide external links to official resources where appropriate.

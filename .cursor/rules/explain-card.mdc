@@ -1,0 +1,41 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Explain Card Rule
+
+This rule defines the required content structure for an "explain-card" in the Web3 Wiki.
+
+## Content Structure
+
+```markdown
+#explain-card
+
+## Introduction
+- Brief overview of the concept
+- Why it's important in Web3
+- Basic definition
+
+## Core Concepts
+- Key components or elements
+- How it works
+- Technical details (if applicable)
+
+## Use Cases
+- Real-world applications
+- Examples in Web3
+- Benefits and limitations
+
+## Related Concepts (Optional)
+- Links to related topics (e.g., [[Another Concept]])
+- Prerequisites
+- Advanced concepts
+```
+
+## Formatting Guidelines
+- The card must start with the `#explain-card` tag on the first line.
+- Use H2 (##) for main section titles (Introduction, Core Concepts, etc.).
+- Use bullet points (-) for sub-items.
+- Use Obsidian's internal linking format `[[Page Name]]` for backlinks to other cards.
+- Ensure all information is accurate and clearly presented.

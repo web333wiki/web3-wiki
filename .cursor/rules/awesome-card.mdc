@@ -1,0 +1,51 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Awesome Card Rule
+
+This rule defines the required content structure for an "awesome-card" in the Web3 Wiki, which curates a list of valuable resources related to a specific topic.
+
+## Content Structure
+
+```markdown
+#awesome-card
+
+## Introduction
+- Brief overview of the topic (e.g., Awesome [[Topic Name]])
+- Why these resources are valuable for the community
+- Target audience for this curated list
+
+## Learning Resources
+- Official Documentation: [Link to Docs] - Brief description.
+- Tutorials: [Link to Tutorial] - Brief description.
+- Courses: [Link to Course] - Brief description.
+- Books: [Book Title] by [Author] - Brief description.
+
+## Tools & Services
+- Development Tools: [Tool Name] ([Link]) - Brief description.
+- Platforms: [Platform Name] ([Link]) - Brief description.
+- Services: [Service Name] ([Link]) - Brief description.
+- APIs: [API Name] ([Link]) - Brief description.
+
+## Community
+- Forums: [Link to Forum] - Brief description.
+- Discord/Telegram: [Link to Group] - Brief description.
+- Social Media: [Link to Social Media Profile/Hashtag] - Brief description.
+- Events: [Link to Event Page/Series] - Brief description.
+
+## Additional Resources (Optional)
+- Blogs: [Blog Name] ([Link]) - Brief description.
+- Newsletters: [Newsletter Name] ([Link]) - Brief description.
+- Podcasts: [Podcast Name] ([Link]) - Brief description.
+- Videos/Channels: [Video/Channel Name] ([Link]) - Brief description.
+```
+
+## Formatting Guidelines
+- The card must start with the `#awesome-card` tag on the first line.
+- Use H2 (##) for main section titles.
+- For each resource, provide a direct link and a brief, informative description.
+- Use bullet points (-) to list resources under each category.
+- Use Obsidian's internal linking format `[[Page Name]]` for backlinks where relevant (e.g., in the Introduction for the main topic).
+- Ensure all links are active and resources are high-quality.
