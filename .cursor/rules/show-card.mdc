@@ -5,8 +5,6 @@ alwaysApply: false
 ---
 # Show Card Rule
 
-This rule defines the required content structure for a "show-card" in the Web3 Wiki, used to showcase a particular project, tool, or service.
-
 ## Key Content Considerations
 
 When creating or updating a `show-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the project/tool/service being showcased.
@@ -48,3 +46,7 @@ When creating or updating a `show-card`, ensure the following aspects are covere
 
 - **All formatting, linking, naming, and file location MUST adhere to the standards defined in the [`wiki-guide.mdc`](mdc:.cursor/rules/wiki-guide.mdc).** This includes using H2 for sections, prioritizing official external links, using appropriate internal links, balancing prose and lists, and placing the file in the `cards` directory.
 - The card **MUST** start with the `#show-card` tag on the very first line.
+
+
+> **Process and quality standards:**
+> All content creation and review for show-cards must follow the 'Content Creation Checklist' and 'Final Review Checklist' sections in the [wiki-guide.mdc](mdc:.cursor/rules/wiki-guide.mdc).

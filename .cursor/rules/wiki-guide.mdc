@@ -92,3 +92,29 @@ As an AI assistant, your role is to proactively maintain and improve the Web3 Wi
     -   Strictly adhere to all `Card Naming and Format` rules (uppercase first letter, descriptive name, category tag on the first line) and generate meaningful initial content according to the specific content considerations for the chosen card type.
 7.  **Exception - Main Page:** The card `Web3 Wiki.md` serves as the main page of the wiki. The AI assistant **MUST NOT** modify the content of this card. It is maintained manually.
 
+## Content Creation Checklist
+- **Thorough External Research:**  
+  For every external link referenced or considered, the AI agent must search for and read the latest, most authoritative sources (official documentation, whitepapers, reputable news, academic papers, etc.). Summarize and synthesize key points, not just brief facts, and integrate them into the card. Always cite the source with a descriptive link.
+- **Comprehensive Internal Link Review:**  
+  For every existing internal link, the AI agent must read the full content of the linked card. If the linked card is outdated, incomplete, or lacks depth, update and expand it first—ensuring it meets the same standards of detail and accuracy—before returning to the current card.
+- **New Concepts and Projects:**  
+  For any new project, protocol, or concept mentioned, the AI agent must create a new card with a detailed, well-structured, and informative entry. This should include background, technical details, use cases, and references, not just a stub or placeholder.
+- **Contextual Internal Linking:**  
+  For all existing concepts or projects, create internal links where relevant. Ensure that links are contextually integrated into the prose, not just listed, and that the surrounding text explains their relevance.
+- **Depth and Detail:**  
+  Each section of the card should go beyond a brief introduction. Provide historical context, technical mechanisms, real-world examples, implications, and controversies or debates where relevant. Use a style and depth comparable to Wikipedia's best articles.
+
+## Final Review Checklist
+- **Card Tag and Rule Compliance:**  
+  Ensure every created or updated card starts with the correct card tag and fully complies with its specific rule file. The content must be comprehensive, well-structured, and informative, not just a summary or outline.
+- **Internal Link Validation:**  
+  Verify that every internal link points to an existing, up-to-date card. There must be no broken or outdated links. If a relevant card does not exist, create it with substantive content before finalizing the current card.
+- **Cross-Linking and Knowledge Integration:**  
+  Review the card for any mention of concepts, projects, or technologies that could be linked to existing cards. Add internal links with explanatory context, and update those linked cards if they are lacking in detail or accuracy.
+- **Section Depth and Breadth:**  
+  Each section (e.g., Overview, Technology, Use Cases) must be detailed, with multiple paragraphs where appropriate. Include technical explanations, historical development, major milestones, key contributors, and real-world impact.
+- **References and Citations:**  
+  Where possible, provide references to primary sources, official documentation, or reputable third-party analyses. Use descriptive link text and ensure all external links are current and relevant.
+- **No Superficial Content:**  
+  Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource on its topic, similar in quality and depth to a well-maintained Wikipedia article.
+

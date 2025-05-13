@@ -1,40 +1,70 @@
-#show-card 
+#show-card
 
-## Introduction
+## Overview
 
-Ethereum is a decentralized, open-source blockchain platform that enables the creation and deployment of smart contracts and decentralized applications (dApps). Launched in 2015 by [[Vitalik Buterin]] and team, it was the first blockchain to introduce programmable [[Smart Contract]]s. The platform's native cryptocurrency is Ether (ETH), which is used for transaction fees, staking, and as a store of value. Ethereum underwent a major upgrade in 2022 called "The Merge," transitioning from Proof-of-Work to Proof-of-Stake consensus mechanism, significantly reducing its energy consumption.
+Ethereum is a decentralized, open-source blockchain platform that enables the creation and deployment of smart contracts and decentralized applications (dApps). Launched in 2015 by [[Vitalik Buterin]] and team, Ethereum introduced programmable [[Smart Contract]]s and pioneered the concept of a blockchain-based world computer. Its native cryptocurrency, Ether (ETH), is used for transaction fees, staking, and as a store of value. Ethereum's ongoing upgrades aim to make it the global settlement layer for decentralized finance and Web3 applications.
 
-## Technical Details
+- **Problem Solved:** Enables trustless, programmable transactions and decentralized applications, addressing the limitations of Bitcoin's scripting and centralized platforms.
+- **Value Proposition:** Most widely adopted smart contract platform, with a robust developer ecosystem and continuous innovation.
+- **Official Website:** [Official Ethereum Website](https://ethereum.org)
+- **Status:** Live, with major upgrades ongoing (latest: Pectra, 2025)
 
-### Ethereum Virtual Machine (EVM)
+## Key Features
 
-The Ethereum Virtual Machine ([[EVM]]) is the runtime environment for executing transactions and smart contracts on the Ethereum network. It is stack-based, with instructions for managing memory, inspecting remaining gas, accessing current block data, and retrieving transaction details. This deterministic design ensures nodes converge on the same final state, enabling network consensus. Formally defined in the [[Ethereum Yellow Paper]], the EVM has been implemented in various programming languages, making Ethereum widely accessible for developers.
+- **Smart Contracts:** Self-executing code enabling dApps, DeFi, NFTs, DAOs, and more.
+- **Ethereum Virtual Machine ([[EVM]]):** Universal runtime for smart contracts, enabling cross-platform compatibility.
+- **Account Abstraction:** (EIP-7702, Pectra) Allows EOAs to temporarily act as smart contracts, improving wallet UX and enabling features like transaction batching, gas sponsorship, and programmable recovery.
+- **Staking:** Transitioned to [[Proof of stake]] consensus, allowing users to secure the network and earn rewards by staking ETH.
+- **Scalability:** Supports Layer 2 solutions and rollups (see [[Rollup]]), with recent upgrades (Dencun, Pectra) doubling blob throughput and reducing L2 fees.
+- **Upgradeable Protocol:** Frequent hard forks and EIPs, with a clear roadmap (The Merge, Dencun, Pectra, and beyond).
 
-### Accounts Design
-Ethereum supports two types of accounts: 
+## Technology
 
-• Externally Owned Accounts (EOAs): Governed by private keys, they allow users to create and sign transactions.  
-• Contract Accounts: Controlled by on-chain code, they hold an ether balance and execute code whenever they receive a transaction or message. Through this code, they can update storage, send messages, or create new contracts.
+- **Blockchain/Platform:** Standalone, with the EVM as its core engine.
+- **Architecture:** Layered design with execution (EVM) and consensus (Beacon Chain) layers.
+- **Core Mechanisms:**
+  - **Consensus:** [[Proof of stake]] (since The Merge, 2022)
+  - **Smart Accounts:** EIP-7702 (Pectra, 2025) brings account abstraction natively to EOAs.
+  - **Blob Transactions:** Introduced in Dencun (2024), expanded in Pectra (2025) to improve L2 data availability and reduce costs.
+- **Smart Contracts:** Open source, with many audited contracts (see [[Awesome Ethereum]] for resources).
 
-## Social Media
+## Ecosystem & Use Cases
 
-- **Website**: [ethereum.org](https://ethereum.org)
-- **GitHub**: [ethereum](https://github.com/ethereum)
-- **Twitter**: [@ethereum](https://twitter.com/ethereum)
-- **Reddit**: [r/ethereum](https://reddit.com/r/ethereum)
-- **Discord**: [Ethereum](https://discord.com/invite/CetY6Y4)
+- **Target Audience:** Developers, DeFi users, NFT collectors, DAOs, enterprises, and general users.
+- **How It's Used:**
+  - Deploying dApps (DeFi, NFTs, DAOs, gaming, identity, etc.)
+  - Staking and running validators (see [[Staking]], [[Validator]])
+  - Interacting with L2s and rollups for scalable applications
+- **Integrations:** Major L2s (Optimism, Arbitrum, Linea), wallets (MetaMask, hardware wallets), infrastructure (Infura, Alchemy), and more.
+- **Tokenomics:**
+  - **ETH Utility:** Gas, staking, collateral, governance, and more.
+  - **Supply:** No fixed cap; supply is dynamic, with EIP-1559 introducing fee burning.
+  - **See also:** [[Awesome Ethereum]] for more on tokens and DeFi.
 
-## Ethereum Vs Bitcoin
+## Getting Started & Resources
 
-While both are pioneering blockchain networks, Ethereum and Bitcoin serve fundamentally different purposes. Bitcoin primarily functions as a digital currency and store of value, whereas Ethereum serves as a programmable platform for smart contracts and decentralized applications.
+- **Access:** Use via web wallets (e.g., MetaMask), hardware wallets, or by running a node.
+- **Documentation:** [Ethereum Docs](https://ethereum.org/en/developers/docs/)
+- **Community:** [Ethereum Discord](https://discord.com/invite/CetY6Y4), [r/ethereum](https://reddit.com/r/ethereum), [@ethereum](https://twitter.com/ethereum)
+- **Support:** [Ethereum Support](https://support.ethereum.org/)
+- **Source Code:** [Ethereum GitHub](https://github.com/ethereum)
 
-In terms of technical implementation, Bitcoin operates using [[proof of work]], while Ethereum has transitioned to [[Proof of stake]], making it more energy-efficient. Their supply models also differ significantly: Bitcoin has a fixed supply cap of 21 million coins, while Ethereum maintains an unlimited supply, currently around 120 million ETH. The networks handle transaction fees differently. Bitcoin's fees are paid to miners, while Ethereum's gas fees are burned by the network. Their development philosophies also contrast sharply. Bitcoin follows a conservative approach prioritizing stability, while Ethereum embraces rapid innovation with frequent protocol upgrades. Regarding processing and scalability, Bitcoin focuses on secure, simple transactions, while Ethereum is designed to handle complex smart contract operations and dApp interactions, making it more versatile but also more complex.
+## Related Concepts
+
+- [[EVM]]
+- [[Smart Contract]]
+- [[Proof of stake]]
+- [[Rollup]]
+- [[Staking]]
+- [[Validator]]
+- [[Vitalik Buterin]]
+- [[Awesome Ethereum]]
 
 ## Latest Updates
 
-- 2022: Ethereum has shifted from PoW( Proof-of-Work ) to PoS( Proof-of-State ) consensus mechanism, which is also known as Ethereum Merge. It has reduced Ethereum’s energy consumption by ~ 99.95%. 
-- 2021: a major network upgrade named London included Ethereum improvement proposal 1559 and introduced a mechanism for reducing transaction fee volatility.
-- 2018: Ethereum took second place in Bitcoin in terms of market capitalization.
-- 2015: Ethereum created its genesis block marking the official launch of the platform.
-- 2014: EVM was specified in a paper by Gavin Wood, and the formal development of the software also began.
-- 2013: Ethereum was first described in Vitalik Buterin’s white paper in 2013 with the goal of developing decentralized applications.
+- **2025:** Pectra upgrade activated, introducing EIP-7702 (account abstraction for EOAs), increased validator max stake (2048 ETH), doubled blob throughput, and more. [Pectra Mainnet Announcement](https://blog.ethereum.org/2025/04/23/pectra-mainnet)
+- **2024:** Dencun upgrade introduced proto-danksharding (EIP-4844), enabling blob transactions and reducing L2 costs.
+- **2022:** The Merge transitioned Ethereum from Proof-of-Work to Proof-of-Stake, reducing energy consumption by ~99.95%.
+- **2021:** London upgrade (EIP-1559) introduced fee burning and improved transaction fee predictability.
+- **2015:** Genesis block created, marking the official launch.
+- **2013:** Ethereum first described in Vitalik Buterin's white paper.

@@ -5,8 +5,6 @@ alwaysApply: false
 ---
 # Explain Card Rule
 
-This rule defines the required content structure for an "explain-card" in the Web3 Wiki.
-
 ## Key Content Considerations
 
 When creating or updating an `explain-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the concept being explained.
@@ -39,3 +37,6 @@ When creating or updating an `explain-card`, ensure the following aspects are co
 
 - **All formatting, linking, naming, and file location MUST adhere to the standards defined in the [`wiki-guide.mdc`](mdc:.cursor/rules/wiki-guide.mdc).** This includes using H2 for sections, appropriate use of prose vs. lists, correct internal/external linking, and placing the file in the `cards` directory.
 - The card **MUST** start with the `#explain-card` tag on the very first line.
+
+> **Process and quality standards:**
+> All content creation and review for explain-cards must follow the 'Content Creation Checklist' and 'Final Review Checklist' sections in the [wiki-guide.mdc](mdc:.cursor/rules/wiki-guide.mdc).
