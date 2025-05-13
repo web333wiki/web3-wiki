@@ -29,9 +29,9 @@ Each card must belong to one of the following three categories:
 - **Mandatory Category Tag:**
     - The very first line of every card file _must_ be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`), with **no preceding blank lines or content**. This is further detailed in the specific card type rule files.
 - **File Location:**
-    - All new card markdown files **MUST** be created **directly within the `cards` directory** (e.g., `cards/My New Card.md`).
+    - All new card markdown files **MUST** be created **directly within the `cards` directory** (e.g., `cards/My New Card.md`). **This is a strict requirement.**
     - No subdirectories within `cards` should be used for card storage unless explicitly specified in a future rule update.
-    - The AI assistant **MUST NOT** create card files in any other directory (e.g., the workspace root, `.cursor/rules/`, etc.). **Verify the creation path.**
+    - The AI assistant **MUST NOT** create card files in any other directory (e.g., the workspace root, `.cursor/rules/`, etc.). **Verify the creation path rigorously.**
 
 ## Card Content Rules
 
@@ -49,7 +49,12 @@ These guidelines apply to all cards and content within the wiki.
     -   Links **must** point to existing card files (case-sensitive filename, `.md` implied) located **directly within the `cards` directory**.
     -   **Verification is mandatory:** Before adding an internal link, confirm the target file exists (use `list_dir` or `file_search`).
     -   **No Broken Links:** Broken internal links are strictly forbidden.
-    -   **Handling Missing Targets:** If a potentially useful link target doesn't exist, either create the card first (following all rules) or omit the link.
+    -   **Handling Missing Targets:** If a potentially useful link target doesn't exist, the AI assistant **MUST**:
+        1.  Determine the most appropriate card category for the new concept (e.g., `#explain-card`, `#show-card`).
+        2.  Create the new card file (e.g., `cards/New Concept.md`) **directly within the `cards` directory**, adhering to all naming conventions (uppercase first letter, appropriate filename).
+        3.  Add the chosen category tag as the very first line of the new card file.
+        4.  Generate initial, relevant content for this new card based on its chosen category, the context of the link, and available knowledge. The goal is to create a useful stub, not just an empty file. Refer to the specific card type rules for content guidance.
+        5.  If creating a populated stub is not feasible or the concept is too broad/unknown, the link should be omitted. **Do not create empty or near-empty files.**
 -   **External Links (`[Text](mdc:URL)`):**
     -   Prioritize links to **official websites, documentation, or primary sources**, especially for projects, tools, and resources.
     -   Use **descriptive link text** (e.g., `[Official Ethereum Website]`) instead of generic terms like "here" or "link".
@@ -80,10 +85,10 @@ As an AI assistant, your role is to proactively maintain and improve the Web3 Wi
 4.  **Implement Changes:** Propose and apply specific, constructive changes to address identified issues, clearly stating the intent. Use web search and fetching tools to gather up-to-date information for content revisions.
 5.  **Link Management:**
     -   Actively create relevant internal links, ensuring they are valid by **verifying target file existence first**.
-    -   When a target is missing, follow the `Handling Missing Targets` rule (create card or omit link).
+    -   When a target is missing, follow the updated `Handling Missing Targets` rule (i.e., determine category, create the card file **in the `cards` directory with initial content**, or omit the link).
     -   Ensure external links adhere to the `Linking Standards`, using web search/fetch for verification.
 6.  **Card Creation:**
-    -   When creating new cards (e.g., to fulfill a missing link), ensure they are created **directly within the `cards` directory**.
-    -   Strictly adhere to all `Card Naming and Format` rules (uppercase first letter, category tag on the first line) and the specific content structure for the chosen card type.
+    -   When creating new cards (e.g., to fulfill a missing link as per `Handling Missing Targets`, or by direct user request), ensure they are created **directly and exclusively within the `cards` directory**. This path (`cards/FILENAME.md`) is non-negotiable.
+    -   Strictly adhere to all `Card Naming and Format` rules (uppercase first letter, descriptive name, category tag on the first line) and generate meaningful initial content according to the specific content considerations for the chosen card type.
 7.  **Exception - Main Page:** The card `Web3 Wiki.md` serves as the main page of the wiki. The AI assistant **MUST NOT** modify the content of this card. It is maintained manually.
 

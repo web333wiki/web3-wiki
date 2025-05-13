@@ -7,38 +7,33 @@ alwaysApply: false
 
 This rule defines the required content structure for an "explain-card" in the Web3 Wiki.
 
-## Content Structure
+## Key Content Considerations
 
-```markdown
-#explain-card
+When creating or updating an `explain-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the concept being explained.
 
-## Introduction
+**1. Introduction:**
+    - Clear and concise definition of the concept (at least 2 sentences, longer if complex).
+    - Analogy (optional, to clarify for beginners).
+    - Importance/Purpose: Why the concept exists and its significance in Web3.
+    - Target Audience (e.g., developers, users, investors).
 
-- **What it is:** Start with a clear, concise definition of the concept, at least 2 sentences. It would be longer if it's a complex concept.
-- **Analogy (Optional):** Use a simple analogy if it helps clarify the concept for beginners.
-- **Importance/Purpose:** Explain *why* this concept exists and why it's significant, especially within the Web3 context.
-- **Target Audience:** Briefly mention who this concept is most relevant to (e.g., developers, users, investors).
+**2. Core Concepts & Mechanism:**
+    - Key Components: Essential parts or elements, explained clearly and deeply.
+    - Mechanism/How it Works: The process or workflow involved (diagrams can be described in text).
+    - Technical Details: Relevant specifications, protocols, or algorithms, explained accessibly.
+    - Variations/Types (if applicable): Different implementations or types of the concept.
 
-## Core Concepts
+**3. Use Cases & Implications:**
+    - Specific Examples: Real-world Web3 project examples (link to `show-card`s if available).
+    - Benefits: Advantages or positive outcomes.
+    - Limitations/Challenges: Drawbacks, risks, or difficulties.
+    - Comparison (optional): To alternative concepts or Web 2.0 approaches.
 
-- **Key Components:** Break down the concept into its essential parts or elements. Explain each part clearly and deeply.
-- **Mechanism/How it Works:** Describe the process or workflow involved. Use diagrams or flowcharts if helpful (describe them in text).
-- **Technical Details:** Include relevant technical specifications, protocols, or algorithms. Explain technical details in a way that is easy to understand. 
-- **Variations/Types (If applicable):** Mention different types or implementations of the concept if they exist (e.g., different types of consensus mechanisms for "Proof of Stake").
-
-## Use Cases
-
-- **Specific Examples:** Provide concrete examples of how this concept is used in real-world Web3 projects or scenarios. Link to relevant `show-card`s if available (e.g., [[Uniswap]] as an example of a DEX).
-- **Benefits:** Detail the advantages or positive outcomes of using this concept.
-- **Limitations/Challenges:** Discuss the drawbacks, risks, or challenges associated with the concept.
-- **Comparison (Optional):** Briefly compare it to alternative concepts or traditional (Web 2.0) approaches if relevant.
-
-## Related Concepts (Optional)
-- **Prerequisites:** List any concepts the reader should understand before this one (e.g., [[Blockchain]] might be a prerequisite for [[Smart Contract]]).
-- **Building Blocks:** Link to concepts that are components of this one.
-- **Related Ideas:** Link to concepts that are similar, contrasting, or often discussed together.
-- **Further Reading:** Link to more advanced concepts that build upon this one.
-```
+**4. Related Concepts (Optional but Recommended):**
+    - Prerequisites: Concepts to understand first.
+    - Building Blocks: Component concepts.
+    - Related Ideas: Similar, contrasting, or co-discussed concepts.
+    - Further Reading: Advanced concepts building upon this one.
 
 ## General Guidelines Adherence
 

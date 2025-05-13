@@ -7,44 +7,42 @@ alwaysApply: false
 
 This rule defines the required content structure for an "awesome-card" in the Web3 Wiki, which curates a list of valuable resources related to a specific topic.
 
-## Content Structure
+## Key Content Considerations
 
-```markdown
-#awesome-card
+When creating or updating an `awesome-card`, ensure the following categories of resources are considered. The AI assistant should generate a logical content outline based on these key resource categories and the specific topic of the awesome list.
 
-## Introduction
-- **Topic Focus:** Clearly state the specific topic this list covers (e.g., Awesome [[Zero-Knowledge Proofs]], Awesome [[Solidity]] Resources).
-- **Purpose:** Explain *why* this curated list is useful (e.g., for developers learning X, for users exploring Y tools).
-- **Scope:** Briefly define what kind of resources are included and excluded.
+**1. Introduction:**
+    - Topic Focus: Clearly state the specific topic (e.g., Awesome [[Zero-Knowledge Proofs]], Awesome [[Solidity]] Resources).
+    - Purpose: Why this curated list is useful.
+    - Scope: What kind of resources are included/excluded.
 
-## Official Resources
-- **Primary Website:** [Project/Concept Name Official Website Link] - Link to the main landing page.
-- **Documentation:** [Link to Official Docs] - Describe what the documentation covers (e.g., API reference, getting started guide).
-- **Whitepaper/Specifications:** [Link to Paper/Spec] - Briefly mention the core topic of the paper.
+**2. Official Resources:**
+    - Primary Website: Link to main landing page.
+    - Documentation: Link to official docs (describe coverage).
+    - Whitepaper/Specifications: Link to paper/spec (mention core topic).
 
-## Learning Materials
-- **Tutorials:** [Link to Tutorial] - Specify skill level (beginner, intermediate, advanced) and format (text, video).
-- **Courses:** [Link to Course] - Mention provider (e.g., Coursera, Udemy) and key learning outcomes.
-- **Books:** [Book Title] by [Author] ([Link to buy/info]) - Add publication year and target audience.
-- **Workshops/Guides:** [Link to Resource] - Describe the format and focus.
+**3. Learning Materials:**
+    - Tutorials: Links with skill level and format.
+    - Courses: Links with provider and key learning outcomes.
+    - Books: Titles, authors, links (publication year, target audience).
+    - Workshops/Guides: Links with format and focus.
 
-## Development Tools
-- **SDKs/Libraries:** [Tool Name] ([Link to Repo/Docs]) - Specify language/platform and primary function.
-- **Frameworks:** [Framework Name] ([Link]) - Mention the problem it solves or its main use case.
-- **Testing Tools:** [Tool Name] ([Link]) - Describe the type of testing it facilitates.
-- **IDEs/Plugins:** [Tool Name] ([Link]) - Specify the IDE it integrates with.
+**4. Development Tools (if applicable to the topic):**
+    - SDKs/Libraries: Names, links (language/platform, function).
+    - Frameworks: Names, links (problem solved/use case).
+    - Testing Tools: Names, links (type of testing).
+    - IDEs/Plugins: Names, links (IDE integration).
 
-## Ecosystem & Community
-- **Key Projects/Implementations:** [[Project Card Name]] or [Project Name] ([Link]) - Link relevant `show-card`s or official project sites.
-- **Explorers:** [Explorer Name] ([Link]) - e.g., Etherscan, Solscan.
-- **Forums/Discussion:** [Link to Forum/Platform] - Mention primary focus (e.g., technical support, general discussion).
-- **Social Channels:** [Link to Discord/Twitter/etc.] - Specify the channel type.
+**5. Ecosystem & Community:**
+    - Key Projects/Implementations: Links to `[[Project Card Name]]` or official sites.
+    - Explorers: Names, links (e.g., Etherscan, Solscan).
+    - Forums/Discussion: Links with primary focus.
+    - Social Channels: Links with channel type (Discord, Twitter, etc.).
 
-## Further Resources (Optional)
-- **Blogs/Articles:** [Link to Article/Blog] - Mention author/publication and key topic.
-- **Newsletters:** [Newsletter Name] ([Link to Subscribe]) - Describe frequency and content focus.
-- **Podcasts/Videos:** [Podcast/Channel Name] ([Link]) - Mention key hosts or topics covered.
-```
+**6. Further Resources (Optional):**
+    - Blogs/Articles: Links with author/publication and key topic.
+    - Newsletters: Names, links (frequency, content focus).
+    - Podcasts/Videos: Names, links (key hosts/topics covered).
 
 ## General Guidelines Adherence
 

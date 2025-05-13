@@ -7,47 +7,42 @@ alwaysApply: false
 
 This rule defines the required content structure for a "show-card" in the Web3 Wiki, used to showcase a particular project, tool, or service.
 
-## Content Structure
+## Key Content Considerations
 
-```markdown
-#show-card
+When creating or updating a `show-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the project/tool/service being showcased.
 
-## Overview
-- **What it is:** A concise summary of the project, tool, or service (1-2 sentences).
-- **Problem Solved:** Clearly articulate the problem this project addresses in the Web3 space.
-- **Value Proposition:** What is the unique benefit or advantage it offers?
-- **Official Website:** [Link to Official Website]
-- **Status:** (e.g., Live, Beta, In Development) - Mention key dates if available (e.g., launch date).
+**1. Overview:**
+    - Concise summary of the project/tool/service (1-2 sentences).
+    - Problem Solved: The issue it addresses in Web3.
+    - Value Proposition: Its unique benefit or advantage.
+    - Official Website: Link to the official site.
+    - Status (e.g., Live, Beta, In Development, key dates).
 
-## Key Features
-- List the main functionalities or capabilities. Use **bold** for the feature name.
-- **Feature 1:** Brief explanation of what it does and its benefit.
-- **Feature 2:** Brief explanation.
-- **Feature 3:** ... (Use paragraphs for more complex features if needed).
+**2. Key Features:**
+    - Main functionalities or capabilities, with brief explanations of each and their benefits.
 
-## Technology
-- **Blockchain/Platform:** Specify the primary blockchain(s) it runs on or integrates with (e.g., [[Ethereum]], [[Solana]], Standalone).
-- **Architecture:** Briefly describe the high-level technical design or components.
-- **Core Mechanism:** Explain the key technical innovation or process if applicable (e.g., consensus method, scaling solution).
-- **Smart Contracts:** [Link to relevant contracts on explorer] (Optional) - Mention key audited contracts if applicable.
+**3. Technology:**
+    - Blockchain/Platform (e.g., [[Ethereum]], [[Solana]], Standalone).
+    - Architecture: High-level technical design/components.
+    - Core Mechanism: Key technical innovation or process.
+    - Smart Contracts: Links to relevant contracts (optional, mention audited contracts).
 
-## Ecosystem & Use Cases
-- **Target Audience:** Who are the primary users? (e.g., Developers, DeFi Traders, NFT Collectors).
-- **How it's Used:** Provide specific examples of how people interact with the project.
-- **Integrations:** Mention notable projects or platforms it integrates with.
-- **Tokenomics (If applicable):** Briefly describe the native token's utility, supply, and distribution model. Link to [[Token Name]] card if it exists.
+**4. Ecosystem & Use Cases:**
+    - Target Audience (e.g., Developers, DeFi Traders, NFT Collectors).
+    - How it's Used: Specific examples of interaction.
+    - Integrations: Notable projects/platforms it integrates with.
+    - Tokenomics (if applicable): Native token's utility, supply, distribution (link to `[[Token Name]]` card).
 
-## Getting Started & Resources
-- **Accessing:** How does a user start using it? (e.g., Web app link, download link, API key signup).
-- **Documentation:** [Link to Official Documentation]
-- **Community:** [Link to Discord/Telegram/Forum]
-- **Support:** [Link to Support Channel/FAQ]
-- **Source Code:** [Link to GitHub/GitLab Repo] (If open source).
+**5. Getting Started & Resources:**
+    - Accessing: How to start using it (e.g., web app, download, API signup).
+    - Documentation: Link to official documentation.
+    - Community: Link to Discord/Telegram/Forum.
+    - Support: Link to support channel/FAQ.
+    - Source Code: Link to GitHub/GitLab (if open source).
 
-## Related Concepts
-- Link to relevant `explain-card`s for underlying technologies or concepts (e.g., Built using [[Optimistic Rollups]], Implements [[Decentralized Identity]]).
-- Link to relevant `awesome-card`s (e.g., See [[Awesome DeFi Tools]]).
-```
+**6. Related Concepts:**
+    - Links to relevant `explain-card`s (underlying technologies, e.g., Built using [[Optimistic Rollups]]).
+    - Links to relevant `awesome-card`s (e.g., See [[Awesome DeFi Tools]]).
 
 ## General Guidelines Adherence
 
