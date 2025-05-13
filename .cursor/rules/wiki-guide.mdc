@@ -23,47 +23,67 @@ Each card must belong to one of the following three categories:
 ## Card Naming and Format
 
 - **File Naming:**
-    - The filename of a card should accurately represent its core topic.
-    - The first letter of the filename must be uppercase.
-    - Examples: `Proof of Stake.md`, `Metamask.md`.
+    - The filename of a card should accurately represent its core topic. Use standard capitalization (e.g., `Smart Contract.md`, not `smart contract.md`).
+    - The first letter of the filename **MUST** be uppercase.
+    - Examples: `Proof of Stake.md`, `Metamask.md`, `Zero-Knowledge Proofs.md`.
 - **Mandatory Category Tag:**
-    - The very first line of every card file _must_ be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`). This is further detailed in the specific card type rule files.
+    - The very first line of every card file _must_ be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`), with **no preceding blank lines or content**. This is further detailed in the specific card type rule files.
 - **File Location:**
-    - All new card markdown files **MUST** be created directly within the `cards` directory (e.g., `cards/My New Card.md`).
+    - All new card markdown files **MUST** be created **directly within the `cards` directory** (e.g., `cards/My New Card.md`).
     - No subdirectories within `cards` should be used for card storage unless explicitly specified in a future rule update.
-    - The AI assistant **MUST NOT** create card files in any other directory (e.g., the workspace root, `.cursor/rules/`, etc.).
+    - The AI assistant **MUST NOT** create card files in any other directory (e.g., the workspace root, `.cursor/rules/`, etc.). **Verify the creation path.**
 
 ## Card Content Rules
 
-To maintain consistency, each card type has specific content structure and formatting rules. Please refer to the individual rule files for details:
+To maintain consistency, each card type has specific content structure and formatting rules. Please refer to the individual rule files for detailed instructions:
 - [`explain-card.mdc`](mdc:.cursor/rules/explain-card.mdc)
 - [`show-card.mdc`](mdc:.cursor/rules/show-card.mdc)
 - [`awesome-card.mdc`](mdc:.cursor/rules/awesome-card.mdc)
 
-## AI Assistant: Proactive Card Improvement
+## General Wiki Guidelines
 
-As an AI assistant, you should proactively contribute to the quality and completeness of the Web3 Wiki. This includes:
-1.  **Review Existing Cards:** Regularly examine cards within the `cards` directory.
-2.  **Ensure Adherence to Rules:** Verify that cards comply with their respective content structure and formatting rules as defined in [`explain-card.mdc`](mdc:.cursor/rules/explain-card.mdc), [`show-card.mdc`](mdc:.cursor/rules/show-card.mdc), and [`awesome-card.mdc`](mdc:.cursor/rules/awesome-card.mdc).
-3.  **Identify Areas for Improvement:** Look for cards that are:
-    - Incomplete or just stubs.
-    - Missing mandatory sections as per their card type rule.
-    - Containing outdated information.
-    - Lacking clarity, depth, or sufficient detail.
-    - Missing relevant internal links (`[[Other Card]]`) to other wiki cards or necessary external resources.
-    - Not following Obsidian markdown conventions or the formatting guidelines specified in the card type rules.
-4.  **Suggest and Apply Improvements:**
-    - Propose specific, actionable changes to address the identified issues.
-    - When confident, and after clearly stating the intended changes, apply these improvements directly to the card files.
-    - Always aim to enhance the accuracy, comprehensiveness, and usability of the wiki.
-5.  **Cross-linking, External Links, and Link Validation:**
-    - **Internal Links:** Actively look for opportunities to create relevant `[[Internal Links]]` between cards. **Strictly ensure** that all internal links (`[[Page Name]]`) refer to existing card files (case-sensitive filename match, with `.md` extension implied) within the `cards` directory. **Under no circumstances** should a broken internal link be created. Before adding an internal link, **verify the existence of the target card file** (e.g., by listing directory contents). If the target card does not exist, the AI assistant **must either** (a) first create the target card (following all card creation rules, including correct file location) if it's a sensible addition to the wiki, or (b) omit the internal link entirely if creating the card is out of scope or not appropriate. Broken links are detrimental to wiki navigation and **must be avoided**.
-    - **External Links:** For key projects or tools, especially in `show-card` or `awesome-card` types, prioritize linking to their **official website or primary official resource** for user verification and direct access.
-6.  **Content Flow and Readability:**
-    - While bullet points are useful for lists (e.g., features, resources), **avoid excessive use of lists for descriptive content.** 
-    - Prefer well-structured paragraphs to explain concepts, provide overviews, or detail use cases. This makes the content read more naturally and less like an AI-generated checklist.
-    - Aim for a balance: use lists where appropriate for clarity and scannability, but use prose for more narrative or explanatory sections.
-7.  **Card Creation Path Adherence:**
-    - When creating new cards as part of an improvement (e.g., to satisfy a needed internal link or create a new topic), the AI **MUST** ensure the new card file is created **directly within the `cards` directory** (e.g., `cards/My New Card.md`).
-    - The AI **MUST** adhere to all card naming conventions (uppercase first letter, accurate topic representation) and content structure rules for the chosen card type.
+These guidelines apply to all cards and content within the wiki.
+
+### Linking Standards
+-   **Internal Links (`[[Page Name]]`):**
+    -   Links **must** point to existing card files (case-sensitive filename, `.md` implied) located **directly within the `cards` directory**.
+    -   **Verification is mandatory:** Before adding an internal link, confirm the target file exists (use `list_dir` or `file_search`).
+    -   **No Broken Links:** Broken internal links are strictly forbidden.
+    -   **Handling Missing Targets:** If a potentially useful link target doesn't exist, either create the card first (following all rules) or omit the link.
+-   **External Links (`[Text](mdc:URL)`):**
+    -   Prioritize links to **official websites, documentation, or primary sources**, especially for projects, tools, and resources.
+    -   Use **descriptive link text** (e.g., `[Official Ethereum Website]`) instead of generic terms like "here" or "link".
+    -   Verify external links for validity and relevance using available web search and content fetching tools. Remove or update broken or outdated links.
+
+### Content Formatting & Readability
+-   **Prose over Lists:** For explanatory or descriptive content (especially in `explain-card`s), prefer well-structured paragraphs over excessive bullet points. Use lists strategically for clarity (e.g., features, resource lists).
+-   **Obsidian Markdown:** Adhere to standard Obsidian markdown conventions for formatting.
+-   **Clarity and Accuracy:** Ensure information is clear, concise, accurate, and up-to-date. Utilize web search and content fetching tools to verify information and incorporate the latest relevant details when appropriate.
+
+### File Structure & Naming
+-   **Card Location:** All card files (`.md`) **MUST** reside directly within the `cards` directory. No subdirectories are allowed for cards.
+-   **Naming Convention:** Follow the rules outlined in the "Card Naming and Format" section (uppercase first letter, descriptive name).
+
+## AI Assistant: Role and Responsibilities
+
+As an AI assistant, your role is to proactively maintain and improve the Web3 Wiki by adhering to all established guidelines.
+
+1.  **Proactive Review:** Regularly examine existing cards in the `cards` directory.
+2.  **Rule Enforcement:** Verify that cards comply with:
+    -   Their specific Card Type Rules (`explain-card.mdc`, etc.).
+    -   The `Card Naming and Format` rules.
+    -   The `General Wiki Guidelines` (linking, formatting, file structure).
+3.  **Identify Improvements:** Look for cards that violate rules or could be improved. This includes checking for:
+    -   Completeness, clarity, and accuracy.
+    -   Outdated information (use web search/fetch to verify).
+    -   Broken or irrelevant internal/external links (use file search/web search/fetch to verify).
+4.  **Implement Changes:** Propose and apply specific, constructive changes to address identified issues, clearly stating the intent. Use web search and fetching tools to gather up-to-date information for content revisions.
+5.  **Link Management:**
+    -   Actively create relevant internal links, ensuring they are valid by **verifying target file existence first**.
+    -   When a target is missing, follow the `Handling Missing Targets` rule (create card or omit link).
+    -   Ensure external links adhere to the `Linking Standards`, using web search/fetch for verification.
+6.  **Card Creation:**
+    -   When creating new cards (e.g., to fulfill a missing link), ensure they are created **directly within the `cards` directory**.
+    -   Strictly adhere to all `Card Naming and Format` rules (uppercase first letter, category tag on the first line) and the specific content structure for the chosen card type.
+7.  **Exception - Main Page:** The card `Web3 Wiki.md` serves as the main page of the wiki. The AI assistant **MUST NOT** modify the content of this card. It is maintained manually.
 

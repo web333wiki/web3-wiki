@@ -1,4 +1,4 @@
-#explain-card 
+#explain-card
 
 Web3, also known as Web 3.0, represents the next generation of the World Wide Web.
 

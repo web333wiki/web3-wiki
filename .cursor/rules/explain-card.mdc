@@ -1,5 +1,5 @@
 ---
-description: 
+description: The standard rule for explain-card: all updates to explain-card files must adhere to these guidelines to maintain consistency and quality.
 globs: 
 alwaysApply: false
 ---
@@ -13,29 +13,34 @@ This rule defines the required content structure for an "explain-card" in the We
 #explain-card
 
 ## Introduction
-- Brief overview of the concept
-- Why it's important in Web3
-- Basic definition
+
+- **What it is:** Start with a clear, concise definition of the concept, at least 2 sentences. It would be longer if it's a complex concept.
+- **Analogy (Optional):** Use a simple analogy if it helps clarify the concept for beginners.
+- **Importance/Purpose:** Explain *why* this concept exists and why it's significant, especially within the Web3 context.
+- **Target Audience:** Briefly mention who this concept is most relevant to (e.g., developers, users, investors).
 
 ## Core Concepts
-- Key components or elements
-- How it works
-- Technical details (if applicable)
+
+- **Key Components:** Break down the concept into its essential parts or elements. Explain each part clearly and deeply.
+- **Mechanism/How it Works:** Describe the process or workflow involved. Use diagrams or flowcharts if helpful (describe them in text).
+- **Technical Details:** Include relevant technical specifications, protocols, or algorithms. Explain technical details in a way that is easy to understand. 
+- **Variations/Types (If applicable):** Mention different types or implementations of the concept if they exist (e.g., different types of consensus mechanisms for "Proof of Stake").
 
 ## Use Cases
-- Real-world applications
-- Examples in Web3
-- Benefits and limitations
+
+- **Specific Examples:** Provide concrete examples of how this concept is used in real-world Web3 projects or scenarios. Link to relevant `show-card`s if available (e.g., [[Uniswap]] as an example of a DEX).
+- **Benefits:** Detail the advantages or positive outcomes of using this concept.
+- **Limitations/Challenges:** Discuss the drawbacks, risks, or challenges associated with the concept.
+- **Comparison (Optional):** Briefly compare it to alternative concepts or traditional (Web 2.0) approaches if relevant.
 
 ## Related Concepts (Optional)
-- Links to related topics (e.g., [[Another Concept]])
-- Prerequisites
-- Advanced concepts
+- **Prerequisites:** List any concepts the reader should understand before this one (e.g., [[Blockchain]] might be a prerequisite for [[Smart Contract]]).
+- **Building Blocks:** Link to concepts that are components of this one.
+- **Related Ideas:** Link to concepts that are similar, contrasting, or often discussed together.
+- **Further Reading:** Link to more advanced concepts that build upon this one.
 ```
 
-## Formatting Guidelines
-- The card must start with the `#explain-card` tag on the first line.
-- Use H2 (##) for main section titles (Introduction, Core Concepts, etc.).
-- Use bullet points (-) for sub-items.
-- Use Obsidian's internal linking format `[[Page Name]]` for backlinks to other cards.
-- Ensure all information is accurate and clearly presented.
+## General Guidelines Adherence
+
+- **All formatting, linking, naming, and file location MUST adhere to the standards defined in the [`wiki-guide.mdc`](mdc:.cursor/rules/wiki-guide.mdc).** This includes using H2 for sections, appropriate use of prose vs. lists, correct internal/external linking, and placing the file in the `cards` directory.
+- The card **MUST** start with the `#explain-card` tag on the very first line.

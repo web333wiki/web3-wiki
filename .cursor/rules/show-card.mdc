@@ -1,5 +1,5 @@
 ---
-description: 
+description: The standard rule for show-card: all updates to show-card files must adhere to these guidelines to maintain consistency and quality.
 globs: 
 alwaysApply: false
 ---
@@ -12,34 +12,44 @@ This rule defines the required content structure for a "show-card" in the Web3 W
 ```markdown
 #show-card
 
-## Project Overview
-- Brief description of the project/tool/service
-- Core purpose and value proposition
-- Key features and functionalities
+## Overview
+- **What it is:** A concise summary of the project, tool, or service (1-2 sentences).
+- **Problem Solved:** Clearly articulate the problem this project addresses in the Web3 space.
+- **Value Proposition:** What is the unique benefit or advantage it offers?
+- **Official Website:** [Link to Official Website]
+- **Status:** (e.g., Live, Beta, In Development) - Mention key dates if available (e.g., launch date).
 
-## Technical Details
-- Underlying technology or blockchain (if applicable)
-- Architecture overview
-- Unique selling points or innovations
+## Key Features
+- List the main functionalities or capabilities. Use **bold** for the feature name.
+- **Feature 1:** Brief explanation of what it does and its benefit.
+- **Feature 2:** Brief explanation.
+- **Feature 3:** ... (Use paragraphs for more complex features if needed).
 
-## Use Cases
-- Main applications and how it's used
-- Target audience or users
-- Examples or success stories (if available)
+## Technology
+- **Blockchain/Platform:** Specify the primary blockchain(s) it runs on or integrates with (e.g., [[Ethereum]], [[Solana]], Standalone).
+- **Architecture:** Briefly describe the high-level technical design or components.
+- **Core Mechanism:** Explain the key technical innovation or process if applicable (e.g., consensus method, scaling solution).
+- **Smart Contracts:** [Link to relevant contracts on explorer] (Optional) - Mention key audited contracts if applicable.
 
-## Getting Started
-- How to use or access the project/tool/service
-- Links to official website, documentation, and community channels
-- Basic setup or integration steps (if applicable)
+## Ecosystem & Use Cases
+- **Target Audience:** Who are the primary users? (e.g., Developers, DeFi Traders, NFT Collectors).
+- **How it's Used:** Provide specific examples of how people interact with the project.
+- **Integrations:** Mention notable projects or platforms it integrates with.
+- **Tokenomics (If applicable):** Briefly describe the native token's utility, supply, and distribution model. Link to [[Token Name]] card if it exists.
 
-## Related Links (Optional)
-- Links to relevant explain-cards (e.g., [[Underlying Technology]])
-- Comparisons with similar projects (if objective and informative)
+## Getting Started & Resources
+- **Accessing:** How does a user start using it? (e.g., Web app link, download link, API key signup).
+- **Documentation:** [Link to Official Documentation]
+- **Community:** [Link to Discord/Telegram/Forum]
+- **Support:** [Link to Support Channel/FAQ]
+- **Source Code:** [Link to GitHub/GitLab Repo] (If open source).
+
+## Related Concepts
+- Link to relevant `explain-card`s for underlying technologies or concepts (e.g., Built using [[Optimistic Rollups]], Implements [[Decentralized Identity]]).
+- Link to relevant `awesome-card`s (e.g., See [[Awesome DeFi Tools]]).
 ```
 
-## Formatting Guidelines
-- The card must start with the `#show-card` tag on the first line.
-- Use H2 (##) for main section titles.
-- Use bullet points (-) for sub-items.
-- Use Obsidian's internal linking format `[[Page Name]]` for backlinks.
-- Provide external links to official resources where appropriate.
+## General Guidelines Adherence
+
+- **All formatting, linking, naming, and file location MUST adhere to the standards defined in the [`wiki-guide.mdc`](mdc:.cursor/rules/wiki-guide.mdc).** This includes using H2 for sections, prioritizing official external links, using appropriate internal links, balancing prose and lists, and placing the file in the `cards` directory.
+- The card **MUST** start with the `#show-card` tag on the very first line.

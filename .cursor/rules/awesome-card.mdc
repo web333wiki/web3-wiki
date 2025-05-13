@@ -1,5 +1,5 @@
 ---
-description: 
+description: The standard rule for awesome-card: all updates to awesome-card files must adhere to these guidelines to maintain consistency and quality.
 globs: 
 alwaysApply: false
 ---
@@ -13,39 +13,40 @@ This rule defines the required content structure for an "awesome-card" in the We
 #awesome-card
 
 ## Introduction
-- Brief overview of the topic (e.g., Awesome [[Topic Name]])
-- Why these resources are valuable for the community
-- Target audience for this curated list
+- **Topic Focus:** Clearly state the specific topic this list covers (e.g., Awesome [[Zero-Knowledge Proofs]], Awesome [[Solidity]] Resources).
+- **Purpose:** Explain *why* this curated list is useful (e.g., for developers learning X, for users exploring Y tools).
+- **Scope:** Briefly define what kind of resources are included and excluded.
 
-## Learning Resources
-- Official Documentation: [Link to Docs] - Brief description.
-- Tutorials: [Link to Tutorial] - Brief description.
-- Courses: [Link to Course] - Brief description.
-- Books: [Book Title] by [Author] - Brief description.
+## Official Resources
+- **Primary Website:** [Project/Concept Name Official Website Link] - Link to the main landing page.
+- **Documentation:** [Link to Official Docs] - Describe what the documentation covers (e.g., API reference, getting started guide).
+- **Whitepaper/Specifications:** [Link to Paper/Spec] - Briefly mention the core topic of the paper.
 
-## Tools & Services
-- Development Tools: [Tool Name] ([Link]) - Brief description.
-- Platforms: [Platform Name] ([Link]) - Brief description.
-- Services: [Service Name] ([Link]) - Brief description.
-- APIs: [API Name] ([Link]) - Brief description.
+## Learning Materials
+- **Tutorials:** [Link to Tutorial] - Specify skill level (beginner, intermediate, advanced) and format (text, video).
+- **Courses:** [Link to Course] - Mention provider (e.g., Coursera, Udemy) and key learning outcomes.
+- **Books:** [Book Title] by [Author] ([Link to buy/info]) - Add publication year and target audience.
+- **Workshops/Guides:** [Link to Resource] - Describe the format and focus.
 
-## Community
-- Forums: [Link to Forum] - Brief description.
-- Discord/Telegram: [Link to Group] - Brief description.
-- Social Media: [Link to Social Media Profile/Hashtag] - Brief description.
-- Events: [Link to Event Page/Series] - Brief description.
+## Development Tools
+- **SDKs/Libraries:** [Tool Name] ([Link to Repo/Docs]) - Specify language/platform and primary function.
+- **Frameworks:** [Framework Name] ([Link]) - Mention the problem it solves or its main use case.
+- **Testing Tools:** [Tool Name] ([Link]) - Describe the type of testing it facilitates.
+- **IDEs/Plugins:** [Tool Name] ([Link]) - Specify the IDE it integrates with.
 
-## Additional Resources (Optional)
-- Blogs: [Blog Name] ([Link]) - Brief description.
-- Newsletters: [Newsletter Name] ([Link]) - Brief description.
-- Podcasts: [Podcast Name] ([Link]) - Brief description.
-- Videos/Channels: [Video/Channel Name] ([Link]) - Brief description.
+## Ecosystem & Community
+- **Key Projects/Implementations:** [[Project Card Name]] or [Project Name] ([Link]) - Link relevant `show-card`s or official project sites.
+- **Explorers:** [Explorer Name] ([Link]) - e.g., Etherscan, Solscan.
+- **Forums/Discussion:** [Link to Forum/Platform] - Mention primary focus (e.g., technical support, general discussion).
+- **Social Channels:** [Link to Discord/Twitter/etc.] - Specify the channel type.
+
+## Further Resources (Optional)
+- **Blogs/Articles:** [Link to Article/Blog] - Mention author/publication and key topic.
+- **Newsletters:** [Newsletter Name] ([Link to Subscribe]) - Describe frequency and content focus.
+- **Podcasts/Videos:** [Podcast/Channel Name] ([Link]) - Mention key hosts or topics covered.
 ```
 
-## Formatting Guidelines
-- The card must start with the `#awesome-card` tag on the first line.
-- Use H2 (##) for main section titles.
-- For each resource, provide a direct link and a brief, informative description.
-- Use bullet points (-) to list resources under each category.
-- Use Obsidian's internal linking format `[[Page Name]]` for backlinks where relevant (e.g., in the Introduction for the main topic).
-- Ensure all links are active and resources are high-quality.
+## General Guidelines Adherence
+
+- **All formatting, linking, naming, and file location MUST adhere to the standards defined in the [`wiki-guide.mdc`](mdc:.cursor/rules/wiki-guide.mdc).** This includes using H2 for sections, prioritizing official external links with descriptive text, using relevant internal links, using bullet points for resource lists, and placing the file in the `cards` directory.
+- The card **MUST** start with the `#awesome-card` tag on the very first line.
