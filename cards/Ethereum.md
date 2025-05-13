@@ -2,69 +2,90 @@
 
 ## Overview
 
-Ethereum is a decentralized, open-source blockchain platform that enables the creation and deployment of smart contracts and decentralized applications (dApps). Launched in 2015 by [[Vitalik Buterin]] and team, Ethereum introduced programmable [[Smart Contract]]s and pioneered the concept of a blockchain-based world computer. Its native cryptocurrency, Ether (ETH), is used for transaction fees, staking, and as a store of value. Ethereum's ongoing upgrades aim to make it the global settlement layer for decentralized finance and Web3 applications.
+Ethereum is a decentralized, open-source blockchain platform that enables the creation and deployment of [[Smart Contract]]s and decentralized applications (dApps). Launched in 2015 by [[Vitalik Buterin]] and a team of co-founders, Ethereum introduced the revolutionary concept of a programmable blockchain, often described as a "world computer." Its native cryptocurrency, Ether (ETH), serves multiple crucial functions within the ecosystem, including paying for transaction fees (gas), participating in the network's consensus mechanism through staking, and acting as a primary store of value and collateral in the decentralized finance (DeFi) space. Ethereum is undergoing continuous development through a series of ambitious upgrades aimed at enhancing its scalability, security, and sustainability, with the long-term vision of becoming the global settlement layer for a wide array of Web3 applications.
 
-- **Problem Solved:** Enables trustless, programmable transactions and decentralized applications, addressing the limitations of Bitcoin's scripting and centralized platforms.
-- **Value Proposition:** Most widely adopted smart contract platform, with a robust developer ecosystem and continuous innovation.
+- **Problem Solved:** Ethereum addresses the limitations of earlier blockchains like Bitcoin by providing a Turing-complete execution environment (the [[EVM]]), allowing for complex, arbitrary code to be run on the blockchain. This enables trustless, programmable transactions and the creation of sophisticated dApps, moving beyond simple peer-to-peer electronic cash systems.
+- **Value Proposition:** As the most widely adopted smart contract platform, Ethereum boasts the largest and most active developer ecosystem, a vast network effect, and a proven track record of innovation and resilience. Its continuous evolution ensures it remains at the forefront of blockchain technology.
 - **Official Website:** [Official Ethereum Website](https://ethereum.org)
-- **Status:** Live, with major upgrades ongoing (latest: Pectra, 2025)
+- **Status:** Live, with a roadmap of significant ongoing and future upgrades (e.g., The Merge (completed), [[Dencun Upgrade (EIP-4844)]] (completed), [[Pectra Upgrade]] (upcoming)).
 
 ## Key Features
 
-- **Smart Contracts:** Self-executing code enabling dApps, DeFi, NFTs, DAOs, and more.
-- **Ethereum Virtual Machine ([[EVM]]):** Universal runtime for smart contracts, enabling cross-platform compatibility.
-- **Account Abstraction:** (EIP-7702, Pectra) Allows EOAs to temporarily act as smart contracts, improving wallet UX and enabling features like transaction batching, gas sponsorship, and programmable recovery.
-- **Staking:** Transitioned to [[Proof of stake]] consensus, allowing users to secure the network and earn rewards by staking ETH.
-- **Scalability:** Supports Layer 2 solutions and rollups (see [[Rollup]]), with recent upgrades (Dencun, Pectra) doubling blob throughput and reducing L2 fees.
-- **Upgradeable Protocol:** Frequent hard forks and EIPs, with a clear roadmap (The Merge, Dencun, Pectra, and beyond).
+- **Smart Contracts:** Self-executing programs deployed on the blockchain that automate agreements and processes. They are the backbone of dApps, enabling complex logic for DeFi, NFTs, DAOs, and countless other applications.
+- **Ethereum Virtual Machine ([[EVM]]):** The sandboxed runtime environment that executes Ethereum smart contracts. Its design ensures that code execution is deterministic and isolated, providing a universal standard for smart contract deployment and interaction across the network and EVM-compatible chains.
+- **Account Abstraction (AA):** Aims to make user accounts (Externally Owned Accounts - EOAs) more flexible and programmable, similar to smart contracts. EIPs like those in the [[Pectra Upgrade]] (e.g., EIP-7702) will allow EOAs to initiate operations like transaction batching and gas sponsorship, significantly improving user experience.
+- **Staking & [[Proof of stake]] (PoS):** Following [[The Merge]], Ethereum transitioned to a PoS consensus mechanism. Users can stake their ETH to participate as [[Validator]]s, proposing and attesting to new blocks, securing the network, and earning ETH rewards. This is managed by the [[Beacon Chain]].
+- **Scalability Solutions:** Ethereum actively supports and fosters a multi-pronged approach to scalability, primarily through Layer 2 solutions like [[Rollup]]s ([[Optimism]], [[Arbitrum]], [[Linea]]) that process transactions off-chain and post data back to Ethereum. Upgrades like the [[Dencun Upgrade (EIP-4844)]] (introducing blobspace) significantly reduce data posting costs for L2s.
+- **Upgradeable Protocol & Roadmap:** Ethereum evolves through a community-driven process of Ethereum Improvement Proposals (EIPs) and network upgrades (hard forks). Key past upgrades include The Merge (PoS transition) and London ([[EIP-1559]]). Future upgrades like [[Pectra Upgrade]] continue this evolution, focusing on areas like staking, account abstraction, and further scalability enhancements.
 
 ## Technology
 
-- **Blockchain/Platform:** Standalone, with the EVM as its core engine.
-- **Architecture:** Layered design with execution (EVM) and consensus (Beacon Chain) layers.
+- **Blockchain/Platform:** A standalone, decentralized public blockchain.
+- **Architecture:** Employs a layered architecture:
+  - **Execution Layer (EL):** Responsible for transaction processing, smart contract execution (via the [[EVM]]), and maintaining the Ethereum state. This is the layer users and dApps primarily interact with.
+  - **Consensus Layer (CL) - [[Beacon Chain]]:** Manages the [[Proof of stake]] consensus mechanism. It coordinates the network of [[Validator]]s, processes attestations, proposes blocks, and ensures agreement on the canonical chain. The EL receives its consensus from the CL.
 - **Core Mechanisms:**
-  - **Consensus:** [[Proof of stake]] (since The Merge, 2022)
-  - **Smart Accounts:** EIP-7702 (Pectra, 2025) brings account abstraction natively to EOAs.
-  - **Blob Transactions:** Introduced in Dencun (2024), expanded in Pectra (2025) to improve L2 data availability and reduce costs.
-- **Smart Contracts:** Open source, with many audited contracts (see [[Awesome Ethereum]] for resources).
+  - **Consensus:** [[Proof of stake]] (since [[The Merge]], September 2022), orchestrated by the [[Beacon Chain]].
+  - **Transaction Fee Model:** [[EIP-1559]] introduced a base fee (burned) that adjusts to network demand and an optional priority fee (tip) for validators.
+  - **Data Availability for L2s:** Blob-carrying transactions (via [[Dencun Upgrade (EIP-4844)]]) provide a cost-effective way for L2s to post data to Ethereum.
+- **Smart Contracts:** Primarily written in Solidity, Vyper, and other EVM-compatible languages. Numerous open-source libraries and audited contract patterns are available (see [[Awesome Ethereum]] for resources).
 
 ## Ecosystem & Use Cases
 
-- **Target Audience:** Developers, DeFi users, NFT collectors, DAOs, enterprises, and general users.
+- **Target Audience:** Developers building dApps, DeFi users and protocols, NFT creators and collectors, DAOs, enterprises exploring blockchain solutions, and individuals seeking a decentralized financial and application platform.
 - **How It's Used:**
-  - Deploying dApps (DeFi, NFTs, DAOs, gaming, identity, etc.)
-  - Staking and running validators (see [[Staking]], [[Validator]])
-  - Interacting with L2s and rollups for scalable applications
-- **Integrations:** Major L2s (Optimism, Arbitrum, Linea), wallets (MetaMask, hardware wallets), infrastructure (Infura, Alchemy), and more.
-- **Tokenomics:**
-  - **ETH Utility:** Gas, staking, collateral, governance, and more.
-  - **Supply:** No fixed cap; supply is dynamic, with EIP-1559 introducing fee burning.
-  - **See also:** [[Awesome Ethereum]] for more on tokens and DeFi.
+  - **DeFi:** Lending, borrowing, decentralized exchanges (DEXs), yield farming, stablecoins.
+  - **NFTs:** Minting, trading, and showcasing digital art, collectibles, and in-game items.
+  - **DAOs:** Decentralized governance for protocols and communities.
+  - **Gaming:** Play-to-earn models, on-chain game logic, and asset ownership.
+  - **Identity & Social:** Decentralized identity solutions and Web3 social platforms.
+- **Integrations:**
+  - **Layer 2s:** [[Optimism]], [[Arbitrum]], [[Linea]], and many others.
+  - **Wallets:** [[MetaMask]], Ledger, Trezor, and a wide array of software and hardware wallets.
+  - **Infrastructure Providers:** [[Infura]], [[Alchemy]], and other node service providers.
+  - **Developer Tools:** Truffle, Hardhat, Foundry, Remix IDE.
+- **Tokenomics (ETH):**
+  - **Utility:** ETH is essential for network operation:
+    - **Gas Fees:** Paying for computation and storage on the network ([[EIP-1559]] model).
+    - **Staking:** Required to become a [[Validator]] in the PoS consensus (32 ETH per validator).
+    - **Collateral:** Widely used as collateral in DeFi protocols.
+    - **Medium of Exchange:** Primary currency within the Ethereum ecosystem for NFTs, services, etc.
+  - **Issuance:** New ETH is issued as rewards to validators for proposing and attesting to blocks on the [[Beacon Chain]]. Post-Merge, issuance was significantly reduced compared to the previous PoW model.
+  - **Supply Mechanism & [[EIP-1559]]:** The [[EIP-1559]] mechanism burns the base fee portion of transaction fees. This burning, combined with the reduced PoS issuance, can make ETH deflationary during periods of high network activity (i.e., when burned ETH exceeds new issuance).
+  - **See also:** [[Awesome Ethereum]] for more on tokens and DeFi protocols.
 
 ## Getting Started & Resources
 
-- **Access:** Use via web wallets (e.g., MetaMask), hardware wallets, or by running a node.
-- **Documentation:** [Ethereum Docs](https://ethereum.org/en/developers/docs/)
-- **Community:** [Ethereum Discord](https://discord.com/invite/CetY6Y4), [r/ethereum](https://reddit.com/r/ethereum), [@ethereum](https://twitter.com/ethereum)
-- **Support:** [Ethereum Support](https://support.ethereum.org/)
-- **Source Code:** [Ethereum GitHub](https://github.com/ethereum)
+- **Access:** Interact via wallets like [[MetaMask]], or run your own Ethereum node.
+- **Documentation:** [Official Ethereum Docs](https://ethereum.org/en/developers/docs/)
+- **Community:** [Ethereum Discord](https://discord.com/invite/CetY6Y4), [r/ethereum Reddit](https://reddit.com/r/ethereum), [@ethereum Twitter](https://twitter.com/ethereum)
+- **Support:** [Ethereum Support Page](https://support.ethereum.org/)
+- **Source Code:** [Ethereum on GitHub](https://github.com/ethereum)
 
 ## Related Concepts
 
+- [[Beacon Chain]]
+- [[Dencun Upgrade (EIP-4844)]]
+- [[EIP-1559]]
 - [[EVM]]
-- [[Smart Contract]]
+- [[Pectra Upgrade]]
 - [[Proof of stake]]
 - [[Rollup]]
+- [[Smart Contract]]
 - [[Staking]]
+- [[The Merge]]
 - [[Validator]]
 - [[Vitalik Buterin]]
 - [[Awesome Ethereum]]
 
 ## Latest Updates
 
-- **2025:** Pectra upgrade activated, introducing EIP-7702 (account abstraction for EOAs), increased validator max stake (2048 ETH), doubled blob throughput, and more. [Pectra Mainnet Announcement](https://blog.ethereum.org/2025/04/23/pectra-mainnet)
-- **2024:** Dencun upgrade introduced proto-danksharding (EIP-4844), enabling blob transactions and reducing L2 costs.
-- **2022:** The Merge transitioned Ethereum from Proof-of-Work to Proof-of-Stake, reducing energy consumption by ~99.95%.
-- **2021:** London upgrade (EIP-1559) introduced fee burning and improved transaction fee predictability.
-- **2015:** Genesis block created, marking the official launch.
-- **2013:** Ethereum first described in Vitalik Buterin's white paper.
+- **[[Pectra Upgrade]] (Upcoming ~Q1 2025):** Next major upgrade focusing on staking improvements (EIP-7251, EIP-7002), Account Abstraction enhancements (EIP-7702), and further L2 scaling support.
+- **[[Dencun Upgrade (EIP-4844)]] (March 2024):** Introduced Proto-Danksharding with blob transactions, significantly reducing Layer 2 data posting costs.
+- **[[The Merge]] (September 2022):** Ethereum successfully transitioned from Proof-of-Work to [[Proof of stake]] consensus, drastically reducing energy consumption by ~99.95% and changing ETH issuance dynamics.
+- **London Hard Fork (August 2021):** Implemented [[EIP-1559]], overhauling the transaction fee market and introducing ETH burning.
+- **Berlin Upgrade (April 2021):** Optimized gas costs for certain EVM operations.
+- **Beacon Chain Genesis (December 2020):** The [[Proof of stake]] [[Beacon Chain]] launched, running in parallel with the PoW mainnet until [[The Merge]].
+- **Homestead (March 2016):** First production-ready version of Ethereum.
+- **Frontier (July 2015):** Initial live release of Ethereum.
+- **2013-2014:** Ethereum concept first described in [[Vitalik Buterin]]'s white paper (2013), followed by crowdsale and development.
