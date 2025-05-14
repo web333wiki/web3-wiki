@@ -1,9 +1,10 @@
 #show-card
+
 ## Introduction
 
 SUI is a high-performance Layer 1 blockchain platform developed by [[Mysten Labs]]. It utilizes the [[Move]] programming language, which was originally developed by Facebook (now Meta) for its Diem (formerly [[Libra]]) project. The Move language is designed to offer a secure and verifiable environment for [[Smart Contract]] programming, addressing the security and scalability issues of traditional smart contract languages.
 
-After the discontinuation of the [[Diem]] project, the Move language continued to evolve and has been adopted by emerging blockchain platforms like SUI. By leveraging Move's advantages, SUI aims to enhance blockchain throughput and reduce latency, tackling the performance bottlenecks of existing systems. This makes it suitable for a wide range of applications, including decentralized finance ([[DeFI]]), gaming, and [[NFT]]s.
+After the discontinuation of the [[Diem]] project, the Move language continued to evolve and has been adopted by emerging blockchain platforms like SUI. By leveraging Move's advantages, SUI aims to enhance blockchain throughput and reduce latency, tackling the performance bottlenecks of existing systems. This makes it suitable for a wide range of applications, including decentralized finance ([[Decentralized Finance (DeFi)|DeFI]]), gaming, and [[NFT]]s.
 
 ## Team
 
@@ -20,15 +21,15 @@ The team's extensive experience in distributed systems, cryptography, programmin
 
 ## Social Media
 
-| Platform   | Link                              |
-| ---------- | --------------------------------- |
-| Website    | [https://sui.io](https://sui.io/) |
+| Platform     | Link                              |
+| ------------ | --------------------------------- |
+| Website      | [https://sui.io](https://sui.io/) |
 | X（Twitter） | https://x.com/SuiNetwork          |
-| Discord    | https://discord.gg/sui            |
-| Telegram   | https://t.me/SuiNetwork           |
-| GitHub     | https://github.com/MystenLabs/sui |
+| Discord      | https://discord.gg/sui            |
+| Telegram     | https://t.me/SuiNetwork           |
+| GitHub       | https://github.com/MystenLabs/sui |
 
 ## Latest Updates
 
->[!todo]
+> [!todo]
 > Add the latest updates
