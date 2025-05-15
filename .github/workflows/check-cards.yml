@@ -21,3 +21,6 @@ jobs:
 
     - name: Run card check script
       run: python .github/scripts/check-cards.py
+
+    - name: Run internal link check script
+      run: python .github/scripts/check-internal-links.py
