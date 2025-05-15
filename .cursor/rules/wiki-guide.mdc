@@ -123,5 +123,5 @@ As an AI assistant, your role is to proactively maintain and improve the Web3 Wi
 - **No Superficial Content:**  
   Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource on its topic, similar in quality and depth to a well-maintained Wikipedia article.
 - **Run Script Checks**:
-    1. Run the `check-tags.py` script and fix any reported errors.
+    1. Run the `check-tag.py` script and fix any reported errors.
     2. Run the `check-internal-links.py` script and fix any reported errors. This script should ideally use or be consistent with `card_index.txt`.
