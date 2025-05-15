@@ -42,12 +42,12 @@ Coinbase plays a significant role in the Web3 ecosystem by:
 ## Related Concepts
 
 - [[Centralized Exchange (CEX)]]
-- [[Cryptocurrency]]
+- cryptocurrency
 - [[Bitcoin]]
 - [[Ethereum]]
 - [[Stablecoin]]
-- [[USDC]]
+- USDC
 - [[Know Your Customer (KYC)]]
 - [[Anti-Money Laundering (AML)]]
-- [[Wallet]] (Custodial and Self-Custody)
-- [[Base (Layer 2)]]
+- wallet (Custodial and Self-Custody)
+- Base (Layer 2)

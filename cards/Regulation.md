@@ -5,19 +5,19 @@
 **Regulation** in the context of Web3, cryptocurrencies, and blockchain technology refers to the body of rules, laws, guidelines, and oversight mechanisms implemented by governments, central banks, and international bodies to govern the development, use, and trade of digital assets and related services. The regulatory landscape is rapidly evolving and varies significantly across jurisdictions.
 
 - **Importance/Purpose:** Regulation aims to achieve several objectives, including: protecting consumers and investors, ensuring financial stability, preventing illicit activities (like [[Anti-Money Laundering (AML)|money laundering]] and [[Counter-Terrorist Financing (CTF)|terrorist financing]]), fostering innovation responsibly, and providing legal clarity for businesses operating in the space.
-- **Target Audience:** Cryptocurrency exchanges ([[Centralized Exchange (CEX)|CEXs]], [[Decentralized Exchange (DEX)|DEXs]]), [[Decentralized Finance (DeFi)|DeFi protocols]], token issuers, investors, developers, policymakers, and legal/compliance professionals.
+- **Target Audience:** Cryptocurrency exchanges ([[Centralized Exchange (CEX)|CEXs]], DEXs), [[Decentralized Finance (DeFi)|DeFi protocols]], token issuers, investors, developers, policymakers, and legal/compliance professionals.
 
 ## Core Concepts & Mechanism
 
 ### Key Areas of Regulatory Focus
 
-1.  **Cryptocurrency Exchanges & Custodians:** Licensing requirements, [[KYC (Know Your Customer)|KYC]]/[[Anti-Money Laundering (AML)|AML]]/[[Counter-Terrorist Financing (CTF)|CTF]] obligations, security standards, and consumer protection measures.
+1.  **Cryptocurrency Exchanges & Custodians:** Licensing requirements, KYC/[[Anti-Money Laundering (AML)|AML]]/[[Counter-Terrorist Financing (CTF)|CTF]] obligations, security standards, and consumer protection measures.
 2.  **Token Offerings (ICOs, IEOs, STOs):** Determining whether tokens are securities, commodities, or utility tokens, and applying relevant securities laws (e.g., registration, disclosure requirements).
 3.  **[[Stablecoin]]s:** Regulations concerning reserve backing, issuance, and potential systemic risks.
 4.  **[[Decentralized Finance (DeFi)|DeFi]]:** Applying existing financial regulations to decentralized protocols, addressing challenges like identifying responsible parties, and managing risks like [[Smart Contract]] vulnerabilities and [[Oracle|oracle]] manipulation.
 5.  **Taxation:** Clarifying how crypto transactions (trading, staking, mining, airdrops) are taxed (e.g., as property, income, or capital gains).
-6.  **[[Non-Fungible Token (NFT)|NFTs]]:** Examining issues around intellectual property, royalties, and whether certain NFTs could be considered securities.
-7.  **[[Data Privacy]] & Security:** How user data is handled by Web3 applications and platforms, especially in relation to regulations like GDPR.
+6.  **NFTs:** Examining issues around intellectual property, royalties, and whether certain NFTs could be considered securities.
+7.  **Data privacy & Security:** How user data is handled by Web3 applications and platforms, especially in relation to regulations like GDPR.
 8.  **Cross-Border Implications:** Addressing the global and often borderless nature of cryptocurrency transactions and services.
 
 ### Regulatory Approaches by Jurisdiction
@@ -31,8 +31,8 @@
 - **Securities and Exchange Commission (SEC) (USA):** Focuses on whether cryptocurrencies or tokens qualify as securities.
 - **Commodity Futures Trading Commission (CFTC) (USA):** Regulates crypto derivatives and considers some cryptocurrencies (like [[Bitcoin]]) as commodities.
 - **Financial Crimes Enforcement Network (FinCEN) (USA):** Enforces AML/CTF regulations for Virtual Asset Service Providers (VASPs).
-- **Financial Action Task Force (FATF):** An intergovernmental organization that sets international standards for AML/CTF, including the "Travel Rule" for VASPs.
-- **European Union (MiCA - Markets in Crypto-Assets Regulation):** A comprehensive EU framework for regulating crypto-assets.
+- **Financial Action Task Force:** An intergovernmental organization that sets international standards for AML/CTF, including the "Travel Rule" for VASPs.
+- **European Union (MiCA):** A comprehensive EU framework for regulating crypto-assets.
 - Various national central banks and financial supervisory authorities worldwide.
 
 ## Use Cases & Implications
@@ -56,13 +56,13 @@
 
 ## Related Concepts
 
-- [[KYC (Know Your Customer)]]
+- KYC (Know Your Customer)
 - [[Anti-Money Laundering (AML)]]
 - [[Counter-Terrorist Financing (CTF)]]
-- [[Securities Law]]
-- [[Commodities Law]]
-- [[Financial Action Task Force (FATF)]]
-- [[MiCA (Markets in Crypto-Assets)]]
-- [[Virtual Asset Service Provider (VASP)]]
-- [[Compliance]]
-- [[Legal Frameworks]]
+- Securities law
+- Commodities law
+- Financial Action Task Force
+- MiCA
+- Virtual Asset Service Provider
+- Compliance
+- Legal frameworks

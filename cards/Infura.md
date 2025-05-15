@@ -43,8 +43,8 @@ Infura is a leading blockchain development platform that provides API access to 
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Nodes]]
 - [[API]]
-- [[IPFS]]
-- [[dApps]]
-- [[ConsenSys]] (if a card is made)
+- Nodes
+- IPFS
+- dApps
+- ConsenSys (if a card is made)

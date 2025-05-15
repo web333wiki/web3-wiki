@@ -19,7 +19,7 @@
 ### Barriers to Financial Inclusion
 
 - **Poverty & Low Income:** Lack of funds to open or maintain accounts.
-- **Lack of Documentation:** Difficulty meeting [[KYC (Know Your Customer)|KYC]] requirements due to lack of official identification or proof of address.
+- **Lack of Documentation:** Difficulty meeting KYC (Know Your Customer) requirements due to lack of official identification or proof of address.
 - **Distance & Infrastructure:** Physical distance to financial institutions, especially in rural areas, and lack of supporting infrastructure (e.g., internet, mobile networks).
 - **Cost of Services:** High fees for accounts, transactions, or credit.
 - **Financial Illiteracy:** Lack of understanding of financial products and services.
@@ -28,11 +28,11 @@
 
 ### Role of Technology (Fintech & Web3)
 
-Technology, particularly mobile banking, digital payments, and more recently, Web3 technologies like [[Blockchain]] and cryptocurrencies, plays a significant role in advancing financial inclusion:
+Technology, particularly mobile banking, digital payments, and more recently, Web3 technologies like blockchain and cryptocurrencies, plays a significant role in advancing financial inclusion:
 
 - **Mobile Money:** Revolutionized access to financial services in many developing countries.
 - **[[Decentralized Finance (DeFi)|DeFi]]:** Offers the potential for permissionless access to financial services like lending, borrowing, and trading, without relying on traditional intermediaries. [[Stablecoin]]s can offer a more stable medium of exchange.
-- **[[Cryptocurrency|Cryptocurrencies]]:** Can facilitate cheaper and faster cross-border remittances and provide an alternative store of value in regions with unstable local currencies or high inflation.
+- **Cryptocurrencies:** Can facilitate cheaper and faster cross-border remittances and provide an alternative store of value in regions with unstable local currencies or high inflation.
 - **[[Decentralized Identity (DID)|Decentralized Identity (DID)]]:** Could help address documentation challenges by allowing individuals to control and present verifiable credentials.
 
 ## Use Cases & Implications
@@ -49,20 +49,20 @@ Technology, particularly mobile banking, digital payments, and more recently, We
 
 - **Digital Divide:** Lack of access to technology (smartphones, internet) can exclude many from digital financial services.
 - **Financial Literacy Gap:** Even with access, users need the skills to use services effectively and avoid risks.
-- **Regulatory Hurdles:** [[Regulation|Regulations]] (e.g., strict KYC/AML) can sometimes inadvertently create barriers, though they are necessary for security.
+- **Regulatory Hurdles:** Regulations (e.g., strict KYC/AML) can sometimes inadvertently create barriers, though they are necessary for security.
 - **Risks of New Technologies:** While Web3 offers potential, it also comes with risks like volatility of cryptocurrencies, [[Smart Contract]] vulnerabilities in DeFi, and scams. Ensuring consumer protection is crucial.
 - **Sustainability of Business Models:** Finding viable business models to serve low-income populations can be challenging for providers.
 
 ## Related Concepts
 
-- [[Unbanked]] & [[Underbanked]]
-- [[Microfinance]]
-- [[Mobile Money]]
-- [[Fintech]]
-- [[KYC (Know Your Customer)]]
-- [[Blockchain]]
-- [[Cryptocurrency]]
+- unbanked & underbanked
+- microfinance
+- mobile money
+- fintech
+- KYC (Know Your Customer)
+- blockchain
+- cryptocurrency
 - [[Decentralized Finance (DeFi)]]
 - [[Stablecoin]]
-- [[Digital Divide]]
-- [[Poverty Reduction]]
+- digital divide
+- poverty reduction

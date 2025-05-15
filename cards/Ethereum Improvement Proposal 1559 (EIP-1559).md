@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Ethereum Improvement Proposal 1559 (EIP-1559)** is a major upgrade to Ethereum's transaction fee mechanism, implemented as part of the [[London Hard Fork]] in August 2021. It fundamentally changed how gas fees are calculated and handled, aiming to improve user experience by making fees more predictable and introducing a deflationary aspect to ETH through fee burning.
+**Ethereum Improvement Proposal 1559 (EIP-1559)** is a major upgrade to Ethereum's transaction fee mechanism, implemented as part of the London Hard Fork in August 2021. It fundamentally changed how gas fees are calculated and handled, aiming to improve user experience by making fees more predictable and introducing a deflationary aspect to ETH through fee burning.
 
 - **Problem Solved:** Addressed issues with the previous first-price auction fee model, which led to volatile and unpredictable gas prices, overpayment, and a poor user experience. It also aimed to better align ETH's monetary policy with network usage.
 - **Value Proposition:** Introduced a base fee that adjusts algorithmically based on network congestion, a priority fee (tip) for miners/validators, and the burning of the base fee, making ETH potentially deflationary.
@@ -42,6 +42,3 @@ _ If the `baseFeePerGas` plus the `maxPriorityFeePerGas` exceeds the `maxFeePerG
 
 - [[Ethereum]]
 - [[Gas]]
-- [[London Hard Fork]]
-- [[Transaction Fees]]
-- [[ETH (Ether)]]

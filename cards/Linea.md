@@ -38,8 +38,5 @@ Linea is a Layer 2 (L2) scaling solution for Ethereum, developed by ConsenSys. I
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Layer 2 Rollups]] (or [[Rollup]])
-- [[zk-Rollups]]
-- [[zkEVM]]
 - [[EVM]]
-- [[ConsenSys]] (if a card is made)
+- [[Rollup]]

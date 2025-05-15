@@ -48,11 +48,11 @@ The Pectra upgrade is likely to include a bundle of Ethereum Improvement Proposa
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Hard Fork]]
-- [[Account Abstraction]]
+- Hard Fork
+- Account Abstraction
 - [[Proof of stake]]
 - [[Validator]]
 - [[Staking]]
-- [[Layer 2 Rollups]] (or [[Rollup]])
+- Layer 2 Rollups (or [[Rollup]])
 - [[Dencun Upgrade (EIP-4844)]]
-- [[EIP-7702]] (once a dedicated card might be useful)
+- EIP-7702 (once a dedicated card might be useful)

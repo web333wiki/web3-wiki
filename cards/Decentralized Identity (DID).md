@@ -13,8 +13,8 @@
 
 1.  **Decentralized Identifiers (DIDs):** Globally unique identifiers that individuals or organizations can create and control. A DID (e.g., `did:example:123456789abcdefghi`) is a URI that resolves to a DID Document.
 2.  **DID Documents:** JSON documents associated with a DID that contain information about the DID subject, such as cryptographic public keys for authentication, service endpoints (e.g., for communication or data storage), and other metadata. The DID document essentially describes how to interact with the DID subject.
-3.  **DID Methods:** Specific implementations that define how DIDs are created, resolved (how their DID Documents are found), updated, and deactivated. Different DID methods can leverage various distributed ledger technologies (DLTs) like [[Blockchain|blockchains]], or other decentralized systems. Examples: `did:ethr` (Ethereum), `did:ion` (Bitcoin/IPFS), `did:key` (cryptographic key-based).
-4.  **Verifiable Credentials (VCs):** Tamper-evident digital attestations or claims made by an issuer about a subject (e.g., a university issuing a degree credential to a student). VCs are cryptographically signed by the issuer and can be held by the subject in their digital [[Wallet]]. The subject can then present these VCs to verifiers to prove claims about themselves without the verifier needing to contact the original issuer directly for every verification.
+3.  **DID Methods:** Specific implementations that define how DIDs are created, resolved (how their DID Documents are found), updated, and deactivated. Different DID methods can leverage various distributed ledger technologies (DLTs) like blockchains, or other decentralized systems. Examples: `did:ethr` (Ethereum), `did:ion` (Bitcoin/IPFS), `did:key` (cryptographic key-based).
+4.  **Verifiable Credentials (VCs):** Tamper-evident digital attestations or claims made by an issuer about a subject (e.g., a university issuing a degree credential to a student). VCs are cryptographically signed by the issuer and can be held by the subject in their digital wallet. The subject can then present these VCs to verifiers to prove claims about themselves without the verifier needing to contact the original issuer directly for every verification.
 5.  **DID Wallets/Agents:** Software that users employ to create and manage their DIDs, store their private keys, hold their Verifiable Credentials, and interact with other entities in the DID ecosystem.
 
 ### How DIDs Work (Simplified Flow)
@@ -57,13 +57,13 @@
 
 ## Related Concepts
 
-- [[Self-Sovereign Identity (SSI)]]
-- [[Verifiable Credentials (VCs)]]
+- Self-Sovereign Identity (SSI)
+- Verifiable Credentials (VCs)
 - [[Zero-Knowledge Proof (ZKP)]] (often used with DIDs/VCs for privacy)
-- [[Blockchain]] & Distributed Ledger Technology (DLT)
-- [[Public Key Cryptography]]
+- blockchain & Distributed Ledger Technology (DLT)
+- public key cryptography
 - [[Web3]]
-- [[W3C DID Standard]]
-- [[Wallet]] (Digital Identity Wallets)
-- [[Privacy]]
+- W3C DID Standard
+- wallet (Digital Identity Wallets)
+- privacy
 - [[Soulbound Tokens]]

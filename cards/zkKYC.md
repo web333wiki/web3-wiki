@@ -19,7 +19,7 @@
 ### How zkKYC Works (Generalized Flow)
 
 1.  **Traditional KYC with IdP:** The user first completes a standard KYC process with a trusted Identity Provider.
-2.  **Issuance of Attestation/Credential:** The IdP issues a digitally signed attestation or credential to the user. This credential cryptographically binds certain attributes to the user's [[Wallet]] or a decentralized identifier ([[Decentralized Identity (DID)]]). For example, it might attest that the wallet holder is not on a specific watchlist.
+2.  **Issuance of Attestation/Credential:** The IdP issues a digitally signed attestation or credential to the user. This credential cryptographically binds certain attributes to the user's wallet or a decentralized identifier ([[Decentralized Identity (DID)]]). For example, it might attest that the wallet holder is not on a specific watchlist.
 3.  **Proof Generation:** When the user wants to access a service requiring KYC, their software generates a zero-knowledge proof. This proof demonstrates that they hold a valid credential from a recognized IdP satisfying the service's requirements (e.g., "I possess an attestation from IdP Z showing I am not on Sanctions List A"). The proof itself does not reveal the user's name, date of birth, or other PII contained in the original credential.
 4.  **Proof Verification:** The service provider verifies the ZKP. If the proof is valid, the user is granted access, having met the KYC requirement without disclosing their underlying data to the service provider.
 
@@ -54,6 +54,6 @@
 - [[Anti-Money Laundering (AML)]]
 - [[Decentralized Identity (DID)]]
 - [[Soulbound Tokens]] (as a potential way to represent attestations)
-- [[Privacy]]
+- Privacy
 - [[Data Security]]
 - [[Regulation]]

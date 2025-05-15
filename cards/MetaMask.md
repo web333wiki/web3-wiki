@@ -41,7 +41,3 @@ MetaMask is a popular non-custodial cryptocurrency wallet and gateway to blockch
 
 - [[Ethereum]]
 - [[EVM]]
-- [[Wallet]]
-- [[Non-Custodial Wallet]]
-- [[dApps]]
-- [[ConsenSys]] (if a card is made)

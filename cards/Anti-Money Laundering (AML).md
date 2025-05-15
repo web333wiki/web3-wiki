@@ -50,13 +50,7 @@ Cryptocurrencies present unique challenges and opportunities for AML:
 
 ## Related Concepts
 
-- [[KYC (Know Your Customer)]]
 - [[Counter-Terrorist Financing (CTF)]]
-- [[Financial Action Task Force (FATF)]]
-- [[Suspicious Activity Report (SAR)]]
-- [[Politically Exposed Person (PEP)]]
 - [[Regulation]]
-- [[Financial Crime]]
-- [[Blockchain Analytics]]
 - [[Centralized Exchange (CEX)]]
 - [[Privacy Coins]]

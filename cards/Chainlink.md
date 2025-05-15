@@ -39,7 +39,7 @@ Chainlink is a decentralized oracle network that enables smart contracts to secu
 
 - [[Oracle]]
 - [[Smart Contract]]
-- [[Decentralization]]
+- Decentralization
 - [[API]]
 - [[Proof of stake]] (related to LINK staking)
 - [[Ethereum]] (as a primary ecosystem served)

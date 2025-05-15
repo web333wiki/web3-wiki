@@ -13,7 +13,7 @@
 
 1.  **Identifying Terrorist Financing Risks:** Assessing and understanding the specific ways terrorist groups raise, move, and use funds.
 2.  **Legal Frameworks:** Criminalizing terrorist financing and establishing legal powers to investigate, freeze assets, and prosecute offenders.
-3.  **Preventative Measures for Financial Institutions:** Requiring banks and other financial entities to implement [[Know Your Customer (KYC)]] procedures, monitor transactions for suspicious activity (especially those potentially linked to terrorism), and report them to authorities.
+3.  **Preventative Measures for Financial Institutions:** Requiring banks and other financial entities to implement KYC (Know Your Customer) procedures, monitor transactions for suspicious activity (especially those potentially linked to terrorism), and report them to authorities.
 4.  **Asset Freezing and Confiscation:** Implementing mechanisms to freeze and seize assets belonging to designated terrorist individuals or groups.
 5.  **International Cooperation:** Sharing information and coordinating actions between countries to combat the global nature of terrorist financing.
 6.  **Targeted Financial Sanctions:** Imposing sanctions on individuals, entities, and countries known to support or be involved in terrorism.
@@ -36,7 +36,7 @@ Cryptocurrencies and new payment technologies can be exploited for terrorist fin
 - Potential for anonymity or pseudonymity.
 - Ease of cross-border transfers.
 - Decentralized nature, making them harder to regulate through traditional financial intermediaries.
-  Regulators and law enforcement are actively working to address these risks by applying CTF measures to Virtual Asset Service Providers (VASPs), enhancing blockchain analytics capabilities, and promoting international standards (e.g., FATF recommendations).
+  Regulators and law enforcement are actively working to address these risks by applying CTF measures to Virtual Asset Service Providers (VASPs), enhancing blockchain analytics capabilities, and promoting international standards (e.g., Financial Action Task Force (FATF) recommendations).
 
 ## Use Cases & Implications
 
@@ -57,10 +57,4 @@ Cryptocurrencies and new payment technologies can be exploited for terrorist fin
 ## Related Concepts
 
 - [[Anti-Money Laundering (AML)]]
-- [[KYC (Know Your Customer)]]
-- [[Financial Action Task Force (FATF)]]
-- [[Terrorism]]
-- [[Sanctions]]
 - [[Regulation]]
-- [[Financial Crime]]
-- [[Virtual Asset Service Provider (VASP)]]

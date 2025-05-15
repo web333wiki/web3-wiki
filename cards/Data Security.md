@@ -32,12 +32,12 @@
 
 Web3 and blockchain technologies introduce new paradigms and challenges for data security:
 
-- **[[Private Keys]] Management:** In self-custodial [[Wallet|wallets]], users are solely responsible for securing their private keys. Loss or compromise of private keys means loss of assets.
+- **[[Private Keys]] Management:** In self-custodial wallets, users are solely responsible for securing their private keys. Loss or compromise of private keys means loss of assets.
 - **[[Smart Contract]] Security:** Vulnerabilities in smart contract code can lead to irreversible loss of funds. Rigorous auditing and formal verification are crucial.
 - **Blockchain Immutability:** While a strength, immutability means that malicious or erroneous transactions, once confirmed, cannot be easily undone. Similarly, if sensitive data is mistakenly written to a public blockchain, it cannot be removed.
-- **[[Decentralized Storage]] Security:** Protecting data stored on decentralized networks (e.g., IPFS) requires different approaches than centralized storage.
+- **Decentralized storage Security:** Protecting data stored on decentralized networks (e.g., IPFS) requires different approaches than centralized storage.
 - **[[Oracle|Oracle]] Security:** Ensuring the reliability and security of oracles that feed external data to smart contracts is vital.
-- **[[Data Privacy]] on Public Blockchains:** Balancing transparency with privacy is a key challenge. [[Zero-Knowledge Proof (ZKP)|Zero-knowledge proofs]] and other privacy-enhancing technologies are being developed to address this.
+- **Data privacy on Public Blockchains:** Balancing transparency with privacy is a key challenge. [[Zero-Knowledge Proof (ZKP)|Zero-knowledge proofs]] and other privacy-enhancing technologies are being developed to address this.
 
 ## Use Cases & Implications
 
@@ -59,13 +59,4 @@ Web3 and blockchain technologies introduce new paradigms and challenges for data
 
 ## Related Concepts
 
-- [[Cybersecurity]]
-- [[Privacy]]
-- [[Encryption]]
-- [[Authentication]]
-- [[Access Control]]
-- [[Data Breach]]
-- [[GDPR (General Data Protection Regulation)]]
 - [[Private Keys]]
-- [[Smart Contract Audit]]
-- [[Risk Management]]

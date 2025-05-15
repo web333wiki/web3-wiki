@@ -4,17 +4,17 @@
 
 Optimism (OP Mainnet) is a leading Layer 2 (L2) scaling solution for Ethereum, designed to offer faster transactions and lower fees while maintaining Ethereum's security. It utilizes Optimistic Rollup technology and is a core component of the envisioned Superchain ecosystem.
 
-Its core purpose is to scale Ethereum by processing transactions off-chain and then batching them to the Ethereum mainnet. Key features include EVM equivalence (making it easy to deploy existing Ethereum dApps), the open-source [[Op Stack]] development framework, and a strong focus on public goods funding through Retroactive Public Goods Funding (RetroPGF).
+Its core purpose is to scale Ethereum by processing transactions off-chain and then batching them to the Ethereum mainnet. Key features include EVM equivalence (making it easy to deploy existing Ethereum dApps), the open-source Op Stack development framework, and a strong focus on public goods funding through Retroactive Public Goods Funding (RetroPGF).
 
 For more details, visit the [official Optimism website](https://www.optimism.io/).
 
 ## Technical Details
 
 - **Underlying Technology:** Optimism uses Optimistic Rollups. Transactions are executed on Optimism (L2), and data is posted to Ethereum (L1). It assumes transactions are valid unless challenged via a fault proof mechanism (previously fraud proof).
-- **Architecture Overview:** Optimism's architecture is built upon the [[Op Stack]]. Key components include a sequencer (orders and executes transactions), a proposer (submits transaction batches to L1), and verifiers (can challenge the validity of L2 state roots submitted to L1).
+- **Architecture Overview:** Optimism's architecture is built upon the Op Stack. Key components include a sequencer (orders and executes transactions), a proposer (submits transaction batches to L1), and verifiers (can challenge the validity of L2 state roots submitted to L1).
 - **Unique Selling Points:**
   - **EVM Equivalence:** High degree of compatibility with Ethereum, simplifying dApp migration.
-  - **[[Op Stack]]:** The underlying open-source stack allows other projects (e.g., Base, Zora) to build their own L2s, fostering a broader ecosystem (the Superchain).
+  - **Op Stack:** The underlying open-source stack allows other projects (e.g., Base, Zora) to build their own L2s, fostering a broader ecosystem (the Superchain).
   - **Optimism Collective & Governance:** A two-house governance system (Token House and Citizens' House) aims for a balanced and sustainable approach to network development and funding.
   - **RetroPGF:** A novel mechanism for funding public goods that have already demonstrated impact.
 
@@ -39,4 +39,4 @@ For more details, visit the [official Optimism website](https://www.optimism.io/
 
 - [[Layer 2]]
 - [[Rollup]]
-- [[Op Stack]]
+- Op Stack

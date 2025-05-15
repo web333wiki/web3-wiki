@@ -43,11 +43,11 @@ Binance is a major force in the Web3 world due to its:
 
 - [[Centralized Exchange (CEX)]]
 - [[BNB Chain]]
-- [[Binance Coin (BNB)]]
 - [[Smart Contract]]
-- [[Decentralized Application (dApp)]]
-- [[Ethereum Virtual Machine (EVM)]]
 - [[Know Your Customer (KYC)]]
 - [[Anti-Money Laundering (AML)]]
-- [[Trust Wallet]]
-- [[Cryptocurrency]]
+- Binance Coin (BNB)
+- Decentralized Application (dApp)
+- Ethereum Virtual Machine (EVM)
+- Trust Wallet
+- Cryptocurrency

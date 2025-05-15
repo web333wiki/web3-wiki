@@ -2,9 +2,9 @@
 
 ## Introduction
 
-**Decentralized Finance (DeFi)** is an umbrella term for a broad category of financial applications and services built on top of [[Blockchain]] technology, primarily [[Ethereum]]. DeFi aims to recreate and improve upon traditional financial systems (TradFi) by using decentralized infrastructure, [[Smart Contract]]s, and open protocols, thereby reducing reliance on central intermediaries like banks, brokerages, or exchanges.
+**Decentralized Finance (DeFi)** is an umbrella term for a broad category of financial applications and services built on top of Blockchain technology, primarily [[Ethereum]]. DeFi aims to recreate and improve upon traditional financial systems (TradFi) by using decentralized infrastructure, [[Smart Contract]]s, and open protocols, thereby reducing reliance on central intermediaries like banks, brokerages, or exchanges.
 
-- **Importance/Purpose:** DeFi seeks to build a more open, transparent, permissionless, and accessible financial system. It allows users to lend, borrow, trade, earn interest, and manage assets without needing to trust a central authority, directly interacting with smart contracts through their crypto [[Wallet|wallets]].
+- **Importance/Purpose:** DeFi seeks to build a more open, transparent, permissionless, and accessible financial system. It allows users to lend, borrow, trade, earn interest, and manage assets without needing to trust a central authority, directly interacting with smart contracts through their crypto wallets.
 - **Target Audience:** Crypto-savvy users, investors, traders, developers, and those seeking alternatives to traditional financial services.
 
 ## Core Concepts & Mechanism
@@ -19,13 +19,13 @@
 
 ### Common DeFi Applications
 
-- **[[Decentralized Exchange (DEX)|Decentralized Exchanges (DEXs)]]:** Platforms like Uniswap or Sushiswap that allow users to trade cryptocurrencies directly peer-to-peer using automated market makers (AMMs) or order books, without needing a central custodian. (e.g., [[Uniswap]], [[Curve Finance]])
-- **Lending and Borrowing Platforms:** Protocols that allow users to lend their crypto assets to earn interest or borrow assets by providing collateral. (e.g., [[Aave]], [[Compound Finance]])
-- **[[Stablecoin]]s:** Cryptocurrencies pegged to the value of fiat currencies (e.g., USDC, DAI) or other assets, providing stability in the volatile crypto market. [[MakerDAO]] is a key example for the DAI stablecoin.
+- **Decentralized Exchanges (DEXs):** Platforms like Uniswap or Sushiswap that allow users to trade cryptocurrencies directly peer-to-peer using automated market makers (AMMs) or order books, without needing a central custodian. (e.g., Uniswap, Curve Finance)
+- **Lending and Borrowing Platforms:** Protocols that allow users to lend their crypto assets to earn interest or borrow assets by providing collateral. (e.g., Aave, Compound Finance)
+- **[[Stablecoin]]s:** Cryptocurrencies pegged to the value of fiat currencies (e.g., USDC, DAI) or other assets, providing stability in the volatile crypto market. MakerDAO is a key example for the DAI stablecoin.
 - **Yield Farming & Liquidity Mining:** Practices where users provide liquidity to DeFi protocols (e.g., by depositing assets into liquidity pools) in exchange for rewards, often in the form of the protocol's governance token.
 - **Derivatives:** Platforms offering decentralized trading of financial derivatives like options, futures, and synthetic assets. (e.g., Synthetix, dYdX)
 - **Insurance:** Protocols that offer decentralized insurance products to cover risks like smart contract vulnerabilities or stablecoin de-pegging. (e.g., Nexus Mutual)
-- **Prediction Markets:** Platforms where users can bet on the outcome of future events. (e.g., [[Augur]], Polymarket)
+- **Prediction Markets:** Platforms where users can bet on the outcome of future events. (e.g., Augur, Polymarket)
 
 ## Use Cases & Implications
 
@@ -41,7 +41,7 @@
 ### Limitations & Challenges of DeFi
 
 - **Smart Contract Risk:** Bugs or vulnerabilities in smart contract code can lead to significant losses of funds through hacks or exploits.
-- **Scalability Issues:** Many DeFi applications, especially on Ethereum, can suffer from high [[Transaction Fees]] (gas fees) and slow transaction times during periods of network congestion.
+- **Scalability Issues:** Many DeFi applications, especially on Ethereum, can suffer from high Transaction Fees (gas fees) and slow transaction times during periods of network congestion.
 - **User Experience (UX):** Can be complex and intimidating for beginners compared to traditional financial applications or [[Centralized Exchange (CEX)|CEXs]].
 - **Regulatory Uncertainty:** The regulatory landscape for DeFi is still evolving and often unclear, posing risks for users and developers.
 - **Oracle Risk:** DeFi protocols often rely on [[Oracle|oracles]] to bring external data (like asset prices) on-chain. If these oracles are compromised or provide inaccurate data, it can lead to exploits.
@@ -50,15 +50,12 @@
 
 ## Related Concepts
 
-- [[Blockchain]]
 - [[Smart Contract]]
 - [[Ethereum]] (the primary platform for DeFi)
-- [[Decentralized Exchange (DEX)]]
-- [[Automated Market Maker (AMM)]]
-- [[Liquidity Pool]]
+- Liquidity Pool
 - [[Yield Farming]]
 - [[Stablecoin]]
 - [[Oracle]]
-- [[Governance Token]]
-- [[Wallet]]
+- Governance Token
+- Wallet
 - [[Web3]]

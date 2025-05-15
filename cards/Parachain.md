@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- **Brief overview:** A parachain, short for "parallelized chain," is an application-specific blockchain that connects to and is secured by a central Relay Chain, most notably [[Polkadot]]'s Relay Chain or [[Kusama]]'s Relay Chain.
+- **Brief overview:** A parachain, short for "parallelized chain," is an application-specific blockchain that connects to and is secured by a central Relay Chain, most notably [[Polkadot]]'s Relay Chain or Kusama's Relay Chain.
 - **Importance in Web3:** Parachains enable scalability and specialization within a larger blockchain ecosystem. They allow diverse blockchains with unique features and optimizations to coexist and interoperate while benefiting from the shared security of the Relay Chain.
 - **Basic definition:** A Layer-1 blockchain that runs in parallel with other parachains, connected to and validated by a Layer-0 Relay Chain, forming a sharded network.
 

@@ -39,6 +39,6 @@ Arbitrum is a leading Layer 2 (L2) scaling solution for Ethereum, developed by O
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Layer 2 Rollups]] (or [[Rollup]])
-- [[Optimistic Rollups]]
+- Layer 2 rollups (or [[Rollup]])
+- Optimistic rollups
 - [[EVM]]

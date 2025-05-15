@@ -45,9 +45,5 @@ Besides EIP-4844, the Dencun upgrade included other EIPs focused on various impr
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Layer 2 Rollups]] (or [[Rollup]])
-- [[Transaction Fees]]
 - [[Gas]]
-- [[Scalability]]
-- [[Data Availability]]
 - [[The Merge]] (as a precursor to further scaling upgrades)

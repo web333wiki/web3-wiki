@@ -62,9 +62,9 @@ Oracles can be categorized in several ways:
 ## Related Concepts
 
 - [[Smart Contract]]
-- [[Decentralization]]
+- Decentralization
 - [[API]]
 - [[Chainlink]] (as a leading example of a decentralized oracle network)
-- [[Data Availability]]
+- Data Availability
 - [[Ethereum]] (as many oracle use cases are prominent here)
-- [[Transaction Fees]] (Gas, as oracles interact with the blockchain)
+- Transaction Fees (Gas, as oracles interact with the blockchain)

@@ -44,7 +44,4 @@ Alchemy is a comprehensive Web3 developer platform that provides infrastructure,
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Nodes]]
 - [[API]]
-- [[dApps]]
-- [[Web3 Developer Platform]]

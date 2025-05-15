@@ -55,10 +55,10 @@
 ## Related Concepts
 
 - [[Decentralized Identity (DID)]]
-- [[Non-Fungible Token (NFT)]] (SBTs are often conceptualized as non-transferable NFTs)
-- [[Decentralized Autonomous Organization (DAO)]]
-- [[Proof of Personhood]]
-- [[Reputation Systems]]
-- [[Verifiable Credentials]]
-- [[Privacy]]
+- non-fungible token (NFT) (SBTs are often conceptualized as non-transferable NFTs)
+- decentralized autonomous organization (DAO)
+- proof of personhood
+- reputation systems
+- verifiable credentials
+- privacy
 - [[Web3]]

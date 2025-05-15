@@ -32,8 +32,8 @@ OpenZeppelin serves a broad audience within the Web3 development lifecycle:
 
 - **Primary Users:** Smart contract developers, dApp development teams, blockchain project founders, and security auditors.
 - **Common Use Cases:**
-  - Building and deploying fungible tokens ([[ERC20]]).
-  - Creating and managing non-fungible tokens ([[ERC721]], [[ERC1155]]).
+  - Building and deploying fungible tokens (ERC20).
+  - Creating and managing non-fungible tokens (ERC721, ERC1155).
   - Implementing secure access control for smart contracts.
   - Developing upgradeable smart contracts.
   - Securing dApps through robust, pre-audited components.
@@ -58,6 +58,6 @@ Understanding OpenZeppelin is closely tied to:
 - [[Smart Contract]] development
 - [[Solidity]] programming language
 - [[Ethereum]] and [[EVM]]-compatible blockchains
-- [[ERC Standards]] (e.g., [[ERC20]], [[ERC721]], [[ERC1155]])
+- [[ERC Standards]] (e.g., ERC20, ERC721, ERC1155)
 - Smart contract security and auditing
 - [[Upgradeable Smart Contracts]]
