@@ -45,16 +45,21 @@ To maintain consistency, each card type has specific content structure and forma
 These guidelines apply to all cards and content within the wiki.
 
 ### Linking Standards
+-   **Card Index File:**
+    -   A file named `card_index.txt`, expected to be located in the workspace root, is generated periodically.
+    -   This file contains a list of all valid card names (without the `.md` extension), one per line.
+    -   The AI assistant **MUST** consider `card_index.txt` as the primary source of truth for existing card names when creating or validating internal links.
 -   **Internal Links (`[[Page Name]]`):**
-    -   Links **must** point to existing card files (case-sensitive filename, `.md` implied) located **directly within the `cards` directory**.
-    -   **Verification is mandatory:** Before adding an internal link, confirm the target file exists (use `list_dir` or `file_search`).
+    -   Links **must** point to existing card files (case-sensitive filename, `.md` implied by the linking syntax) located **directly within the `cards` directory**.
+    -   **Verification is mandatory:** Before adding an internal link, the AI assistant **MUST** first attempt to read `card_index.txt`. Confirm that the target `Page Name` (from `[[Page Name]]`) exists in this list.
+    -   If `card_index.txt` cannot be read, is unavailable, or the card name is not found, the AI assistant should then use `file_search` for `Page Name.md` within the `cards` directory as a fallback verification method.
     -   **No Broken Links:** Broken internal links are strictly forbidden.
-    -   **Handling Missing Targets:** If a potentially useful link target doesn't exist, the AI assistant **MUST**:
-        1.  Determine the most appropriate card category for the new concept (e.g., `#explain-card`, `#show-card`).
-        2.  Create the new card file (e.g., `cards/New Concept.md`) **directly within the `cards` directory**, adhering to all naming conventions (uppercase first letter, appropriate filename).
-        3.  Add the chosen category tag as the very first line of the new card file.
-        4.  Generate initial, relevant content for this new card based on its chosen category, the context of the link, and available knowledge. The goal is to create a useful stub, not just an empty file. Refer to the specific card type rules for content guidance.
-        5.  If creating a populated stub is not feasible or the concept is too broad/unknown, the link should be omitted. **Do not create empty or near-empty files.**
+-   **Handling Missing Targets:** If a potentially useful link target (e.g., `[[New Concept]]`) doesn't exist (i.e., `New Concept` is not found in `card_index.txt` and `cards/New Concept.md` is confirmed not to exist via file search), the AI assistant **MUST**:
+    1.  Determine the most appropriate card category for the new concept (e.g., `#explain-card`, `#show-card`).
+    2.  Create the new card file (e.g., `cards/New Concept.md`) **directly within the `cards` directory**, adhering to all naming conventions (uppercase first letter, appropriate filename).
+    3.  Add the chosen category tag as the very first line of the new card file.
+    4.  Generate initial, relevant content for this new card based on its chosen category, the context of the link, and available knowledge. The goal is to create a useful stub, not just an empty file. Refer to the specific card type rules for content guidance.
+    5.  If creating a populated stub is not feasible or the concept is too broad/unknown, the link should be omitted. **Do not create empty or near-empty files.**
 -   **External Links (`[Text](mdc:URL)`):**
     -   Prioritize links to **official websites, documentation, or primary sources**, especially for projects, tools, and resources.
     -   Use **descriptive link text** (e.g., `[Official Ethereum Website]`) instead of generic terms like "here" or "link".
@@ -81,11 +86,11 @@ As an AI assistant, your role is to proactively maintain and improve the Web3 Wi
 3.  **Identify Improvements:** Look for cards that violate rules or could be improved. This includes checking for:
     -   Completeness, clarity, and accuracy.
     -   Outdated information (use web search/fetch to verify).
-    -   Broken or irrelevant internal/external links (use file search/web search/fetch to verify).
+    -   Broken or irrelevant internal/external links (use file search/web search/fetch to verify, and `card_index.txt` for internal links).
 4.  **Implement Changes:** Propose and apply specific, constructive changes to address identified issues, clearly stating the intent. Use web search and fetching tools to gather up-to-date information for content revisions.
 5.  **Link Management:**
-    -   Actively create relevant internal links, ensuring they are valid by **verifying target file existence first**.
-    -   When a target is missing, follow the updated `Handling Missing Targets` rule (i.e., determine category, create the card file **in the `cards` directory with initial content**, or omit the link).
+    -   Actively create relevant internal links, ensuring they are valid by **first checking `card_index.txt` (expected at the workspace root) for the target card name, and then as a fallback, verifying target file existence using `file_search` if needed**.
+    -   When a target is missing (i.e., not found in `card_index.txt` or via file search), follow the `Handling Missing Targets` rule (i.e., determine category, create the card file **in the `cards` directory with initial content**, or omit the link).
     -   Ensure external links adhere to the `Linking Standards`, using web search/fetch for verification.
 6.  **Card Creation:**
     -   When creating new cards (e.g., to fulfill a missing link as per `Handling Missing Targets`, or by direct user request), ensure they are created **directly and exclusively within the `cards` directory**. This path (`cards/FILENAME.md`) is non-negotiable.
@@ -108,7 +113,7 @@ As an AI assistant, your role is to proactively maintain and improve the Web3 Wi
 - **Card Tag and Rule Compliance:**  
   Ensure every created or updated card starts with the correct card tag and fully complies with its specific rule file. The content must be comprehensive, well-structured, and informative, not just a summary or outline.
 - **Internal Link Validation:**  
-  Verify that every internal link points to an existing, up-to-date card. There must be no broken or outdated links. If a relevant card does not exist, create it with substantive content before finalizing the current card.
+  Verify that every internal link points to an existing, up-to-date card. This involves checking the target card name against `card_index.txt` (expected at the workspace root) and ensuring the target file (`cards/TargetCard.md`) exists. There must be no broken or outdated links. If a relevant card does not exist (i.e., not listed in `card_index.txt` and confirmed non-existent), create it with substantive content before finalizing the current card.
 - **Cross-Linking and Knowledge Integration:**  
   Review the card for any mention of concepts, projects, or technologies that could be linked to existing cards. Add internal links with explanatory context, and update those linked cards if they are lacking in detail or accuracy.
 - **Section Depth and Breadth:**  
@@ -117,4 +122,6 @@ As an AI assistant, your role is to proactively maintain and improve the Web3 Wi
   Where possible, provide references to primary sources, official documentation, or reputable third-party analyses. Use descriptive link text and ensure all external links are current and relevant.
 - **No Superficial Content:**  
   Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource on its topic, similar in quality and depth to a well-maintained Wikipedia article.
-
+- **Run Script Checks**:
+    1. Run the `check-tags.py` script and fix any reported errors.
+    2. Run the `check-internal-links.py` script and fix any reported errors. This script should ideally use or be consistent with `card_index.txt`.
