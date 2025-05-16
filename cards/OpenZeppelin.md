@@ -11,7 +11,7 @@ OpenZeppelin is a leading name in the blockchain space, renowned for providing a
 
 OpenZeppelin provides several key components and services to the Web3 community:
 
-- **OpenZeppelin Contracts:** A library of modular, reusable, and secure smart contracts written in Solidity. This includes implementations for various [[ERC Standards|ERC token standards]], access control mechanisms (e.g., Ownable, Role-Based Access Control), security utilities (e.g., ReentrancyGuard, Pausable), and more. These contracts are heavily audited and community-vetted.
+- **OpenZeppelin Contracts:** A library of modular, reusable, and secure smart contracts written in Solidity. This includes implementations for various [[Erc standards]], access control mechanisms (e.g., Ownable, Role-Based Access Control), security utilities (e.g., ReentrancyGuard, Pausable), and more. These contracts are heavily audited and community-vetted.
 - **OpenZeppelin Defender:** A platform for automating smart contract operations, including secure administration, monitoring, and incident response.
 - **Security Audits:** OpenZeppelin is a respected provider of smart contract security audits, helping projects identify vulnerabilities before deployment.
 - **OpenZeppelin Upgrades Plugins:** Tools to help manage and deploy upgradeable smart contracts, allowing for bug fixes and feature additions post-deployment without losing state or requiring complex migrations.
@@ -74,5 +74,5 @@ Understanding OpenZeppelin is closely tied to:
 - [[Solidity]]
 - [[Ethereum]]
 - [[EVM]]
-- [[ERC Standards]] (e.g., ERC20, ERC721, ERC1155)
-- [[Upgradeable Smart Contracts]]
+- [[Erc standards]] (e.g., ERC20, ERC721, ERC1155)
+- [[Upgradeable smart contracts]]

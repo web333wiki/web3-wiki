@@ -39,4 +39,4 @@ For more information, visit the [official Tezos website](https://tezos.com/).
 
 - [[Proof of stake]]
 - [[Smart contract]]
-- [[On-chain governance]]
+- [[Onchain governance]]

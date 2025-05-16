@@ -4,7 +4,7 @@
 
 ## Overview
 
-[Lazarus Bounty](https://www.lazarusbounty.com/) is a collaborative program launched to counter North Korean state-sponsored hacking group Lazarus (also known as APT38 or HIDDEN COBRA), which has stolen over $3 billion in cryptocurrency assets often used to fund North Korea's weapons programs. The program incentivizes the identification and reporting of Lazarus-associated wallets through substantial financial rewards, with its importance highlighted by a recent incident [[ByBit's $1.4 Billon ETH Hack]] where approximately 1.4 billion ETH was stolen from Bybit in an attack believed to be linked to the group.
+[Lazarus Bounty](https://www.lazarusbounty.com/) is a collaborative program launched to counter North Korean state-sponsored hacking group Lazarus (also known as APT38 or HIDDEN COBRA), which has stolen over $3 billion in cryptocurrency assets often used to fund North Korea's weapons programs. The program incentivizes the identification and reporting of Lazarus-associated wallets through substantial financial rewards, with its importance highlighted by a recent incident ByBit's $1.4 billon ETH hack where approximately 1.4 billion ETH was stolen from Bybit in an attack believed to be linked to the group.
 
 ## Reward Structure
 

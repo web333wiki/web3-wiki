@@ -14,7 +14,7 @@
 1.  **User:** The individual who needs to prove certain attributes about themselves.
 2.  **Identity Provider (IdP) / Attester:** A trusted entity (e.g., a government agency, a specialized KYC service, a bank) that has already verified the user's identity through traditional means and can issue cryptographic attestations or credentials about the user (e.g., "User X is a resident of Country Y").
 3.  **Verifier / Service Provider:** The entity that needs to check if the user meets certain KYC criteria (e.g., a [[Decentralized finance]] protocol, an exchange).
-4.  **Zero-Knowledge Proof System:** The underlying cryptographic technology (e.g., [[Zero Knowledge Succinct Non Interactive Argument of Knowledge|zk-SNARKs]], zk-STARKs) that allows the user to generate a proof of an assertion without revealing the underlying data.
+4.  **Zero-Knowledge Proof System:** The underlying cryptographic technology (e.g., [[Zero knowledge succinct non interactive argument of knowledge]], zk-STARKs) that allows the user to generate a proof of an assertion without revealing the underlying data.
 
 ### How zkKYC Works (Generalized Flow)
 

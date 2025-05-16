@@ -7,16 +7,16 @@ Ethereum is a decentralized, open-source blockchain platform that enables the cr
 - **Problem Solved:** Ethereum addresses the limitations of earlier blockchains like Bitcoin by providing a Turing-complete execution environment (the [[EVM]]), allowing for complex, arbitrary code to be run on the blockchain. This enables trustless, programmable transactions and the creation of sophisticated dApps, moving beyond simple peer-to-peer electronic cash systems.
 - **Value Proposition:** As the most widely adopted smart contract platform, Ethereum boasts the largest and most active developer ecosystem, a vast network effect, and a proven track record of innovation and resilience. Its continuous evolution ensures it remains at the forefront of blockchain technology.
 - **Official Website:** [Official Ethereum Website](https://ethereum.org)
-- **Status:** Live, with a roadmap of significant ongoing and future upgrades (e.g., The Merge (completed), [[Dencun upgrade]] (completed), [[Pectra Upgrade]] (upcoming)).
+- **Status:** Live, with a roadmap of significant ongoing and future upgrades (e.g., The Merge (completed), [[Dencun upgrade]] (completed), [[Pectra upgrade]] (upcoming)).
 
 ## Key Features
 
 - **Smart Contracts:** Self-executing programs deployed on the blockchain that automate agreements and processes. They are the backbone of dApps, enabling complex logic for DeFi, NFTs, DAOs, and countless other applications.
 - **Ethereum Virtual Machine ([[EVM]]):** The sandboxed runtime environment that executes Ethereum smart contracts. Its design ensures that code execution is deterministic and isolated, providing a universal standard for smart contract deployment and interaction across the network and EVM-compatible chains.
-- **Account Abstraction (AA):** Aims to make user accounts (Externally Owned Accounts - EOAs) more flexible and programmable, similar to smart contracts. EIPs like those in the [[Pectra Upgrade]] (e.g., EIP-7702) will allow EOAs to initiate operations like transaction batching and gas sponsorship, significantly improving user experience.
+- **Account Abstraction (AA):** Aims to make user accounts (Externally Owned Accounts - EOAs) more flexible and programmable, similar to smart contracts. EIPs like those in the [[Pectra upgrade]] (e.g., EIP-7702) will allow EOAs to initiate operations like transaction batching and gas sponsorship, significantly improving user experience.
 - **Staking & [[Proof of stake]] (PoS):** Following [[The Merge]], Ethereum transitioned to a PoS consensus mechanism. Users can stake their ETH to participate as [[Validator]]s, proposing and attesting to new blocks, securing the network, and earning ETH rewards. This is managed by the [[Beacon chain]].
 - **Scalability Solutions:** Ethereum actively supports and fosters a multi-pronged approach to scalability, primarily through Layer 2 solutions like [[Rollup]]s ([[Optimism]], [[Arbitrum]], [[Linea]]) that process transactions off-chain and post data back to Ethereum. Upgrades like the [[Dencun upgrade]] (introducing blobspace) significantly reduce data posting costs for L2s.
-- **Upgradeable Protocol & Roadmap:** Ethereum evolves through a community-driven process of Ethereum Improvement Proposals (EIPs) and network upgrades (hard forks). Key past upgrades include The Merge (PoS transition) and London ([[EIP-1559]]). Future upgrades like [[Pectra Upgrade]] continue this evolution, focusing on areas like staking, account abstraction, and further scalability enhancements.
+- **Upgradeable Protocol & Roadmap:** Ethereum evolves through a community-driven process of Ethereum Improvement Proposals (EIPs) and network upgrades (hard forks). Key past upgrades include The Merge (PoS transition) and London ([[EIP-1559]]). Future upgrades like [[Pectra upgrade]] continue this evolution, focusing on areas like staking, account abstraction, and further scalability enhancements.
 
 ## Technology
 
@@ -77,7 +77,7 @@ Ethereum is often compared to other blockchain platforms, each with different de
   - **[[Avalanche]]:** Uses a novel consensus protocol to achieve fast finality and supports subnetworks for custom blockchain creation.
 - **EVM-Compatible Chains (e.g., [[BNB chain]], [[Polygon]]):** These chains leverage Ethereum's [[EVM]], allowing for easy porting of Ethereum dApps. They often offer lower fees and faster transactions but might have different decentralization or security trade-offs compared to Ethereum mainnet. Ethereum's strategy incorporates Layer 2 solutions as the primary scaling method while maintaining its security and decentralization.
 
-Ethereum's approach to scaling via Layer 2 solutions and its continuous protocol upgrades (like [[Dencun upgrade]] and the upcoming [[Pectra Upgrade]]) aim to maintain its leading position while addressing its historical limitations.
+Ethereum's approach to scaling via Layer 2 solutions and its continuous protocol upgrades (like [[Dencun upgrade]] and the upcoming [[Pectra upgrade]]) aim to maintain its leading position while addressing its historical limitations.
 
 ## Related Concepts
 
@@ -85,7 +85,7 @@ Ethereum's approach to scaling via Layer 2 solutions and its continuous protocol
 - [[Dencun upgrade]]
 - [[EIP-1559]]
 - [[EVM]]
-- [[Pectra Upgrade]]
+- [[Pectra upgrade]]
 - [[Proof of stake]]
 - [[Rollup]]
 - [[Smart contract]]
@@ -97,7 +97,7 @@ Ethereum's approach to scaling via Layer 2 solutions and its continuous protocol
 
 ## Latest Updates
 
-- **[[Pectra Upgrade]] (Upcoming ~Q1 2025):** Next major upgrade focusing on staking improvements (EIP-7251, EIP-7002), Account Abstraction enhancements (EIP-7702), and further L2 scaling support.
+- **[[Pectra upgrade]] (Upcoming ~Q1 2025):** Next major upgrade focusing on staking improvements (EIP-7251, EIP-7002), Account Abstraction enhancements (EIP-7702), and further L2 scaling support.
 - **[[Dencun upgrade]] (March 2024):** Introduced Proto-Danksharding with blob transactions, significantly reducing Layer 2 data posting costs.
 - **[[The Merge]] (September 2022):** Ethereum successfully transitioned from Proof-of-Work to [[Proof of stake]] consensus, drastically reducing energy consumption by ~99.95% and changing ETH issuance dynamics.
 - **London Hard Fork (August 2021):** Implemented [[EIP-1559]], overhauling the transaction fee market and introducing ETH burning.

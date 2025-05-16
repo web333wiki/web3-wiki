@@ -2,7 +2,7 @@
 
 ## Introduction
 
-SUI is a high-performance Layer 1 blockchain platform developed by [[Mysten Labs]]. It utilizes the [[Move]] programming language, which was originally developed by Facebook (now Meta) for its Diem (formerly [[Libra]]) project. The Move language is designed to offer a secure and verifiable environment for [[Smart contract]] programming, addressing the security and scalability issues of traditional smart contract languages.
+SUI is a high-performance Layer 1 blockchain platform developed by [[Mysten labs]]. It utilizes the [[Move]] programming language, which was originally developed by Facebook (now Meta) for its Diem (formerly [[Libra]]) project. The Move language is designed to offer a secure and verifiable environment for [[Smart contract]] programming, addressing the security and scalability issues of traditional smart contract languages.
 
 After the discontinuation of the [[Diem]] project, the Move language continued to evolve and has been adopted by emerging blockchain platforms like SUI. By leveraging Move's advantages, SUI aims to enhance blockchain throughput and reduce latency, tackling the performance bottlenecks of existing systems. This makes it suitable for a wide range of applications, including decentralized finance ([[Decentralized finance|DeFI]]), gaming, and [[NFT]]s.
 

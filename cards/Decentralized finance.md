@@ -87,7 +87,7 @@ DeFi operates on the foundation of blockchain technology and [[Smart contract]]s
 
 - [[Smart contract]]
 - [[Ethereum]] (the primary platform for DeFi)
-- [[Yield Farming]]
+- [[Yield farming]]
 - [[Stablecoin]]
 - [[Oracle]]
 - [[Wallet]]
