@@ -9,7 +9,7 @@ This card explains the concept of gas prices within the [[Ethereum]] network. Ga
 - **[[Gas]]**: The computational effort required to execute specific operations on the [[Ethereum]] network. Every operation, from a simple transfer to a complex smart contract interaction, has a fixed amount of gas associated with it.
 - **Gas Price**: The amount of [[Ethereum]] a user is willing to pay per unit of gas. Gas prices are typically denoted in Gwei, which is a smaller denomination of [[Ethereum]] (1 Gwei = 0.000000001 [[Ethereum]]).
 - **Transaction Fee**: The total cost a user pays for a transaction. It is calculated as: `Gas Used * Gas Price`.
-- **[[Gas Limit]]**: The maximum amount of gas a user is willing to spend on a transaction. This prevents situations where a faulty smart contract consumes an excessive amount of gas.
+- **[[Gas limit]]**: The maximum amount of gas a user is willing to spend on a transaction. This prevents situations where a faulty smart contract consumes an excessive amount of gas.
 - **Gwei**: A denomination of Ether, commonly used for specifying gas prices. 1 Ether = 1,000,000,000 Gwei.
 
 ## How Gas Prices Work
@@ -31,7 +31,7 @@ So, the total gas fee per unit of gas is `Base Fee + Priority Fee`. The total tr
 
 Several factors contribute to the fluctuation of gas prices on the [[Ethereum]] network:
 
-- **Network Congestion**: This is the primary driver. When many users are trying to get their transactions processed simultaneously (e.g., during popular [[NFT]] mints or [[Decentralized Finance (DeFi)]] events), the demand for block space increases, leading to higher base fees and users offering higher priority fees to get their transactions included.
+- **Network Congestion**: This is the primary driver. When many users are trying to get their transactions processed simultaneously (e.g., during popular [[NFT]] mints or [[Decentralized finance]] events), the demand for block space increases, leading to higher base fees and users offering higher priority fees to get their transactions included.
 - **Transaction Complexity**: More complex transactions, such as interacting with sophisticated smart contracts, require more computational work and thus consume more gas. While this doesn't directly change the gas _price_ (Gwei per gas), it increases the overall transaction fee (Total Gas Used \* Gas Price).
 - **Block Size Target**: EIP-1559 aims for an average block size. If blocks are consistently fuller than the target, the base fee automatically increases. If they are less full, the base fee decreases.
 - **Market Demand for [[Ethereum]]**: The underlying value of [[Ethereum]] can indirectly influence perceived gas costs, as fees are paid in [[Ethereum]].
@@ -44,9 +44,9 @@ Users can monitor current gas prices using tools like [[Etherscan]]'s Gas Tracke
 - [[Ethereum]]
 - [[Etherscan]]
 - [[Gas]]
-- [[Gas Limit]]
+- [[Gas limit]]
 - [[Gwei]]
 - [[The Merge]]
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[NFT]]
-- [[Decentralized Finance (DeFi)]]
+- [[Decentralized finance]]

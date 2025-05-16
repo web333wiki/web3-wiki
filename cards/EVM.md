@@ -1,6 +1,6 @@
 #explain-card
 
-The Ethereum Virtual Machine (EVM) is the runtime environment for [[Smart Contract|smart contracts]] in [[Ethereum]]. It is a decentralized, Turing-complete virtual machine that executes bytecode. Every [[Ethereum]] [[Node]] runs an instance of the EVM to maintain consensus across the blockchain.
+The Ethereum Virtual Machine (EVM) is the runtime environment for [[Smart contract|smart contracts]] in [[Ethereum]]. It is a decentralized, Turing-complete virtual machine that executes bytecode. Every [[Ethereum]] [[Node]] runs an instance of the EVM to maintain consensus across the blockchain.
 
 ## Purpose
 
@@ -39,7 +39,7 @@ Each opcode has an associated [[Gas]] cost, reflecting the computational resourc
 
 ## Turing Completeness
 
-The EVM is [[Turing-Complete]], meaning it can theoretically compute anything that any other [[Turing-Complete]] system can, given enough resources (like [[Gas]] and time). This allows for the creation of complex and sophisticated smart contracts.
+The EVM is [[Turing complete]], meaning it can theoretically compute anything that any other [[Turing complete]] system can, given enough resources (like [[Gas]] and time). This allows for the creation of complex and sophisticated smart contracts.
 
 ## EVM Implementations
 
@@ -54,10 +54,10 @@ Various programming languages have implementations of the EVM, ensuring client d
 - **ethereumjs-vm** (JavaScript)
 - **revm** (Rust)
 
-These implementations adhere to the EVM specification outlined in the [[Ethereum Yellow Paper]].
+These implementations adhere to the EVM specification outlined in the [[Ethereum yellow paper]].
 
 ## Further Reading
 
 - [Ethereum Virtual Machine (EVM) on Ethereum.org](mdc:https://ethereum.org/en/developers/docs/evm/)
-- [[Ethereum Yellow Paper]]
+- [[Ethereum yellow paper]]
 - [[Solidity]] (The primary language for writing EVM-compatible smart contracts)

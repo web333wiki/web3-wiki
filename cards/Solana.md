@@ -12,7 +12,7 @@ Both Ethereum and Solana use a consensus mechanism called [[Proof of stake]] (Po
 
 ### On-Chain Programs
 
-In Solana, [[Smart Contract]]s are referred to as "on-chain programs" and are written in Rust. Each program is an on-chain account that stores executable logic, organized into specific functions called instructions. There is a framework called [Anchor](https://github.com/coral-xyz/anchor) that helps developers write, test, and deploy on-chain programs efficiently.
+In Solana, [[Smart contract]]s are referred to as "on-chain programs" and are written in Rust. Each program is an on-chain account that stores executable logic, organized into specific functions called instructions. There is a framework called [Anchor](https://github.com/coral-xyz/anchor) that helps developers write, test, and deploy on-chain programs efficiently.
 
 ### Account Model
 The most significant difference between Solana and Ethereum is the account model. In Ethereum, each account can be either an Externally Owned Account (EOA) or a Contract Account, where the contract logic and storage are tied together. In Solana, the contract account and storage account are separated, making contract accounts completely stateless.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-A **blockchain oracle** (or simply **oracle**) is a third-party service or entity that acts as a bridge between blockchains (on-chain environments) and the external world (off-chain systems). Blockchains and the [[Smart Contract]]s they host are deterministic and cannot natively access or verify external data or trigger off-chain actions directly. Oracles solve this by fetching, verifying, and delivering external information to smart contracts, and conversely, by transmitting instructions from smart contracts to off-chain systems.
+A **blockchain oracle** (or simply **oracle**) is a third-party service or entity that acts as a bridge between blockchains (on-chain environments) and the external world (off-chain systems). Blockchains and the [[Smart contract]]s they host are deterministic and cannot natively access or verify external data or trigger off-chain actions directly. Oracles solve this by fetching, verifying, and delivering external information to smart contracts, and conversely, by transmitting instructions from smart contracts to off-chain systems.
 
 - **Problem Solved:** Addresses the inherent limitation of blockchains being isolated from external data sources and systems. This is often referred to as the **"Oracle Problem."** Without oracles, smart contracts would have very limited utility, unable to react to real-world events, data, or interact with legacy systems.
 - **Value Proposition:** Oracles enable smart contracts to execute based on real-world inputs and outputs, vastly expanding their capabilities and use cases across various industries like DeFi, insurance, gaming, supply chain, and more.
@@ -14,7 +14,7 @@ Imagine a smart contract is like a very smart robot locked in a room with no win
 
 ### Historical Context & Evolution
 
-The need for oracles became apparent as developers began building more complex [[Smart Contract]] applications that required interaction with real-world data. Early solutions were often centralized, posing significant security risks. The evolution of oracles has been driven by the need for greater decentralization, security, and reliability, leading to the development of decentralized oracle networks (DONs) like [[Chainlink]]. These networks use multiple independent nodes and cryptoeconomic incentives to ensure data accuracy and availability.
+The need for oracles became apparent as developers began building more complex [[Smart contract]] applications that required interaction with real-world data. Early solutions were often centralized, posing significant security risks. The evolution of oracles has been driven by the need for greater decentralization, security, and reliability, leading to the development of decentralized oracle networks (DONs) like [[Chainlink]]. These networks use multiple independent nodes and cryptoeconomic incentives to ensure data accuracy and availability.
 
 ## The Oracle Problem
 
@@ -53,7 +53,7 @@ Oracles can be categorized in several ways:
 
 ## Use Cases
 
-- **[[Decentralized Finance (DeFi)]]:** Providing price feeds for lending/borrowing protocols, derivatives, stablecoins, and automated market makers (AMMs).
+- **[[Decentralized finance]]:** Providing price feeds for lending/borrowing protocols, derivatives, stablecoins, and automated market makers (AMMs).
 - **Insurance:** Verifying real-world events (e.g., flight delays, crop damage from weather data) to trigger automated insurance payouts.
 - **Gaming & NFTs:** Providing verifiable randomness for game mechanics or NFT trait generation; enabling dynamic NFTs that change based on external data.
 - **Supply Chain Management:** Tracking goods and verifying conditions (e.g., temperature, location) using hardware oracles.
@@ -78,7 +78,7 @@ Oracles can be categorized in several ways:
 
 ## Related Concepts
 
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[API]]
 - [[Chainlink]] (as a leading example of a decentralized oracle network)
 - [[Ethereum]] (as many oracle use cases are prominent here)

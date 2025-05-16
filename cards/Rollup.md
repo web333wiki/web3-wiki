@@ -10,7 +10,7 @@ There are two main types of rollup solutions: **Optimistic Rollup** and **ZK Rol
 
 ### Optimistic Rollup
 
-Optimistic Rollup assumes transactions are valid by default. Transactions are executed off-chain, and the results are posted to Ethereum as calldata or, since the [[Dencun Upgrade (EIP-4844)]], as blobs (see below). Optimistic rollups rely on a fraud-proving mechanism: there is a challenge period during which anyone can submit a fraud proof if they detect an invalid transaction. If a fraud proof is successful, the rollup state is corrected and the malicious operator penalized. If no fraud proof is submitted, the state is accepted as valid. See [Optimistic Rollups](https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/) for more details.
+Optimistic Rollup assumes transactions are valid by default. Transactions are executed off-chain, and the results are posted to Ethereum as calldata or, since the [[Dencun upgrade]], as blobs (see below). Optimistic rollups rely on a fraud-proving mechanism: there is a challenge period during which anyone can submit a fraud proof if they detect an invalid transaction. If a fraud proof is successful, the rollup state is corrected and the malicious operator penalized. If no fraud proof is submitted, the state is accepted as valid. See [Optimistic Rollups](https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/) for more details.
 
 Prominent implementations: [[Optimism]], [[Arbitrum]]
 
@@ -31,7 +31,7 @@ Prominent implementations: [[ZKSync]], [[Linea]], Polygon zkEVM (see [[Polygon]]
 
 ## Recent Developments: Dencun Upgrade (EIP-4844)
 
-The [[Dencun Upgrade (EIP-4844)]] (March 2024) introduced **Proto-Danksharding** and "blobspace" to Ethereum. This allows rollups to post large amounts of data (blobs) to Ethereum at much lower cost than traditional calldata. Blobs are stored temporarily (not indefinitely on-chain), which is sufficient for rollup data availability and drastically reduces fees for rollup users. This upgrade is a major milestone for Ethereum scalability, making rollups more affordable and paving the way for full Danksharding in the future.
+The [[Dencun upgrade]] (March 2024) introduced **Proto-Danksharding** and "blobspace" to Ethereum. This allows rollups to post large amounts of data (blobs) to Ethereum at much lower cost than traditional calldata. Blobs are stored temporarily (not indefinitely on-chain), which is sufficient for rollup data availability and drastically reduces fees for rollup users. This upgrade is a major milestone for Ethereum scalability, making rollups more affordable and paving the way for full Danksharding in the future.
 
 ## Major Rollup Implementations
 
@@ -44,11 +44,11 @@ The [[Dencun Upgrade (EIP-4844)]] (March 2024) introduced **Proto-Danksharding**
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[Gas]]
 - [[Optimism]]
 - [[Arbitrum]]
 - [[ZKSync]]
 - [[Linea]]
 - [[Polygon]]
-- [[Dencun Upgrade (EIP-4844)]]
+- [[Dencun upgrade]]

@@ -35,7 +35,7 @@
 - **Education:** Issuing and verifying academic credentials.
 - **Supply Chain:** Tracking provenance and authenticity of goods.
 - **Voting Systems:** Enhancing the security and verifiability of voting.
-- **[[Soulbound Tokens]] & Reputation:** DIDs can serve as the foundation for holding non-transferable attestations.
+- **[[Soulbound tokens]] & Reputation:** DIDs can serve as the foundation for holding non-transferable attestations.
 
 ### Benefits
 
@@ -57,7 +57,7 @@
 
 ## Related Concepts
 
-- [[Zero-Knowledge Proof (ZKP)]] (often used with DIDs/VCs for privacy)
+- [[Zero knowledge proof]] (often used with DIDs/VCs for privacy)
 - [[Web3]]
 - [[Wallet]]
-- [[Soulbound Tokens]]
+- [[Soulbound tokens]]

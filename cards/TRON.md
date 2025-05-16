@@ -32,5 +32,5 @@ More information can be found on their official website: [TRON DAO](https://tron
 
 ## Related Links (Optional)
 
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[Stablecoin]]

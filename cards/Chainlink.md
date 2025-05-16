@@ -2,12 +2,12 @@
 
 ## Overview
 
-Chainlink is a decentralized oracle network that enables [[Smart Contract]]s to securely connect to real-world data and off-chain computation. It provides a reliable and tamper-proof bridge between blockchain-based [[Smart Contract]]s and external data sources, [[API]]s, payment systems, and other off-chain resources.
+Chainlink is a decentralized oracle network that enables [[Smart contract]]s to securely connect to real-world data and off-chain computation. It provides a reliable and tamper-proof bridge between blockchain-based [[Smart contract]]s and external data sources, [[API]]s, payment systems, and other off-chain resources.
 
-- **Problem Solved:** Addresses the "[[Oracle#The Oracle Problem|oracle problem]]" by providing a decentralized and secure way for [[Smart Contract]]s to access off-chain information, which is essential for most real-world use cases.
+- **Problem Solved:** Addresses the "[[Oracle#The Oracle Problem|oracle problem]]" by providing a decentralized and secure way for [[Smart contract]]s to access off-chain information, which is essential for most real-world use cases.
 - **Value Proposition:** Offers a comprehensive suite of oracle services, including decentralized data feeds (e.g., Price Feeds), verifiable randomness (VRF), smart contract automation (Keepers/Automation), proof of reserve, and cross-chain communication (CCIP).
 - **Official Website:** [https://chain.link/](https://chain.link/)
-- **Status:** Live and widely integrated across numerous leading blockchains and [[Decentralized Finance (DeFi)]] protocols.
+- **Status:** Live and widely integrated across numerous leading blockchains and [[Decentralized finance]] protocols.
 
 ## Key Features & Services
 
@@ -21,7 +21,7 @@ Chainlink is a decentralized oracle network that enables [[Smart Contract]]s to 
 
 ## Technology
 
-- **Blockchain/Platform:** Blockchain-agnostic, providing services to numerous chains including [[Ethereum]], [[Polygon]], [[BNB Chain]], [[Avalanche]], [[Solana]], [[Arbitrum]], [[Optimism]], and many others.
+- **Blockchain/Platform:** Blockchain-agnostic, providing services to numerous chains including [[Ethereum]], [[Polygon]], [[BNB chain]], [[Avalanche]], [[Solana]], [[Arbitrum]], [[Optimism]], and many others.
 - **Architecture:** Chainlink utilizes a Decentralized Oracle Network (DON) architecture. Each DON is a committee of independent Chainlink node operators. These nodes fetch data from multiple premium data providers and off-chain sources, aggregate it, and deliver a single, validated data point to the smart contract. This multi-layered approach (multiple nodes, multiple data sources) ensures high availability and tamper-resistance.
 - **Core Mechanism:**
   - **Decentralization:** Achieved through the network of independent node operators and diverse data sources.
@@ -37,8 +37,8 @@ Chainlink is a decentralized oracle network that enables [[Smart Contract]]s to 
 
 ## Ecosystem & Use Cases
 
-- **Target Audience:** Smart contract developers, [[Decentralized Finance (DeFi)]] protocols, NFT projects, gaming applications, enterprises requiring blockchain integration.
-- **How It's Used:** Powering [[Decentralized Finance (DeFi)]] (lending, derivatives, stablecoins), dynamic NFTs, fair in-game mechanics, automated smart contract execution, cross-chain applications, verifying collateral for tokenized assets.
+- **Target Audience:** Smart contract developers, [[Decentralized finance]] protocols, NFT projects, gaming applications, enterprises requiring blockchain integration.
+- **How It's Used:** Powering [[Decentralized finance]] (lending, derivatives, stablecoins), dynamic NFTs, fair in-game mechanics, automated smart contract execution, cross-chain applications, verifying collateral for tokenized assets.
 
 ## Getting Started & Resources
 
@@ -64,7 +64,7 @@ Chainlink's key differentiators include its robust security model, wide range of
 ## Related Concepts
 
 - [[Oracle]]
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[API]]
 - [[Proof of stake]] (related to LINK staking)
 - [[Ethereum]] (as a primary ecosystem served)

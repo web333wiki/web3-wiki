@@ -51,5 +51,5 @@ Understanding DeGov.AI can be enhanced by familiarity with these related topics:
 
 - Core Technology: [[OpenZeppelin]] contracts
 - Organizational Structure: [[DAO]] (Decentralized Autonomous Organization)
-- Enabling Technology: [[Artificial Intelligence]]
+- Enabling Technology: [[Artificial intelligence]]
 - Supported Networks: [[Ethereum]], [[Arbitrum]]

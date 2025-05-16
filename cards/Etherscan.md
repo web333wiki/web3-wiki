@@ -27,7 +27,7 @@ Etherscan provides robust [[API|API Services]] ([API Documentation](https://docs
 ### Multichain Exploration
 
 - **[[Blockscan]]**: ([blockscan.com](https://blockscan.com/)) This platform extends Etherscan's capabilities to over 25 other blockchains, offering a unified interface for tracking activities across multiple chains.
-- **Explorer as a Service (EaaS)**: Etherscan offers [Explorer as a Service (EaaS)](https://etherscan.io/eaas) to other EVM-compatible blockchains, including major networks like [[Optimism]], [[Arbitrum]], and [[Binance Smart Chain]].
+- **Explorer as a Service (EaaS)**: Etherscan offers [Explorer as a Service (EaaS)](https://etherscan.io/eaas) to other EVM-compatible blockchains, including major networks like [[Optimism]], [[Arbitrum]], and [[Binance smart chain]].
 
 ### Communication Tools
 

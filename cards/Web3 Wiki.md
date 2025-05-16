@@ -19,7 +19,7 @@ There are three types of cards in this wiki:
 | :------------- | --------------------------------------------------------------------------------- |
 | `explain-card` | Explains a concept, technology, or protocol, such as [[Hard fork]] or [[Rollup]]. |
 | `show-card`    | Showcases a project, tool, or service, such as [[Ethereum]] or [[Etherscan]].     |
-| `awesome-card` | Collects awesome resources, such as [[Awesome Ethereum]].                         |
+| `awesome-card` | Collects awesome resources, such as [[Awesome ethereum]].                         |
 
 You can click on a tag within a card to see all cards with the same tag. That’s all you need to know to start using this wiki.
 

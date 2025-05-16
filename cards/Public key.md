@@ -76,4 +76,4 @@ While the core concept is similar, the exact format and derivation of public key
 
 ## Related Concepts Section
 
-- [[Private Key]]
+- [[Private key]]

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Counter-Terrorist Financing (CTF)**, also known as Combating the Financing of Terrorism (CFT), refers to the set of laws, regulations, strategies, and actions aimed at preventing, detecting, and disrupting the funding of terrorist activities, individuals, and organizations. It is a critical component of global security efforts and is closely related to [[Anti-Money Laundering (AML)]] measures, as the methods used to launder money can also be used to finance terrorism.
+**Counter-Terrorist Financing (CTF)**, also known as Combating the Financing of Terrorism (CFT), refers to the set of laws, regulations, strategies, and actions aimed at preventing, detecting, and disrupting the funding of terrorist activities, individuals, and organizations. It is a critical component of global security efforts and is closely related to [[Anti money laundering]] measures, as the methods used to launder money can also be used to finance terrorism.
 
 - **Importance/Purpose:** CTF aims to cut off financial support for terrorism, thereby hindering terrorists' ability to recruit, train, acquire weapons, travel, and carry out attacks. It involves identifying funding sources, freezing assets, and prosecuting those involved in financing terrorism.
 - **Target Audience:** Governments, law enforcement agencies, intelligence services, financial institutions, international organizations (e.g., UN, FATF), and compliance professionals.
@@ -56,5 +56,5 @@ Cryptocurrencies and new payment technologies can be exploited for terrorist fin
 
 ## Related Concepts
 
-- [[Anti-Money Laundering (AML)]]
+- [[Anti money laundering]]
 - [[Regulation]]

@@ -18,7 +18,7 @@
 - Coinbase Pro (being phased out and merged into Advanced Trade on Coinbase): Advanced trading features, charts, and order types.
 - Staking services for various proof-of-stake cryptocurrencies.
 - Educational resources (Coinbase Earn) that reward users for learning about crypto.
-- Strong focus on regulatory compliance and security, including [[Know Your Customer (KYC)]] and [[Anti-Money Laundering (AML)]] procedures.
+- Strong focus on regulatory compliance and security, including [[Know your customer]] and [[Anti money laundering]] procedures.
 - Coinbase Prime for institutional investors.
 - Coinbase Cloud for developers.
 - Base: An Ethereum Layer 2 (L2) network built to offer a secure, low-cost, developer-friendly way to build on-chain.
@@ -41,13 +41,13 @@ Coinbase plays a significant role in the Web3 ecosystem by:
 
 ## Related Concepts
 
-- [[Centralized Exchange (CEX)]]
+- [[Centralized exchange]]
 - cryptocurrency
 - [[Bitcoin]]
 - [[Ethereum]]
 - [[Stablecoin]]
 - USDC
-- [[Know Your Customer (KYC)]]
-- [[Anti-Money Laundering (AML)]]
+- [[Know your customer]]
+- [[Anti money laundering]]
 - wallet (Custodial and Self-Custody)
 - Base (Layer 2)

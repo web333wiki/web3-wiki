@@ -16,18 +16,18 @@ Buterin co-founded _Bitcoin Magazine_ in 2011, becoming one of the earliest and 
 
 ### Ethereum: Vision and Technical Innovation
 
-In 2013, Buterin published the Ethereum white paper, envisioning a "world computer"—a decentralized platform for programmable smart contracts and dApps. Unlike Bitcoin's limited scripting, Ethereum's [[Smart Contract]] functionality enables complex, trustless applications across finance, governance, identity, and more. Buterin's technical leadership guided Ethereum's launch in 2015 and its ongoing evolution, including:
+In 2013, Buterin published the Ethereum white paper, envisioning a "world computer"—a decentralized platform for programmable smart contracts and dApps. Unlike Bitcoin's limited scripting, Ethereum's [[Smart contract]] functionality enables complex, trustless applications across finance, governance, identity, and more. Buterin's technical leadership guided Ethereum's launch in 2015 and its ongoing evolution, including:
 
 - **The Merge**: Transitioning Ethereum from [[Proof of work]] to [[Proof of stake]], drastically reducing energy consumption and changing network economics.
 - **Layer 2 and Scalability**: Advocating for rollups and modular blockchain design to address scalability and high transaction fees.
-- **Account Abstraction and Privacy**: Pushing for innovations that improve user experience and privacy, such as account abstraction and zero-knowledge proofs ([[Zero-Knowledge Proof (ZKP)]]).
+- **Account Abstraction and Privacy**: Pushing for innovations that improve user experience and privacy, such as account abstraction and zero-knowledge proofs ([[Zero knowledge proof]]).
 - **DAO and Governance**: Promoting decentralized governance models, including the concept of the [[DAO]].
 
 ### Research, Philosophy, and Broader Impact
 
 Buterin is known for his deep engagement with economic theory, game theory, and social coordination. He has published extensively on topics like quadratic voting, public goods funding, and the philosophy of decentralization. His collaborations with economists (e.g., Glen Weyl) and work on mechanisms like quadratic funding have influenced both crypto and mainstream policy debates.
 
-He is also a vocal advocate for responsible AI development, having donated significant funds to AI safety research ([[Artificial Intelligence]]).
+He is also a vocal advocate for responsible AI development, having donated significant funds to AI safety research ([[Artificial intelligence]]).
 
 ## Practical Impact, Awards & Philanthropy
 
@@ -42,17 +42,17 @@ Buterin's prominence has made him a focal point for both praise and criticism. H
 ## Related Concepts
 
 - [[Ethereum]]
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[The Merge]]
 - [[Proof of stake]]
 - [[Proof of work]]
 - [[DAO]]
-- [[Artificial Intelligence]]
-- [[Decentralized Finance (DeFi)]]
-- [[Satoshi Nakamoto]]
-- [[Zero-Knowledge Proof (ZKP)]]
+- [[Artificial intelligence]]
+- [[Decentralized finance]]
+- [[Satoshi nakamoto]]
+- [[Zero knowledge proof]]
 - [[MetaMask]]
-- [[Decentralized Identity (DID)]]
+- [[Decentralized identity]]
 
 ## Further Reading & References
 

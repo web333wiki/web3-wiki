@@ -14,7 +14,7 @@ A **Centralized Exchange (CEX)** is a type of cryptocurrency exchange that is op
 1.  **Custodial Nature:** Users entrust their private keys and funds to the CEX. The exchange holds custody of the assets in its own wallets.
 2.  **Order Books:** Trades are matched using an order book system, where buy and sell orders are listed at different price levels.
 3.  **Off-Chain Transactions:** Most trades on a CEX occur off-chain on the exchange's internal ledger. Only deposits and withdrawals are recorded on the actual blockchain.
-4.  **Regulation & Compliance:** Reputable CEXs are typically subject to regulatory oversight in the jurisdictions where they operate, often requiring users to complete KYC (Know Your Customer) and [[Anti-Money Laundering (AML)]] procedures.
+4.  **Regulation & Compliance:** Reputable CEXs are typically subject to regulatory oversight in the jurisdictions where they operate, often requiring users to complete KYC (Know Your Customer) and [[Anti money laundering]] procedures.
 5.  **Central Authority:** A single entity controls the exchange's operations, including listing new assets, setting fees, and managing security.
 
 ### How CEXs Work
@@ -46,15 +46,15 @@ A **Centralized Exchange (CEX)** is a type of cryptocurrency exchange that is op
 
 ### CEX vs. Decentralized Exchange (DEX)
 
-- CEXs are custodial and rely on a central operator, while DEXs are non-custodial and allow peer-to-peer trading directly from users' wallets via [[Smart Contract]]s.
+- CEXs are custodial and rely on a central operator, while DEXs are non-custodial and allow peer-to-peer trading directly from users' wallets via [[Smart contract]]s.
 - CEXs often offer more features and higher liquidity for a wider range of assets, whereas DEXs prioritize user control and censorship resistance.
 
 ## Related Concepts
 
 - [[Wallet]]
-- [[Know Your Customer (KYC)]]
-- [[Anti-Money Laundering (AML)]]
+- [[Know your customer]]
+- [[Anti money laundering]]
 - [[Liquidity]]
-- [[Private Key]]
+- [[Private key]]
 - [[Regulation]]
 - Examples: [[Coinbase]], [[Binance]]

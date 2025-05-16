@@ -81,4 +81,4 @@
 - Liquidity Pool
 - Impermanent Loss
 - Slippage
-- [[Decentralized Finance (DeFi)]]
+- [[Decentralized finance]]

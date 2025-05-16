@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Pectra Upgrade** is the next major planned hard fork for the Ethereum network, anticipated to follow the [[Dencun Upgrade (EIP-4844)]]. It combines two simultaneous upgrades: "Prague" for the execution layer and "Electra" for the consensus layer. Pectra is expected to be a feature-rich upgrade, focusing on several key areas including improvements to staking, enhancements to account abstraction (building on EIP-7702), and further support for Layer 2 scaling.
+The **Pectra Upgrade** is the next major planned hard fork for the Ethereum network, anticipated to follow the [[Dencun upgrade]]. It combines two simultaneous upgrades: "Prague" for the execution layer and "Electra" for the consensus layer. Pectra is expected to be a feature-rich upgrade, focusing on several key areas including improvements to staking, enhancements to account abstraction (building on EIP-7702), and further support for Layer 2 scaling.
 
 - **Problem Solved:** Aims to address various aspects of Ethereum's functionality, including validator user experience, core account features, and network efficiency, particularly concerning staking and Layer 2 data availability.
 - **Value Proposition:** Expected to deliver a more user-friendly staking experience, more powerful and flexible account capabilities, and continued improvements to Ethereum's scalability and efficiency as a global settlement layer.
@@ -30,7 +30,7 @@ The Pectra upgrade is likely to include a bundle of Ethereum Improvement Proposa
 
 5.  **EIP-7691: Blob throughput increase (Further L2 Scaling Support)**
 
-    - Expected to further increase the number of data blobs that can be included per block (e.g., doubling the target from 3 to 6 and the max from 6 to 9), building on the blobspace introduced in the [[Dencun Upgrade (EIP-4844)]] to further reduce costs for Layer 2 rollups.
+    - Expected to further increase the number of data blobs that can be included per block (e.g., doubling the target from 3 to 6 and the max from 6 to 9), building on the blobspace introduced in the [[Dencun upgrade]] to further reduce costs for Layer 2 rollups.
 
 6.  **EIP-2537: Precompile for BLS12-381 curve operations**
 
@@ -52,4 +52,4 @@ The Pectra upgrade is likely to include a bundle of Ethereum Improvement Proposa
 - [[Validator]]
 - [[Staking]]
 - Layer 2 Rollups (or [[Rollup]])
-- [[Dencun Upgrade (EIP-4844)]]
+- [[Dencun upgrade]]

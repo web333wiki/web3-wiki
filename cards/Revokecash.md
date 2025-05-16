@@ -35,7 +35,7 @@ Many dApps request unlimited token approvals for user convenience, but this crea
 1. Regularly audit and revoke unnecessary token approvals
 2. Only approve the exact amount needed for a transaction when possible
 3. Revoke approvals immediately after completing transactions with a [[DApp]]
-4. Use [[hardware wallet]]s for additional security when managing approvals
+4. Use [[Hardware wallet]]s for additional security when managing approvals
 
 Revoke.cash has become an essential security tool for responsible Web3 users, helping to mitigate one of the most common yet overlooked security risks in the ecosystem.
 

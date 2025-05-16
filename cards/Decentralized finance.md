@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Decentralized Finance (DeFi)** is an umbrella term for a broad category of financial applications and services built on top of Blockchain technology, primarily [[Ethereum]]. DeFi aims to recreate and improve upon traditional financial systems (TradFi) by using decentralized infrastructure, [[Smart Contract]]s, and open protocols, thereby reducing reliance on central intermediaries like banks, brokerages, or exchanges.
+**Decentralized Finance (DeFi)** is an umbrella term for a broad category of financial applications and services built on top of Blockchain technology, primarily [[Ethereum]]. DeFi aims to recreate and improve upon traditional financial systems (TradFi) by using decentralized infrastructure, [[Smart contract]]s, and open protocols, thereby reducing reliance on central intermediaries like banks, brokerages, or exchanges.
 
 - **Importance/Purpose:** DeFi seeks to build a more open, transparent, permissionless, and accessible financial system. It allows users to lend, borrow, trade, earn interest, and manage assets without needing to trust a central authority, directly interacting with smart contracts through their crypto wallets.
 - **Target Audience:** Crypto-savvy users, investors, traders, developers, and those seeking alternatives to traditional financial services.
@@ -13,11 +13,11 @@ Imagine the traditional financial world (banks, stock markets) is like a big, ol
 
 ### Historical Context & Evolution
 
-The concept of decentralized financial applications predates [[Ethereum]], but Ethereum's launch in 2015, with its robust [[Smart Contract]] capabilities, provided the fertile ground for DeFi to flourish. Early projects explored decentralized exchanges and stablecoins. The period from 2018-2020, often dubbed the "DeFi Summer" of 2020, saw explosive growth with the emergence of lending protocols, liquidity mining, and yield farming, attracting significant capital and innovation. Since then, DeFi has continued to mature, with a focus on scalability (e.g., Layer 2 solutions), security enhancements, broader institutional adoption, and more sophisticated financial products.
+The concept of decentralized financial applications predates [[Ethereum]], but Ethereum's launch in 2015, with its robust [[Smart contract]] capabilities, provided the fertile ground for DeFi to flourish. Early projects explored decentralized exchanges and stablecoins. The period from 2018-2020, often dubbed the "DeFi Summer" of 2020, saw explosive growth with the emergence of lending protocols, liquidity mining, and yield farming, attracting significant capital and innovation. Since then, DeFi has continued to mature, with a focus on scalability (e.g., Layer 2 solutions), security enhancements, broader institutional adoption, and more sophisticated financial products.
 
 ## Core Concepts & Mechanism
 
-DeFi operates on the foundation of blockchain technology and [[Smart Contract]]s, secured by cryptography. These contracts automate financial processes, making them transparent and reducing the need for intermediaries.
+DeFi operates on the foundation of blockchain technology and [[Smart contract]]s, secured by cryptography. These contracts automate financial processes, making them transparent and reducing the need for intermediaries.
 
 ### Key Principles of DeFi
 
@@ -52,7 +52,7 @@ DeFi operates on the foundation of blockchain technology and [[Smart Contract]]s
 
 - **Smart Contract Risk:** Bugs or vulnerabilities in smart contract code can lead to significant losses of funds through hacks or exploits.
 - **Scalability Issues:** Many DeFi applications, especially on Ethereum, can suffer from high Transaction Fees (gas fees) and slow transaction times during periods of network congestion. This is being addressed by Layer 2 scaling solutions.
-- **User Experience (UX):** Can be complex and intimidating for beginners compared to traditional financial applications or [[Centralized Exchange (CEX)|CEXs]].
+- **User Experience (UX):** Can be complex and intimidating for beginners compared to traditional financial applications or [[Centralized exchange|CEXs]].
 - **Regulatory Uncertainty:** The regulatory landscape for DeFi is still evolving and often unclear, posing risks for users and developers.
 - **[[Oracle]] Risk:** DeFi protocols often rely on [[Oracle|oracles]] to bring external data (like asset prices) on-chain. If these oracles are compromised or provide inaccurate data, it can lead to exploits.
 - **Impermanent Loss:** A risk associated with providing liquidity to AMMs in DEXs, where the value of a user's deposited assets can decrease compared to simply holding them.
@@ -85,7 +85,7 @@ DeFi operates on the foundation of blockchain technology and [[Smart Contract]]s
 
 ## Related Concepts
 
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[Ethereum]] (the primary platform for DeFi)
 - [[Yield Farming]]
 - [[Stablecoin]]

@@ -33,7 +33,7 @@ The implementation of KYC in the Web3 space varies significantly:
 - **Centralized Exchanges (CEXs):** Most CEXs (e.g., [[Coinbase]], [[Binance]]) require KYC for users to deposit, withdraw, or trade significant amounts, especially when fiat currency on/off ramps are involved. This is to comply with regulations in the jurisdictions they operate in.
 - **Decentralized Exchanges (DEXs) & DeFi:** Many DEXs and DeFi protocols aim to be permissionless and do not require KYC for basic swapping or liquidity provision directly on-chain. However, access to their front-ends or participation in certain governance aspects might sometimes involve forms of identity verification, or KYC might be required by platforms that offer access to these DeFi protocols with added services.
 - **NFT Marketplaces:** KYC requirements on NFT marketplaces are evolving. Some may require it for high-value transactions or specific collections.
-- **Privacy-Preserving Solutions:** There's ongoing research and development into "Decentralized Identity" (DID) solutions and [[Zero-Knowledge Proof (ZKP)]] (ZKPs) that could potentially allow users to prove certain attributes (e.g., not being on a sanctions list, being over 18) without revealing their full identity. This could offer a path to regulatory compliance while preserving user privacy. An example is [[zkKYC]].
+- **Privacy-Preserving Solutions:** There's ongoing research and development into "Decentralized Identity" (DID) solutions and [[Zero knowledge proof]] (ZKPs) that could potentially allow users to prove certain attributes (e.g., not being on a sanctions list, being over 18) without revealing their full identity. This could offer a path to regulatory compliance while preserving user privacy. An example is [[zkKYC]].
 
 ## Use Cases & Implications
 
@@ -58,18 +58,18 @@ The implementation of KYC in the Web3 space varies significantly:
 The role of KYC in Web3 is a subject of ongoing debate and innovation. Key trends include:
 
 - **Regulatory Scrutiny:** Increasing pressure from regulators worldwide for Web3 platforms to implement KYC/AML measures.
-- **Privacy-Enhancing Technologies:** Development of DIDs, ZKPs, and other cryptographic methods to enable compliance without compromising user privacy (e.g., [[Soulbound Tokens]] for attestations).
+- **Privacy-Enhancing Technologies:** Development of DIDs, ZKPs, and other cryptographic methods to enable compliance without compromising user privacy (e.g., [[Soulbound tokens]] for attestations).
 - **On-Chain KYC/Identity:** Exploring ways to represent KYC status or identity attributes directly on the blockchain in a secure and verifiable manner.
 
 ## Related Concepts
 
-- [[Anti-Money Laundering (AML)]]
-- [[Counter-Terrorist Financing (CTF)]]
-- [[Centralized Exchange (CEX)]]
-- [[Decentralized Finance (DeFi)]]
-- [[Decentralized Identity (DID)]]
-- [[Zero-Knowledge Proof (ZKP)]]
-- [[Privacy Coins]]
+- [[Anti money laundering]]
+- [[Counter terrorist financing]]
+- [[Centralized exchange]]
+- [[Decentralized finance]]
+- [[Decentralized identity]]
+- [[Zero knowledge proof]]
+- [[Privacy coins]]
 - [[Regulation]]
-- [[Financial Inclusion]]
-- [[Data Security]]
+- [[Financial inclusion]]
+- [[Data security]]

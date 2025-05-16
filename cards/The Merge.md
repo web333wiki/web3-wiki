@@ -26,7 +26,7 @@ After The Merge, the Beacon Chain became the consensus engine for all network da
 
 ## Practical Applications, Use Cases & Implications
 
-**Concrete Examples & Real-World Applications:** The Merge directly impacted every application and user on the [[Ethereum]] network by changing its underlying security model. Projects like [[Decentralized Finance (DeFi)]] protocols, NFT marketplaces, and DAOs continued to operate, but on a more energy-efficient and secure foundation.
+**Concrete Examples & Real-World Applications:** The Merge directly impacted every application and user on the [[Ethereum]] network by changing its underlying security model. Projects like [[Decentralized finance]] protocols, NFT marketplaces, and DAOs continued to operate, but on a more energy-efficient and secure foundation.
 
 **Benefits & Advantages:**
 
@@ -44,7 +44,7 @@ After The Merge, the Beacon Chain became the consensus engine for all network da
 
 **Future Trends & Developments:** The Merge is a cornerstone of Ethereum's ongoing roadmap. Future upgrades planned include:
 
-- **The Surge (Sharding/Danksharding):** Aimed at massively increasing network scalability by distributing data storage and processing. [[Dencun Upgrade (EIP-4844)]] (Proto-Danksharding) was a key step in this direction.
+- **The Surge (Sharding/Danksharding):** Aimed at massively increasing network scalability by distributing data storage and processing. [[Dencun upgrade]] (Proto-Danksharding) was a key step in this direction.
 - **The Scourge:** Focused on addressing risks of MEV (Maximal Extractable Value) and validator centralization.
 - **The Verge:** Simplifying block verification through Verkle trees.
 - **The Purge:** Reducing historical data storage requirements for nodes.
@@ -57,8 +57,8 @@ After The Merge, the Beacon Chain became the consensus engine for all network da
 
 - [[Proof of work]]
 - [[Proof of stake]]
-- [[Beacon Chain]]
-- [[Smart Contract]]
+- [[Beacon chain]]
+- [[Smart contract]]
 
 **Related & Adjacent Ideas:**
 
@@ -69,6 +69,6 @@ After The Merge, the Beacon Chain became the consensus engine for all network da
 
 - [[Proof of work]]
 - [[Proof of stake]]
-- [[Beacon Chain]]
+- [[Beacon chain]]
 - [[EIP-1559]]
-- [[Dencun Upgrade (EIP-4844)]]
+- [[Dencun upgrade]]

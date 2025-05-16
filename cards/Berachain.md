@@ -10,7 +10,7 @@ Berachain is an [[EVM]]-compatible Layer 1 blockchain built on the Cosmos SDK. I
 
 ### Problem Solved
 
-Berachain aims to address liquidity challenges in [[Decentralized Finance (DeFi)]] by creating a system where liquidity provision is directly incentivized at the protocol level, thus improving capital efficiency and reducing reliance on mercenary capital. It also seeks to mitigate issues related to MEV (Maximal Extractable Value) and improve overall network security through its unique consensus mechanism.
+Berachain aims to address liquidity challenges in [[Decentralized finance]] by creating a system where liquidity provision is directly incentivized at the protocol level, thus improving capital efficiency and reducing reliance on mercenary capital. It also seeks to mitigate issues related to MEV (Maximal Extractable Value) and improve overall network security through its unique consensus mechanism.
 
 ### Value Proposition
 

@@ -1,3 +1,0 @@
-#explain-card 
-
-A self-custody wallet is a type of cryptocurrency [[Wallet]] that allows users to have full control over their private keys and digital assets. Unlike [[custodial wallet]]s, which are managed by third-party service providers, self-custody wallets provide complete ownership and control of the user's assets. This means that users are responsible for managing their own private keys and are not reliant on a third party for asset management. Self-custody wallets are typically more secure and offer greater privacy compared to custodial wallets.

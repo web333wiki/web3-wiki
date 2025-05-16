@@ -31,9 +31,9 @@
 Technology, particularly mobile banking, digital payments, and more recently, Web3 technologies like blockchain and cryptocurrencies, plays a significant role in advancing financial inclusion:
 
 - **Mobile Money:** Revolutionized access to financial services in many developing countries.
-- **[[Decentralized Finance (DeFi)|DeFi]]:** Offers the potential for permissionless access to financial services like lending, borrowing, and trading, without relying on traditional intermediaries. [[Stablecoin]]s can offer a more stable medium of exchange.
+- **[[Decentralized finance|DeFi]]:** Offers the potential for permissionless access to financial services like lending, borrowing, and trading, without relying on traditional intermediaries. [[Stablecoin]]s can offer a more stable medium of exchange.
 - **Cryptocurrencies:** Can facilitate cheaper and faster cross-border remittances and provide an alternative store of value in regions with unstable local currencies or high inflation.
-- **[[Decentralized Identity (DID)|Decentralized Identity (DID)]]:** Could help address documentation challenges by allowing individuals to control and present verifiable credentials.
+- **[[Decentralized identity|Decentralized identity]]:** Could help address documentation challenges by allowing individuals to control and present verifiable credentials.
 
 ## Use Cases & Implications
 
@@ -50,7 +50,7 @@ Technology, particularly mobile banking, digital payments, and more recently, We
 - **Digital Divide:** Lack of access to technology (smartphones, internet) can exclude many from digital financial services.
 - **Financial Literacy Gap:** Even with access, users need the skills to use services effectively and avoid risks.
 - **Regulatory Hurdles:** Regulations (e.g., strict KYC/AML) can sometimes inadvertently create barriers, though they are necessary for security.
-- **Risks of New Technologies:** While Web3 offers potential, it also comes with risks like volatility of cryptocurrencies, [[Smart Contract]] vulnerabilities in DeFi, and scams. Ensuring consumer protection is crucial.
+- **Risks of New Technologies:** While Web3 offers potential, it also comes with risks like volatility of cryptocurrencies, [[Smart contract]] vulnerabilities in DeFi, and scams. Ensuring consumer protection is crucial.
 - **Sustainability of Business Models:** Finding viable business models to serve low-income populations can be challenging for providers.
 
 ## Related Concepts
@@ -62,7 +62,7 @@ Technology, particularly mobile banking, digital payments, and more recently, We
 - KYC (Know Your Customer)
 - blockchain
 - cryptocurrency
-- [[Decentralized Finance (DeFi)]]
+- [[Decentralized finance]]
 - [[Stablecoin]]
 - digital divide
 - poverty reduction

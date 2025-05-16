@@ -2,7 +2,7 @@
 
 ## Introduction & Definition
 
-**Bitcoin (BTC)** is the first decentralized Cryptocurrency. It was invented in 2008 by an anonymous individual or group known as [[Satoshi Nakamoto]] and launched in 2009 as open-source software. Bitcoin enables peer-to-peer transactions without the need for intermediaries like banks or governments, operating on a distributed ledger technology called a Blockchain.
+**Bitcoin (BTC)** is the first decentralized Cryptocurrency. It was invented in 2008 by an anonymous individual or group known as [[Satoshi nakamoto]] and launched in 2009 as open-source software. Bitcoin enables peer-to-peer transactions without the need for intermediaries like banks or governments, operating on a distributed ledger technology called a Blockchain.
 
 ### Analogy/ELI5 (Explain Like I'm 5)
 
@@ -15,7 +15,7 @@ Bitcoin's primary importance lies in its ability to create a censorship-resistan
 ### Historical Context & Evolution
 
 - **Pre-Bitcoin Era**: Concepts like digital cash and [[Proof of work]] existed before Bitcoin. Hashcash, developed by Adam Back, was an early example of a proof-of-work system.
-- **2008**: [[Satoshi Nakamoto]] published the Bitcoin whitepaper, "Bitcoin: A Peer-to-Peer Electronic Cash System."
+- **2008**: [[Satoshi nakamoto]] published the Bitcoin whitepaper, "Bitcoin: A Peer-to-Peer Electronic Cash System."
 - **2009**: The Bitcoin network was launched with the mining of the genesis block. The first Bitcoin transaction occurred between Satoshi Nakamoto and Hal Finney.
 - **Early Growth (2010-2012)**: Bitcoin started gaining traction, with the first commercial transaction (10,000 BTC for two pizzas) taking place. Early adopters were often enthusiasts and those interested in alternative financial systems.
 - **Regulatory Attention (2013-2014)**: As Bitcoin's popularity grew, it attracted regulatory scrutiny. Events like the shutdown of the Silk Road marketplace highlighted its use in illicit activities, leading to increased regulatory discussions.
@@ -98,9 +98,9 @@ Bitcoin's primary importance lies in its ability to create a censorship-resistan
 ## Related Concepts
 
 - [[Proof of work]]
-- [[Satoshi Nakamoto]]
+- [[Satoshi nakamoto]]
 - [[Miner]]
 - [[Wallet]]
-- [[Smart Contract]] (though Bitcoin's smart contract capabilities are limited compared to platforms like [[Ethereum]])
+- [[Smart contract]] (though Bitcoin's smart contract capabilities are limited compared to platforms like [[Ethereum]])
 - [[DApp]] (Bitcoin itself is a dApp, and the concept is related)
 - [[Altcoin]] (other cryptocurrencies created after Bitcoin)

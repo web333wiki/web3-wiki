@@ -20,7 +20,7 @@
 - Trust Wallet: Binance acquired Trust Wallet, a popular self-custodial mobile wallet.
 - BNB Chain: A dual-blockchain architecture consisting of BNB Beacon Chain (for governance, staking) and BNB Smart Chain (BSC) (for smart contracts, EVM-compatible).
 - Strong emphasis on liquidity and low trading fees (especially when using BNB to pay fees).
-- Requires [[Know Your Customer (KYC)]] for most services.
+- Requires [[Know your customer]] for most services.
 
 ## Ecosystem
 
@@ -41,11 +41,11 @@ Binance is a major force in the Web3 world due to its:
 
 ## Related Concepts
 
-- [[Centralized Exchange (CEX)]]
-- [[BNB Chain]]
-- [[Smart Contract]]
-- [[Know Your Customer (KYC)]]
-- [[Anti-Money Laundering (AML)]]
+- [[Centralized exchange]]
+- [[BNB chain]]
+- [[Smart contract]]
+- [[Know your customer]]
+- [[Anti money laundering]]
 - Binance Coin (BNB)
 - Decentralized Application (dApp)
 - Ethereum Virtual Machine (EVM)

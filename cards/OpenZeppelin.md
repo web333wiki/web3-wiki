@@ -21,7 +21,7 @@ OpenZeppelin provides several key components and services to the Web3 community:
 
 OpenZeppelin's core technology revolves around smart contract development and security on EVM-compatible blockchains:
 
-- **Primary Blockchain:** [[Ethereum]], but its libraries and principles are widely used on other [[EVM]]-compatible chains like [[Polygon]], [[BNB Chain]], and [[Arbitrum]].
+- **Primary Blockchain:** [[Ethereum]], but its libraries and principles are widely used on other [[EVM]]-compatible chains like [[Polygon]], [[BNB chain]], and [[Arbitrum]].
 - **Core Language:** Solidity.
 - **Key Principles:** Emphasis on security, modularity, reusability, and community best practices in smart contract design.
 - **Smart Contracts (Library):** The primary repository for their contracts is [https://github.com/OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts).
@@ -70,7 +70,7 @@ Choosing OpenZeppelin means prioritizing security, reliability, and leveraging a
 
 Understanding OpenZeppelin is closely tied to:
 
-- [[Smart Contract]]
+- [[Smart contract]]
 - [[Solidity]]
 - [[Ethereum]]
 - [[EVM]]

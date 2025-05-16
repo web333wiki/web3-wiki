@@ -54,7 +54,7 @@
 
 ## Related Concepts
 
-- [[Decentralized Identity (DID)]]
+- [[Decentralized identity]]
 - non-fungible token (NFT) (SBTs are often conceptualized as non-transferable NFTs)
 - decentralized autonomous organization (DAO)
 - proof of personhood

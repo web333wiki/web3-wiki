@@ -4,8 +4,8 @@
 
 **Anti-Money Laundering (AML)** refers to a set of laws, regulations, and procedures intended to prevent individuals and organizations from disguising illegally obtained funds as legitimate income. Money laundering is the process of making "dirty" money—proceeds from criminal activities like drug trafficking, terrorism, or corruption—appear "clean." AML measures are crucial for maintaining the integrity of financial systems and combating crime.
 
-- **Importance/Purpose:** AML regulations aim to detect and deter money laundering and terrorist financing. They typically require financial institutions and other regulated entities to monitor customer transactions, verify identities ([[Know Your Customer (KYC)]]), and report suspicious activities.
-- **Target Audience:** Financial institutions, regulators, law enforcement agencies, businesses in regulated sectors (including many [[Centralized Exchange (CEX)|cryptocurrency exchanges]]), and compliance professionals.
+- **Importance/Purpose:** AML regulations aim to detect and deter money laundering and terrorist financing. They typically require financial institutions and other regulated entities to monitor customer transactions, verify identities ([[Know your customer]]), and report suspicious activities.
+- **Target Audience:** Financial institutions, regulators, law enforcement agencies, businesses in regulated sectors (including many [[Centralized exchange|cryptocurrency exchanges]]), and compliance professionals.
 
 ## Core Concepts & Mechanism
 
@@ -27,7 +27,7 @@
 
 Cryptocurrencies present unique challenges and opportunities for AML:
 
-- **Challenges:** The pseudonymous nature of many cryptocurrencies, the global reach of transactions, and the emergence of privacy-enhancing technologies (like [[Privacy Coins]] and mixers) can make it harder to trace illicit funds.
+- **Challenges:** The pseudonymous nature of many cryptocurrencies, the global reach of transactions, and the emergence of privacy-enhancing technologies (like [[Privacy coins]] and mixers) can make it harder to trace illicit funds.
 - **Opportunities:** The transparency of public blockchains (like [[Bitcoin]] and [[Ethereum]]) means that all transactions are recorded on an immutable ledger. Blockchain analytics firms specialize in tracing cryptocurrency transactions and identifying links to illicit activities.
 - **Regulation:** Regulators globally are increasingly applying AML rules to cryptocurrency exchanges, wallet providers, and other virtual asset service providers (VASPs). The Financial Action Task Force (FATF) has issued guidance, including the "Travel Rule," which requires VASPs to collect and share information about the originators and beneficiaries of crypto transfers.
 
@@ -50,7 +50,7 @@ Cryptocurrencies present unique challenges and opportunities for AML:
 
 ## Related Concepts
 
-- [[Counter-Terrorist Financing (CTF)]]
+- [[Counter terrorist financing]]
 - [[Regulation]]
-- [[Centralized Exchange (CEX)]]
-- [[Privacy Coins]]
+- [[Centralized exchange]]
+- [[Privacy coins]]

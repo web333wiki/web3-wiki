@@ -24,7 +24,7 @@ Subscan provides a rich set of features for interacting with blockchain data:
 - **Block Exploration:** Detailed views of individual blocks, including their contents, extrinsic, events, and parent hash.
 - **Transaction (Extrinsic) Exploration:** In-depth information about specific transactions (or extrinsics in Substrate terminology), including sender, receiver, value, status, and associated events.
 - **Address Tracking:** Ability to view balances, transaction history, and related on-chain activities for any given address.
-- **[[Smart Contract]] Interaction:** For supported EVM chains, users can view contract details, read contract state, and sometimes interact with contract functions.
+- **[[Smart contract]] Interaction:** For supported EVM chains, users can view contract details, read contract state, and sometimes interact with contract functions.
 - **Network Analytics:** Provides statistics and charts on network activity, such as transaction volume, active accounts, and staking information.
 - **Cross-Network Support:** Seamlessly switch between different supported blockchains from a unified interface.
 - **API Services:** Offers APIs for developers to integrate Subscan's data into their own applications and services.
@@ -50,7 +50,7 @@ Subscan provides a rich set of features for interacting with blockchain data:
 - **How it's Used (Detailed Use Cases):**
   - **Transaction Verification:** Confirming if a transaction has been included in a block and its final status.
   - **Account Monitoring:** Tracking token balances and transaction history for specific wallet addresses.
-  - **[[Smart Contract]] Auditing (Preliminary):** Inspecting deployed smart contract code (if verified) and transaction interactions.
+  - **[[Smart contract]] Auditing (Preliminary):** Inspecting deployed smart contract code (if verified) and transaction interactions.
   - **Network Health Check:** Observing block production, transaction throughput, and active validator sets.
   - **Staking Management:** Researching validators and tracking staking rewards.
   - **Governance Participation:** Following proposals and understanding voting outcomes.
