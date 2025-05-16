@@ -20,7 +20,8 @@ Creating or updating `explain-card` files must adhere to the following:
     *   Provide clear explanations of the code and its purpose.
     *   Ensure code is well-commented.
     *   Define or explain technical terms and jargon in simple language.
-*   **Related Concepts Section**: This section should be a list of internal links to other `explain-card`s related to the current topic. Format links as a list, clearly labeling each with the concept's name. Avoid invalid or broken links.
+*   **Related Concepts Section**: This section should be a list of internal links to other `explain-card`s related to the current topic. Format links as a list, clearly labeling each with the concept's name. Avoid invalid or broken links. Note the listed item should be internal links instead of external links or plain text. 
+*   **Final Checks**: Perform all steps outlined in the "### Final Step of Card Maintenance" section of the `wiki-guide`.
 
 ## Key Content Considerations
 

@@ -189,6 +189,7 @@ UniChain
 Upgradeable Smart Contracts
 Validator
 Vitalik Buterin
+Wallet
 Web3
 Web3 Wiki
 Wei
@@ -207,5 +208,4 @@ hardware wallet
 hot wallet
 phantom
 self custody wallet
-wallet
 zkKYC

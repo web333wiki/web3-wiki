@@ -10,6 +10,9 @@ def check_cards():
             if file.endswith('.md'):
                 with open(os.path.join(root, file), 'r') as f:
                     lines = f.readlines()
+                    if not lines:
+                        print(f"Error: {file} is empty and does not contain a category tag.")
+                        sys.exit(1)
                     first_line = lines[0].strip()
                     if file == 'Web3 Wiki.md':
                         if not all(tag in first_line for tag in valid_tags):

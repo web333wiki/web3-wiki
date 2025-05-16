@@ -2,7 +2,7 @@ import os
 
 def generate_card_index():
     cards_dir = "cards"
-    output_file = ".github/card_index.txt"
+    output_file = "scripts/card_index.txt"
     card_names = []
 
     if not os.path.isdir(cards_dir):

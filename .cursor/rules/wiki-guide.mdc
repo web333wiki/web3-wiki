@@ -53,7 +53,7 @@ Since this wiki is built using Obsidian, two types of links can be used within c
 
 ##### Internal Links Guidelines
 
-*   A script stores all existing card names in `.github/card_index.txt` (one name per line, without the `.md` extension). Use this file to verify if a card name exists before creating a new card.
+*   A script stores all existing card names in `scripts/card_index.txt` (one name per line, without the `.md` extension). Use this file to verify if a card name exists before creating a new card.
 *   Use the `[[Page Name]]` syntax for internal links. If the target card doesn't exist, ask the user for confirmation before creating it. The new card must follow all rules.
 
 ##### External Links Guidelines
@@ -66,7 +66,7 @@ Since this wiki is built using Obsidian, two types of links can be used within c
 When creating or updating a card, if mentioned concepts, projects, or technologies lack corresponding cards:
 
 *   Ask the user for confirmation before creating a new card. If confirmed, proceed with creation, ensuring the new card adheres to all guidelines.
-*   Check `card_index.txt` and the `cards` directory for existing cards with similar names or topics. If a similar or identical card exists, link to it or refactor/rename the existing card to avoid duplication.
+*   Check `scripts/card_index.txt` and the `cards` directory for existing cards with similar names or topics. If a similar or identical card exists, link to it or refactor/rename the existing card to avoid duplication.
 *   If an existing card is outdated or incomplete, update and expand it to meet current standards of detail and accuracy before returning to the original card.
 
 ### Card Content Rules
@@ -87,8 +87,8 @@ Once the card type and name are established, create the content according to the
 
 After creating or updating a card, perform a final review to ensure all guidelines have been followed. This includes checking formatting, internal links, and overall content quality.
 
-*   **Run `check-tag.py` script**: This script checks for the correct category tag at the beginning of each card. Fix any reported errors.
-*   **Run `check-internal-links.py` script**: This script checks for broken internal links. Fix any reported errors.
-*   **Cross-linking**: Review the card for mentions of concepts, projects, or technologies that could be linked to existing cards (check `card_index.txt` if necessary). Add internal links to enhance the knowledge network. Update linked cards if they lack detail or accuracy.
+*   **Run the command ` python3 .github/scripts/check-tag.py`**: This script checks for the correct category tag at the beginning of each card. Fix any reported errors.
+*   **Run the command `python3 .github/scripts/check-internal-links.py`**: This script checks for broken internal links. Fix any reported errors.
+*   **Cross-linking**: Review the card for mentions of concepts, projects, or technologies that could be linked to existing cards (check `scripts/card_index.txt` if necessary). Add internal links to enhance the knowledge network. Update linked cards if they lack detail or accuracy.
 *   **References and Citations**: Where possible, provide references to primary sources, official documentation, or reputable third-party analyses.
 *   **No Superficial Content**: Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource, similar in quality and depth to a well-maintained Wikipedia article.

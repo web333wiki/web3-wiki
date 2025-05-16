@@ -1,6 +1,6 @@
 #explain-card
 
-## What is Rollup?  
+## What is Rollup?
 
 Rollup is a scaling solution for Ethereum that bundles or "rolls up" multiple transactions into a single transaction on the Ethereum mainnet. These rollup transactions are executed on an off-chain rollup network. To inherit Ethereum's security, the rollup network regularly submits transaction data to the Ethereum mainnet. Once the data is uploaded and stored on Ethereum, reverting a rollup transaction requires reverting the Ethereum transaction. This mechanism allows the single transaction fee on Ethereum to be distributed among many transactions in the rollup network, reducing the overall transaction cost.
 
@@ -18,10 +18,18 @@ ZK Rollup relies on validity proofs to verify that changes in the rollup network
 
 ## Optimistic rollup vs ZK rollup
 
-| Criteria | Optimistic Rollup | ZK Rollup |
-| :---: | --- | --- |
-| Costs | Major cost comes from submitting batches to Ethereum | Major cost comes from generating zk proofs |
-| Ethereum Compatibility | Highest smart contract compatibility with Ethereum; supports any contracts without modification | Lower smart contract compatibility; requires developers to change or rewrite contracts with dedicated tools |
-| Security | Relies on chain monitoring within the challenge window | No monitoring required, but relies on a trusted setup assumption |
-| Latency | Lower latency for transaction confirmation, but higher latency for finality due to the challenge mechanism | Higher latency for transaction confirmation due to zk proof generation, but lower latency for finality |
+|        Criteria        | Optimistic Rollup                                                                                          | ZK Rollup                                                                                                   |
+| :--------------------: | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+|         Costs          | Major cost comes from submitting batches to Ethereum                                                       | Major cost comes from generating zk proofs                                                                  |
+| Ethereum Compatibility | Highest smart contract compatibility with Ethereum; supports any contracts without modification            | Lower smart contract compatibility; requires developers to change or rewrite contracts with dedicated tools |
+|        Security        | Relies on chain monitoring within the challenge window                                                     | No monitoring required, but relies on a trusted setup assumption                                            |
+|        Latency         | Lower latency for transaction confirmation, but higher latency for finality due to the challenge mechanism | Higher latency for transaction confirmation due to zk proof generation, but lower latency for finality      |
 
+## Related Concepts
+
+- [[Ethereum]]
+- [[Smart Contract]]
+- [[Gas]]
+- [[Optimism]]
+- [[Arbitrum]]
+- [[Dencun Upgrade (EIP-4844)]]

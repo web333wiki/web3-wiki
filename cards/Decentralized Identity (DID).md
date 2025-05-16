@@ -57,13 +57,7 @@
 
 ## Related Concepts
 
-- Self-Sovereign Identity (SSI)
-- Verifiable Credentials (VCs)
 - [[Zero-Knowledge Proof (ZKP)]] (often used with DIDs/VCs for privacy)
-- blockchain & Distributed Ledger Technology (DLT)
-- public key cryptography
 - [[Web3]]
-- W3C DID Standard
-- wallet (Digital Identity Wallets)
-- privacy
+- [[Wallet]]
 - [[Soulbound Tokens]]

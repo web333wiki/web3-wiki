@@ -18,6 +18,7 @@ Creating or updating `show-card` files must adhere to the following:
 *   **Runnable Examples/Demos**: If possible, include a runnable example or demo of the project or tool. This helps users understand its practical application. At a minimum, provide a link to a demo or example if a runnable version is not feasible.
 *   **Comparative Analysis**: Include a section discussing similar or competing projects. This helps users understand the project's market position.
 *   **Internal Linking**: Actively look for opportunities to link to relevant `explain-card` or `awesome-card` types to ensure content is well-connected and comprehensive.
+*   **Final Checks**: Perform all steps outlined in the "### Final Step of Card Maintenance" section of the `wiki-guide`.
 
 ### Key Content Considerations
 

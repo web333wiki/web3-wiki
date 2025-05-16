@@ -24,7 +24,9 @@ for filename in os.listdir(CARDS_DIR):
             for match in link_pattern.finditer(line):
                 link_target = match.group(1).strip()
                 # Obsidian links are case-sensitive and must match the filename (without .md)
-                if link_target not in valid_cards:
+                # Handle links with section anchors (e.g., [[Card Name#Section]])
+                base_card_name = link_target.split('#')[0]
+                if base_card_name not in valid_cards:
                     broken_links.append((filename, i, link_target))
 
 if broken_links:
