@@ -17,6 +17,9 @@ jobs:
 
       - name: Run card tag check script
         run: python3 scripts/check-tag.py
+      
+      - name: Run card name check script
+        run: python3 scripts/check-card-name.py
 
       - name: Run card index generation and internal link check script
         run: python3 scripts/check-internal-links.py

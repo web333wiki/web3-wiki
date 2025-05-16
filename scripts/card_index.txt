@@ -1,56 +1,54 @@
 AMA
 AMM
 API
-ASIC Resistant
+ASIC resistant
 ATH
 ATL
 Acala
 Airdrop
 Alchemy
 Altcoin
-Anti-Money Laundering (AML)
+Anti money laundering
 Arbitrum
-Artificial Intelligence
+Artificial intelligence
 Astar
 Avalanche
-Awesome Darwinia
-Awesome Ethereum
-Awesome Faucets
-Awesome Polkadot
-Awesome Solana
-Awesome Substrate
-Awesome Web3Tools
-BNB Chain
+Awesome darwinia
+Awesome ethereum
+Awesome polkadot
+Awesome solana
+Awesome substrate
+Awesome web3Tools
+BNB chain
 Bagholder
 Base
-Beacon Chain
+Beacon chain
 Bearish
 Berachain
 Binance
-Binance Smart Chain
+Binance smart chain
 Bitcoin
 Blast
-Blast Network
 Block
 Blockscan
 Bloodbath
 Bounty
 Bullish
-Burned Tokens
-Buy Wall
-ByBit's $1.4 Billon ETH Hack
-Byzantine Fault
-Centralized Exchange (CEX)
+Burned tokens
+Buy wall
+Byzantine fault
+Centralized exchange
 Chainlink
-Circulating Supply
+Circulating supply
 Coinbase
-Cold Wallet
+Cold wallet
 Consensus
-Counter-Terrorist Financing (CTF)
+Counter terrorist financing
 CrossFi
 Crowdsale
-Crypto Bubble
+Crypto bubble
 CryptoKitties
+Custodial wallet
 Custody
 Cyber
 DAA
@@ -60,45 +58,46 @@ DDOS
 DEX
 DYOR
 Darwinia
-Darwinia Network
-Data Security
+Darwinia network
+Data security
 DeFI
-DeGov.AI
-Decentralized Finance (DeFi)
-Decentralized Identity (DID)
-Dencun Upgrade (EIP-4844)
+Decentralized finance
+Decentralized identity
+Degov
+Dencun upgrade
 Diem
 Difficulty
-Double-spend
-Dusting Attack
+Doublespend
+Dusting attack
 EIP
 EIP-1559
 ENS
 EOA
-ERC Standards
+ERC-1155
 ERC-20
 ERC-721
 ETF
 EVM
+Erc standards
 Ethereum
-Ethereum Request for Comments 1155 (ERC-1155)
-Ethereum Request for Comments 721 (ERC-721)
-Ethereum Yellow Paper
+Ethereum yellow paper
 Etherscan
 Faucet
-Fear of Missing Out
-Fiat-Pegged Cryptocurrency
-Financial Inclusion
-Fully Diluted Valuation (FDV)
+Fear of missing out
+Fiatpegged cryptocurrency
+Financial inclusion
+Fully diluted valuation
 Gas
-Gas Limit
-Gas Price
-Genesis Block
+Gas limit
+Gas price
+Genesis block
 Gm
 Gwei
 Halving
 Hard cap
 Hard fork
+Hardware wallet
+Hot wallet
 ICO
 IPO
 IYKYK
@@ -106,7 +105,7 @@ InfoFi
 Infura
 Ink
 Kaito
-Know Your Customer (KYC)
+Know your customer
 Layer 2
 Lazarusbounty
 Ledger
@@ -116,97 +115,94 @@ Linea
 Liquidity
 Lumia
 Mantle
-Market Maker
-Market Taker
+Market maker
+Market taker
 Memecoin
 Mempool
-Merkle Tree
+Merkle tree
 MetaMask
 Miner
-Mnemonic Phrase
+Mnemonic phrase
 Moonbeam
 Morph
 Move
 Multisignal
-Mysten Labs
+Mysten labs
 NFT
-Nakamoto Coefficient
+Nakamoto coefficient
 Near
 Node
 Nonce
 OTC
-Off-chain transaction
-On-chain governance
+Offchain transaction
+Onchain governance
 OpenZeppelin
 Optimism
-Optimism Stack (OP Stack)
+Optimism stack
 Oracle
 Parachain
-Pectra Upgrade
-Pi Network
+Pectra upgrade
+Phantom
+Pi
 Polkadot
 Polygon
 Portfolio
-Privacy Coins
-Private Key
-Proof of Authority (PoA)
+Privacy coins
+Private key
+Proof of authority
 Proof of stake
 Proof of work
-Public Keys
-Rat Trading
+Public key
+Rat trading
 Regulation
-Replay Attack
-Return On Investment (ROI)
-Revoke.Cash
+Replay attack
+Return on investment
+Revokecash
 Rollup
 Rugpull
+SUI
 Salt
 Satoshi
-Satoshi Nakamoto
-Scroll Network
+Satoshi nakamoto
+Scroll network
 Seed
-Smart Contract
+Self custody wallet
+Smart contract
 Snapshot
 Soft fork
 Solana
 Solidity
 Soneium
-Soulbound Tokens
+Soulbound tokens
 Stablecoin
 Staking
 Starknet
 Story
 Subscan
 Substrate
-Sui (SUI)
 TRON
 Tezos
 The Merge
-Total Value Locked (TVL)
-Trading Volume
-Transactions Per Second (TPS)
-Turing-Complete
+Total value locked
+Trading volume
+Transactions per second
+Turing complete
 UniChain
-Upgradeable Smart Contracts
+Upgradeable smart contracts
 Validator
-Vitalik Buterin
+Vitalik buterin
 Wallet
 Web3
 Web3 Wiki
 Wei
 Whale
-When Lambo
-When Moon
+When lambo
+When moon
 Whitelist
-World Chain
+World chain
 XAI
-Yield Farming
+Yield farming
 ZKSync
-Zero-Knowledge Proof (ZKP)
-Zero-Knowledge Succinct Non-Interactive Argument of Knowledge (zk-SNARKs)
-custodial wallet
-hardware wallet
-hot wallet
-phantom
-self custody wallet
+Zero knowledge proof
+Zero knowledge succinct non interactive argument of knowledge
 zkKYC

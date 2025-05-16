@@ -23,38 +23,43 @@ Each card must belong to one of the following three types:
 
 1.  `explain-card`: For cards that explain a concept, technology, or protocol in detail.
     *   These cards must follow the dedicated rules for this category.
-    *   Examples: `Smart Contracts.md`, `Decentralized Finance.md`, `Proof of Work.md`.
+    *   Examples: `Smart contracts.md`, `Decentralized finance.md`, `Proof of work.md`.
 2.  `show-card`: For cards that showcase a project, tool, or resource related to Web3.
     *   These cards must follow the dedicated rules for this category.
     *   Examples: `Ethereum.md`, `Uniswap.md`, `Metamask.md`.
 3.  `awesome-card`: For cards that curate a list of valuable resources related to a topic.
     *   These cards must follow the dedicated rules for this category.
-    *   Examples: `Web3 Resources.md`, `Blockchain Tools.md`, `Awesome Ethereum.md`.
+    *   Examples: `Web3 resources.md`, `Blockchain tools.md`, `Awesome ethereum.md`.
 
 #### Card Location
 
-All card Markdown files **MUST** be placed **directly within the `cards` directory** (e.g., `cards/My New Card.md`). This is a strict requirement.
+All card Markdown files **MUST** be placed **directly within the `cards` directory** (e.g., `cards/My new card.md`). This is a strict requirement.
 
 #### Card Naming Conventions
 
-1.  The filename of a card should accurately represent its core topic. Use standard capitalization (e.g., `Smart Contract.md`, not `smart contract.md`).
-2.  The first letter of the filename **MUST** be uppercase (e.g., `Proof of Stake.md`, `Metamask.md`, `Zero-Knowledge Proofs.md`).
+#### Card Naming Conventions
+
+1.  The filename of a card should accurately represent its core topic.
+2.  No special characters are allowed in the filename, only letters, numbers, and spaces. Only the first letter of the first word should be capitalized, and the rest should be in lowercase (e.g., `Decentralized finance.md`, `Smart contracts.md`).
+   - Example: `Decentralized finance.md` is acceptable, while `decentralized-finance.md` or `Decentralized-Finance.md` are not.
+   - Example: `Smart contracts.md` is acceptable, while `smart_contracts.md` or `SmartContracts.md` are not.
 3.  For concepts with commonly used abbreviations (e.g., EIP55, ERC721, ERC1155), follow the most widely accepted naming convention (e.g., `EIP55.md`, `ERC721.md`, `ERC1155.md`).
 4.  The filename **MUST** be unique within the `cards` directory. No two cards can have the same filename.
-5.  The filename **MUST** be descriptive and relevant to the card's content. Avoid generic names like `Card1.md` or `New Card.md`.
-6.  Filenames **MUST NOT** contain special characters. Use spaces to separate words if necessary (e.g., `Decentralized Finance.md`).
+5.  The filename **MUST** be descriptive and relevant to the card's content. Avoid generic names like `Card1.md` or `New card.md`.
+6.  Filenames **MUST NOT** contain special characters. Use spaces to separate words if necessary (e.g., `Decentralized finance.md`).
+
 
 #### Card Links
 
 Since this wiki is built using Obsidian, two types of links can be used within cards: internal and external.
 
-*   **Internal Links:** These links point to existing cards within the wiki. They are created using the syntax `[[Page Name]]`, where `Page Name` is the name of the target card (e.g., `[[Ethereum]]` links to `Ethereum.md`). Internal links connect related concepts and provide easy navigation. It is crucial to ensure all internal links are valid.
+*   **Internal Links:** These links point to existing cards within the wiki. They are created using the syntax `[[Page name]]`, where `Page name` is the name of the target card (e.g., `[[Ethereum]]` links to `Ethereum.md`). Internal links connect related concepts and provide easy navigation. It is crucial to ensure all internal links are valid.
 *   **External Links:** These links point to external resources like official websites or documentation. They are created using the syntax `[Text](mdc:URL)`, where `Text` is the clickable text and `URL` is the target link (e.g., `[Ethereum Official Website](mdc:https:/ethereum.org)`). External links provide additional context and references.
 
 ##### Internal Links Guidelines
 
 *   A script stores all existing card names in `scripts/card_index.txt` (one name per line, without the `.md` extension). Use this file to verify if a card name exists before creating a new card.
-*   Use the `[[Page Name]]` syntax for internal links. If the target card doesn't exist, ask the user for confirmation before creating it. The new card must follow all rules.
+*   Use the `[[Page name]]` syntax for internal links. If the target card doesn't exist, ask the user for confirmation before creating it. The new card must follow all rules.
 
 ##### External Links Guidelines
 
@@ -89,6 +94,7 @@ After creating or updating a card, perform a final review to ensure all guidelin
 
 *   **Run the command ` python3 scripts/check-tag.py`**: This script checks for the correct category tag at the beginning of each card. Fix any reported errors.
 *   **Run the command `python3 scripts/check-internal-links.py`**: This script checks for broken internal links. Fix any reported errors.
+*   **Run the command `python3 scripts/check-card-name.py`**: This script checks for card name violations in the `cards` directory. Fix any reported errors.
 *   **Cross-linking**: Review the card for mentions of concepts, projects, or technologies that could be linked to existing cards (check `scripts/card_index.txt` if necessary). Add internal links to enhance the knowledge network. Update linked cards if they lack detail or accuracy.
 *   **References and Citations**: Where possible, provide references to primary sources, official documentation, or reputable third-party analyses.
 *   **No Superficial Content**: Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource, similar in quality and depth to a well-maintained Wikipedia article.
