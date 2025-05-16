@@ -87,8 +87,8 @@ Once the card type and name are established, create the content according to the
 
 After creating or updating a card, perform a final review to ensure all guidelines have been followed. This includes checking formatting, internal links, and overall content quality.
 
-*   **Run the command ` python3 .github/scripts/check-tag.py`**: This script checks for the correct category tag at the beginning of each card. Fix any reported errors.
-*   **Run the command `python3 .github/scripts/check-internal-links.py`**: This script checks for broken internal links. Fix any reported errors.
+*   **Run the command ` python3 scripts/check-tag.py`**: This script checks for the correct category tag at the beginning of each card. Fix any reported errors.
+*   **Run the command `python3 scripts/check-internal-links.py`**: This script checks for broken internal links. Fix any reported errors.
 *   **Cross-linking**: Review the card for mentions of concepts, projects, or technologies that could be linked to existing cards (check `scripts/card_index.txt` if necessary). Add internal links to enhance the knowledge network. Update linked cards if they lack detail or accuracy.
 *   **References and Citations**: Where possible, provide references to primary sources, official documentation, or reputable third-party analyses.
 *   **No Superficial Content**: Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource, similar in quality and depth to a well-maintained Wikipedia article.

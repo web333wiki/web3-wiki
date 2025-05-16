@@ -32,7 +32,7 @@
 
 Web3 and blockchain technologies introduce new paradigms and challenges for data security:
 
-- **[[Private Keys]] Management:** In self-custodial wallets, users are solely responsible for securing their private keys. Loss or compromise of private keys means loss of assets.
+- **[[Private Key]] Management:** In self-custodial wallets, users are solely responsible for securing their private keys. Loss or compromise of private keys means loss of assets.
 - **[[Smart Contract]] Security:** Vulnerabilities in smart contract code can lead to irreversible loss of funds. Rigorous auditing and formal verification are crucial.
 - **Blockchain Immutability:** While a strength, immutability means that malicious or erroneous transactions, once confirmed, cannot be easily undone. Similarly, if sensitive data is mistakenly written to a public blockchain, it cannot be removed.
 - **Decentralized storage Security:** Protecting data stored on decentralized networks (e.g., IPFS) requires different approaches than centralized storage.
@@ -59,4 +59,4 @@ Web3 and blockchain technologies introduce new paradigms and challenges for data
 
 ## Related Concepts
 
-- [[Private Keys]]
+- [[Private Key]]

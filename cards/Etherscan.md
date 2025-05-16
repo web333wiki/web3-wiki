@@ -15,7 +15,7 @@ The primary [Etherscan.io](https://etherscan.io/) platform enables users to:
 - Search for transactions by hash, block number, or address.
 - Inspect wallet addresses and their token balances, transaction history, and interactions with smart contracts.
 - View and verify smart contract source code.
-- Track [[Gas Prices|gas prices]] using the [Etherscan Gas Tracker](https://etherscan.io/gastracker).
+- Track [[Gas Price|gas prices]] using the [Etherscan Gas Tracker](https://etherscan.io/gastracker).
 - Monitor network status via the [Node Tracker](https://etherscan.io/nodetracker).
 - Look up [[ENS|ENS domains]] using the [Domain Lookup](https://etherscan.io/name-lookup).
 - Utilize the [Etherscan Chrome Extension](https://chromewebstore.google.com/detail/etherscan/joeoaocmnapjmkhjndfflecmdaldkpbn) for direct browser interaction with the blockchain.

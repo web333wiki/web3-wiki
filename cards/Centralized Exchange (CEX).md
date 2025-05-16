@@ -55,6 +55,6 @@ A **Centralized Exchange (CEX)** is a type of cryptocurrency exchange that is op
 - [[Know Your Customer (KYC)]]
 - [[Anti-Money Laundering (AML)]]
 - [[Liquidity]]
-- [[Private Keys]]
+- [[Private Key]]
 - [[Regulation]]
 - Examples: [[Coinbase]], [[Binance]]

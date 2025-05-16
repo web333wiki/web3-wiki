@@ -32,9 +32,8 @@ Bitcoin
 Blast
 Blast Network
 Block
-Block Explorer
-Bloodbath
 Blockscan
+Bloodbath
 Bounty
 Bullish
 Burned Tokens
@@ -73,6 +72,7 @@ Difficulty
 Double-spend
 Dusting Attack
 EIP
+EIP-1559
 ENS
 EOA
 ERC Standards
@@ -81,7 +81,6 @@ ERC-721
 ETF
 EVM
 Ethereum
-Ethereum Improvement Proposal 1559 (EIP-1559)
 Ethereum Request for Comments 1155 (ERC-1155)
 Ethereum Request for Comments 721 (ERC-721)
 Ethereum Yellow Paper
@@ -93,7 +92,7 @@ Financial Inclusion
 Fully Diluted Valuation (FDV)
 Gas
 Gas Limit
-Gas Prices
+Gas Price
 Genesis Block
 Gm
 Gwei
@@ -149,8 +148,7 @@ Polkadot
 Polygon
 Portfolio
 Privacy Coins
-Private Keys
-Private key
+Private Key
 Proof of Authority (PoA)
 Proof of stake
 Proof of work
