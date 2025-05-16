@@ -3,125 +3,92 @@ description:
 globs: 
 alwaysApply: true
 ---
-# Web3 Wiki Guide
+## Web3 Wiki General Guidelines
 
-This rule provides general guidelines for contributing to the Web3 Wiki and instructs the AI assistant on its role in maintaining and improving the wiki content.
+This document outlines the general guidelines for contributing to the Web3 Wiki. It also instructs the AI assistant on its role in creating, maintaining, and improving wiki content. The AI assistant must strictly adhere to these guidelines to ensure consistency, accuracy, and quality across all cards.
 
-## Project Overview
+### Project Overview
 
-This project is an open-sourced, community-driven initiative to build a comprehensive wiki for the Web3 ecosystem. The entire project is built and published as a site using the Obsidian Publish system. Consequently, all content creation, including text writing and formatting, must adhere to Obsidian's conventions, particularly for features like jump links, backlinks, and overall markdown formatting.
+This project is an open-source, community-driven initiative to build a comprehensive Web3 wiki. The entire project is built and published as a website using the Obsidian Publish system. Consequently, all content creation, including writing and formatting, must adhere to Obsidian's conventions, particularly for features like jump links, backlinks, and overall Markdown formatting.
 
-The wiki is organized into individual "cards," where each card is a distinct markdown file located within the `cards` directory. Cards are interconnected using Obsidian's internal linking system (e.g., `[[Ethereum]]`, `[[Bitcoin]]`) to create a navigable knowledge network.
+The wiki is organized into individual "cards," where each card is a distinct Markdown file within the `cards` directory. Cards are interconnected using Obsidian's internal linking system (e.g., `[[Ethereum]]`, `[[Bitcoin]]`) to create a navigable knowledge network.
 
-## Card Categories
+### Card Introduction
 
-Each card must belong to one of the following three categories:
-1.  `explain-card`: For cards that explain a specific Web3 concept, technology, or protocol.
-2.  `show-card`: For cards that showcase a particular project, tool, or service.
+Each card serves as a standalone resource on a specific topic within the Web3 ecosystem.
+
+#### Card Types
+
+Each card must belong to one of the following three types:
+
+1.  `explain-card`: For cards that explain a concept, technology, or protocol in detail.
+    *   These cards must follow the dedicated rules for this category.
+    *   Examples: `Smart Contracts.md`, `Decentralized Finance.md`, `Proof of Work.md`.
+2.  `show-card`: For cards that showcase a project, tool, or resource related to Web3.
+    *   These cards must follow the dedicated rules for this category.
+    *   Examples: `Ethereum.md`, `Uniswap.md`, `Metamask.md`.
 3.  `awesome-card`: For cards that curate a list of valuable resources related to a topic.
+    *   These cards must follow the dedicated rules for this category.
+    *   Examples: `Web3 Resources.md`, `Blockchain Tools.md`, `Awesome Ethereum.md`.
 
-## Card Naming and Format
+#### Card Location
 
-- **File Naming:**
-    - The filename of a card should accurately represent its core topic. Use standard capitalization (e.g., `Smart Contract.md`, not `smart contract.md`).
-    - The first letter of the filename **MUST** be uppercase.
-    - Examples: `Proof of Stake.md`, `Metamask.md`, `Zero-Knowledge Proofs.md`.
-- **Mandatory Category Tag:**
-    - The very first line of every card file _must_ be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`), with **no preceding blank lines or content**. This is further detailed in the specific card type rule files.
-- **File Location:**
-    - All new card markdown files **MUST** be created **directly within the `cards` directory** (e.g., `cards/My New Card.md`). **This is a strict requirement.**
-    - No subdirectories within `cards` should be used for card storage unless explicitly specified in a future rule update.
-    - The AI assistant **MUST NOT** create card files in any other directory (e.g., the workspace root, `.cursor/rules/`, etc.). **Verify the creation path rigorously.**
+All card Markdown files **MUST** be placed **directly within the `cards` directory** (e.g., `cards/My New Card.md`). This is a strict requirement.
 
-## Card Content Rules
+#### Card Naming Conventions
 
-To maintain consistency, each card type has specific content structure and formatting rules. Please refer to the individual rule files for detailed instructions:
-- [`explain-card.mdc`](mdc:.cursor/rules/explain-card.mdc)
-- [`show-card.mdc`](mdc:.cursor/rules/show-card.mdc)
-- [`awesome-card.mdc`](mdc:.cursor/rules/awesome-card.mdc)
+1.  The filename of a card should accurately represent its core topic. Use standard capitalization (e.g., `Smart Contract.md`, not `smart contract.md`).
+2.  The first letter of the filename **MUST** be uppercase (e.g., `Proof of Stake.md`, `Metamask.md`, `Zero-Knowledge Proofs.md`).
+3.  For concepts with commonly used abbreviations (e.g., EIP55, ERC721, ERC1155), follow the most widely accepted naming convention (e.g., `EIP55.md`, `ERC721.md`, `ERC1155.md`).
+4.  The filename **MUST** be unique within the `cards` directory. No two cards can have the same filename.
+5.  The filename **MUST** be descriptive and relevant to the card's content. Avoid generic names like `Card1.md` or `New Card.md`.
+6.  Filenames **MUST NOT** contain special characters. Use spaces to separate words if necessary (e.g., `Decentralized Finance.md`).
 
-## General Wiki Guidelines
+#### Card Links
 
-These guidelines apply to all cards and content within the wiki.
+Since this wiki is built using Obsidian, two types of links can be used within cards: internal and external.
 
-### Linking Standards
--   **Card Index File:**
-    -   A file named `card_index.txt`, expected to be located in the workspace root, is generated periodically.
-    -   This file contains a list of all valid card names (without the `.md` extension), one per line.
-    -   The AI assistant **MUST** consider `card_index.txt` as the primary source of truth for existing card names when creating or validating internal links.
--   **Internal Links (`[[Page Name]]`):**
-    -   Links **must** point to existing card files (case-sensitive filename, `.md` implied by the linking syntax) located **directly within the `cards` directory**.
-    -   **Verification is mandatory:** Before adding an internal link, the AI assistant **MUST** first attempt to read `card_index.txt`. Confirm that the target `Page Name` (from `[[Page Name]]`) exists in this list.
-    -   If `card_index.txt` cannot be read, is unavailable, or the card name is not found, the AI assistant should then use `file_search` for `Page Name.md` within the `cards` directory as a fallback verification method.
-    -   **No Broken Links:** Broken internal links are strictly forbidden.
--   **Handling Missing Targets:** If a potentially useful link target (e.g., `[[New Concept]]`) doesn't exist (i.e., `New Concept` is not found in `card_index.txt` and `cards/New Concept.md` is confirmed not to exist via file search), the AI assistant **MUST**:
-    1.  Determine the most appropriate card category for the new concept (e.g., `#explain-card`, `#show-card`).
-    2.  Create the new card file (e.g., `cards/New Concept.md`) **directly within the `cards` directory**, adhering to all naming conventions (uppercase first letter, appropriate filename).
-    3.  Add the chosen category tag as the very first line of the new card file.
-    4.  Generate initial, relevant content for this new card based on its chosen category, the context of the link, and available knowledge. The goal is to create a useful stub, not just an empty file. Refer to the specific card type rules for content guidance.
-    5.  If creating a populated stub is not feasible or the concept is too broad/unknown, the link should be omitted. **Do not create empty or near-empty files.**
--   **External Links (`[Text](mdc:URL)`):**
-    -   Prioritize links to **official websites, documentation, or primary sources**, especially for projects, tools, and resources.
-    -   Use **descriptive link text** (e.g., `[Official Ethereum Website]`) instead of generic terms like "here" or "link".
-    -   Verify external links for validity and relevance using available web search and content fetching tools. Remove or update broken or outdated links.
+*   **Internal Links:** These links point to existing cards within the wiki. They are created using the syntax `[[Page Name]]`, where `Page Name` is the name of the target card (e.g., `[[Ethereum]]` links to `Ethereum.md`). Internal links connect related concepts and provide easy navigation. It is crucial to ensure all internal links are valid.
+*   **External Links:** These links point to external resources like official websites or documentation. They are created using the syntax `[Text](mdc:URL)`, where `Text` is the clickable text and `URL` is the target link (e.g., `[Ethereum Official Website](mdc:https:/ethereum.org)`). External links provide additional context and references.
 
-### Content Formatting & Readability
--   **Prose over Lists:** For explanatory or descriptive content (especially in `explain-card`s), prefer well-structured paragraphs over excessive bullet points. Use lists strategically for clarity (e.g., features, resource lists).
--   **Obsidian Markdown:** Adhere to standard Obsidian markdown conventions for formatting.
--   **Clarity and Accuracy:** Ensure information is clear, concise, accurate, and up-to-date. Utilize web search and content fetching tools to verify information and incorporate the latest relevant details when appropriate.
+##### Internal Links Guidelines
 
-### File Structure & Naming
--   **Card Location:** All card files (`.md`) **MUST** reside directly within the `cards` directory. No subdirectories are allowed for cards.
--   **Naming Convention:** Follow the rules outlined in the "Card Naming and Format" section (uppercase first letter, descriptive name).
+*   A script stores all existing card names in `.github/card_index.txt` (one name per line, without the `.md` extension). Use this file to verify if a card name exists before creating a new card.
+*   Use the `[[Page Name]]` syntax for internal links. If the target card doesn't exist, ask the user for confirmation before creating it. The new card must follow all rules.
 
-## AI Assistant: Role and Responsibilities
+##### External Links Guidelines
 
-As an AI assistant, your role is to proactively maintain and improve the Web3 Wiki by adhering to all established guidelines.
+*   Utilize available tools to fetch and analyze content from external links to generate high-quality, detailed card content. Avoid generic content.
+*   If an external link provides high-quality content, prefer keeping the link in the card instead of creating a new card for that information.
 
-1.  **Proactive Review:** Regularly examine existing cards in the `cards` directory.
-2.  **Rule Enforcement:** Verify that cards comply with:
-    -   Their specific Card Type Rules (`explain-card.mdc`, etc.).
-    -   The `Card Naming and Format` rules.
-    -   The `General Wiki Guidelines` (linking, formatting, file structure).
-3.  **Identify Improvements:** Look for cards that violate rules or could be improved. This includes checking for:
-    -   Completeness, clarity, and accuracy.
-    -   Outdated information (use web search/fetch to verify).
-    -   Broken or irrelevant internal/external links (use file search/web search/fetch to verify, and `card_index.txt` for internal links).
-4.  **Implement Changes:** Propose and apply specific, constructive changes to address identified issues, clearly stating the intent. Use web search and fetching tools to gather up-to-date information for content revisions.
-5.  **Link Management:**
-    -   Actively create relevant internal links, ensuring they are valid by **first checking `card_index.txt` (expected at the workspace root) for the target card name, and then as a fallback, verifying target file existence using `file_search` if needed**.
-    -   When a target is missing (i.e., not found in `card_index.txt` or via file search), follow the `Handling Missing Targets` rule (i.e., determine category, create the card file **in the `cards` directory with initial content**, or omit the link).
-    -   Ensure external links adhere to the `Linking Standards`, using web search/fetch for verification.
-6.  **Card Creation:**
-    -   When creating new cards (e.g., to fulfill a missing link as per `Handling Missing Targets`, or by direct user request), ensure they are created **directly and exclusively within the `cards` directory**. This path (`cards/FILENAME.md`) is non-negotiable.
-    -   Strictly adhere to all `Card Naming and Format` rules (uppercase first letter, descriptive name, category tag on the first line) and generate meaningful initial content according to the specific content considerations for the chosen card type.
-7.  **Exception - Main Page:** The card `Web3 Wiki.md` serves as the main page of the wiki. The AI assistant **MUST NOT** modify the content of this card. It is maintained manually.
+#### Card Creation Guidelines
 
-## Content Creation Checklist
-- **Thorough External Research:**  
-  For every external link referenced or considered, the AI agent must search for and read the latest, most authoritative sources (official documentation, whitepapers, reputable news, academic papers, etc.). Summarize and synthesize key points, not just brief facts, and integrate them into the card. Always cite the source with a descriptive link.
-- **Comprehensive Internal Link Review:**  
-  For every existing internal link, the AI agent must read the full content of the linked card. If the linked card is outdated, incomplete, or lacks depth, update and expand it first—ensuring it meets the same standards of detail and accuracy—before returning to the current card.
-- **New Concepts and Projects:**  
-  For any new project, protocol, or concept mentioned, the AI agent must create a new card with a detailed, well-structured, and informative entry. This should include background, technical details, use cases, and references, not just a stub or placeholder.
-- **Contextual Internal Linking:**  
-  For all existing concepts or projects, create internal links where relevant. Ensure that links are contextually integrated into the prose, not just listed, and that the surrounding text explains their relevance.
-- **Depth and Detail:**  
-  Each section of the card should go beyond a brief introduction. Provide historical context, technical mechanisms, real-world examples, implications, and controversies or debates where relevant. Use a style and depth comparable to Wikipedia's best articles.
+When creating or updating a card, if mentioned concepts, projects, or technologies lack corresponding cards:
 
-## Final Review Checklist
-- **Card Tag and Rule Compliance:**  
-  Ensure every created or updated card starts with the correct card tag and fully complies with its specific rule file. The content must be comprehensive, well-structured, and informative, not just a summary or outline.
-- **Internal Link Validation:**  
-  Verify that every internal link points to an existing, up-to-date card. This involves checking the target card name against `card_index.txt` (expected at the workspace root) and ensuring the target file (`cards/TargetCard.md`) exists. There must be no broken or outdated links. If a relevant card does not exist (i.e., not listed in `card_index.txt` and confirmed non-existent), create it with substantive content before finalizing the current card.
-- **Cross-Linking and Knowledge Integration:**  
-  Review the card for any mention of concepts, projects, or technologies that could be linked to existing cards. Add internal links with explanatory context, and update those linked cards if they are lacking in detail or accuracy.
-- **Section Depth and Breadth:**  
-  Each section (e.g., Overview, Technology, Use Cases) must be detailed, with multiple paragraphs where appropriate. Include technical explanations, historical development, major milestones, key contributors, and real-world impact.
-- **References and Citations:**  
-  Where possible, provide references to primary sources, official documentation, or reputable third-party analyses. Use descriptive link text and ensure all external links are current and relevant.
-- **No Superficial Content:**  
-  Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource on its topic, similar in quality and depth to a well-maintained Wikipedia article.
-- **Run Script Checks**:
-    1. Run the `check-tag.py` script and fix any reported errors.
-    2. Run the `check-internal-links.py` script and fix any reported errors. This script should ideally use or be consistent with `card_index.txt`.
+*   Ask the user for confirmation before creating a new card. If confirmed, proceed with creation, ensuring the new card adheres to all guidelines.
+*   Check `card_index.txt` and the `cards` directory for existing cards with similar names or topics. If a similar or identical card exists, link to it or refactor/rename the existing card to avoid duplication.
+*   If an existing card is outdated or incomplete, update and expand it to meet current standards of detail and accuracy before returning to the original card.
+
+### Card Content Rules
+
+Once the card type and name are established, create the content according to the specific rules for that card type. Each card type has its own rules and structure. This section provides general rules applicable to all card types. **This is critically important.**
+
+*   **Mandatory Category Tag**: The very first line of every card file **MUST** be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`), with no preceding blank lines or content. This is a strict requirement.
+*   **Style and Tone**: Content should be neutral and informative, similar to Wikipedia articles. Avoid promotional language or subjective opinions. The writing style should be clear, concise, and accessible.
+*   **Category-Specific Rules**: Each card must follow the specific rules for its category, detailed in separate rule files. Refer to those files for detailed content structure instructions.
+*   **No Broken Internal Links**: All internal links must point to existing cards. If not, refer to the "Card Creation Guidelines."
+*   **No Empty or Near-Empty Files**: Every card should contain meaningful content. If a card lacks sufficient information, omit it or merge it with another relevant card.
+*   **Prose Over Lists**: For explanatory or descriptive content, prefer well-structured paragraphs over excessive bullet points. Use lists strategically for clarity (e.g., resource lists).
+*   **Clean Formatting**: Ensure proper Markdown formatting (headings, subheadings, lists). Avoid excessive formatting or clutter.
+*   **Accurate and In-Depth Content**: Ensure content is accurate, up-to-date, and provides sufficient depth. Avoid generic or superficial content.
+*   **Exception - Main Page**: The card `Web3 Wiki.md` serves as the main page. The AI assistant **MUST NOT** modify its content, as it is maintained manually.
+
+### Final Step of Card Maintenance
+
+After creating or updating a card, perform a final review to ensure all guidelines have been followed. This includes checking formatting, internal links, and overall content quality.
+
+*   **Run `check-tag.py` script**: This script checks for the correct category tag at the beginning of each card. Fix any reported errors.
+*   **Run `check-internal-links.py` script**: This script checks for broken internal links. Fix any reported errors.
+*   **Cross-linking**: Review the card for mentions of concepts, projects, or technologies that could be linked to existing cards (check `card_index.txt` if necessary). Add internal links to enhance the knowledge network. Update linked cards if they lack detail or accuracy.
+*   **References and Citations**: Where possible, provide references to primary sources, official documentation, or reputable third-party analyses.
+*   **No Superficial Content**: Avoid brief, generic, or placeholder content. Every card should aim to be a definitive, standalone resource, similar in quality and depth to a well-maintained Wikipedia article.

@@ -5,38 +5,52 @@ alwaysApply: false
 ---
 # Explain Card Rule
 
+## Card Overview
+
+The `explain-card` is designed to provide in-depth explanations of Web3 concepts, technologies, or phenomena. It serves as a comprehensive resource for users seeking to understand complex topics within the Web3 ecosystem. The content should be structured to facilitate learning and comprehension for both beginners and advanced users.
+
+## Core Requirements
+
+Creating or updating `explain-card` files must adhere to the following:
+
+*   **General Card Rules**: Strictly follow the basic and general rules for all cards, as outlined in the `wiki-guide`. This is foundational.
+*   **Content Structure and Organization**: Prioritize logical organization. The content must be easy to follow, with clear headings and subheadings guiding the reader.
+*   **Technical Explanations**: For complex concepts involving code, algorithms, or intricate mechanisms:
+    *   Use code blocks for illustration.
+    *   Provide clear explanations of the code and its purpose.
+    *   Ensure code is well-commented.
+    *   Define or explain technical terms and jargon in simple language.
+*   **Related Concepts Section**: This section should be a list of internal links to other `explain-card`s related to the current topic. Format links as a list, clearly labeling each with the concept's name. Avoid invalid or broken links.
+
 ## Key Content Considerations
 
-When creating or updating an `explain-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the concept being explained.
+When creating or updating an `explain-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the concept.
 
 **1. Introduction & Definition:**
-    - Comprehensive Definition: Provide a clear, thorough, and nuanced definition of the concept. Go beyond a simple one-liner; explain its core meaning and context within Web3. This section should establish a solid foundational understanding.
-    - Analogy/ELI5 (Explain Like I'm 5): If the concept is complex, include a relatable analogy or a simplified explanation suitable for beginners to grasp the fundamental idea quickly. Ensure the analogy is accurate and helpful.
-    - Importance & Purpose: Clearly articulate *why* this concept is important in the Web3 space. What problems does it solve, what capabilities does it enable, or what paradigm does it represent? Detail its significance and the reasons for its existence.
-    - Target Audience & Relevance: Identify the primary audience(s) who would benefit from understanding this concept (e.g., developers, users, investors, researchers). Explain its relevance to each group.
+
+*   **Comprehensive Definition**: Provide a clear, thorough, and nuanced definition of the concept. Go beyond a simple one-liner; explain its core meaning and context within Web3.
+*   **Analogy/ELI5 (Explain Like I'm 5)**: If the concept is complex, include a relatable analogy or a simplified explanation for beginners. Ensure the analogy is accurate and helpful.
+*   **Importance & Purpose**: Clearly articulate *why* this concept is important in Web3. What problems does it solve, what capabilities does it enable, or what paradigm does it represent?
+*   **Historical Context & Evolution**: Briefly overview the concept's historical development. How has it evolved? What were key milestones or innovations?
 
 **2. Core Principles & Detailed Mechanism:**
-    - Key Components/Elements: Break down the concept into its essential constituent parts or elements. For each component, provide a detailed explanation of its function, characteristics, and how it contributes to the overall concept.
-    - In-depth Mechanism/How it Works: Provide a step-by-step, thorough explanation of the process, workflow, or operational principles involved. If technical, explain the sequence of operations and interactions between components. Diagrams (described textually if necessary) should be used to clarify complex interactions or flows.
-    - Underlying Technical Details: Delve into relevant technical specifications, protocols, algorithms, data structures, or mathematical foundations. Explain these in an accessible yet comprehensive manner, providing enough detail for a technical reader to gain a solid understanding. Reference primary sources or whitepapers where appropriate.
-    - Variations, Types, or Implementations (if applicable): Discuss different existing or theoretical variations, classifications, or specific implementations of the concept. Highlight their differences, trade-offs, and specific use cases.
+
+*   **Key Components/Elements**: Break down the concept into its essential parts. For each, explain its function, characteristics, and contribution to the overall concept.
+*   **In-depth Mechanism/How it Works**: Provide a step-by-step, thorough explanation of the process, workflow, or operational principles. Use textual descriptions of diagrams if necessary to clarify complex interactions.
+*   **Underlying Technical Details**: Delve into relevant technical specifications, protocols, algorithms, data structures, or mathematical foundations. Explain these accessibly yet comprehensively. Reference primary sources or whitepapers.
+*   **Variations, Types, or Implementations (if applicable)**: Discuss different existing or theoretical variations, classifications, or specific implementations. Highlight their differences, trade-offs, and use cases.
 
 **3. Practical Applications, Use Cases & Implications:**
-    - Concrete Examples & Real-World Applications: Provide specific, detailed examples of how this concept is used in real-world Web3 projects or scenarios. Link to relevant `show-card`s if they exist. The examples should clearly illustrate the concept in action.
-    - Benefits & Advantages: Enumerate and elaborate on the advantages, positive outcomes, or improvements offered by this concept. Quantify benefits where possible or provide strong qualitative arguments.
-    - Limitations, Challenges & Criticisms: Discuss any known drawbacks, risks, difficulties, scalability issues, security concerns, or common criticisms associated with the concept. Provide a balanced perspective.
-    - Comparative Analysis (Optional but Encouraged): Compare and contrast the concept with alternative or similar concepts, or with traditional (e.g., Web 2.0) approaches. Highlight key differences in mechanism, efficiency, security, etc.
+
+*   **Concrete Examples & Real-World Applications**: Provide specific, detailed examples of how this concept is used in real-world Web3 projects. Link to relevant `show-card`s if they exist.
+*   **Benefits & Advantages**: Enumerate and elaborate on the advantages or improvements offered. Quantify benefits where possible or provide strong qualitative arguments.
+*   **Limitations, Challenges & Criticisms**: Discuss known drawbacks, risks, difficulties, scalability issues, security concerns, or common criticisms. Provide a balanced perspective.
+*   **Comparative Analysis (Optional but Encouraged)**: Compare the concept with alternatives or similar concepts, or with traditional (e.g., Web 2.0) approaches. Highlight key differences.
+*   **Future Trends & Developments**: Discuss potential future developments or innovations. What are emerging directions, and how might they impact Web3?
 
 **4. Broader Context & Further Exploration (Optional but Recommended):**
-    - Foundational Concepts/Prerequisites: List and briefly explain any foundational concepts that are essential for a deeper understanding of this topic. Link to their respective `explain-card`s.
-    - Constituent Building Blocks: Identify if this concept is composed of other, more fundamental concepts. Explain how they combine and link to their `explain-card`s.
-    - Related & Adjacent Ideas: Discuss other concepts that are closely related, often discussed in conjunction, or represent contrasting approaches. Link to relevant `explain-card`s.
-    - Advanced Topics & Future Research: Suggest avenues for further learning, advanced topics building upon this concept, or open research questions and future development directions.
 
-## General Guidelines Adherence
-
-- **All formatting, linking, naming, and file location MUST adhere to the standards defined in the [`wiki-guide.mdc`](mdc:.cursor/rules/wiki-guide.mdc).** This includes using H2 for sections, appropriate use of prose vs. lists, correct internal/external linking, and placing the file in the `cards` directory.
-- The card **MUST** start with the `#explain-card` tag on the very first line.
-
-> **Process and quality standards:**
-> All content creation and review for explain-cards must follow the 'Content Creation Checklist' and 'Final Review Checklist' sections in the [wiki-guide.mdc](mdc:.cursor/rules/wiki-guide.mdc).
+*   **Foundational Concepts/Prerequisites**: List and briefly explain foundational concepts essential for deeper understanding. Link to their respective `explain-card`s.
+*   **Constituent Building Blocks**: Identify if this concept is composed of other, more fundamental concepts. Explain how they combine and link to their `explain-card`s.
+*   **Related & Adjacent Ideas**: Discuss other closely related concepts, those often discussed in conjunction, or contrasting approaches. Link to relevant `explain-card`s.
+*   **Advanced Topics & Future Research**: Suggest avenues for further learning, advanced topics, or open research questions.

@@ -3,57 +3,66 @@ description: The standard rule for show-card: all updates to show-card files mus
 globs: 
 alwaysApply: false
 ---
-# Show Card Rule
+## Show Card Rule
 
-## Key Content Considerations
+### Card Overview
 
-When creating or updating a `show-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the project/tool/service being showcased.
+The `show-card` provides a comprehensive overview of a project, tool, or service within the Web3 ecosystem. It serves as an informative and analytical resource, offering insights into the project's purpose, features, technology, and ecosystem. The `show-card` aims to be a go-to reference for understanding the project in depth, including its use cases, integrations, and overall significance in Web3.
+
+### Core Requirements
+
+Creating or updating `show-card` files must adhere to the following:
+
+*   **General Card Rules**: Strictly follow the basic and general rules for all cards, as outlined in the `wiki-guide`. This is foundational.
+*   **Content Structure and Organization**: Prioritize logical organization. The content must be easy to follow, with clear headings and subheadings.
+*   **Runnable Examples/Demos**: If possible, include a runnable example or demo of the project or tool. This helps users understand its practical application. At a minimum, provide a link to a demo or example if a runnable version is not feasible.
+*   **Comparative Analysis**: Include a section discussing similar or competing projects. This helps users understand the project's market position.
+*   **Internal Linking**: Actively look for opportunities to link to relevant `explain-card` or `awesome-card` types to ensure content is well-connected and comprehensive.
+
+### Key Content Considerations
+
+When creating or updating a `show-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the item being showcased.
 
 **1. Overview:**
-    - Comprehensive summary of the project/tool/service, going beyond a brief introduction. Explain its purpose and significance in the Web3 space.
-    - Problem Solved: Clearly articulate the specific problem(s) it addresses within the Web3 ecosystem and detail *how* the project aims to solve them.
-    - Value Proposition: Elaborate on its unique benefits, advantages, and differentiators. If possible, provide context or comparison against existing solutions.
-    - Official Website: Link to the official site.
-    - Status & Roadmap: Current development status (e.g., Live, Beta, In Development). Include key historical dates/milestones and an overview of the public roadmap or future plans.
 
-**2. Key Features:**
-    - Main functionalities or capabilities. For each feature, provide a **detailed explanation** of what it does, *how it works* from a user perspective, and its specific benefits and potential use cases. Ensure this section is comprehensive and informative, reflecting deep knowledge.
+*   **Comprehensive Summary**: Provide a detailed summary of the project/tool/service, including its history, purpose, context, and significance in the Web3 ecosystem.
+*   **Problem Solved**: Clearly articulate the specific problem(s) it addresses and detail *how* the project aims to solve them.
+*   **Value Proposition**: Elaborate on its unique benefits, advantages, and differentiators. Compare against existing solutions if possible.
+*   **Official Website**: Link to the official site.
+*   **Status & Roadmap**: Detail the current development status (e.g., Live, Beta, In Development). Include key historical dates/milestones and an overview of the public roadmap or future plans.
+
+**2. Key Services/Features:**
+
+*   **Main Functionalities**: For each key feature or capability, provide a **detailed explanation** of what it does, *how it works* from a user perspective, and its specific benefits and potential use cases.
 
 **3. Technology:**
-    - Blockchain/Platform: Specify the underlying blockchain(s) or platform(s) it is built on or interacts with (e.g., [[Ethereum]], [[Solana]], Standalone).
-    - Architecture: Provide a detailed explanation of the high-level technical design, its core components, and their interactions. Diagrams are encouraged for clarity if complex. Explain the rationale behind architectural choices.
-    - Core Mechanism(s): Detail the key technical innovations, algorithms, or processes that underpin the project. Explain *how* these mechanisms work and their significance. Code snippets or pseudo-code can be included for illustration if it aids understanding.
-    - Smart Contracts (if applicable): List key smart contracts, link to them on a block explorer, and briefly explain their primary functions. Mention audit status and link to audit reports if available.
+
+*   **Blockchain/Platform**: Specify the underlying blockchain(s) or platform(s) it is built on or interacts with (e.g., `[[Ethereum]]`, `[[Solana]]`, Standalone).
+*   **Architecture**: Explain the high-level technical design, core components, and their interactions. Textual descriptions of diagrams are encouraged for clarity if complex. Explain architectural choices.
+*   **Core Mechanism(s)**: Detail key technical innovations, algorithms, or processes. Explain *how* these mechanisms work and their significance. Code snippets or pseudo-code can be included if it aids understanding.
+*   **Smart Contracts (if applicable)**: List key smart contracts, link to them on a block explorer, and briefly explain their primary functions. Mention audit status and link to audit reports if available.
 
 **4. Ecosystem & Use Cases:**
-    - Target Audience: Describe the primary users or beneficiaries (e.g., Developers, DeFi Traders, NFT Collectors) and explain *why* and *how* the project caters to them.
-    - How it's Used (Detailed Use Cases): Provide specific, illustrative examples of how users interact with the project. These should be step-by-step or scenario-based where appropriate to offer a clear understanding.
-    - Integrations: List notable projects, platforms, or protocols it integrates with. Explain the nature and benefits of these integrations for users and the ecosystem.
-    - Tokenomics (if applicable): If there's a native token, provide a detailed explanation of its utility within the ecosystem, its role in governance (if any), supply metrics (total, circulating, max), distribution model, and emission schedule. Link to the `[[Token Name]]` card.
+
+*   **Target Audience**: Describe the primary users (e.g., Developers, DeFi Traders, NFT Collectors) and explain *why* and *how* the project caters to them.
+*   **How it's Used (Detailed Use Cases)**: Provide specific, illustrative examples of user interaction. These should be step-by-step or scenario-based where appropriate.
+*   **Integrations**: List notable projects, platforms, or protocols it integrates with. Explain the nature and benefits of these integrations.
+*   **Tokenomics (if applicable)**: If there's a native token, detail its utility, role in governance, supply metrics (total, circulating, max), distribution model, and emission schedule. Link to the `[[Token Name]]` card if one exists or should be created.
 
 **5. Getting Started & Resources:**
-    - Accessing: Clear instructions on how to start using or interacting with the project/tool (e.g., web app URL, download links, API signup process).
-    - Comprehensive Documentation: Link to official, detailed documentation.
-    - Community Channels: Links to active official community channels (e.g., Discord, Telegram, Forum).
-    - Support Resources: Links to official support channels, FAQs, or knowledge bases.
-    - Source Code (if open source): Link to the primary code repositories (e.g., GitHub, GitLab), and mention the main license if known.
+
+*   **Accessing**: Clear instructions on how to start using the project/tool (e.g., web app URL, download links, API signup).
+*   **Comprehensive Documentation**: Link to official, detailed documentation.
+*   **Community Channels**: Links to active official community channels (e.g., Discord, Telegram, Forum).
+*   **Support Resources**: Links to official support channels, FAQs, or knowledge bases.
+*   **Source Code (if open source)**: Link to primary code repositories (e.g., GitHub, GitLab) and mention the main license.
 
 **6. Team and Project History:**
-    - Team: Introduce the core team members or key contributors. Highlight their relevant experience, expertise, and past projects if publicly known and significant.
-    - Project History & Milestones: Detail the project's development journey, including key milestones, significant achievements, major version releases, and any pivotal moments in its history. Outline future plans and long-term vision if available.
 
-**7. Comparative Analysis (if applicable):**
-    - Similar Projects: Identify key similar or competing projects. Provide a balanced and detailed comparison, highlighting similarities, differences, respective strengths, weaknesses, and unique selling points. This section should offer readers a clear understanding of the project's position in the market.
+*   **Team**: Introduce core team members or key contributors. Highlight relevant experience and expertise if publicly known and significant.
+*   **Project History & Milestones**: Detail the project's development journey, including key milestones, significant achievements, major releases, and pivotal moments. Outline future plans and long-term vision if available.
 
-**8. Related Concepts:**
-    - Links to relevant `explain-card`s (underlying technologies, e.g., Built using [[Optimistic Rollups]]).
-    - Links to relevant `awesome-card`s (e.g., See [[Awesome DeFi Tools]]).
+**7. Comparative Analysis:**
 
-## General Guidelines Adherence
+*   **Similar Projects**: Identify key similar or competing projects. Provide a balanced, detailed comparison, highlighting similarities, differences, respective strengths, weaknesses, and unique selling points. This section should offer readers a clear understanding of the project's position in the market.
 
-- **All formatting, linking, naming, and file location MUST adhere to the standards defined in the [`wiki-guide.mdc`](mdc:.cursor/rules/wiki-guide.mdc).** This includes using H2 for sections, prioritizing official external links, using appropriate internal links, balancing prose and lists, and placing the file in the `cards` directory.
-- The card **MUST** start with the `#show-card` tag on the very first line.
-
-
-> **Process and quality standards:**
-> All content creation and review for show-cards must follow the 'Content Creation Checklist' and 'Final Review Checklist' sections in the [wiki-guide.mdc](mdc:.cursor/rules/wiki-guide.mdc).
