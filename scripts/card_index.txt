@@ -32,7 +32,9 @@ Bitcoin
 Blast
 Blast Network
 Block
+Block Explorer
 Bloodbath
+Blockscan
 Bounty
 Bullish
 Burned Tokens
@@ -91,6 +93,7 @@ Financial Inclusion
 Fully Diluted Valuation (FDV)
 Gas
 Gas Limit
+Gas Prices
 Genesis Block
 Gm
 Gwei

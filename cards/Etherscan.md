@@ -1,64 +1,74 @@
-#show-card 
+#show-card
 
 ## Introduction
 
-[Etherscan](https://etherscan.io/) is the premier block explorer for the [[Ethereum]] blockchain. It enables users to investigate transactions, addresses, and smart contracts on the Ethereum network. Etherscan operates independently and is not affiliated with the Ethereum Foundation.
+[Etherscan](https://etherscan.io/) is the leading block explorer for the [[Ethereum]] blockchain, providing a comprehensive window into on-chain activity. It allows users, developers, and researchers to search, verify, and analyze transactions, addresses, smart contracts, and other [[Ethereum]] network data. Etherscan operates as an independent entity, separate from the [[Ethereum]] Foundation, and has become an indispensable tool for transparency and insight within the [[Ethereum]] ecosystem.
 
-## Service Provided
+## Core Services
 
-### Etherscan
+Etherscan offers a range of services centered around exploring and interacting with the [[Ethereum]] blockchain:
 
-[Etherscan](https://etherscan.io/) is the core service that allows users to explore the Ethereum blockchain. Users can search for transactions, addresses, and smart contracts. Additional features include token information analytics, [gas tracker](https://etherscan.io/gastracker), [node tracker](https://etherscan.io/nodetracker), [domain lookup](https://etherscan.io/name-lookup), and more. It also offers a Chrome extension for direct interaction with the Ethereum blockchain from the browser.
+### Blockchain Exploration
+
+The primary [Etherscan.io](https://etherscan.io/) platform enables users to:
+
+- Search for transactions by hash, block number, or address.
+- Inspect wallet addresses and their token balances, transaction history, and interactions with smart contracts.
+- View and verify smart contract source code.
+- Track [[Gas Prices|gas prices]] using the [Etherscan Gas Tracker](https://etherscan.io/gastracker).
+- Monitor network status via the [Node Tracker](https://etherscan.io/nodetracker).
+- Look up [[ENS|ENS domains]] using the [Domain Lookup](https://etherscan.io/name-lookup).
+- Utilize the [Etherscan Chrome Extension](https://chromewebstore.google.com/detail/etherscan/joeoaocmnapjmkhjndfflecmdaldkpbn) for direct browser interaction with the blockchain.
 
 ### API Services
 
-Etherscan offers a suite of load-balanced and robust [API Services](https://docs.etherscan.io/) that developers can use to build applications or serve as data feeds for other services.
+Etherscan provides robust [[API|API Services]] ([API Documentation](https://docs.etherscan.io/)) that empower developers to build decentralized applications (dApps) and integrate [[Ethereum]] data into their services. These APIs are designed for high availability and serve as a critical data feed for numerous projects in the ecosystem.
 
-### Blockscan Multichain Explorer
+### Multichain Exploration
 
-[Blockscan](https://blockscan.com/) is a multi-chain explorer supporting over 25 blockchains. It provides a unified interface for users to index account activities and transactions across multiple chains.
+- **[[Blockscan]]**: ([blockscan.com](https://blockscan.com/)) This platform extends Etherscan's capabilities to over 25 other blockchains, offering a unified interface for tracking activities across multiple chains.
+- **Explorer as a Service (EaaS)**: Etherscan offers [Explorer as a Service (EaaS)](https://etherscan.io/eaas) to other EVM-compatible blockchains, including major networks like [[Optimism]], [[Arbitrum]], and [[Binance Smart Chain]].
 
-### Blockscan Chat
+### Communication Tools
 
-[Blockscan Chat](https://chat.blockscan.com/start) is a messaging application that enables users to send and receive messages based on their Ethereum addresses, providing a wallet-to-wallet chat service.
+- **[[Blockscan]] Chat**: ([chat.blockscan.com](https://chat.blockscan.com/start)) A wallet-to-wallet messaging service enabling users to communicate directly using their [[Ethereum]] addresses.
 
+## Technical Architecture
 
-### Explorer as a Service (EaaS)
+Etherscan's platform is built upon a sophisticated infrastructure that continuously monitors the [[Ethereum]] blockchain. It downloads, indexes, and processes vast amounts of data related to transactions, addresses, blocks, and smart contracts. This data is then stored in their servers and made accessible through user-friendly interfaces and APIs. The system is engineered for high reliability and scalability to handle significant query volumes and provide real-time data updates.
 
-Etherscan also provides [Explorer as a Service (EaaS)](https://etherscan.io/eaas) for other Ethereum-compatible blockchains, including [[Optimism]], [[Arbitrum]], [[Binance Smart Chain]], and more.
+## Social Media & Community
 
+Stay connected with Etherscan through their official channels:
 
-## Technical Details
+- **X (formerly Twitter)**: [@etherscan](https://x.com/etherscan)
+- **Information Center**: [info.etherscan.com](https://info.etherscan.com/)
+- **Medium Blog**: [medium.com/etherscan-blog](https://medium.com/etherscan-blog)
 
-Etherscan builds its services by continuously monitoring the Ethereum blockchain and downloading data to its servers. They index transactions, addresses, and smart contracts, providing user-friendly interfaces for users and developers to access this data.
+## Key Milestones & Updates
 
-## Social Media
+Etherscan has continuously evolved, marking significant milestones:
 
-- [Etherscan X](https://x.com/etherscan)
-- [Etherscan Information Center](https://info.etherscan.com/)
-- [Etherscan Medium](https://medium.com/etherscan-blog)
+- **2024-10**: Launched Etherscan API V2, supporting 50+ blockchains with a single API key. ([Source](https://cointelegraph.com/news/etherscan-drops-v2-unifies-api-for-over-50-blockchains))
+- **2024-07-09**: Introduced "Etherscan Cards" feature. ([Announcement](https://info.etherscan.com/cards/))
+- **2024-01-03**: Acquired Solscan, expanding blockchain data services. ([Announcement](https://info.etherscan.com/solscan-acquisition/))
+- **2023-04**: Launched the Etherscan Metadata API.
+- **2022-11**: Released the [Etherscan Chrome Extension](https://chromewebstore.google.com/detail/etherscan/joeoaocmnapjmkhjndfflecmdaldkpbn).
+- **2022-09**: Supported The Merge on [[Ethereum]].
+- **2021-05**: Became one of the top 1,000 websites globally by traffic.
+- **2020-01**: Published the first edition of Etherscan's newsletter.
+- **2018-06**: Launched the Etherscan Gas Tracker.
+- **2018-01**: Introduced verified contract signatures.
+- **2017-12**: Displayed images and metadata for CryptoKitties ([[ERC-721|NFTs]]).
+- **2017-05**: Added support for [[ENS]] (ENS).
+- **2016-08**: Joined the Boost VC startup accelerator.
+- **2016-08**: Implemented support for the [[ERC-20]] token standard.
+- **2016-04**: Launched smart contract verification service.
+- **2015-09**: Launched Etherscan API service for [[Ethereum]].
+- **2015-08**: Etherscan platform launched.
 
-## Team
+## See Also
 
->[!todo]
-> Add team introduction
-
-## Latest Updates
-
-- 2024-10 [Launched Etherscan API V2, support 50+ blockchains with one API key](https://cointelegraph.com/news/etherscan-drops-v2-unifies-api-for-over-50-blockchains)
-- 2024-07-09 [Feature Update: Etherscan Cards](https://info.etherscan.com/cards/)
-- 2024-01-03 [Announcement: Etherscan Expands Blockchain Data Services with Solscan Acquisition](https://info.etherscan.com/solscan-acquisition/)
-- 2023-04 Launched the Etherscan Metadata API
-- 2022-11 Launched the [Etherscan Chrome Extension](https://chromewebstore.google.com/detail/etherscan/joeoaocmnapjmkhjndfflecmdaldkpbn)
-- 2022-09 Supported the Merge on Ethereum
-- 2021-05 Etherscan became one of the top 1,000 websites in the world by traffic
-- 2020-01 Published the first edition of Etherscan's newsletter
-- 2018-06 Launched the Etherscan Gas Tracker
-- 2018-01 Launched verified signatures
-- 2017-12 Displayed images and metadata for CryptoKitties, one of the first NFTs
-- 2017-05 Supported Ethereum Name Service (ENS)
-- 2016-08 Joined the Boost VC startup accelerator
-- 2016-08 Supported the ERC-20 token standard
-- 2016-04 Launch smart contract verification service
-- 2015-09 Launch Etherscan API service for Ethereum
-- 2015-08 Launch Etherscan
+- [[Ethereum]]
+- [[API]]
+- [[Blockscan]]
