@@ -22,6 +22,3 @@ The **NEAR Foundation** is a non-profit organization based in Switzerland that s
 -   **Documentation:** [https://docs.near.org/](https://docs.near.org/)
 -   **Explorer:** [https://explorer.near.org/](https://explorer.near.org/)
 -   **NEAR Foundation:** [https://near.foundation/](https://near.foundation/)
-
->[!todo]
-> update this card
