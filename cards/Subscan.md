@@ -13,7 +13,7 @@ Subscan is a high-precision, multi-chain block explorer widely used within the W
 - **Explorer as a Service (EaaS):** Offers a robust platform for developers and projects needing explorer functionalities.
 - **User-Friendly Interface:** Designed for ease of use for both technical and non-technical users.
 
-**Official Website:** [Subscan.io](mdc:https://www.subscan.io/)
+**Official Website:** [Subscan.io](https://www.subscan.io/)
 
 **Status & Roadmap:** Subscan is live and actively maintained, continually expanding its support for new networks. It currently supports nearly 100 networks within the Polkadot ecosystem and beyond.
 
@@ -59,14 +59,14 @@ Subscan provides a rich set of features for interacting with blockchain data:
 ## Getting Started & Resources
 
 - **Accessing Subscan:**
-  - Navigate to the main portal: [https://www.subscan.io/](mdc:https://www.subscan.io/)
+  - Navigate to the main portal: [https://www.subscan.io/](https://www.subscan.io/)
   - Select your desired network from the dropdown list or by visiting a network-specific subdomain (e.g., `https://polkadot.subscan.io/`).
 - **Documentation:** While a centralized documentation portal isn't prominently featured, usage is generally intuitive. API documentation is available for developers.
 - **Community Channels & Support:**
   - Support is often provided through community channels of the respective blockchains Subscan supports.
   - Issues or feature requests can sometimes be raised via their GitHub.
 - **Source Code:** Parts of Subscan's infrastructure are open-source.
-  - **Subscan Essentials GitHub:** [subscan-explorer/subscan-essentials](mdc:https://github.com/subscan-explorer/subscan-essentials) (A scaffold project for Substrate explorers)
+  - **Subscan Essentials GitHub:** [subscan-explorer/subscan-essentials](https://github.com/subscan-explorer/subscan-essentials) (A scaffold project for Substrate explorers)
 
 ## Team and Project History
 

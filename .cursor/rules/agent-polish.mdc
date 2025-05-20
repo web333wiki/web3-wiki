@@ -1,0 +1,70 @@
+---
+description: Defines the rules for polishing a card.
+globs: 
+alwaysApply: false
+---
+# AI Card Polishing Protocol
+
+These instructions guide the AI assistant in polishing a Web3 Wiki card to ensure it meets all project guidelines and quality standards. The goal is to validate the card's structure, content, links, and overall adherence to the `wiki-guide`.
+
+## Polishing Workflow
+
+Execute the following steps methodically for the card under review:
+
+### 1. Initial Validation and Conformance Checks
+
+- Card Type Tag:
+  - Verify that the very first line of the card is a valid category tag (`#explain-card`, `#show-card`, or `#awesome-card`) with no preceding content.
+  - Run the script: `python2 scripts/check-tags.py` to confirm tag validity.
+- Card Naming and Location:
+  - Ensure the card's filename adheres to the naming conventions specified in the `wiki-guide` (e.g., `Decentralized finance.md`, not `decentralized-finance.md`; first letter capitalized, rest lowercase, spaces allowed, no special characters except for known abbreviations like `EIP55.md`).
+  - Run the script: `python3 scripts/check-card-name.py` to verify the name.
+  - Confirm the card file is located directly within the `cards/` directory.
+- Main Page Exception:
+  - If the card is `Web3 Wiki.md`, do not proceed with content modifications, as it is maintained manually. Report this and stop.
+
+### 2. Content and Style Adherence (as per `wiki-guide`)
+
+- Category-Specific Rules: Confirm the card's content and structure follow the specific rules for its declared card type (refer to the relevant rule files if available, or the general principles in `wiki-guide`).
+- Style and Tone:
+  - Ensure the content is neutral, informative, and avoids promotional language or subjective opinions.
+  - Verify the writing style is clear, concise, and accessible.
+- Formatting and Structure:
+  - Prefer well-structured paragraphs for explanatory content; use lists strategically.
+  - Ensure proper and clean Markdown formatting (headings, subheadings, lists).
+- Content Quality:
+  - Assess if the content is accurate, up-to-date, and provides sufficient depth for the topic.
+  - Ensure content is not generic or superficial. Adapt detail based on information richness.
+- Consistency: Check that the card's style and formatting are generally consistent with other cards in the wiki.
+
+### 3. Internal Link Management
+
+- Identify Potential Links:
+  - Retrieve the list of all existing card names from `scripts/card_index.txt`.
+  - Carefully read the card's content and identify all terms, concepts, projects, or tools that correspond to existing cards in `scripts/card_index.txt`.
+- Implement Links:
+  - For each identified term, create an internal link using the `[[Page name]]` syntax (e.g., `[[Ethereum]]`).
+  - Ensure links are added naturally within the text.
+- Validate Links:
+  - Run the script: `python3 scripts/check-internal-links.py` to verify that all internal links in the card are valid and point to existing cards. Address any reported errors.
+
+### 4. External Link Formatting
+
+- Verify that all external links strictly follow the format: `[Link text](mdc:https:/example.com)`. Correct any deviations.
+
+### 5. Analysis and Feedback Generation
+
+- Suggest New Cards:
+  - While reviewing the content, identify any important concepts, technologies, projects, or tools mentioned that are _not_ present in `scripts/card_index.txt` and thus do not have existing cards.
+  - Compile a list of these as suggestions for new cards. For each suggestion, briefly explain why it would be a valuable addition to the wiki.
+- Identify Cards for Improvement:
+  - Note if the current card being polished, or any closely related cards encountered, appear outdated, lack depth, or could be significantly improved based on changes in the Web3 space or updated `wiki-guide` rules.
+  - Compile a list of these cards with brief reasons for suggesting improvement.
+
+## Output of Polishing Task
+
+Upon completion, provide a report including:
+
+1.  A summary of all checks performed and any corrections made to the card.
+2.  A list of suggested new card titles (e.g., "New Concept X.md") with a short justification for each.
+3.  A list of existing cards (including the one just polished, if applicable) that may warrant further review or updates, along with the rationale.

@@ -4,7 +4,7 @@
 
 Berachain is an [[EVM]]-compatible Layer 1 blockchain built on the Cosmos SDK. It utilizes a novel consensus mechanism called Proof of Liquidity (PoL) which aims to align network incentives, build strategic liquidity, and strengthen the network-level relationship between liquidity and security. Berachain features a tri-token system consisting of BERA (gas token), BGT (governance token), and HONEY (native consensus collateralized [[Stablecoin]]).
 
-- **Official Website**: [Berachain](mdc:https://www.berachain.com/)
+- **Official Website**: [Berachain](https://www.berachain.com/)
 - **Status**: Public Testnet (Artio) as of early 2024. Mainnet launch anticipated.
 - **Roadmap**: Details are typically shared through official channels like their blog and social media.
 
@@ -57,11 +57,11 @@ Berachain aims to address liquidity challenges in [[Decentralized finance]] by c
 ## Getting Started & Resources
 
 - **Accessing:** Interact with Berachain via its public testnet (Artio). Details on connecting a wallet (e.g., MetaMask) are usually provided in their documentation or community guides.
-- **Comprehensive Documentation:** [Berachain Docs](mdc:https://docs.berachain.com/) (Official documentation often evolves, verify URL).
+- **Comprehensive Documentation:** [Berachain Docs](https://docs.berachain.com/) (Official documentation often evolves, verify URL).
 - **Community Channels:**
   - Discord: (Link usually found on their official website)
-  - Twitter/X: [Berachain on X](mdc:https://twitter.com/berachain)
-- **Source Code:** [Berachain GitHub](mdc:https://github.com/berachain)
+  - Twitter/X: [Berachain on X](https://twitter.com/berachain)
+- **Source Code:** [Berachain GitHub](https://github.com/berachain)
 
 ## Team and Project History
 

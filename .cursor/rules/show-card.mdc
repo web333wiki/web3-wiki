@@ -1,69 +1,53 @@
 ---
-description: The standard rule for show-card: all updates to show-card files must adhere to these guidelines to maintain consistency and quality.
+description: 
 globs: 
 alwaysApply: false
 ---
-## Show Card Rule
+## Show Card Rules
 
 ### Card Overview
 
-The `show-card` provides a comprehensive overview of a project, tool, or service within the Web3 ecosystem. It serves as an informative and analytical resource, offering insights into the project's purpose, features, technology, and ecosystem. The `show-card` aims to be a go-to reference for understanding the project in depth, including its use cases, integrations, and overall significance in Web3.
+A `show-card` offers a detailed look at a specific project, tool, or service within the Web3 ecosystem. It functions as an informative and analytical resource, providing insights into the project's purpose, features, technology, and overall role in the Web3 space. The goal of a `show-card` is to be the primary reference for understanding the project in depth, covering its use cases, integrations, and significance.
 
 ### Core Requirements
 
-Creating or updating `show-card` files must adhere to the following:
+When creating or updating `show-card` files, adhere to these core requirements:
 
-*   **General Card Rules**: Strictly follow the basic and general rules for all cards, as outlined in the `wiki-guide`. This is foundational.
-*   **Content Structure and Organization**: Prioritize logical organization. The content must be easy to follow, with clear headings and subheadings.
-*   **Runnable Examples/Demos**: If possible, include a runnable example or demo of the project or tool. This helps users understand its practical application. At a minimum, provide a link to a demo or example if a runnable version is not feasible.
-*   **Comparative Analysis**: Include a section discussing similar or competing projects. This helps users understand the project's market position.
-*   **Internal Linking**: Actively look for opportunities to link to relevant `explain-card` or `awesome-card` types to ensure content is well-connected and comprehensive.
-*   **Final Checks**: Perform all steps outlined in the "### Final Step of Card Maintenance" section of the `wiki-guide`.
+- General Card Rules: Strictly follow all guidelines outlined in the `wiki-guide`. This is a fundamental requirement.
+- Content Structure and Organization: Prioritize a logical and well-organized structure. The content must be easy to navigate, with clear headings and subheadings to enhance readability.
+- Runnable Examples/Demos: Whenever practical, include a runnable example or demonstration of the project or tool. This allows users to grasp its practical application. If embedding a runnable version is not feasible, provide a direct link to a demo or example.
+- Comparative Analysis: Include a section that discusses similar or competing projects. This helps users understand the project's positioning in the market and its key differentiators.
 
-### Key Content Considerations
+### Key Content Sections
 
-When creating or updating a `show-card`, ensure the following aspects are covered. The AI assistant should generate a logical content outline based on these key elements and the specific nature of the item being showcased.
+This section details the recommended content areas for a `show-card`. While it's not mandatory to include every item, strive to cover as many as possible to create a comprehensive and valuable resource. Avoid generic descriptions or superficial content.
 
-**1. Overview:**
+- Project Overview
 
-*   **Comprehensive Summary**: Provide a detailed summary of the project/tool/service, including its history, purpose, context, and significance in the Web3 ecosystem.
-*   **Problem Solved**: Clearly articulate the specific problem(s) it addresses and detail *how* the project aims to solve them.
-*   **Value Proposition**: Elaborate on its unique benefits, advantages, and differentiators. Compare against existing solutions if possible.
-*   **Official Website**: Link to the official site.
-*   **Status & Roadmap**: Detail the current development status (e.g., Live, Beta, In Development). Include key historical dates/milestones and an overview of the public roadmap or future plans.
+  - Comprehensive Summary: Provide an in-depth summary of the project, tool, or service. Cover its history, core mission, operational context, and its importance within the Web3 ecosystem.
+  - Problem Solved: Clearly define the specific problem(s) the project addresses and explain in detail _how_ it intends to provide solutions.
+  - Value Proposition: Elaborate on the project's unique benefits, advantages, and key differentiators. Compare it with existing solutions where applicable.
+  - Official Website: Include a direct link to the official project website.
+  - Status & Roadmap: Describe the current development status (e.g., Live, Beta, In Development). List key historical dates/milestones and outline the public roadmap or future plans.
+  - Team: Introduce core team members or key contributors. Highlight relevant experience and expertise if this information is public and significant.
+  - Project History & Milestones: Detail the project's development journey, including key milestones, significant achievements, major releases, and pivotal moments. If available, outline future plans and the long-term vision.
 
-**2. Key Services/Features:**
+- Key Services/Features
 
-*   **Main Functionalities**: For each key feature or capability, provide a **detailed explanation** of what it does, *how it works* from a user perspective, and its specific benefits and potential use cases.
+  - Detailed Breakdown: For each key service or feature, provide a thorough explanation. Ideally, dedicate a subsection to each significant feature for clarity, enabling readers to understand the project comprehensively. For each feature, include:
+    - Description: A detailed account of the service/feature, including its purpose and functionality.
+    - How it Works: Explain the underlying mechanisms, processes, or technologies that power this service/feature. This explanation should be more technical than the general description. Incorporate relevant technical details such as algorithms, protocols, or frameworks used. Consider using diagrams, code snippets, or flowcharts to illustrate complex concepts where appropriate.
+    - User Experience (UX): Describe how users interact with this feature. Include any relevant user interface (UI) elements or workflows.
+    - Benefits: Discuss the advantages of using this feature, emphasizing any unique selling points or differentiators.
+    - Use Cases: Provide specific examples or scenarios where this feature proves beneficial. This can include real-world applications or illustrative hypothetical situations.
 
-**3. Technology:**
+- Getting Started & Resources
 
-*   **Blockchain/Platform**: Specify the underlying blockchain(s) or platform(s) it is built on or interacts with (e.g., `[[Ethereum]]`, `[[Solana]]`, Standalone).
-*   **Architecture**: Explain the high-level technical design, core components, and their interactions. Textual descriptions of diagrams are encouraged for clarity if complex. Explain architectural choices.
-*   **Core Mechanism(s)**: Detail key technical innovations, algorithms, or processes. Explain *how* these mechanisms work and their significance. Code snippets or pseudo-code can be included if it aids understanding.
-*   **Smart Contracts (if applicable)**: List key smart contracts, link to them on a block explorer, and briefly explain their primary functions. Mention audit status and link to audit reports if available.
+  - Accessing the Project: Offer clear instructions on how to begin using the project/tool (e.g., web app URL, download links, API signup procedures).
+  - Documentation: Link to official and comprehensive documentation.
+  - Community Channels: Provide links to active, official community channels (e.g., Discord, Telegram, Forum).
+  - Support Resources: Link to official support channels, FAQs, or knowledge bases.
+  - Source Code: If the project is open-source, link to its primary code repositories (e.g., GitHub, GitLab) and state the main software license.
 
-**4. Ecosystem & Use Cases:**
-
-*   **Target Audience**: Describe the primary users (e.g., Developers, DeFi Traders, NFT Collectors) and explain *why* and *how* the project caters to them.
-*   **How it's Used (Detailed Use Cases)**: Provide specific, illustrative examples of user interaction. These should be step-by-step or scenario-based where appropriate.
-*   **Integrations**: List notable projects, platforms, or protocols it integrates with. Explain the nature and benefits of these integrations.
-*   **Tokenomics (if applicable)**: If there's a native token, detail its utility, role in governance, supply metrics (total, circulating, max), distribution model, and emission schedule. Link to the `[[Token Name]]` card if one exists or should be created.
-
-**5. Getting Started & Resources:**
-
-*   **Accessing**: Clear instructions on how to start using the project/tool (e.g., web app URL, download links, API signup).
-*   **Comprehensive Documentation**: Link to official, detailed documentation.
-*   **Community Channels**: Links to active official community channels (e.g., Discord, Telegram, Forum).
-*   **Support Resources**: Links to official support channels, FAQs, or knowledge bases.
-*   **Source Code (if open source)**: Link to primary code repositories (e.g., GitHub, GitLab) and mention the main license.
-
-**6. Team and Project History:**
-
-*   **Team**: Introduce core team members or key contributors. Highlight relevant experience and expertise if publicly known and significant.
-*   **Project History & Milestones**: Detail the project's development journey, including key milestones, significant achievements, major releases, and pivotal moments. Outline future plans and long-term vision if available.
-
-**7. Comparative Analysis:**
-
-*   **Similar Projects**: Identify key similar or competing projects. Provide a balanced, detailed comparison, highlighting similarities, differences, respective strengths, weaknesses, and unique selling points. This section should offer readers a clear understanding of the project's position in the market.
-
+- Comparative Analysis (Optional but Highly Recommended)
+  - Similar Projects or Concepts: Identify key similar or competing projects. Offer a balanced and detailed comparison, highlighting similarities, differences, respective strengths, weaknesses, and unique selling points. This section should provide readers with a clear understanding of the project's position relative to others in the ecosystem.

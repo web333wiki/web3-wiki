@@ -58,6 +58,6 @@ These implementations adhere to the EVM specification outlined in the [[Ethereum
 
 ## Further Reading
 
-- [Ethereum Virtual Machine (EVM) on Ethereum.org](mdc:https://ethereum.org/en/developers/docs/evm/)
+- [Ethereum Virtual Machine (EVM) on Ethereum.org](https://ethereum.org/en/developers/docs/evm/)
 - [[Ethereum yellow paper]]
 - [[Solidity]] (The primary language for writing EVM-compatible smart contracts)

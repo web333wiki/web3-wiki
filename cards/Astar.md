@@ -14,7 +14,7 @@ Astar Network addresses the challenges of scalability and interoperability in th
 - **Developer Incentives:** Through its unique `dApp Staking` mechanism, developers can earn rewards for building on the network.
 - **Multi-VM Support:** Supports both EVM and WASM, offering flexibility to developers.
 
-**Official Website:** [Astar Network](mdc:https://astar.network/)
+**Official Website:** [Astar Network](https://astar.network/)
 
 **Status & Roadmap:**
 Astar Network is live and actively developing its ecosystem. Key milestones include its successful parachain auction win on Polkadot. The "Astar Evolution" initiative marks its expansion strategy, including integration with Soneium (an [[Ethereum]] Layer 2 solution by Sony) and the OP Superchain ecosystem to enhance growth and interoperability.
@@ -69,14 +69,14 @@ Astar Network is live and actively developing its ecosystem. Key milestones incl
 ## Getting Started & Resources
 
 - **Accessing:**
-  - **Astar Portal:** [portal.astar.network](mdc:https://portal.astar.network/)
+  - **Astar Portal:** [portal.astar.network](https://portal.astar.network/)
   - **Wallets:** Compatible with Polkadot JS Extension, [[MetaMask]] (for EVM), and other Substrate-compatible wallets.
-- **Comprehensive Documentation:** [Astar Docs](mdc:https://docs.astar.network/)
+- **Comprehensive Documentation:** [Astar Docs](https://docs.astar.network/)
 - **Community Channels:**
   - **Discord:** (Link usually found on the official website)
   - **Telegram:** (Link usually found on the official website)
   - **Forum:** (Link usually found on the official website)
-- **Source Code:** [Astar Network GitHub](mdc:https://github.com/AstarNetwork) (Primarily licensed under Apache 2.0)
+- **Source Code:** [Astar Network GitHub](https://github.com/AstarNetwork) (Primarily licensed under Apache 2.0)
 
 ## Team and Project History
 
