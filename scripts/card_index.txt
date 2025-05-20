@@ -106,6 +106,7 @@ Infura
 Ink
 Kaito
 Know your customer
+Layer 1
 Layer 2
 Lazarusbounty
 Ledger

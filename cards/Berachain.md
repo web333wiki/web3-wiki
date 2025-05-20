@@ -1,85 +1,79 @@
 #show-card
 
-## Overview
+## Project Overview
 
-Berachain is an [[EVM]]-compatible Layer 1 blockchain built on the Cosmos SDK. It utilizes a novel consensus mechanism called Proof of Liquidity (PoL) which aims to align network incentives, build strategic liquidity, and strengthen the network-level relationship between liquidity and security. Berachain features a tri-token system consisting of BERA (gas token), BGT (governance token), and HONEY (native consensus collateralized [[Stablecoin]]).
+### Summary
 
-- **Official Website**: [Berachain](https://www.berachain.com/)
-- **Status**: Public Testnet (Artio) as of early 2024. Mainnet launch anticipated.
-- **Roadmap**: Details are typically shared through official channels like their blog and social media.
+Berachain is an [[EVM]]-compatible [[Layer 1]] blockchain that introduces a tri-token economic model designed to enhance liquidity, staking, and governance. Its core mission is to address common challenges in [[Decentralized finance]], such as fragmented liquidity and misaligned incentives between stakers and protocols. It seeks to solve the problem of capital inefficiency and mercenary liquidity often seen in other blockchain ecosystems by deeply integrating liquidity provision into the consensus layer.
 
-### Problem Solved
+### Unique Benefits and Differentiators
 
-Berachain aims to address liquidity challenges in [[Decentralized finance]] by creating a system where liquidity provision is directly incentivized at the protocol level, thus improving capital efficiency and reducing reliance on mercenary capital. It also seeks to mitigate issues related to MEV (Maximal Extractable Value) and improve overall network security through its unique consensus mechanism.
+Berachain's primary differentiator is its Proof-of-Liquidity (PoL) consensus mechanism. Unlike traditional Proof-of-Stake systems where users stake the native gas token, PoL allows users to stake various blue-chip assets (like BTC, [[Ethereum]], [[Stablecoin]]s) into Berachain [[Validator]]s. In return, users receive BGT (Berachain Governance Token) which can be used for governance or delegated to [[Validator]]s to earn a share of network fees and block rewards in HONEY (Berachain's native [[Stablecoin]]). This mechanism aims to:
 
-### Value Proposition
+- Attract and retain deep liquidity within the ecosystem.
+- Align incentives between LPs, dApps, and [[Validator]]s.
+- Create a more robust and capital-efficient environment for [[Decentralized finance]] applications.
+  The tri-token model consists of:
+- BERA: The gas token, used for transaction fees.
+- BGT: The non-transferable governance token, earned by staking assets.
+- HONEY: The native, over-collateralized [[Stablecoin]], minted by users.
 
-- **Proof of Liquidity (PoL):** A novel consensus mechanism that aims to create a synergistic relationship between network security and liquidity provision. Users can stake blue-chip assets like [[Bitcoin]], [[Ethereum]], and stablecoins with validators to earn BGT, the governance token. Validators then direct BGT emissions to liquidity pools, incentivizing LPs.
-- **Tri-Token System:**
-  - **BERA:** The network's gas token, used for transaction fees.
-  - **BGT (Berachain Governance Token):** A non-transferable (soulbound) token used for governance and earned by staking assets. BGT holders can vote on network parameters and direct BGT emissions to liquidity pools.
-  - **HONEY:** A native, over-collateralized stablecoin pegged to USDC, minted by users against their collateral.
-- **EVM Compatibility:** Allows for easy deployment of existing Ethereum-based applications and tools.
-- **Modular Architecture (Cosmos SDK):** Provides flexibility and interoperability within the broader Cosmos ecosystem.
+### Background
+
+Berachain was co-founded by Smokey The Bera, Papa Bear, and Dev Bear, who were previously active in the OlympusDAO community. The project emerged from discussions around improving [[Decentralized finance]] primitives and capital efficiency. Key milestones include the development of the Polaris EVM framework, the design of the Proof-of-Liquidity consensus, and the launch of its public testnet "Artio." The project has garnered significant attention and backing from prominent venture capital firms in the crypto space.
+
+### Getting Started
+
+| Resource            | Link                                           | Description                                                                 |
+| ------------------- | ---------------------------------------------- | --------------------------------------------------------------------------- |
+| Official Website    | `https://www.berachain.com/`                   | Main portal for information about Berachain.                                |
+| Documentation       | `https://docs.berachain.com/`                  | Comprehensive guides, technical specifications, and developer resources.    |
+| Blog / Updates      | `https://www.berachain.com/blog`               | Latest news, articles, and announcements from the Berachain team.           |
+| Community (Discord) | `https://discord.gg/berachain`                 | Official Discord server for community discussions, support, and engagement. |
+| GitHub              | `https://github.com/berachain`                 | Source code repositories for Berachain's core components and tools.         |
+| Testnet Faucet      | (Link to specific testnet faucet if available) | For obtaining testnet BERA tokens to interact with the Artio testnet.       |
 
 ## Key Services/Features
 
-- **Native Decentralized Exchange (DEX):** Berachain includes a native DEX that facilitates trading and liquidity provision for assets within its ecosystem.
-- **Lending Protocol:** A native lending and borrowing protocol for HONEY and other assets.
-- **Perpetuals Trading:** Functionality for decentralized perpetuals trading.
-- **Governance:** BGT holders participate in on-chain governance, influencing the direction of the protocol and BGT emissions.
+### Proof-of-Liquidity (PoL) Consensus
 
-## Technology
+Proof-of-Liquidity is Berachain's novel consensus mechanism. Users contribute liquidity by staking various assets (e.g., [[Ethereum]], BTC, [[Stablecoin]]s) into [[Validator]] vaults. This staked liquidity is then used within the Berachain ecosystem by native dApps, generating fees that are distributed back to stakers and [[Validator]]s. In return for staking, users receive BGT, the governance token. This system is designed to ensure deep, protocol-owned liquidity, align [[Validator]] incentives with ecosystem growth, and provide a sustainable yield for liquidity providers. The underlying technology leverages the Cosmos SDK and CometBFT (formerly Tendermint Core) for consensus, with modifications to integrate the PoL module. Real-world use cases include enhancing capital efficiency for [[Decentralized finance]] protocols built on Berachain, providing sustainable yields for LPs, and fostering a more cooperative relationship between the chain and its applications.
 
-- **Blockchain/Platform:** Built on the Cosmos SDK, providing Tendermint consensus and IBC (Inter-Blockchain Communication Protocol) compatibility. It is an EVM-identical Layer 1.
-- **Consensus Mechanism:** Proof of Liquidity (PoL). This mechanism involves users delegating assets to validators. Validators produce blocks and direct BGT emissions to liquidity pools based on BGT holder votes. LPs in these incentivized pools earn BGT.
-- **Core Mechanism(s):**
-  - **Proof of Liquidity:** Integrates staking and liquidity provision. Stakers of blue-chip assets earn BGT, which is then used to incentivize liquidity in specific pools. This creates a feedback loop designed to attract and retain liquidity.
-  - **Tri-Token Economy:** The interplay between BERA, BGT, and HONEY is central to the chain's economic model, aiming to balance incentives for security, liquidity, and utility.
-- **Smart Contracts:** As an EVM-compatible chain, Berachain supports smart contracts written in [[Solidity]] and other EVM languages. Details on specific core contracts and audits are typically found in their official documentation and GitHub.
+### Tri-Token Economic Model
 
-## Ecosystem & Use Cases
+Berachain utilizes a three-token system to manage its economy:
 
-- **Target Audience:** DeFi users, developers looking for an EVM-compatible L1 with novel liquidity solutions, projects seeking to build with strong liquidity incentives.
-- **How it's Used (Detailed Use Cases):**
-  - Users can stake assets (e.g., ETH, BTC, stablecoins) to earn BGT.
-  - BGT holders can vote to direct BGT emissions to specific liquidity pools on the native DEX.
-  - Liquidity providers can add liquidity to incentivized pools to earn BGT rewards and trading fees.
-  - Users can mint HONEY stablecoins by providing collateral.
-  - Developers can deploy existing EVM dApps or build new ones on Berachain.
-- **Integrations:** As a Cosmos SDK chain, it has the potential for IBC integrations. Specific dApp integrations are emerging, particularly during the testnet phase.
-- **Tokenomics:**
-  - **BERA:** Used for gas fees.
-  - **BGT:** Governance token, earned via PoL staking, non-transferable. Used to vote on BGT emissions to LPs.
-  - **HONEY:** Native stablecoin.
-    Further details on supply, distribution, and emission schedules are typically found in official documentation.
+1.  BERA: This is the network's gas token, used to pay for transaction fees on the blockchain. It can be earned by validators and delegators.
+2.  BGT (Berachain Governance Token): BGT is a non-transferable, soulbound token awarded to users who contribute to the Proof-of-Liquidity mechanism by staking assets. BGT holders can participate in network governance, such as voting on proposals, and can delegate their BGT to validators to earn a share of protocol fees and HONEY inflation. This design aims to ensure that governance power resides with those actively contributing to the network's security and liquidity.
+3.  HONEY: This is Berachain's native, decentralized, over-collateralized [[Stablecoin]]. Users can mint HONEY by collateralizing accepted assets. HONEY serves as the primary medium of exchange within the Berachain [[Decentralized finance]] ecosystem and is used to pay rewards to BGT delegators.
 
-## Getting Started & Resources
+This model aims to create a flywheel effect where increased liquidity leads to more HONEY minting, more dApp activity, more fees, and thus greater incentives to provide liquidity and participate in governance.
 
-- **Accessing:** Interact with Berachain via its public testnet (Artio). Details on connecting a wallet (e.g., MetaMask) are usually provided in their documentation or community guides.
-- **Comprehensive Documentation:** [Berachain Docs](https://docs.berachain.com/) (Official documentation often evolves, verify URL).
-- **Community Channels:**
-  - Discord: (Link usually found on their official website)
-  - Twitter/X: [Berachain on X](https://twitter.com/berachain)
-- **Source Code:** [Berachain GitHub](https://github.com/berachain)
+### EVM Compatibility (Polaris EVM)
 
-## Team and Project History
+Berachain is fully [[EVM]]-compatible through its Polaris EVM framework. This allows developers to easily deploy existing [[Ethereum]] [[Smart contract]]s and dApps onto Berachain with minimal or no code changes. The Polaris EVM is built as a module on top of the Cosmos SDK, combining the flexibility and interoperability of [[Cosmos]] with the familiarity and widespread adoption of the [[Ethereum]] Virtual Machine. This feature significantly lowers the barrier to entry for developers looking to build on Berachain, leveraging the extensive tooling and developer community of [[Ethereum]]. Use cases include porting popular [[Decentralized finance]] protocols, [[NFT]] projects, and other [[EVM]]-based applications to the Berachain ecosystem.
 
-Information about the core team is often pseudonymous, following a common trend in some crypto projects. The project has gained significant attention and backing from various venture capital firms.
+### Native Decentralized Applications (dApps)
 
-- **Project History & Milestones:**
-  - Emerged from a community known for the "Bong Bears" NFT collection.
-  - Raised significant funding rounds.
-  - Launched its public testnet "Artio" in early 2024.
-  - Mainnet launch is anticipated.
+While allowing external developers to build, Berachain also plans to launch a set of native dApps that are deeply integrated with the Proof-of-Liquidity mechanism. These may include:
+
+- A native [[DEX]] (Decentralized Exchange) that utilizes the staked liquidity.
+- A lending protocol for HONEY.
+- A perpetuals trading platform.
+  These native applications are intended to bootstrap the ecosystem, showcase the capabilities of PoL, and generate fees that contribute to the network's economic loop. The technology behind these dApps will leverage the Polaris EVM and integrate directly with the PoL module for liquidity access.
 
 ## Comparative Analysis
 
-- **Similar Projects:**
-  - **Other EVM-compatible L1s:** Compares with chains like [[Ethereum]], [[Avalanche]], Fantom in terms of EVM compatibility and attracting dApps. Berachain differentiates itself with PoL and its tri-token model.
-  - **Cosmos Ecosystem Chains:** Shares similarities with other Cosmos SDK chains due to its underlying technology, offering interoperability via IBC.
-  - **Liquidity-focused Protocols:** Projects like Frax Finance (with its veFXS model influencing emissions) or OlympusDAO (with its bonding mechanism) have explored related concepts of protocol-owned or directed liquidity, though Berachain's PoL is a distinct L1 consensus approach.
-- **Key Differentiators:**
-  - Proof of Liquidity as a core consensus mechanism directly tying security to liquidity.
-  - The tri-token model (BERA, BGT, HONEY) designed to create a balanced and incentivized ecosystem.
-  - Strong community origins and engagement.
+Berachain can be compared to other [[Layer 1]] blockchains, particularly those built using the Cosmos SDK or those focusing on [[Decentralized finance]] and liquidity solutions.
+
+| Feature             | Berachain (Proof-of-Liquidity)                             | Typical Proof-of-Stake (e.g., [[Cosmos]] Hub, new L1s)         | [[Ethereum]] (Proof-of-Stake)          |
+| ------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- |
+| Consensus           | Proof-of-Liquidity                                         | Proof-of-Stake (Native Token Staking)                          | Proof-of-Stake (ETH Staking)           |
+| Staked Assets       | Various blue-chip assets (BTC, ETH, [[Stablecoin]]s, etc.) | Primarily the native network token                             | ETH                                    |
+| Liquidity Mechanism | Integrated into consensus; protocol-managed                | Relies on external dApps & LPs for liquidity                   | Relies on external dApps & LPs         |
+| Native Stablecoin   | HONEY (over-collateralized)                                | Varies; often relies on bridged or third-party [[Stablecoin]]s | DAI, USDC, USDT (third-party)          |
+| Governance Token    | BGT (non-transferable, earned via PoL)                     | Native network token (transferable)                            | Various dApp tokens; ETH for consensus |
+| EVM Compatibility   | Yes (Polaris EVM)                                          | Often, or via solutions like Evmos                             | Native                                 |
+| Capital Efficiency  | Aims for high capital efficiency via PoL                   | Can lead to capital silos if staked token isn't used           | Varies by dApp design                  |
+
+Berachain's approach differs significantly by directly incentivizing and utilizing a broader range of staked assets for network security and liquidity, aiming to create a more symbiotic relationship between the chain and its applications. Other L1s like Sei Network also focus on specific [[Decentralized finance]] use cases (e.g., order books) but may not have as deeply integrated a liquidity consensus mechanism as Berachain proposes. Compared to [[Ethereum]], Berachain aims to provide a more capital-efficient and integrated [[Decentralized finance]] experience from the base layer.

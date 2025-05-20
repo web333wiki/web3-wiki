@@ -1,172 +1,65 @@
 #show-card
 
-# NEAR Protocol
+## Project Overview
 
-## Overview
+NEAR Protocol is a decentralized application platform designed to enable community-driven innovation for the benefit of people around the world. It aims to address the critical challenges of scalability, usability, and developer experience that have hindered the widespread adoption of blockchain technology. NEAR operates as a sharded, [[Proof of stake|proof-of-stake]], layer-1 blockchain that is built to be highly performant, secure enough to manage high-value assets like money or identity, and user-friendly for both developers and end-users. The core mission is to provide a platform that is easy to build on and easy to use, fostering a vibrant ecosystem of [[DApp|decentralized applications (dApps)]].
 
-NEAR Protocol is a layer-1 blockchain designed to be user-friendly, scalable, and developer-oriented. Launched in April 2020, NEAR aims to address the limitations of earlier blockchain platforms by providing infrastructure for the open web and decentralized applications. Its key innovation is the implementation of sharding technology called Nightshade, which enhances scalability without compromising security or decentralization.
+### Unique Benefits and Differentiators
 
-NEAR solves blockchain scalability issues through its unique sharding approach, allowing the network to process transactions in parallel across multiple shards, thereby increasing throughput capacity significantly compared to non-sharded blockchains.
+NEAR Protocol distinguishes itself through several key features and design philosophies. Its primary advantage lies in its unique approach to scalability, Nightshade sharding, which allows the network to process transactions in parallel across multiple shards, significantly increasing throughput as the network grows. User experience is another major focus, with features like human-readable account names (e.g., `alice.near`) instead of cryptographic hashes, and a progressive security model that simplifies onboarding for new users. Developers benefit from support for familiar programming languages like Rust and AssemblyScript, comprehensive software development kits (SDKs), and a predictable [[Gas|gas]] fee model where fees can be paid by developers or subsidized for users. Furthermore, NEAR enhances interoperability within the broader [[Block|blockchain]] ecosystem through tools like the Rainbow Bridge, connecting to [[Ethereum]], and Aurora, an [[EVM]]-compatible layer that allows Ethereum developers to easily deploy their applications on NEAR.
 
-The platform offers human-readable account names instead of cryptographic addresses, low transaction fees, and carbon-neutral operations, making it accessible to mainstream users.
+### Background
 
-**Official Website**: [NEAR Protocol](https://near.org)
+NEAR Protocol was co-founded by Illia Polosukhin, an ex-Google AI researcher and a significant contributor to TensorFlow, and Alexander Skidanov, a former software developer at Microsoft and Director of Engineering at MemSQL. The project originated from their shared vision of creating a more accessible and scalable blockchain platform. The NEAR Foundation, a non-profit organization based in Switzerland, supports the ongoing development, governance, and ecosystem growth of the protocol. The NEAR mainnet, known as "MainNet: Phase 0," was launched in April 2020, with subsequent phases progressively enabling more features and decentralization, including the transition to a community-governed mainnet later that year. Key milestones include the launch of the Rainbow Bridge, the introduction of Aurora, and continuous improvements to its sharding mechanism.
 
-**Status & Roadmap**: Live mainnet with continuous development. The project has completed several major milestones, including implementing Phase 0 of Nightshade sharding and launching the Aurora EVM environment. Future development focuses on expanding cross-chain capabilities, improving developer tooling, and advancing sharding implementation.
+### Getting Started
 
-## Key Services/Features
+To begin exploring and interacting with the NEAR Protocol, here are some essential resources:
 
-### User-Friendly Accounts
+| Resource         | Link                                              | Description                                                                  |
+| ---------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Official Website | [near.org](https://near.org)                      | The primary portal for information about NEAR Protocol.                      |
+| Documentation    | [docs.near.org](https://docs.near.org)            | Comprehensive guides, tutorials, and API references for developers.          |
+| GitHub           | [github.com/near](https://github.com/near)        | The official GitHub organization hosting NEAR's core Pprotocol and tools.    |
+| NEAR Wallet      | [wallet.near.org](https://wallet.near.org)        | The official web-based wallet for managing NEAR accounts and assets.         |
+| NEAR Explorer    | [explorer.near.org](https://explorer.near.org)    | A tool for exploring blocks, transactions, and accounts on the NEAR network. |
+| NEAR Community   | [near.org/community](https://near.org/community/) | Links to various community channels like Discord, Telegram, and forums.      |
+| Aurora           | [aurora.dev](https://aurora.dev)                  | Information on NEAR's [[EVM]] compatibility layer.                           |
 
-NEAR uses human-readable account names (e.g., "username.near") rather than cryptographic addresses, significantly improving user experience. Accounts can be created easily through email or social media authentication, removing a major barrier to blockchain adoption.
+## Key Services and Features
+
+NEAR Protocol incorporates several innovative technologies and features designed to achieve its goals of scalability, usability, and developer-friendliness.
+
+### Nightshade Sharding
+
+Nightshade is NEAR's unique approach to sharding, which allows the blockchain to scale linearly with the number of shards. Unlike some sharding implementations where each shard maintains a separate blockchain, Nightshade processes "chunks" of transactions for each shard in every block. These chunks are then aggregated into a single main chain block. This design aims to improve throughput significantly by distributing the computational load across many [[Validator|validators]]. You can find more technical details in the [NEAR sharding documentation](https://docs.near.org/concepts/abstraction/sharding). The primary benefit is enhanced scalability, allowing the network to handle a growing number of transactions and users without a proportional increase in transaction fees or confirmation times.
+
+### Doomslug Consensus
+
+Doomslug is NEAR's block production mechanism. It allows validator nodes to produce blocks in a round-robin fashion, with a single round of communication per block height. A key property of Doomslug is its "practical finality"; once a block is produced and broadcast, it is considered highly unlikely to be reverted, even before full BFT (Byzantine Fault Tolerant) finality is achieved through a separate mechanism like Nightshade's BFT finality gadget. This provides users with faster transaction confirmations, typically within a few seconds. More information about Doomslug can be found in NEAR's [consensus documentation](https://docs.near.org/concepts/basics/consensus).
 
 ### Rainbow Bridge
 
-A trustless bridge connecting NEAR to [[Ethereum]] and other blockchains, enabling seamless asset transfer between ecosystems. Users can move tokens and data across chains without centralized intermediaries, expanding interoperability in the Web3 space.
+The Rainbow Bridge is a trustless and permissionless protocol for connecting NEAR with the [[Ethereum]] blockchain. It allows users and developers to transfer [[ERC-20]] tokens, ETH, and eventually any arbitrary data, between the two networks. This interoperability is crucial for leveraging [[Ethereum]]'s vast ecosystem of assets and dApps while benefiting from NEAR's scalability and lower transaction costs. The bridge is secured by light clients on both chains, minimizing trust assumptions. Further details are available at the [Rainbow Bridge documentation](https://rainbowbridge.app/faq).
 
-### Developer-Friendly Environment
+### Aurora
 
-NEAR provides comprehensive SDKs supporting multiple programming languages (JavaScript/TypeScript, Rust, AssemblyScript), extensive documentation, and development tools that significantly reduce the learning curve for building decentralized applications.
+Aurora is an [[EVM]] implementation built as a [[Smart contract|smart contract]] on the NEAR Protocol. It provides a turn-key solution for developers to run their existing [[Ethereum]] applications on NEAR without significant modifications. Aurora benefits from NEAR's underlying scalability and low transaction fees, offering a familiar environment for [[Ethereum]] developers. It also includes its own bridge to transfer assets between [[Ethereum]] and Aurora. For more details, visit the [Aurora official website](https://aurora.dev). This feature significantly lowers the barrier to entry for [[Ethereum]] projects looking for alternative scaling solutions.
 
-### Aurora EVM
+### Account Model
 
-Aurora is an Ethereum Virtual Machine ([[EVM]]) implementation running as a contract on NEAR. It allows developers to deploy Ethereum smart contracts to NEAR with minimal modifications, taking advantage of NEAR's lower fees and higher throughput while maintaining compatibility with Ethereum tools and workflows.
+NEAR features a highly flexible and user-friendly account model. Unlike the cryptographic public key addresses common in many blockchains, NEAR allows for human-readable account names like `username.near`. Accounts can also be associated with multiple key pairs, each with different permissions, enhancing security and manageability. Furthermore, accounts on NEAR are themselves smart contracts, enabling more sophisticated account logic, such as built-in multi-signature capabilities or social recovery mechanisms. This contract-based account system also facilitates "progressive security," where users can start with simpler security setups and upgrade as their needs evolve. You can learn more about accounts in the [NEAR accounts documentation](https://docs.near.org/concepts/basics/accounts).
 
-## Technology
+### Developer Experience
 
-### Blockchain/Platform
-
-NEAR Protocol is a standalone, independent layer-1 blockchain with its own consensus mechanism and native token.
-
-### Architecture
-
-NEAR utilizes a sharded architecture called Nightshade that splits the network into multiple shards, each processing transactions in parallel. This design enables horizontal scaling, allowing transaction throughput to increase proportionally with network growth.
-
-The platform employs a "chunk-based" approach where the blockchain is divided into chunks assigned to different validators, rather than requiring all validators to process all transactions. This enables efficient use of network resources and supports high scalability.
-
-### Core Mechanism(s)
-
-#### Nightshade Sharding
-
-Unlike traditional sharding where each shard maintains a separate blockchain, Nightshade creates a single blockchain where each block contains only a subset of all transactions (chunks). Validators are assigned to specific shards but collectively produce blocks for the entire chain, maintaining both high performance and strong security guarantees.
-
-#### Doomslug Consensus
-
-NEAR uses a Proof-of-Stake consensus algorithm called Doomslug that enables fast finality (typically 1-2 seconds) with minimal overhead. Validators are selected proportionally to their stake, and block production rights rotate among [[Validator|validators]] to ensure fair participation.
-
-#### Contract-based Account Model
-
-NEAR's account system is built on smart contracts, giving each account programmable capabilities. This design enables advanced features like account recovery, delegated actions, and complex permission structures without requiring protocol-level changes.
-
-### Smart Contracts
-
-NEAR supports [[Smart contract|smart contracts]] written in Rust, AssemblyScript, and through Aurora, [[Solidity]]. Contracts are compiled to WebAssembly (Wasm), providing efficient execution and language flexibility. The platform features a unique state staking model where developers pay for storage based on the amount of data their contracts store. While the core NEAR platform undergoes rigorous testing and security reviews, specific dApps and [[Smart contract|smart contracts]] built on NEAR should also undergo independent security audits. Users are encouraged to verify the audit status of individual applications.
-
-Key contracts include:
-
-- Account contracts (every account is a contract)
-- Fungible Token (NEP-141) and Non-Fungible Token (NEP-171) standards
-- Staking and validation contracts
-
-## Ecosystem & Use Cases
-
-### Target Audience
-
-- **Developers**: Web and blockchain developers seeking a user-friendly platform with low barriers to entry
-- **DeFi Users**: Traders and investors looking for high throughput and low fees, engaging with [[Decentralized finance]] applications.
-- **NFT Creators and Collectors**: Artists and enthusiasts utilizing NEAR's efficient NFT infrastructure
-- **DAO Participants**: Community members leveraging NEAR's governance tools and participating in Decentralized Autonomous Organizations (DAOs).
-- **End Users**: Mainstream users accessing decentralized applications through NEAR's simplified user experience
-
-### How it's Used
-
-#### DeFi Applications
-
-Users can engage with decentralized exchanges like Ref Finance to swap tokens with minimal fees. For example, a user can connect their NEAR wallet, deposit assets, and trade with significant cost savings compared to Ethereum-based alternatives, while enjoying almost instant transaction finality.
-
-#### NFT Marketplaces
-
-Creators can mint NFTs on platforms like Paras or Mintbase with low costs and list them for sale. Collectors can discover and purchase digital art, with transactions settling in seconds rather than minutes.
-
-#### Cross-Chain Activities
-
-Users can leverage Rainbow Bridge to move assets between NEAR and other blockchains. For instance, a user can transfer ETH from Ethereum to NEAR, use it within NEAR's ecosystem at lower costs, and then transfer it back when needed.
-
-### Integrations
-
-- **Aurora**: [[EVM]] environment enabling Ethereum compatibility
-- **Octopus Network**: Interoperable appchain network built on NEAR
-- **Flux Protocol**: [[Oracle]] solution providing off-chain data
-- **[[Chainlink]]**: [[Oracle]] integration for reliable external data
-- **Ceramic Network**: Decentralized data network integration
-
-### Tokenomics
-
-NEAR token serves multiple purposes within the ecosystem:
-
-- Payment for transaction fees
-- Staking for network security
-- Governance participation
-
-**Total Supply**: 1 billion NEAR tokens
-**Distribution**: 17.2% to community grants, 23.7% to ecosystem development, 11.4% to early backers, 10% to foundation endowment, and the remaining to the team and other stakeholders
-**Emission**: Dynamic supply with an initial inflation rate of 5%, which decreases over time as transaction fee burning mechanism balances new issuance
-
-## Getting Started & Resources
-
-### Accessing
-
-- Create a NEAR account at [NEAR Wallet](https://wallet.near.org)
-- Access the NEAR blockchain explorer at [NEAR Explorer](https://explorer.near.org)
-- Develop applications using [NEAR SDK](https://docs.near.org/sdk/welcome)
-
-### Comprehensive Documentation
-
-- [NEAR Protocol Documentation](https://docs.near.org)
-- [NEAR Developer Documentation](https://docs.near.org/develop/welcome)
-
-### Community Channels
-
-- [NEAR Discord](https://near.chat)
-- [NEAR Forum](https://gov.near.org)
-- [NEAR Twitter](https://twitter.com/nearprotocol)
-
-### Support Resources
-
-- [NEAR Help Center](https://help.near.org)
-- [NEAR Stack Exchange](https://near.stackexchange.com)
-
-### Source Code
-
-- [NEAR GitHub](https://github.com/near)
-- Open source under Apache 2.0 and MIT licenses
-
-## Team and Project History
-
-### Team
-
-NEAR was founded by Alex Skidanov (former Director of Engineering at MemSQL) and Illia Polosukhin (former Engineering Lead at Google). The core team includes veterans from major tech companies and blockchain projects, with expertise spanning distributed systems, cryptography, and user experience design.
-
-### Project History & Milestones
-
-- **2018**: NEAR Protocol conceptualized
-- **2019**: Raised $12.1M in venture funding
-- **April 2020**: Mainnet launched with Proof-of-Authority consensus
-- **October 2020**: Transitioned to community-governed Proof-of-Stake
-- **2021**: Launched Rainbow Bridge and Aurora EVM
-- **2022**: Implemented Phase 0 of Nightshade sharding and surpassed 100M accounts
-- **2023**: Expanded ecosystem with over 1000 projects building on NEAR
+NEAR prioritizes a smooth developer experience by supporting popular programming languages like Rust and AssemblyScript (a TypeScript-like language that compiles to WebAssembly). It provides robust SDKs, command-line tools, and comprehensive documentation to aid development. The gas fee model on NEAR is designed to be predictable. A portion of transaction fees is burned, while the rest is awarded to the contract that was called, allowing developers to subsidize gas fees for their users, creating a more web2-like user experience. This approach simplifies dApp development and encourages wider adoption by abstracting away some of the complexities of gas management for end-users.
 
 ## Comparative Analysis
 
-### NEAR Protocol vs. Ethereum
+NEAR Protocol positions itself as a highly scalable and user-friendly alternative to other leading smart contract platforms. When compared to [[Ethereum]], NEAR offers significantly higher throughput and lower transaction fees due to its Nightshade sharding mechanism, while maintaining interoperability through the Rainbow Bridge and [[EVM]] compatibility via Aurora.
 
-Both are smart contract platforms, but NEAR offers significantly lower transaction fees and higher throughput. While Ethereum has broader adoption and a larger ecosystem, NEAR provides a more user-friendly experience with human-readable accounts. NEAR's sharded architecture allows for better scalability today, though Ethereum's transition to ETH2 aims to address these limitations.
+Compared to other sharded blockchains like [[Polkadot]] or Elrond, NEAR's Nightshade design aims for a more integrated sharding approach where shards produce "chunks" of a single block, potentially leading to different performance characteristics and complexities.
 
-### NEAR Protocol vs. Solana
+Against high-throughput non-sharded chains like [[Solana]] or [[Avalanche]], NEAR differentiates itself with its focus on progressive usability for end-users (e.g., human-readable accounts, contract-based accounts) and its specific sharding architecture designed for long-term scalability. While [[Solana]] emphasizes a single global state and high TPS through its Proof-of-History mechanism, NEAR focuses on horizontal scaling via sharding. [[Avalanche]] utilizes a subnet architecture for custom blockchain creation, whereas NEAR's core focus is on scaling its [[Layer 2|Layer 1]] through Nightshade.
 
-Both focus on high throughput and low fees, but through different approaches. [[Solana]] achieves performance through a single high-performance chain with specialized hardware requirements, while NEAR uses sharding to distribute the load. NEAR offers better developer experience with more accessible programming models, while [[Solana]] provides higher raw performance but with more centralized [[Validator|validator]] requirements.
-
-### NEAR Protocol vs. Cosmos
-
-Both support interoperability, but with different philosophies. Cosmos creates an "internet of blockchains" where each app can have its own chain, while NEAR uses sharding within a single blockchain. NEAR provides a more unified experience and shared security model, whereas Cosmos offers greater sovereignty for individual applications at the cost of more complex interchain security arrangements.
+Each platform has its own trade-offs regarding decentralization, [[Data security|security]], scalability, and developer ecosystem maturity. NEAR's approach attempts to strike a balance by providing a scalable, developer-friendly, and user-accessible platform with strong interoperability features.

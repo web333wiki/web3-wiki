@@ -20,34 +20,39 @@ When creating or updating `show-card` files, adhere to these core requirements:
 
 ### Key Content Sections
 
-This section details the recommended content areas for a `show-card`. While it's not mandatory to include every item, strive to cover as many as possible to create a comprehensive and valuable resource. Avoid generic descriptions or superficial content.
+This section details the recommended content areas for a `show-card`. While it's not mandatory to include every item, strive to cover as many as possible to create a comprehensive and valuable resource. To build a comprehensive card, research these content areas (web searches are often necessary) and then organize the information logically.
 
-- Project Overview
+Please note that we should put the summary in the `Overview` section instead of the top of the card.
 
-  - Comprehensive Summary: Provide an in-depth summary of the project, tool, or service. Cover its history, core mission, operational context, and its importance within the Web3 ecosystem.
-  - Problem Solved: Clearly define the specific problem(s) the project addresses and explain in detail _how_ it intends to provide solutions.
-  - Value Proposition: Elaborate on the project's unique benefits, advantages, and key differentiators. Compare it with existing solutions where applicable.
-  - Official Website: Include a direct link to the official project website.
-  - Status & Roadmap: Describe the current development status (e.g., Live, Beta, In Development). List key historical dates/milestones and outline the public roadmap or future plans.
-  - Team: Introduce core team members or key contributors. Highlight relevant experience and expertise if this information is public and significant.
-  - Project History & Milestones: Detail the project's development journey, including key milestones, significant achievements, major releases, and pivotal moments. If available, outline future plans and the long-term vision.
+* Overview
 
-- Key Services/Features
+    This section should consider to include the following:
 
-  - Detailed Breakdown: For each key service or feature, provide a thorough explanation. Ideally, dedicate a subsection to each significant feature for clarity, enabling readers to understand the project comprehensively. For each feature, include:
-    - Description: A detailed account of the service/feature, including its purpose and functionality.
-    - How it Works: Explain the underlying mechanisms, processes, or technologies that power this service/feature. This explanation should be more technical than the general description. Incorporate relevant technical details such as algorithms, protocols, or frameworks used. Consider using diagrams, code snippets, or flowcharts to illustrate complex concepts where appropriate.
-    - User Experience (UX): Describe how users interact with this feature. Include any relevant user interface (UI) elements or workflows.
-    - Benefits: Discuss the advantages of using this feature, emphasizing any unique selling points or differentiators.
-    - Use Cases: Provide specific examples or scenarios where this feature proves beneficial. This can include real-world applications or illustrative hypothetical situations.
+    - An in-depth summary of the project, tool, or service, including its core mission, operational context, and the problem it solves.
+    - Elaboration on the project's unique benefits, advantages, and key differentiators, with comparisons to existing solutions where applicable.
+    - The background of the project, including the founders, the team, and the history, key milestones of the project.
+    - A "get started" guide or resources to help users begin with the project, including links to the official website, documentation, community channels, and GitHub repository. Preferably, construct these resources in a table format.
 
-- Getting Started & Resources
+* Key Services/Features
 
-  - Accessing the Project: Offer clear instructions on how to begin using the project/tool (e.g., web app URL, download links, API signup procedures).
-  - Documentation: Link to official and comprehensive documentation.
-  - Community Channels: Provide links to active, official community channels (e.g., Discord, Telegram, Forum).
-  - Support Resources: Link to official support channels, FAQs, or knowledge bases.
-  - Source Code: If the project is open-source, link to its primary code repositories (e.g., GitHub, GitLab) and state the main software license.
+    This section is critical and must be comprehensive and detailed. For each key service or feature, provide a thorough explanation, ideally in a dedicated subsection for clarity. It should cover the following items:
 
-- Comparative Analysis (Optional but Highly Recommended)
-  - Similar Projects or Concepts: Identify key similar or competing projects. Offer a balanced and detailed comparison, highlighting similarities, differences, respective strengths, weaknesses, and unique selling points. This section should provide readers with a clear understanding of the project's position relative to others in the ecosystem.
+    - Introduction to what the feature is, preferably with an external link to the official documentation.
+    - The underlying technology or mechanism of the feature. This is particularly important for coders and researchers, as they can find solutions here - this is the value of this wiki card.
+    - The real-world use cases and benefits.
+
+    For each item, prefer to use natural language, paragraphs instead of bullet points or summary lists.
+
+* Comparative Analysis
+
+    This section is optional but highly recommended. It should:
+
+    - Compare the project with similar or competing projects.
+    - Offer a balanced and detailed comparison.
+    - Preferably, include a table for the comparison.
+
+### Final Notes
+
+- Review the card's structure and content flow, adjusting as needed to ensure clarity and comprehensiveness.
+- Avoid overly brief descriptions. Aim for detailed and informative content in all sections, moving beyond single-sentence explanations.
+- For detailed explanations, favor dedicated subsections over bullet points to provide depth and context.

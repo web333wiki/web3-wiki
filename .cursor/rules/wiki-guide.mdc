@@ -51,7 +51,7 @@ All card Markdown files **MUST** be placed **directly within the `cards` directo
 Since this wiki is built using Obsidian, two types of links can be used within cards: internal and external.
 
 - Internal Links: These links point to existing cards within the wiki. They are created using the syntax `[[Page name]]`, where `Page name` is the name of the target card (e.g., `[[Ethereum]]` links to `Ethereum.md`). Internal links connect related concepts and provide easy navigation. It is crucial to ensure all internal links are valid.
-- External Links: These links point to external resources like official websites or documentation; its format is `[Link text](link)`. External links provide additional context and references.
+- External Links: These links point to external resources like official websites or documentation; External links provide additional context and references.
 
 For the internal links, follow these guidelines:
 
@@ -67,10 +67,10 @@ For the external links, follow these guidelines:
 
 Once the card type and name are established, create the content according to the specific rules for that card type. Each card type has its own rules and structure. This section provides general rules applicable to all card types. **This is critically important.**
 
+- Prefer using natural language and paragraphs explanations instead of summary lists. But keep the tables format. **This is critically important.**
+- Do not use bold markdown in the card content, even in the list items. **This is critically important.**
 - Mandatory Category Tag: The very first line of every card file **MUST** be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`), with no preceding blank lines or content. This is a strict requirement.
 - Style and Tone: Content should be neutral and informative, similar to Wikipedia articles. Avoid promotional language or subjective opinions. The writing style should be clear, concise, and accessible.
 - Category-Specific Rules: Each card must follow the specific rules for its category, detailed in separate rule files. Refer to those files for detailed content structure instructions.
-- Prose Over Lists: For explanatory or descriptive content, prefer well-structured paragraphs over excessive bullet points. Use lists strategically for clarity (e.g., resource lists).
-- Clean Formatting: Ensure proper Markdown formatting (headings, subheadings, lists). Avoid excessive formatting or clutter.
 - Accurate and In-Depth Content: Ensure content is accurate, up-to-date, and provides sufficient depth. Avoid generic or superficial content. Adapt the level of detail based on available information: for topics with limited sources, consolidate related items into fewer sections; for topics with rich information, provide comprehensive and detailed explanations.
 - Exception - Main Page: The card `Web3 Wiki.md` serves as the main page. The AI assistant **MUST NOT** modify its content, as it is maintained manually.
