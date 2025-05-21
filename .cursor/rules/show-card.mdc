@@ -51,8 +51,8 @@ Please note that we should put the summary in the `Overview` section instead of 
     - Offer a balanced and detailed comparison.
     - Preferably, include a table for the comparison.
 
-### Final Notes
+### Final Notes **This is important**
 
-- Review the card's structure and content flow, adjusting as needed to ensure clarity and comprehensiveness.
-- Avoid overly brief descriptions. Aim for detailed and informative content in all sections, moving beyond single-sentence explanations.
-- For detailed explanations, favor dedicated subsections over bullet points to provide depth and context.
+- Ensure the AI assistant reviews all sections and subsections, reorganizing content logically and avoiding robotic phrasing.
+- Prioritize detailed and informative content across all sections, expanding beyond single-sentence explanations.
+- For comprehensive explanations, utilize dedicated subsections rather than bullet points to offer greater depth and context.

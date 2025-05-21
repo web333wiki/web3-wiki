@@ -51,7 +51,7 @@ This model aims to create a flywheel effect where increased liquidity leads to m
 
 ### EVM Compatibility (Polaris EVM)
 
-Berachain is fully [[EVM]]-compatible through its Polaris EVM framework. This allows developers to easily deploy existing [[Ethereum]] [[Smart contract]]s and dApps onto Berachain with minimal or no code changes. The Polaris EVM is built as a module on top of the Cosmos SDK, combining the flexibility and interoperability of [[Cosmos]] with the familiarity and widespread adoption of the [[Ethereum]] Virtual Machine. This feature significantly lowers the barrier to entry for developers looking to build on Berachain, leveraging the extensive tooling and developer community of [[Ethereum]]. Use cases include porting popular [[Decentralized finance]] protocols, [[NFT]] projects, and other [[EVM]]-based applications to the Berachain ecosystem.
+Berachain is fully [[EVM]]-compatible through its Polaris EVM framework. This allows developers to easily deploy existing [[Ethereum]] [[Smart contract]]s and dApps onto Berachain with minimal or no code changes. The Polaris EVM is built as a module on top of the Cosmos SDK, combining the flexibility and interoperability of Cosmos with the familiarity and widespread adoption of the [[Ethereum]] Virtual Machine. This feature significantly lowers the barrier to entry for developers looking to build on Berachain, leveraging the extensive tooling and developer community of [[Ethereum]]. Use cases include porting popular [[Decentralized finance]] protocols, [[NFT]] projects, and other [[EVM]]-based applications to the Berachain ecosystem.
 
 ### Native Decentralized Applications (dApps)
 
@@ -66,7 +66,7 @@ While allowing external developers to build, Berachain also plans to launch a se
 
 Berachain can be compared to other [[Layer 1]] blockchains, particularly those built using the Cosmos SDK or those focusing on [[Decentralized finance]] and liquidity solutions.
 
-| Feature             | Berachain (Proof-of-Liquidity)                             | Typical Proof-of-Stake (e.g., [[Cosmos]] Hub, new L1s)         | [[Ethereum]] (Proof-of-Stake)          |
+| Feature             | Berachain (Proof-of-Liquidity)                             | Typical Proof-of-Stake (e.g., Cosmos Hub, new L1s)             | [[Ethereum]] (Proof-of-Stake)          |
 | ------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- |
 | Consensus           | Proof-of-Liquidity                                         | Proof-of-Stake (Native Token Staking)                          | Proof-of-Stake (ETH Staking)           |
 | Staked Assets       | Various blue-chip assets (BTC, ETH, [[Stablecoin]]s, etc.) | Primarily the native network token                             | ETH                                    |

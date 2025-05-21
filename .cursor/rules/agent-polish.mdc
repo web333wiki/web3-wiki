@@ -9,18 +9,22 @@ These instructions guide the AI assistant in polishing a Web3 Wiki card to ensur
 
 ## Polishing Workflow
 
-Execute the following steps methodically for the card under review:
+The first step is to add internal links to the card:
 
-1. Check the card tag: Run `python3 scripts/check-tag.py` to validate the tag. Fix the errors if there are any issues.
-2. Check the card name: Run `python3 scripts/check-card-name.py` to verify the name. Fix the errors if there are any issues.
-4. Add internal links to the card. Carefully parse the card content to find all terms that can be linked to other cards in the wiki, you can find the list of all existing card names(the physical existing cards) in `scripts/card_index.txt`. Add links for each of those terms. Ensure all the internal links are valid and point to existing cards, no planned cards. **This is critical**
-5. Check the cards internal links: Run `python3 scripts/check-internal-links.py` to verify that all internal links in the card are valid and point to existing cards. Address any reported errors.
-6. Provide feedback: suggest new cards, identify cards for improvement. 
+Carefully parse and analyze the card content to identify all terms that can be linked to existing cards in the wiki. You can find the list of all existing card names (the physical existing cards) in `scripts/card_index.txt`. Then, add links for each of those terms. Ensure all internal links are valid and point to existing cards, not planned cards. **This is critical**
+
+Then, perform the following checks:
+
+1. Check the card tag: Automatically run the command `python3 scripts/check-tag.py` at the root of the repo to validate the tag. Fix any errors if issues are found.
+2. Check the card name: Automatically run the command `python3 scripts/check-card-name.py` at the root of the repo to verify the name. Fix any errors if issues are found.
+3. Check the card's internal links: Automatically run the command `python3 scripts/check-internal-links.py` at the root of the repo to verify that all internal links in the card are valid and point to existing cards. Fix any errors it reports until it succeeds. **This is important**
+
+Finally, provide feedback: suggest new cards and identify cards for improvement.
 
 ## Output of Polishing Task
 
-Upon completion, provide a report including:
+Upon completion, provide concise feedback:
 
-1.  A summary of all checks performed and any corrections made to the card.
-2.  A list of suggested new card titles (e.g., "New Concept X.md") with a short justification for each.
-3.  A list of existing cards (including the one just polished, if applicable) that may warrant further review or updates, along with the rationale.
+1. A summary of all checks performed and any corrections made to the card.
+2. A list of suggested new card titles (e.g., "New Concept X.md") with one sentence justification for each.
+3. A list of existing cards (including the one just polished, if applicable) that may warrant further review or updates, along with a short rationale.
