@@ -1,5 +1,5 @@
 ---
-description: Defines the rules for polishing a card.
+description: 
 globs: 
 alwaysApply: false
 ---
@@ -8,6 +8,7 @@ description: Defines the rules for polishing a card.
 globs: 
 alwaysApply: false
 ---
+
 # AI Card Polishing Protocol
 
 These instructions guide the AI assistant in polishing a Web3 Wiki card to ensure it meets all project guidelines and quality standards. The goal is to validate the card's structure, content, links, and overall adherence to the `wiki-guide`.

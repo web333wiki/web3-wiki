@@ -112,6 +112,7 @@ Lazarusbounty
 Ledger
 Lens
 Libra
+Limit order
 Linea
 Liquidity
 Lumia
