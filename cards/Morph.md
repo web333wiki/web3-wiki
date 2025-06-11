@@ -6,7 +6,7 @@ Morpho is an open infrastructure protocol for onchain loans, positioning itself 
 
 The project emphasizes decentralization and security, with its codebase undergoing numerous audits and formal verification. Morpho's architecture is designed to be adaptable, allowing for the creation of customized lending solutions.
 
-Key benefits of Morpho include reduced borrowing costs, higher collateralization factors for borrowers, and optimized yield generation for lenders. It achieves this by directly matching lenders and borrowers when possible, or by falling back to underlying liquidity pools, thus aiming to offer improved rates over those platforms alone.
+Key benefits of Morpho include reduced borrowing costs, higher collateralization factors for borrowers, and optimized yield generation for lenders. It achieves this by directly matching lenders and borrowers when possible, or by falling back to underlying [[Liquidity|liquidity]] pools, thus aiming to offer improved rates over those platforms alone.
 
 The project's background involves a team focused on research and development in the [[Decentralized finance]] space, backed by notable industry investors.
 
@@ -21,11 +21,11 @@ To get started with Morpho, users can explore the following resources:
 
 ## Key Services and Features
 
-Morpho provides a suite of services and features designed for various participants in the DeFi ecosystem, including individual users, curators, and businesses.
+Morpho provides a suite of services and features designed for various participants in the [[DeFI|DeFi]] ecosystem, including individual users, curators, and businesses.
 
 ### Earn
 
-This feature allows users to deposit their crypto assets and earn interest. Morpho vaults are designed to optimize allocations continuously, aiming to provide competitive yields. Users can select strategies that align with their risk appetite. The platform operates on a [[Self custody wallet]] basis, meaning users retain control over their assets deposited into trustless [[Smart contract]].
+This feature allows users to deposit their crypto assets and earn interest. Morpho vaults are designed to optimize allocations continuously, aiming to provide competitive yields. Users can select strategies that align with their risk appetite. The platform operates on a [[Custody|custody]] wallet]] basis, meaning users retain control over their assets deposited into trustless [[Smart contract]].
 
 ### Borrow
 

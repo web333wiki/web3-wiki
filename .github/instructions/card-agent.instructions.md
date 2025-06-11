@@ -1,0 +1,34 @@
+---
+applyTo: 'cards/*.md'
+---
+
+# AI Card Polishing Protocol
+
+These instructions guide the AI assistant in polishing a Web3 Wiki card to ensure it meets all project guidelines and quality standards. The goal is to validate the card's structure, content, links, and overall adherence to the `wiki-guide`.
+
+## Polishing Workflow
+
+The first step is to add internal links to the card:  **This is critical**
+
+Carefully parse and analyze the card content to identify all terms that can be linked to existing cards in the wiki. You can find the list of all existing card names (the physical existing cards) in `scripts/card_index.txt`. Then, add links for each of those terms. the following rules should be followed:
+
+1. Ensure all internal links are valid and point to existing cards, not planned cards.
+2. For a specific internal link, add it only to the first or most critical matched term, not to every occurrence.
+
+Then, perform the following checks:
+
+1. Check the card tag: Automatically run the command `python3 scripts/check-tag.py` at the root of the repo to validate the tag. Fix any errors if issues are found.
+2. Check the card name: Automatically run the command `python3 scripts/check-card-name.py` at the root of the repo to verify the name. Fix any errors if issues are found.
+3. Check the card's internal links: Automatically run the command `python3 scripts/check-internal-links.py` at the root of the repo to verify that all internal links in the card are valid and point to existing cards. Fix any errors it reports until it succeeds.
+
+Finally, provide feedback: suggest new cards and identify cards for improvement.
+
+## Output of Polishing Task
+
+**Please ensure that you have run the check scripts before providing feedback.**
+
+Upon completion, provide concise feedback:
+
+1. A summary of all checks performed and any corrections made to the card.
+2. A list of suggested new card titles (e.g., "New Concept X.md") with one sentence justification for each.
+3. A list of existing cards (including the one just polished, if applicable) that may warrant further review or updates, along with a short rationale.

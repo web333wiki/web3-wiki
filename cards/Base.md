@@ -8,8 +8,8 @@
 
 | Name          | Link                  |
 | ------------- | --------------------- |
-| Official Site | https://www.base.org/ |
-| X             | https://x.com/base    |
+| Official Site | https://www.[[Base|base]].org/ |
+| X             | https://x.com/[[Base|base]]    |
 
 ## Latest Activity
 

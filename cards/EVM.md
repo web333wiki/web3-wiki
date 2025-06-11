@@ -1,14 +1,14 @@
 #explain-card
 
-The Ethereum Virtual Machine (EVM) is the runtime environment for [[Smart contract|smart contracts]] in [[Ethereum]]. It is a decentralized, Turing-complete virtual machine that executes bytecode. Every [[Ethereum]] [[Node]] runs an instance of the EVM to maintain consensus across the blockchain.
+The [[Ethereum]] Virtual Machine ([[EVM]]) is the runtime environment for [[Smart contract|smart contracts]] in [[Ethereum]]. It is a decentralized, Turing-complete virtual machine that executes bytecode. Every [[Ethereum]] [[Node]] runs an instance of the EVM to maintain [[Consensus|consensus]] across the blockchain.
 
 ## Purpose
 
-The primary purpose of the EVM is to execute smart contracts and update the [[Ethereum]] state. It ensures that transactions are processed in a deterministic and trustless manner. The EVM enables developers to write decentralized applications (dApps) that run on the [[Ethereum]] network without a central authority.
+The primary purpose of the [[EVM]] is to execute [[Smart contract|smart contracts]] and update the [[Ethereum]] state. It ensures that transactions are processed in a deterministic and trustless manner. The EVM enables developers to write decentralized applications ([[DApp|dApps]]) that run on the [[Ethereum]] network without a central authority.
 
 Key functions include:
 
-- **Smart Contract Execution**: Processes the logic within smart contracts.
+- **[[Smart contract|Smart Contract]] Execution**: Processes the logic within [[Smart contract|smart contracts]].
 - **State Management**: Maintains the global state of all accounts and contracts on [[Ethereum]].
 - **Resource Management**: Utilizes a [[Gas]] system to measure computational effort and prevent abuse.
 
@@ -18,7 +18,7 @@ The EVM is a stack-based virtual machine. Its main components are:
 
 - **Stack**: A LIFO (Last-In, First-Out) data structure where computations are performed. It has a maximum depth of 1024 items, and each item is a 256-bit word.
 - **Memory**: A volatile, byte-addressable linear memory space used for temporary storage during contract execution. Memory is cleared after each message call.
-- **Storage**: A persistent, word-addressable storage associated with each smart contract. Data stored here is part of the [[Ethereum]] global state and is permanently recorded on the blockchain.
+- **Storage**: A persistent, word-addressable storage associated with each [[Smart contract|smart contract]]. Data stored here is part of the [[Ethereum]] global state and is permanently recorded on the blockchain.
 
 ## EVM Instructions (Opcodes)
 
@@ -35,7 +35,7 @@ Each opcode has an associated [[Gas]] cost, reflecting the computational resourc
 
 ## Gas
 
-[[Gas]] is the unit used to measure the computational work required to execute transactions or smart contracts on the EVM. Users pay gas fees in Ether (ETH) to incentivize miners/validators to process their transactions. The gas mechanism prevents network abuse and ensures fair resource allocation.
+[[Gas]] is the unit used to measure the computational work required to execute transactions or [[Smart contract|smart contracts]] on the [[EVM]]. Users pay gas fees in Ether (ETH) to incentivize [[Miner|miners]]/[[Validator|validators]] to process their transactions. The gas mechanism prevents network abuse and ensures fair resource allocation.
 
 ## Turing Completeness
 
@@ -49,7 +49,7 @@ Various programming languages have implementations of the EVM, ensuring client d
 - **Nethermind** (.NET)
 - **Besu** (Java)
 - **Erigon** (Go, with components in other languages)
-- **Py-EVM** (Python)
+- **Py-[[EVM]]** (Python)
 - **evmone** (C++)
 - **ethereumjs-vm** (JavaScript)
 - **revm** (Rust)
@@ -60,4 +60,4 @@ These implementations adhere to the EVM specification outlined in the [[Ethereum
 
 - [Ethereum Virtual Machine (EVM) on Ethereum.org](https://ethereum.org/en/developers/docs/evm/)
 - [[Ethereum yellow paper]]
-- [[Solidity]] (The primary language for writing EVM-compatible smart contracts)
+- [[Solidity]] (The primary language for writing EVM-compatible [[Smart contract|smart contracts]])

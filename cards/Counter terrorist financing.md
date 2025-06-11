@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Counter-Terrorist Financing (CTF)**, also known as Combating the Financing of Terrorism (CFT), refers to the set of laws, regulations, strategies, and actions aimed at preventing, detecting, and disrupting the funding of terrorist activities, individuals, and organizations. It is a critical component of global security efforts and is closely related to [[Anti money laundering]] measures, as the methods used to launder money can also be used to finance terrorism.
+**Counter-Terrorist Financing (CTF)**, also known as Combating the Financing of Terrorism (CFT), refers to the set of laws, [[Regulation|regulations]], strategies, and actions aimed at preventing, detecting, and disrupting the funding of terrorist activities, individuals, and organizations. It is a critical component of global security efforts and is closely related to [[Anti money laundering]] measures, as the methods used to launder money can also be used to finance terrorism.
 
 - **Importance/Purpose:** CTF aims to cut off financial support for terrorism, thereby hindering terrorists' ability to recruit, train, acquire weapons, travel, and carry out attacks. It involves identifying funding sources, freezing assets, and prosecuting those involved in financing terrorism.
 - **Target Audience:** Governments, law enforcement agencies, intelligence services, financial institutions, international organizations (e.g., UN, FATF), and compliance professionals.
@@ -11,9 +11,9 @@
 
 ### Key Elements of CTF
 
-1.  **Identifying Terrorist Financing Risks:** Assessing and understanding the specific ways terrorist groups raise, move, and use funds.
+1.  **Identifying Terrorist Financing Risks:** Assessing and understanding the specific ways terrorist groups raise, [[Move|move]], and use funds.
 2.  **Legal Frameworks:** Criminalizing terrorist financing and establishing legal powers to investigate, freeze assets, and prosecute offenders.
-3.  **Preventative Measures for Financial Institutions:** Requiring banks and other financial entities to implement KYC (Know Your Customer) procedures, monitor transactions for suspicious activity (especially those potentially linked to terrorism), and report them to authorities.
+3.  **Preventative Measures for Financial Institutions:** Requiring banks and other financial entities to implement KYC ([[Know your customer|Know Your Customer]]) procedures, monitor transactions for suspicious activity (especially those potentially linked to terrorism), and report them to authorities.
 4.  **Asset Freezing and Confiscation:** Implementing mechanisms to freeze and seize assets belonging to designated terrorist individuals or groups.
 5.  **International Cooperation:** Sharing information and coordinating actions between countries to combat the global nature of terrorist financing.
 6.  **Targeted Financial Sanctions:** Imposing sanctions on individuals, entities, and countries known to support or be involved in terrorism.
@@ -48,7 +48,7 @@ Cryptocurrencies and new payment technologies can be exploited for terrorist fin
 
 ### Limitations & Challenges
 
-- **Adaptability of Terrorist Groups:** Terrorists continuously seek new methods to raise and move funds, often exploiting informal and unregulated channels.
+- **Adaptability of Terrorist Groups:** Terrorists continuously seek new methods to raise and [[Move|move]] funds, often exploiting informal and unregulated channels.
 - **Balancing Security with Rights:** CTF measures must be implemented in a way that respects human rights, due process, and privacy.
 - **Complexity of Tracing Funds:** Following complex financial trails, especially those involving cash, informal value transfer systems (like Hawala), or privacy-enhancing technologies, can be difficult.
 - **Resource Intensity:** Effective CTF requires significant resources for investigation, intelligence, and enforcement.

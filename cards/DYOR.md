@@ -1,20 +1,20 @@
 #explain-card 
 
-"Do Your Own Research" (DYOR) is a common term in the crypto community, emphasizing the importance of conducting personal research before investing in any project. This helps avoid falling victim to misinformation or scams.
+"Do Your Own Research" ([[DYOR]]) is a common term in the crypto community, emphasizing the importance of conducting personal research before investing in any project. This helps avoid falling victim to misinformation or scams.
 
 Key questions to consider during your research:
 ### Team
 
 * Who are the team members and the founder? What are their backgrounds?
-* Do they have experience in the blockchain industry or web3 technologies?
+* Do they have experience in the blockchain industry or [[Web3|web3]] technologies?
 * What is the team size? A larger team often means more resources and expertise.
 * Are the team members active on social media or other platforms?
 
 ### Tokenomics
 
-* What are the total supply, circulating supply, and max supply of the token?
+* What are the total supply, [[Circulating supply|circulating supply]], and max supply of the token?
 * What is the token distribution model?
-* What is the trading volume and liquidity of the token?
+* What is the [[Trading volume|trading volume]] and [[Liquidity|liquidity]] of the token?
 * Does the team hold a significant percentage of the total supply, posing a risk of price manipulation?
 * What is the token's use case? Does it have utility or is it purely speculative?
 

@@ -6,11 +6,11 @@
 
 ## Service Provided
 
-Pi Network provides a mobile-first cryptocurrency mining experience that consumes minimal battery power and processing resources. Unlike traditional cryptocurrencies that require significant computing power to mine, Pi can be mined through a mobile app by tapping a button once every 24 hours. This approach makes cryptocurrency accessible to the general public without specialized equipment or technical knowledge.
+[[Pi]] Network provides a mobile-first cryptocurrency mining experience that consumes minimal battery power and processing resources. Unlike traditional cryptocurrencies that require significant computing power to mine, Pi can be mined through a mobile app by tapping a button once every 24 hours. This approach makes cryptocurrency accessible to the general public without specialized equipment or technical knowledge.
 
 ## Technical Details
 
-The Pi Network operates on a consensus algorithm called the Stellar Consensus Protocol (SCP), which is more energy-efficient than traditional Proof of Work systems. Pi uses a security circle concept where users build trust networks that contribute to the overall security of the blockchain.
+The [[Pi]] Network operates on a [[Consensus|consensus]] algorithm called the Stellar Consensus Protocol (SCP), which is more energy-efficient than traditional [[Proof of work|Proof of Work]] systems. Pi uses a security circle concept where users build trust networks that contribute to the overall security of the blockchain.
 ## Team
 
 The Pi Network was founded by a team of Stanford graduates:
@@ -22,17 +22,17 @@ The Pi Network was founded by a team of Stanford graduates:
 
 Pi Network follows a three-phase development roadmap:
 
-- Phase 1 (Beta): Launched in March 2019, allowing users to mine Pi on mobile devices
-- Phase 2 (Testnet): Launched in March 2020, testing the Pi blockchain
+- Phase 1 (Beta): Launched in March 2019, allowing users to mine [[Pi]] on mobile devices
+- Phase 2 (Testnet): Launched in March 2020, testing the [[Pi]] blockchain
 - Phase 3 (Mainnet): Transition to a fully decentralized blockchain with KYC verification requirements and open ecosystem development
 
 ## Latest Updates
 
 - 2022 Q4: Mainnet launched in closed network mode with KYC verification requirements
-- 2022 Q2: Introduction of Pi Wallet and enhanced KYC verification system
+- 2022 Q2: Introduction of [[Pi]] [[Wallet]] and enhanced KYC verification system
 - 2021 Q4: Preparation for Mainnet launch with mass verification system
 - 2021 Q3: Expanded ecosystem applications and developer tools
-- 2021 Q1: Launched Pi Brainstorm community ideation platform
+- 2021 Q1: Launched [[Pi]] Brainstorm community ideation platform
 - 2020 Q1: Testnet launched, allowing initial blockchain operations
 - 2019 Q1: Beta version launched, allowing mobile mining
 

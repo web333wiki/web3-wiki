@@ -2,10 +2,10 @@
 
 ## Introduction
 
-**Know Your Customer (KYC)** refers to the mandatory process of identifying and verifying the identity of clients, typically by financial institutions, but increasingly by other regulated entities and services, including many within the Web3 ecosystem. The primary purpose of KYC is to prevent illicit activities such as money laundering, terrorist financing, and fraud by ensuring that businesses know who their customers are. This process usually involves collecting personal identification information (PII) like government-issued IDs (passports, driver's licenses), proof of address (utility bills, bank statements), and sometimes biometric data.
+**[[Know your customer|Know Your Customer]] (KYC)** refers to the mandatory process of identifying and verifying the identity of clients, typically by financial institutions, but increasingly by other regulated entities and services, including many within the [[Web3]] ecosystem. The primary purpose of KYC is to prevent illicit activities such as money laundering, terrorist financing, and fraud by ensuring that businesses know who their customers are. This process usually involves collecting personal identification information (PII) like government-issued IDs (passports, driver's licenses), proof of address (utility bills, bank statements), and sometimes biometric data.
 
-- **Importance/Purpose:** In traditional finance (TradFi), KYC is a cornerstone of regulatory compliance (e.g., Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) laws). In Web3, its application is more debated and varied. While some platforms, especially centralized exchanges (CEXs) and services interacting with fiat currencies, implement KYC to comply with regulations, many decentralized finance (DeFi) protocols and privacy-focused projects aim to minimize or avoid KYC to preserve user anonymity and reduce censorship risk. The tension between regulatory compliance and the pseudonymous nature of many blockchains makes KYC a significant topic in Web3.
-- **Target Audience:** Users of financial services (both traditional and crypto-related), Web3 developers, investors, and policymakers.
+- **Importance/Purpose:** In traditional finance (TradFi), KYC is a cornerstone of regulatory compliance (e.g., Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) laws). In [[Web3]], its application is more debated and varied. While some platforms, especially [[Centralized exchange|centralized exchanges]] (CEXs) and services interacting with fiat currencies, implement KYC to comply with [[Regulation|regulations]], many [[Decentralized finance|decentralized finance]] ([[DeFI|DeFi]]) protocols and privacy-focused projects aim to minimize or avoid KYC to preserve user anonymity and reduce censorship risk. The tension between regulatory compliance and the pseudonymous nature of many blockchains makes KYC a significant topic in Web3.
+- **Target Audience:** Users of financial services (both traditional and crypto-related), [[Web3]] developers, investors, and policymakers.
 
 ## Core Concepts & Mechanism
 
@@ -30,10 +30,10 @@
 
 The implementation of KYC in the Web3 space varies significantly:
 
-- **Centralized Exchanges (CEXs):** Most CEXs (e.g., [[Coinbase]], [[Binance]]) require KYC for users to deposit, withdraw, or trade significant amounts, especially when fiat currency on/off ramps are involved. This is to comply with regulations in the jurisdictions they operate in.
-- **Decentralized Exchanges (DEXs) & DeFi:** Many DEXs and DeFi protocols aim to be permissionless and do not require KYC for basic swapping or liquidity provision directly on-chain. However, access to their front-ends or participation in certain governance aspects might sometimes involve forms of identity verification, or KYC might be required by platforms that offer access to these DeFi protocols with added services.
-- **NFT Marketplaces:** KYC requirements on NFT marketplaces are evolving. Some may require it for high-value transactions or specific collections.
-- **Privacy-Preserving Solutions:** There's ongoing research and development into "Decentralized Identity" (DID) solutions and [[Zero knowledge proof]] (ZKPs) that could potentially allow users to prove certain attributes (e.g., not being on a sanctions list, being over 18) without revealing their full identity. This could offer a path to regulatory compliance while preserving user privacy. An example is [[zkKYC]].
+- **[[Centralized exchange|Centralized Exchanges]] (CEXs):** Most CEXs (e.g., [[Coinbase]], [[Binance]]) require KYC for users to deposit, withdraw, or trade significant amounts, especially when fiat currency on/off ramps are involved. This is to comply with [[Regulation|regulations]] in the jurisdictions they operate in.
+- **Decentralized Exchanges ([[DEX|DEXs]]) & [[DeFI|DeFi]]:** Many DEXs and DeFi protocols aim to be permissionless and do not require KYC for basic swapping or [[Liquidity|liquidity]] provision directly on-chain. However, access to their front-ends or participation in certain governance aspects might sometimes involve forms of identity verification, or KYC might be required by platforms that offer access to these DeFi protocols with added services.
+- **[[NFT]] Marketplaces:** KYC requirements on NFT marketplaces are evolving. Some may require it for high-value transactions or specific collections.
+- **Privacy-Preserving Solutions:** There's ongoing research and development into "[[Decentralized identity|Decentralized Identity]]" (DID) solutions and [[Zero knowledge proof]] (ZKPs) that could potentially allow users to prove certain attributes (e.g., not being on a sanctions list, being over 18) without revealing their full identity. This could offer a path to regulatory compliance while preserving user privacy. An example is [[zkKYC]].
 
 ## Use Cases & Implications
 
@@ -46,8 +46,8 @@ The implementation of KYC in the Web3 space varies significantly:
 
 ### Limitations & Challenges of KYC
 
-- **Privacy Concerns:** Involves the collection and storage of sensitive personal data, raising concerns about data breaches, surveillance, and misuse of information. The ethos of many Web3 projects prioritizes user privacy and anonymity.
-- **Financial Exclusion:** Strict KYC requirements can be a barrier for individuals in developing countries who may lack official identification documents or a verifiable address. This contradicts the Web3 goal of financial inclusion.
+- **Privacy Concerns:** Involves the collection and storage of sensitive personal data, raising concerns about data breaches, surveillance, and misuse of information. The ethos of many [[Web3]] projects prioritizes user privacy and anonymity.
+- **Financial Exclusion:** Strict KYC requirements can be a barrier for individuals in developing countries who may lack official identification documents or a verifiable address. This contradicts the [[Web3]] goal of [[Financial inclusion|financial inclusion]].
 - **Centralization Risk:** KYC data is often stored in centralized databases, creating single points of failure and attractive targets for hackers.
 - **Cost & Friction:** Implementing KYC processes can be expensive for businesses and cumbersome for users, adding friction to onboarding.
 - **Censorship Risk:** Governments or platforms could use KYC information to censor or restrict access to financial services for certain individuals or groups.
@@ -57,7 +57,7 @@ The implementation of KYC in the Web3 space varies significantly:
 
 The role of KYC in Web3 is a subject of ongoing debate and innovation. Key trends include:
 
-- **Regulatory Scrutiny:** Increasing pressure from regulators worldwide for Web3 platforms to implement KYC/AML measures.
+- **Regulatory Scrutiny:** Increasing pressure from regulators worldwide for [[Web3]] platforms to implement KYC/AML measures.
 - **Privacy-Enhancing Technologies:** Development of DIDs, ZKPs, and other cryptographic methods to enable compliance without compromising user privacy (e.g., [[Soulbound tokens]] for attestations).
 - **On-Chain KYC/Identity:** Exploring ways to represent KYC status or identity attributes directly on the blockchain in a secure and verifiable manner.
 

@@ -2,11 +2,11 @@
 
 ## Introduction
 
-[Snapshot](https://snapshot.box/) is a decentralized voting system that allows projects to create and manage proposals off-chain, while still leveraging the security and transparency of blockchain technology. It is widely used in the decentralized finance ([[DeFI]]) and decentralized autonomous organization ([[DAO]]) ecosystems.
+[Snapshot](https://snapshot.box/) is a decentralized voting system that allows projects to create and manage proposals off-chain, while still leveraging the security and transparency of blockchain technology. It is widely used in the [[Decentralized finance|decentralized finance]] ([[DeFI]]) and decentralized autonomous organization ([[DAO]]) ecosystems.
 
 ## Service Provided
 
-Snapshot provides a lightweight, off-chain voting mechanism that enables projects to make decisions without incurring high transaction fees. It solves the problem of expensive on-chain governance by allowing votes to be cast off-chain and then verified on-chain. This brings value by making governance more accessible and cost-effective for projects of all sizes.
+[[Snapshot]] provides a lightweight, off-chain voting mechanism that enables projects to make decisions without incurring high transaction fees. It solves the problem of expensive on-chain governance by allowing votes to be cast off-chain and then verified on-chain. This brings value by making governance more accessible and cost-effective for projects of all sizes.
 
 ## Technical Details
 

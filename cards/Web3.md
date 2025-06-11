@@ -1,6 +1,6 @@
 #explain-card
 
-Web3, also known as Web 3.0, represents the next generation of the World Wide Web.
+[[Web3]], also known as Web 3.0, represents the next generation of the World Wide Web.
 
 Web3 aims to create a more decentralized, trustless, and transparent network that everyone can access and contribute to. In the current Web 2.0, the internet is dominated by a few large corporations. The apps built by them are permissioned, and they can change their rules at any time. This could result in users being unable to log in or entire countries being blocked from access, which has happened in various parts of the world. Web3 aims to change this by breaking down barriers to entry and giving everyone the opportunity to participate in the network. No one can prevent you from accessing the network or the applications built on it, and you can access it from anywhere in the world.
 

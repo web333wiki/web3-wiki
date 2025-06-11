@@ -2,7 +2,7 @@
 
 ## What is Revoke.cash?
 
-[Revoke.cash](https://revoke.cash/) is a security tool in the [[Web3]] ecosystem that helps users manage and revoke token allowances (approvals) granted to different smart contracts and decentralized applications ([[DApp]]s). It provides a user-friendly interface for crypto users to monitor, control, and revoke permissions they have previously given to various protocols to spend their tokens.
+[Revoke.cash](https://revoke.cash/) is a security tool in the [[Web3]] ecosystem that helps users manage and revoke token allowances (approvals) granted to different [[Smart contract|smart contracts]] and decentralized applications ([[DApp]]s). It provides a user-friendly interface for crypto users to monitor, control, and revoke permissions they have previously given to various protocols to spend their tokens.
 
 ## Understanding Token Approvals
 
@@ -27,8 +27,8 @@ Many dApps request unlimited token approvals for user convenience, but this crea
 - **Visibility**: See all active token approvals across multiple chains in one dashboard
 - **Control**: Selectively revoke unnecessary or risky approvals
 - **Security**: Reduce attack surface by managing approval permissions
-- **Multi-chain support**: Works across Ethereum, Polygon, BSC, and many other EVM-compatible networks
-- **Risk reduction**: Minimize potential losses from smart contract vulnerabilities
+- **Multi-chain support**: Works across [[Ethereum]], [[Polygon]], BSC, and many other EVM-compatible networks
+- **Risk reduction**: Minimize potential losses from [[Smart contract|smart contract]] vulnerabilities
 
 ## Best Practices
 

@@ -1,7 +1,7 @@
 #explain-card #show-card #awesome-card
 
 > [!note]
-> This is an open-source, community-driven project, and we welcome contributions from anyone interested in Web3 technologies. If you’d like to contribute, please submit a pull request to the [GitHub repository](https://github.com/web333wiki/web3-wiki).
+> This is an open-source, community-driven project, and we welcome contributions from anyone interested in [[Web3]] technologies. If you’d like to contribute, please submit a pull request to the [GitHub repository](https://github.com/web333wiki/web3-wiki).
 
 ## What is Web3 Wiki?
 

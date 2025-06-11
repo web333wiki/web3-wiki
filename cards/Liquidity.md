@@ -1,3 +1,3 @@
 #explain-card 
 
-Liquidity refers to the measure of resource sufficiency in cryptocurrency markets or custodial institutions. In the context of tradable assets, it allows investors to execute trades in any direction without significant slippage. For custodial institutions, liquidity is the ability to meet withdrawal requests promptly and without friction. A sufficiently liquid market or institution should maintain these capabilities even under adverse market conditions.
+[[Liquidity]] refers to the measure of resource sufficiency in cryptocurrency markets or custodial institutions. In the context of tradable assets, it allows investors to execute trades in any direction without significant slippage. For custodial institutions, liquidity is the ability to meet withdrawal requests promptly and without friction. A sufficiently liquid market or institution should maintain these capabilities even under adverse market conditions.
