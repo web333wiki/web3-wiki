@@ -1,6 +1,6 @@
 #awesome-card 
 
-## What is [[Polkadot]]?
+## What is Polkadot?
 
 - [About Polkadot](https://polkadot.com/)
 - [X](https://twitter.com/Polkadot)

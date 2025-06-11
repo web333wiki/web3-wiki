@@ -15,7 +15,7 @@
 2.  **DID Documents:** JSON documents associated with a DID that contain information about the DID subject, such as cryptographic [[Public key|public keys]] for authentication, service endpoints (e.g., for communication or data storage), and other metadata. The DID document essentially describes how to interact with the DID subject.
 3.  **DID Methods:** Specific implementations that define how DIDs are created, resolved (how their DID Documents are found), updated, and deactivated. Different DID methods can leverage various distributed [[Ledger|ledger]] technologies (DLTs) like blockchains, or other decentralized systems. Examples: `did:ethr` ([[Ethereum]]), `did:ion` ([[Bitcoin]]/IPFS), `did:key` (cryptographic key-based).
 4.  **Verifiable Credentials (VCs):** Tamper-evident digital attestations or claims made by an issuer about a subject (e.g., a university issuing a degree credential to a student). VCs are cryptographically signed by the issuer and can be held by the subject in their digital [[Wallet|wallet]]. The subject can then present these VCs to verifiers to prove claims about themselves without the verifier needing to contact the original issuer directly for every verification.
-5.  **DID [[Wallet|Wallets]]/Agents:** Software that users employ to create and manage their DIDs, store their [[Private key|private keys]], hold their Verifiable Credentials, and interact with other entities in the DID ecosystem.
+5.  **DID Wallets/Agents:** Software that users employ to create and manage their DIDs, store their [[Private key|private keys]], hold their Verifiable Credentials, and interact with other entities in the DID ecosystem.
 
 ### How DIDs Work (Simplified Flow)
 
@@ -48,7 +48,7 @@
 ### Limitations & Challenges
 
 - **Complexity & User Experience:** DID concepts and technologies can be complex for average users.
-- **Key Management:** Securely managing [[Private key|private keys]] is crucial; loss of keys can mean loss of identity control.
+- **Key Management:** Securely managing private keys is crucial; loss of keys can mean loss of identity control.
 - **Scalability:** Some DLT-based DID methods might face scalability challenges.
 - **Adoption & Network Effects:** Widespread adoption by users, issuers, and verifiers is necessary for the ecosystem to thrive.
 - **Governance & Trust:** Establishing trust in DID methods, issuers, and the overall ecosystem is vital.
@@ -58,6 +58,6 @@
 ## Related Concepts
 
 - [[Zero knowledge proof]] (often used with DIDs/VCs for privacy)
-- [[Web3]]
-- [[Wallet]]
-- [[Soulbound tokens]]
+- Web3
+- Wallet
+- Soulbound tokens

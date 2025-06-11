@@ -4,7 +4,7 @@
 
 **[[Data security|Data Security]]** refers to the practice of protecting digital information from unauthorized access, corruption, theft, or leakage throughout its entire lifecycle. It involves implementing and maintaining various safeguards, including administrative, physical, and technical controls, to ensure data confidentiality, integrity, and availability (often referred to as the CIA triad).
 
-- **Importance/Purpose:** In an increasingly digital world, data is a valuable asset for individuals and organizations. [[Data security]] is crucial for protecting sensitive information (e.g., personal identifiable information (PII), financial data, intellectual property, health records), maintaining user trust, complying with [[Regulation|regulations]], and preventing financial losses or reputational damage from data breaches.
+- **Importance/Purpose:** In an increasingly digital world, data is a valuable asset for individuals and organizations. Data security is crucial for protecting sensitive information (e.g., personal identifiable information (PII), financial data, intellectual property, health records), maintaining user trust, complying with [[Regulation|regulations]], and preventing financial losses or reputational damage from data breaches.
 - **Target Audience:** Individuals, businesses of all sizes, government agencies, IT professionals, cybersecurity experts, and anyone who handles or stores digital data.
 
 ## Core Concepts & Mechanism
@@ -32,12 +32,12 @@
 
 [[Web3]] and blockchain technologies introduce new paradigms and challenges for data security:
 
-- **[[Private key]] Management:** In self-[[Wallet|wallet]]|custodial wallets]], users are solely responsible for securing their [[Private key|private keys]]. Loss or compromise of private keys means loss of assets.
+- **[[Private key]] Management:** In self-[[Wallet|wallet]]|[[Custodial wallet|custodial wallets]]]], users are solely responsible for securing their private keys. Loss or compromise of private keys means loss of assets.
 - **[[Smart contract]] Security:** Vulnerabilities in smart contract code can lead to irreversible loss of funds. Rigorous auditing and formal verification are crucial.
 - **Blockchain Immutability:** While a strength, immutability means that malicious or erroneous transactions, once confirmed, cannot be easily undone. Similarly, if sensitive data is mistakenly written to a public blockchain, it cannot be removed.
 - **Decentralized storage Security:** Protecting data stored on decentralized networks (e.g., IPFS) requires different approaches than centralized storage.
-- **[[Oracle|Oracle]] Security:** Ensuring the reliability and security of [[Oracle|oracles]] that feed external data to [[Smart contract|smart contracts]] is vital.
-- **Data privacy on Public Blockchains:** Balancing transparency with privacy is a key challenge. [[Zero knowledge proof|Zero-knowledge proofs]] and other privacy-enhancing technologies are being developed to address this.
+- **[[Oracle]] Security:** Ensuring the reliability and security of oracles that feed external data to smart contracts is vital.
+- **Data privacy on Public Blockchains:** Balancing transparency with privacy is a key challenge. Zero-knowledge proofs and other privacy-enhancing technologies are being developed to address this.
 
 ## Use Cases & Implications
 
@@ -45,7 +45,7 @@
 
 - **Protecting Sensitive Information:** Preventing theft or misuse of PII, financial data, trade secrets, etc.
 - **Maintaining Trust:** Customers and partners are more likely to trust organizations that protect their data.
-- **Regulatory Compliance:** Adhering to data protection laws like GDPR, CCPA, HIPAA, which often mandate specific security measures and impose penalties for non-compliance. (See [[Regulation]])
+- **Regulatory Compliance:** Adhering to data protection laws like GDPR, CCPA, HIPAA, which often mandate specific security measures and impose penalties for non-compliance. (See Regulation)
 - **Preventing Financial Loss:** Avoiding costs associated with data breaches (e.g., recovery, fines, legal fees, loss of business).
 - **Ensuring Business Continuity:** Protecting data essential for ongoing operations.
 
@@ -59,4 +59,4 @@
 
 ## Related Concepts
 
-- [[Private key]]
+- Private key

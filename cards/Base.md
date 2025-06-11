@@ -9,7 +9,7 @@
 | Name          | Link                  |
 | ------------- | --------------------- |
 | Official Site | https://www.[[Base|base]].org/ |
-| X             | https://x.com/[[Base|base]]    |
+| X             | https://x.com/base    |
 
 ## Latest Activity
 

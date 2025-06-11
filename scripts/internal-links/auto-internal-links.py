@@ -8,8 +8,8 @@ Workflow:
 1. Generate content manually without worrying about internal links
 2. Run this script to:
    a. Generate card_index.txt from existing cards
-   b. Process all cards and add appropriate internal links
-   c. Validate and clean up existing internal links
+   b. Remove all existing internal links from cards
+   c. Process all cards and add appropriate internal links based on current card index
 
 Test Cases:
 The script includes comprehensive test cases in the test-cases/ folder:
@@ -21,12 +21,10 @@ Internal Link Rules:
 1. Format: Use Obsidian-style [[card_name]] and [[card_name|display_name]]
 2. Display Names: When a card name appears mid-sentence, use display_name to maintain readability
    (e.g., "The [[Proof of stake|proof of stake]] consensus" instead of "The [[Proof of stake]] consensus")
-3. Validation: Check existing internal links against card_index.txt
-   - If valid but needs display name formatting, update it
-   - If invalid (card doesn't exist), remove the link
+3. Clean Slate Approach: Remove all existing internal links first, then re-add them based on current card index
 4. Heading Exclusion: Never add internal links within markdown headings
 5. External Link Preservation: Keep existing external links unchanged
-6. First Occurrence Only: For multiple instances of the same potential link, only link the first occurrence
+6. One Link Per Card: Each term is linked only once per card, at its first occurrence
 7. Case Sensitivity: Match terms case-insensitively but preserve original casing in display names
 8. Context Awareness: Avoid linking in code blocks, tables headers, and other inappropriate contexts
 """
@@ -83,32 +81,18 @@ class AutoLinker:
                 return True
         return False
 
-    def _validate_and_clean_links(self, content: str) -> str:
-        """Validate existing internal links and remove invalid ones."""
+    def _remove_all_internal_links(self, content: str) -> str:
+        """Remove all internal links and keep only the display text."""
         # Pattern to match internal links [[card]] or [[card|display]]
         pattern = re.compile(r'\[\[([^\]|]+)(?:\|([^\]]+))?\]\]')
         
-        # Track positions to avoid overlapping replacements
-        replacements = []
-        
-        for match in pattern.finditer(content):
+        def replace_link(match):
             card_name = match.group(1)
             display_name = match.group(2)
-            
-            # Check if card exists
-            if card_name in self.cards:
-                # Keep valid link as is
-                continue
-            else:
-                # Remove invalid link, keep display name or card name
-                replacement_text = display_name if display_name else card_name
-                replacements.append((match.start(), match.end(), replacement_text))
+            # Return display name if exists, otherwise return card name
+            return display_name if display_name else card_name
         
-        # Apply replacements in reverse order
-        for start, end, text in reversed(replacements):
-            content = content[:start] + text + content[end:]
-        
-        return content
+        return pattern.sub(replace_link, content)
 
     def _add_internal_links(self, content: str) -> str:
         """Add internal links to content where appropriate."""
@@ -119,7 +103,7 @@ class AutoLinker:
         
         lines = content.split('\n')
         result_lines = []
-        linked_terms = {}  # Track what's been linked in regular text
+        linked_terms = {}  # Track what's been linked globally across the entire document
         
         for line_idx, line in enumerate(lines):
             # Skip headings
@@ -141,13 +125,6 @@ class AutoLinker:
                 if re.match(r'^\s*\|[\s\-:]+\|', next_line):
                     is_table_header = True
             
-            # First, collect existing links to mark them as linked
-            existing_pattern = re.compile(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]')
-            for match in existing_pattern.finditer(line):
-                card_name = match.group(1)
-                if card_name in self.cards:
-                    linked_terms[card_name.lower()] = True
-            
             # Collect all potential matches for this line
             all_matches = []
             terms_in_this_line = set()  # Track what's already matched in this line
@@ -155,13 +132,12 @@ class AutoLinker:
             for card in self.cards:
                 card_lower = card.lower()
                 
-                # In lists and tables, link even if already linked elsewhere
-                # In regular text, only link if not already linked
-                if not (is_list_item or is_table_row) and card_lower in linked_terms:
+                # Skip if this term has already been linked anywhere in the document
+                if card_lower in linked_terms:
                     continue
                 
-                # Skip if already found in this line (for lists/tables)
-                if (is_list_item or is_table_row) and card_lower in terms_in_this_line:
+                # Skip if already found in this line
+                if card_lower in terms_in_this_line:
                     continue
                 
                 # Create patterns for both singular and plural forms
@@ -189,12 +165,6 @@ class AutoLinker:
                             in_code = True
                             break
                     if in_code:
-                        continue
-                    
-                    # Check if already an internal link
-                    before = line[max(0, match_start-2):match_start]
-                    after = line[match_start+len(match_text):match_start+len(match_text)+2]
-                    if '[[' in before or ']]' in after:
                         continue
                     
                     # Skip if in inline code or external link
@@ -233,9 +203,8 @@ class AutoLinker:
                     non_overlapping.append(match)
                     used_positions.update(positions)
                     
-                    # Mark as linked if in regular text (not list/table)
-                    if not (is_list_item or is_table_row):
-                        linked_terms[match['card_lower']] = True
+                    # Mark as linked globally across the document
+                    linked_terms[match['card_lower']] = True
             
             # Apply replacements in reverse order
             non_overlapping.sort(key=lambda x: x['start'], reverse=True)
@@ -260,9 +229,9 @@ class AutoLinker:
         return '\n'.join(result_lines)
 
     def process_content(self, content: str) -> str:
-        """Process markdown content to add and validate internal links."""
-        # First, validate and clean existing links
-        content = self._validate_and_clean_links(content)
+        """Process markdown content to add internal links after removing all existing ones."""
+        # First, remove ALL internal links to start with a clean slate
+        content = self._remove_all_internal_links(content)
         
         # Then add new internal links
         content = self._add_internal_links(content)

@@ -6,7 +6,7 @@ This is a test card for testing internal links. It should link to [[Ethereum]] a
 
 ## Existing Internal Links
 
-This card already has some internal links: [[Ethereum]] and Invalid Link which doesn't exist. There's also [[Smart contract|smart contracts]] with display name that should be preserved.
+This card already has some internal links: Ethereum and Invalid Link which doesn't exist. There's also smart contracts with display name that should be preserved.
 
 ## Markdown Headings
 
@@ -53,16 +53,16 @@ Inline code like `ethereum.request()` should also not be linked.
 
 ## Lists and Tables
 
-- [[Bitcoin|bitcoin]] is a cryptocurrency  
-- [[Ethereum]] enables [[Smart contract|smart contracts]]
-- [[Solana|solana]] is fast and scalable
-- [[Polygon|polygon]] is a [[Layer 2|layer 2]] solution
+- bitcoin is a cryptocurrency  
+- Ethereum enables smart contracts
+- solana is fast and scalable
+- polygon is a [[Layer 2|layer 2]] solution
 
 | Network  | Type    | Uses Gas |
 |----------|---------|----------|
-| [[Bitcoin|bitcoin]]  | Layer 1 | No       |
-| [[Ethereum]] | Layer 1 | Yes      |
-| [[Polygon|polygon]]  | [[Layer 2]] | Yes      |
+| bitcoin  | Layer 1 | No       |
+| Ethereum | Layer 1 | Yes      |
+| polygon  | Layer 2 | Yes      |
 
 ## Gas and Transaction Fees
 
@@ -74,8 +74,8 @@ This paragraph contains [[Web3|web3]] technologies and various concepts like [[O
 
 ## Edge Cases
 
-- Text with "[[Ethereum|ethereum]]" in quotes should be linked
-- References to ([[Bitcoin|bitcoin]]) in parentheses should be linked  
+- Text with "ethereum" in quotes should be linked
+- References to (bitcoin) in parentheses should be linked  
 - The word ethereum-based should not be linked (hyphenated)
-- Multiple [[Oracle|oracle]] and oracle mentions for testing
-- Testing [[DEX]] and dex case variations
+- Multiple oracle and oracle mentions for testing
+- Testing DEX and dex case variations

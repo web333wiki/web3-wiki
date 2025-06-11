@@ -12,7 +12,7 @@
     - 5% to the entity that successfully froze the funds
     - 5% to contributors who helped trace the funds
 - Bounties are awarded immediately once the funds are confirmed as frozen
-- Rewards of up to $500,000 are available for high-quality intelligence that leads to the identification of Lazarus-controlled [[Wallet|wallets]] or the recovery of stolen funds
+- Rewards of up to $500,000 are available for high-quality intelligence that leads to the identification of Lazarus-controlled wallets or the recovery of stolen funds
 
 ## How to Participate
 

@@ -2,11 +2,11 @@
 
 ## Overview
 
-A **blockchain [[Oracle|oracle]]** (or simply **oracle**) is a third-party service or entity that acts as a bridge between blockchains (on-chain environments) and the external world (off-chain systems). Blockchains and the [[Smart contract]]s they host are deterministic and cannot natively access or verify external data or trigger off-chain actions directly. [[Oracle|Oracles]] solve this by fetching, verifying, and delivering external information to [[Smart contract|smart contracts]], and conversely, by transmitting instructions from smart contracts to off-chain systems.
+A **blockchain [[Oracle|oracle]]** (or simply **oracle**) is a third-party service or entity that acts as a bridge between blockchains (on-chain environments) and the external world (off-chain systems). Blockchains and the [[Smart contract|Smart contracts]] they host are deterministic and cannot natively access or verify external data or trigger off-chain actions directly. Oracles solve this by fetching, verifying, and delivering external information to smart contracts, and conversely, by transmitting instructions from smart contracts to off-chain systems.
 
-- **Problem Solved:** Addresses the inherent limitation of blockchains being isolated from external data sources and systems. This is often referred to as the **"[[Oracle]] Problem."** Without [[Oracle|oracles]], [[Smart contract|smart contracts]] would have very limited utility, unable to react to real-world events, data, or interact with legacy systems.
-- **Value Proposition:** [[Oracle|Oracles]] enable [[Smart contract|smart contracts]] to execute based on real-world inputs and outputs, vastly expanding their capabilities and use cases across various industries like [[DeFI|DeFi]], insurance, gaming, supply chain, and more.
-- **Status:** [[Oracle|Oracles]] are a fundamental component of the [[Web3]] ecosystem, with various implementations and networks (e.g., [[Chainlink]]) actively providing services.
+- **Problem Solved:** Addresses the inherent limitation of blockchains being isolated from external data sources and systems. This is often referred to as the **"Oracle Problem."** Without oracles, smart contracts would have very limited utility, unable to react to real-world events, data, or interact with legacy systems.
+- **Value Proposition:** Oracles enable smart contracts to execute based on real-world inputs and outputs, vastly expanding their capabilities and use cases across various industries like [[DeFI|DeFi]], insurance, gaming, supply chain, and more.
+- **Status:** Oracles are a fundamental component of the [[Web3]] ecosystem, with various implementations and networks (e.g., [[Chainlink]]) actively providing services.
 
 ### ELI5: What is an Oracle?
 
@@ -14,13 +14,13 @@ Imagine a smart contract is like a very smart robot locked in a room with no win
 
 ### Historical Context & Evolution
 
-The need for oracles became apparent as developers began building more complex [[Smart contract]] applications that required interaction with real-world data. Early solutions were often centralized, posing significant security risks. The evolution of oracles has been driven by the need for greater decentralization, security, and reliability, leading to the development of decentralized [[Oracle|oracle]] networks (DONs) like [[Chainlink]]. These networks use multiple independent [[Node|nodes]] and cryptoeconomic incentives to ensure data accuracy and availability.
+The need for oracles became apparent as developers began building more complex Smart contract applications that required interaction with real-world data. Early solutions were often centralized, posing significant security risks. The evolution of oracles has been driven by the need for greater decentralization, security, and reliability, leading to the development of decentralized oracle networks (DONs) like Chainlink. These networks use multiple independent [[Node|nodes]] and cryptoeconomic incentives to ensure data accuracy and availability.
 
 ## The Oracle Problem
 
-Blockchains are designed to be deterministic, meaning every [[Node|node]] in the network must be able to reach the same state given the same set of transactions. If [[Smart contract|smart contracts]] could directly call external [[API|APIs]] or access data whose values might change or be unreliable, this determinism would be broken, leading to [[Consensus|consensus]] failures. The [[Oracle]] Problem highlights this challenge: how can a deterministic, isolated blockchain securely and reliably interact with non-deterministic, external data?
+Blockchains are designed to be deterministic, meaning every node in the network must be able to reach the same state given the same set of transactions. If smart contracts could directly call external [[API|APIs]] or access data whose values might change or be unreliable, this determinism would be broken, leading to [[Consensus|consensus]] failures. The Oracle Problem highlights this challenge: how can a deterministic, isolated blockchain securely and reliably interact with non-deterministic, external data?
 
-- **Centralization Risk:** Using a single, centralized [[Oracle|oracle]] reintroduces a single point of failure and trust, negating the decentralization benefits of the blockchain itself. If the centralized oracle is compromised, provides incorrect data, or goes offline, the [[Smart contract|smart contracts]] relying on it can malfunction or be exploited.
+- **Centralization Risk:** Using a single, centralized oracle reintroduces a single point of failure and trust, negating the decentralization benefits of the blockchain itself. If the centralized oracle is compromised, provides incorrect data, or goes offline, the smart contracts relying on it can malfunction or be exploited.
 - **Data Integrity & Authenticity:** Ensuring the data fetched from the external world is accurate, tamper-proof, and from a legitimate source is crucial.
 
 ## How Oracles Work (General Mechanism)
@@ -38,47 +38,47 @@ While implementations vary, a typical decentralized oracle network operates as f
 Oracles can be categorized in several ways:
 
 - **Based on Data Direction:**
-  - **Input [[Oracle|Oracles]] (Inbound):** Fetch external data and deliver it to the blockchain (e.g., latest asset prices for a [[DeFI|DeFi]] protocol).
-  - **Output [[Oracle|Oracles]] (Outbound):** Allow [[Smart contract|smart contracts]] to send data or commands to off-chain systems (e.g., instructing a payment network to release funds, unlocking an IoT device).
+  - **Input Oracles (Inbound):** Fetch external data and deliver it to the blockchain (e.g., latest asset prices for a DeFi protocol).
+  - **Output Oracles (Outbound):** Allow smart contracts to send data or commands to off-chain systems (e.g., instructing a payment network to release funds, unlocking an IoT device).
 - **Based on Data Source:**
-  - **Software [[Oracle|Oracles]]:** Interact with online information sources like websites, servers, and [[API|APIs]] (e.g., retrieving market data, flight statuses).
-  - **Hardware [[Oracle|Oracles]]:** Gather data from the physical world using sensors, RFID readers, barcode scanners, etc. (e.g., tracking goods in a supply chain, environmental data).
+  - **Software Oracles:** Interact with online information sources like websites, servers, and APIs (e.g., retrieving market data, flight statuses).
+  - **Hardware Oracles:** Gather data from the physical world using sensors, RFID readers, barcode scanners, etc. (e.g., tracking goods in a supply chain, environmental data).
 - **Based on Trust Model:**
-  - **Centralized [[Oracle|Oracles]]:** Rely on a single entity to provide data. Simple but carry significant trust assumptions and single-point-of-failure risks.
-  - **Decentralized [[Oracle|Oracles]]:** Utilize a network of independent [[Node|nodes]] to fetch and validate data, reducing reliance on any single party and increasing security and reliability (e.g., [[Chainlink]]).
-- **Specialized [[Oracle|Oracles]]:**
-  - **Cross-Chain [[Oracle|Oracles]]:** Facilitate communication and data transfer between different blockchain networks, enabling interoperability.
-  - **Compute-Enabled [[Oracle|Oracles]]:** Perform complex computations off-chain that might be too expensive or technically infeasible on-chain, then deliver the result to the [[Smart contract|smart contract]].
-  - **Human [[Oracle|Oracles]]:** Individuals with specialized knowledge who can attest to or verify certain types of information, often secured by cryptoeconomic incentives.
+  - **Centralized Oracles:** Rely on a single entity to provide data. Simple but carry significant trust assumptions and single-point-of-failure risks.
+  - **Decentralized Oracles:** Utilize a network of independent nodes to fetch and validate data, reducing reliance on any single party and increasing security and reliability (e.g., Chainlink).
+- **Specialized Oracles:**
+  - **Cross-Chain Oracles:** Facilitate communication and data transfer between different blockchain networks, enabling interoperability.
+  - **Compute-Enabled Oracles:** Perform complex computations off-chain that might be too expensive or technically infeasible on-chain, then deliver the result to the smart contract.
+  - **Human Oracles:** Individuals with specialized knowledge who can attest to or verify certain types of information, often secured by cryptoeconomic incentives.
 
 ## Use Cases
 
 - **[[Decentralized finance]]:** Providing price feeds for lending/borrowing protocols, derivatives, [[Stablecoin|stablecoins]], and automated [[Market maker|market makers]] ([[AMM|AMMs]]).
 - **Insurance:** Verifying real-world events (e.g., flight delays, crop damage from weather data) to trigger automated insurance payouts.
-- **Gaming & [[NFT|NFTs]]:** Providing verifiable randomness for game mechanics or [[NFT]] trait generation; enabling dynamic NFTs that change based on external data.
-- **Supply Chain Management:** Tracking goods and verifying conditions (e.g., temperature, location) using hardware [[Oracle|oracles]].
+- **Gaming & NFTs:** Providing verifiable randomness for game mechanics or [[NFT]] trait generation; enabling dynamic NFTs that change based on external data.
+- **Supply Chain Management:** Tracking goods and verifying conditions (e.g., temperature, location) using hardware oracles.
 - **Prediction Markets:** Reporting the outcomes of real-world events.
-- **Real World Assets (RWAs):** Bringing data about off-chain assets (e.g., real estate, commodities) onto the blockchain for tokenization and [[DeFI|DeFi]] integration.
+- **Real World Assets (RWAs):** Bringing data about off-chain assets (e.g., real estate, commodities) onto the blockchain for tokenization and DeFi integration.
 
 ## Challenges and Considerations
 
-- **Security & Trust:** Ensuring the [[Oracle|oracle]] itself is not a vulnerability. Decentralized [[Oracle|oracles]] aim to mitigate this, but robust design and cryptoeconomic incentives are key.
-- **Data Accuracy & Reliability:** The quality of data provided by [[Oracle|oracles]] is paramount. "Garbage in, garbage out" applies.
+- **Security & Trust:** Ensuring the oracle itself is not a vulnerability. Decentralized oracles aim to mitigate this, but robust design and cryptoeconomic incentives are key.
+- **Data Accuracy & Reliability:** The quality of data provided by oracles is paramount. "Garbage in, garbage out" applies.
 - **Cost & Latency:** Fetching and reporting data on-chain incurs [[Gas|gas]] costs and can have latency.
-- **Collusion & Manipulation:** In decentralized networks, mechanisms must prevent [[Oracle|oracle]] [[Node|nodes]] from colluding to report false data.
-- **Data Provider Reliability:** The [[Oracle|oracle]] is only as good as its data sources. Ensuring source reliability is crucial.
+- **Collusion & Manipulation:** In decentralized networks, mechanisms must prevent oracle nodes from colluding to report false data.
+- **Data Provider Reliability:** The oracle is only as good as its data sources. Ensuring source reliability is crucial.
 
 ### Future Trends & Developments
 
-- **Increased Decentralization and Security:** Ongoing research focuses on making [[Oracle|oracle]] networks even more trustless, secure, and resistant to manipulation through advanced cryptography and game theory.
+- **Increased Decentralization and Security:** Ongoing research focuses on making oracle networks even more trustless, secure, and resistant to manipulation through advanced cryptography and game theory.
 - **Broader Data Coverage:** Expansion into more diverse data types, including private data, identity verification, and more complex real-world events.
 - **Enhanced Efficiency and Scalability:** Solutions to reduce the cost and latency associated with on-chain data reporting, possibly leveraging [[Layer 2]] scaling solutions.
-- **Standardization:** Efforts towards standardized [[Oracle|oracle]] interfaces and protocols to improve interoperability between different blockchains and [[DApp|dApps]].
-- **Compute-Enabled [[Oracle|Oracles]]:** Oracles performing more complex off-chain computations and attestations beyond simple data retrieval.
+- **Standardization:** Efforts towards standardized oracle interfaces and protocols to improve interoperability between different blockchains and [[DApp|dApps]].
+- **Compute-Enabled Oracles:** Oracles performing more complex off-chain computations and attestations beyond simple data retrieval.
 
 ## Related Concepts
 
-- [[Smart contract]]
-- [[API]]
-- [[Chainlink]] (as a leading example of a decentralized [[Oracle|oracle]] network)
-- [[Ethereum]] (as many [[Oracle|oracle]] use cases are prominent here)
+- Smart contract
+- API
+- Chainlink (as a leading example of a decentralized oracle network)
+- [[Ethereum]] (as many oracle use cases are prominent here)

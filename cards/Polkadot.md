@@ -10,39 +10,39 @@ Discover more at the [official Polkadot website](https://polkadot.network/).
 
 ## Technical Details
 
-- **Underlying Technology:** [[Polkadot]] uses a Nominated Proof-of-Stake (NPoS) [[Consensus|consensus]] mechanism for its Relay Chain. The Relay Chain doesn't handle [[Smart contract|smart contracts]] directly but is responsible for coordinating the network, including security and consensus for connected [[Parachain|parachains]].
+- **Underlying Technology:** Polkadot uses a Nominated Proof-of-Stake (NPoS) consensus mechanism for its Relay Chain. The Relay Chain doesn't handle [[Smart contract|smart contracts]] directly but is responsible for coordinating the network, including security and consensus for connected parachains.
 - **Architecture Overview:**
-  - **Relay Chain:** The heart of [[Polkadot]], providing security and [[Consensus|consensus]] to the network.
-  - **[[Parachain|Parachains]]:** Sovereign blockchains with their own logic, tokenomics, and governance, which connect to the Relay Chain for shared security and interoperability.
-  - **Parathreads:** Similar to [[Parachain|parachains]] but with a pay-as-you-go model, suitable for projects not needing continuous connectivity.
-  - **Bridges:** Connect [[Polkadot]] to external blockchains like [[Ethereum]] or [[Bitcoin]].
+  - **Relay Chain:** The heart of Polkadot, providing security and consensus to the network.
+  - **Parachains:** Sovereign blockchains with their own logic, tokenomics, and governance, which connect to the Relay Chain for shared security and interoperability.
+  - **Parathreads:** Similar to parachains but with a pay-as-you-go model, suitable for projects not needing continuous connectivity.
+  - **Bridges:** Connect Polkadot to external blockchains like Ethereum or [[Bitcoin]].
 - **Unique Selling Points:**
-  - **Shared Security:** [[Parachain|Parachains]] benefit from the economic security of the entire [[Polkadot]] network.
+  - **Shared Security:** Parachains benefit from the economic security of the entire Polkadot network.
   - **Interoperability:** Enables different blockchains to communicate and exchange data/assets trustlessly.
-  - **Customizability via [[Substrate]]:** Developers can build highly specialized blockchains tailored to specific use cases.
+  - **Customizability via Substrate:** Developers can build highly specialized blockchains tailored to specific use cases.
   - **Forkless Upgrades:** The network can upgrade its own runtime without requiring [[Hard fork|hard forks]], facilitated by on-chain governance.
   - **On-Chain Governance:** A sophisticated governance system allows stakeholders to manage protocol upgrades, treasury funds, and other network parameters.
 
 ## Use Cases
 
-- **[[DeFI|DeFi]] Hubs:** [[Parachain|Parachains]] dedicated to [[Decentralized finance|decentralized finance]] (e.g., [[Acala]], [[Moonbeam]] often offering [[EVM]] compatibility).
-- **[[NFT]] and Gaming Platforms:** Specialized [[Parachain|parachains]] for [[NFT|NFTs]], gaming, and metaverse applications.
+- **[[DeFI|DeFi]] Hubs:** Parachains dedicated to [[Decentralized finance|decentralized finance]] (e.g., [[Acala]], [[Moonbeam]] often offering [[EVM]] compatibility).
+- **[[NFT]] and Gaming Platforms:** Specialized parachains for NFTs, gaming, and metaverse applications.
 - **Identity Solutions:** Blockchains focused on [[Decentralized identity|decentralized identity]] and credentialing.
-- **IoT and Supply Chain:** [[Parachain|Parachains]] designed for Internet of Things (IoT) data or supply chain management.
-- **Cross-Chain Bridges and Services:** Enabling communication and asset transfer between [[Polkadot]] and other ecosystems.
+- **IoT and Supply Chain:** Parachains designed for Internet of Things (IoT) data or supply chain management.
+- **Cross-Chain Bridges and Services:** Enabling communication and asset transfer between Polkadot and other ecosystems.
 
 ## Getting Started
 
-- **How to use/access:** Users interact with [[Polkadot]] and its native token (DOT) via [[Wallet|wallets]] like Polkadot.js, Fearless [[Wallet]], Nova Wallet, or [[Hardware wallet|hardware wallets]]. DOT is used for [[Staking|staking]], governance, and [[Parachain|parachain]] auctions/leases.
+- **How to use/access:** Users interact with Polkadot and its native token (DOT) via wallets like Polkadot.js, Fearless [[Wallet]], Nova Wallet, or [[Hardware wallet|hardware wallets]]. DOT is used for [[Staking|staking]], governance, and parachain auctions/leases.
 - **Official Resources:**
   - Website: [Polkadot Network](https://polkadot.network/)
   - Wiki: [Polkadot Wiki](https://wiki.polkadot.network/)
-  - [[Polkadot]].js Apps: [Polkadot JS](https://polkadot.js.org/apps/)
+  - Polkadot.js Apps: [Polkadot JS](https://polkadot.js.org/apps/)
   - Explorer: [Subscan](https://polkadot.subscan.io/), [Polkastats](https://polkastats.io/)
-- **Community:** Active on various channels including the [[Polkadot]] Forum, Discord, Reddit (r/dot), and Telegram.
+- **Community:** Active on various channels including the Polkadot Forum, Discord, Reddit (r/dot), and Telegram.
 
 ## Related Links (Optional)
 
-- [[Substrate]]
-- [[Parachain]]
+- Substrate
+- Parachain
 - [[Proof of stake]]

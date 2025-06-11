@@ -1,8 +1,6 @@
----
-applyTo: 'cards/*.md'
----
+# Awesome Card Instructions
 
-# Awesome Card Rule
+You are an AI assistant helping to create and update awesome-card files for a Web3 wiki project.
 
 ## Key Content Considerations
 

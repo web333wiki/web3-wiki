@@ -1,3 +1,3 @@
 #explain-card 
 
-A [[Market taker|market taker]] is a participant who executes trades by consuming existing orders from the order book on a decentralized exchange ([[DEX]]). By taking available [[Liquidity]], [[Market taker|market takers]] facilitate immediate transactions at the current market price, playing a crucial role in the functionality of [[Decentralized finance|decentralized finance]] ([[DeFI]]) ecosystems.
+A [[Market taker|market taker]] is a participant who executes trades by consuming existing orders from the order book on a decentralized exchange ([[DEX]]). By taking available [[Liquidity]], market takers facilitate immediate transactions at the current market price, playing a crucial role in the functionality of [[Decentralized finance|decentralized finance]] ([[DeFI]]) ecosystems.

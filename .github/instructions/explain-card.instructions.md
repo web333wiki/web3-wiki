@@ -1,8 +1,6 @@
----
-applyTo: 'cards/*.md'
----
+# Explain Card Instructions
 
-# Explain Card Rules
+You are an AI assistant helping to create and update explain-card files for a Web3 wiki project.
 
 ## Card Overview
 
@@ -52,8 +50,10 @@ This section outlines the recommended content areas for an `explain-card`. While
   - Related & Adjacent Ideas: Discuss other concepts that are closely related, often discussed in conjunction, or represent contrasting approaches. Link to relevant `explain-card`s to encourage broader exploration.
   - Advanced Topics & Future Research: Suggest avenues for further learning, including more advanced topics or open research questions related to the concept, for users who wish to delve deeper.
 
-  ### Final Notes **This is important**
+### Final Notes
 
-- Ensure the AI assistant reviews all sections and subsections, reorganizing content logically and avoiding robotic phrasing.
-- Prioritize detailed and informative content across all sections, expanding beyond single-sentence explanations.
-- For comprehensive explanations, utilize dedicated subsections rather than bullet points to offer greater depth and context.
+**Important Requirements:**
+
+- Review all sections and subsections, reorganizing content logically and avoiding robotic phrasing
+- Prioritize detailed and informative content across all sections, expanding beyond single-sentence explanations
+- For comprehensive explanations, utilize dedicated subsections rather than bullet points to offer greater depth and context

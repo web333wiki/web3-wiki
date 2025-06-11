@@ -1,6 +1,6 @@
 #awesome-card 
 
-## What is [[Ethereum]]?
+## What is Ethereum?
 
 - [Ethereum](https://ethereum.org/)
 - [Blog](https://blog.ethereum.org/)

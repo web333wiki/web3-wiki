@@ -16,12 +16,12 @@ Buterin co-founded _Bitcoin Magazine_ in 2011, becoming one of the earliest and 
 
 ### Ethereum: Vision and Technical Innovation
 
-In 2013, Buterin published the [[Ethereum]] white paper, envisioning a "world computer"—a decentralized platform for programmable [[Smart contract|smart contracts]] and [[DApp|dApps]]. Unlike [[Bitcoin]]'s limited scripting, Ethereum's [[Smart contract]] functionality enables complex, trustless applications across finance, governance, identity, and more. Buterin's technical leadership guided Ethereum's launch in 2015 and its ongoing evolution, including:
+In 2013, Buterin published the Ethereum white paper, envisioning a "world computer"—a decentralized platform for programmable smart contracts and [[DApp|dApps]]. Unlike Bitcoin's limited scripting, Ethereum's Smart contract functionality enables complex, trustless applications across finance, governance, identity, and more. Buterin's technical leadership guided Ethereum's launch in 2015 and its ongoing evolution, including:
 
-- **[[The Merge]]**: Transitioning [[Ethereum]] from [[Proof of work]] to [[Proof of stake]], drastically reducing energy consumption and changing network economics.
+- **[[The Merge]]**: Transitioning Ethereum from [[Proof of work]] to [[Proof of stake]], drastically reducing energy consumption and changing network economics.
 - **[[Layer 2]] and Scalability**: Advocating for [[Rollup|rollups]] and modular blockchain design to address scalability and high transaction fees.
 - **Account Abstraction and Privacy**: Pushing for innovations that improve user experience and privacy, such as account abstraction and zero-knowledge proofs ([[Zero knowledge proof]]).
-- **[[DAO]] and Governance**: Promoting decentralized governance models, including the concept of the [[DAO]].
+- **[[DAO]] and Governance**: Promoting decentralized governance models, including the concept of the DAO.
 
 ### Research, Philosophy, and Broader Impact
 
@@ -33,7 +33,7 @@ He is also a vocal advocate for responsible AI development, having donated signi
 
 - **Awards**: Thiel Fellowship (2014), World Technology Award, Forbes 30 Under 30, Fortune 40 Under 40, honorary doctorate from the University of Basel, and inclusion in TIME 100.
 - **Philanthropy**: Buterin has donated hundreds of millions in crypto to causes including pandemic relief, aging research, and AI safety. Notably, he donated over $1 billion in SHIBA tokens to India's COVID relief fund and has supported open-source and public goods initiatives.
-- **Ongoing Research**: As of 2025, Buterin continues to focus on [[Ethereum]] protocol research, including proposals for replacing the [[EVM]] with RISC-V for improved scalability and privacy, and advancing zero-knowledge-based scaling solutions.
+- **Ongoing Research**: As of 2025, Buterin continues to focus on Ethereum protocol research, including proposals for replacing the [[EVM]] with RISC-V for improved scalability and privacy, and advancing zero-knowledge-based scaling solutions.
 
 ## Criticisms, Challenges & Controversies
 
@@ -41,16 +41,16 @@ Buterin's prominence has made him a focal point for both praise and criticism. H
 
 ## Related Concepts
 
-- [[Ethereum]]
-- [[Smart contract]]
-- [[The Merge]]
-- [[Proof of stake]]
-- [[Proof of work]]
-- [[DAO]]
-- [[Artificial intelligence]]
+- Ethereum
+- Smart contract
+- The Merge
+- Proof of stake
+- Proof of work
+- DAO
+- Artificial intelligence
 - [[Decentralized finance]]
 - [[Satoshi nakamoto]]
-- [[Zero knowledge proof]]
+- Zero knowledge proof
 - [[MetaMask]]
 - [[Decentralized identity]]
 

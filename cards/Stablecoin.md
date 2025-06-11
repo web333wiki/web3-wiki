@@ -4,10 +4,10 @@
 
 ## Types of Stablecoins
 
-- Fiat-Collateralized [[Stablecoin|Stablecoins]]: Backed by reserves of fiat currency (e.g., USD, EUR)
-- Crypto-Collateralized [[Stablecoin|Stablecoins]]: Backed by other cryptocurrencies
-- Commodity-Collateralized [[Stablecoin|Stablecoins]]: Backed by physical assets like gold or oil
-- Algorithmic [[Stablecoin|Stablecoins]]: Use algorithms to control supply and stabilize price
+- Fiat-Collateralized Stablecoins: Backed by reserves of fiat currency (e.g., USD, EUR)
+- Crypto-Collateralized Stablecoins: Backed by other cryptocurrencies
+- Commodity-Collateralized Stablecoins: Backed by physical assets like gold or oil
+- Algorithmic Stablecoins: Use algorithms to control supply and stabilize price
 
 ## Popular Stablecoins
 

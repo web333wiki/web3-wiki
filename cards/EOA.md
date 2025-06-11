@@ -1,3 +1,3 @@
 #explain-card 
 
-An [Externally Owned Account](https://ethereum.org/en/accounts/) ([[EOA]]) is a type of account in blockchain networks, particularly [[Ethereum]], that is controlled by a [[Private key]] held by an individual or entity. [[EOA|EOAs]] can initiate transactions, send and receive cryptocurrency, and interact with [[Smart contract|smart contracts]]. Unlike contract accounts, EOAs are not governed by code and require manual signing of transactions.
+An [Externally Owned Account](https://ethereum.org/en/accounts/) ([[EOA]]) is a type of account in blockchain networks, particularly Ethereum, that is controlled by a [[Private key]] held by an individual or entity. EOAs can initiate transactions, send and receive cryptocurrency, and interact with [[Smart contract|smart contracts]]. Unlike contract accounts, EOAs are not governed by code and require manual signing of transactions.

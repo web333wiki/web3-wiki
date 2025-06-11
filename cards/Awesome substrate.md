@@ -1,6 +1,6 @@
 #awesome-card 
 
-## What is [[Substrate]]?
+## What is Substrate?
 
 - [About Substrate](https://substrate.io/)
 - [Substrate Ecosystem Projects](https://substrate.io/ecosystem/projects/)

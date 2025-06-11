@@ -30,15 +30,15 @@ A **[[Centralized exchange|Centralized Exchange]] (CEX)** is a type of cryptocur
 ### Benefits of CEXs
 
 - **User-Friendliness:** Generally offer intuitive interfaces, making them accessible to beginners.
-- **[[Liquidity]]:** Often have high [[Trading volume|trading volumes]], leading to better price discovery and tighter spreads.
+- **Liquidity:** Often have high [[Trading volume|trading volumes]], leading to better price discovery and tighter spreads.
 - **Speed:** Off-chain order matching allows for fast trade execution.
 - **Fiat On/Off Ramps:** Provide easy ways to convert fiat currency to crypto and vice versa.
-- **Variety of Services:** Many CEXs offer additional services like [[Staking|staking]], lending, futures trading, and IEOs (Initial Exchange Offerings).
+- **Variety of Services:** Many CEXs offer additional services like staking, lending, futures trading, and IEOs (Initial Exchange Offerings).
 - **Customer Support:** Usually provide customer support channels.
 
 ### Limitations & Challenges of CEXs
 
-- **Custodial Risk (Counterparty Risk):** Users do not control their [[Private key|private keys]]. If the CEX is hacked, becomes insolvent, or engages in fraudulent activities, users can lose their funds (captured by the phrase "Not your keys, not your coins"). Examples include the Mt. Gox hack or the FTX collapse.
+- **Custodial Risk (Counterparty Risk):** Users do not control their private keys. If the CEX is hacked, becomes insolvent, or engages in fraudulent activities, users can lose their funds (captured by the phrase "Not your keys, not your coins"). Examples include the Mt. Gox hack or the FTX collapse.
 - **Centralization:** A single point of failure and control. CEXs can be subject to government pressure, censorship, or arbitrary decisions by the exchange operators (e.g., delisting assets, freezing accounts).
 - **Security Risks:** Large CEXs holding significant amounts of cryptocurrency are attractive targets for hackers.
 - **Regulatory Uncertainty:** The regulatory landscape for CEXs is still evolving in many jurisdictions, leading to potential compliance issues or service disruptions.
@@ -46,15 +46,15 @@ A **[[Centralized exchange|Centralized Exchange]] (CEX)** is a type of cryptocur
 
 ### CEX vs. Decentralized Exchange (DEX)
 
-- CEXs are custodial and rely on a central operator, while [[DEX|DEXs]] are non-custodial and allow peer-to-peer trading directly from users' [[Wallet|wallets]] via [[Smart contract]]s.
-- CEXs often offer more features and higher [[Liquidity|liquidity]] for a wider range of assets, whereas [[DEX|DEXs]] prioritize user control and censorship resistance.
+- CEXs are custodial and rely on a central operator, while [[DEX|DEXs]] are non-custodial and allow peer-to-peer trading directly from users' wallets via [[Smart contract|Smart contracts]].
+- CEXs often offer more features and higher liquidity for a wider range of assets, whereas DEXs prioritize user control and censorship resistance.
 
 ## Related Concepts
 
-- [[Wallet]]
-- [[Know your customer]]
-- [[Anti money laundering]]
-- [[Liquidity]]
-- [[Private key]]
-- [[Regulation]]
+- Wallet
+- Know your customer
+- Anti money laundering
+- Liquidity
+- Private key
+- Regulation
 - Examples: [[Coinbase]], [[Binance]]

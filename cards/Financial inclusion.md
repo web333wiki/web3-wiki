@@ -4,7 +4,7 @@
 
 **[[Financial inclusion|Financial Inclusion]]** refers to the efforts and initiatives aimed at making financial products and services accessible and affordable to all individuals and businesses, particularly those who are underserved or excluded from traditional banking systems. This includes access to transactions, payments, savings, credit, and insurance.
 
-- **Importance/Purpose:** [[Financial inclusion]] is a key enabler for reducing poverty and boosting shared prosperity. It allows people to manage their money effectively, save for the future, cope with financial shocks, invest in education or businesses, and improve their overall economic well-being. Lack of access to formal financial services can trap individuals in cycles of poverty.
+- **Importance/Purpose:** Financial inclusion is a key enabler for reducing poverty and boosting shared prosperity. It allows people to manage their money effectively, save for the future, cope with financial shocks, invest in education or businesses, and improve their overall economic well-being. Lack of access to formal financial services can trap individuals in cycles of poverty.
 - **Target Audience:** Unbanked and underbanked populations (often in developing countries or marginalized communities), policymakers, financial institutions, fintech companies, NGOs, and development organizations.
 
 ## Core Concepts & Mechanism
@@ -31,9 +31,9 @@
 Technology, particularly mobile banking, digital payments, and more recently, [[Web3]] technologies like blockchain and cryptocurrencies, plays a significant role in advancing financial inclusion:
 
 - **Mobile Money:** Revolutionized access to financial services in many developing countries.
-- **[[Decentralized finance|DeFi]]:** Offers the potential for permissionless access to financial services like lending, borrowing, and trading, without relying on traditional intermediaries. [[Stablecoin]]s can offer a more stable medium of exchange.
+- **[[DeFI|DeFi]]:** Offers the potential for permissionless access to financial services like lending, borrowing, and trading, without relying on traditional intermediaries. [[Stablecoin|Stablecoins]] can offer a more stable medium of exchange.
 - **Cryptocurrencies:** Can facilitate cheaper and faster cross-border remittances and provide an alternative store of value in regions with unstable local currencies or high inflation.
-- **[[Decentralized identity|Decentralized identity]]:** Could help address documentation challenges by allowing individuals to control and present verifiable credentials.
+- **[[Decentralized identity]]:** Could help address documentation challenges by allowing individuals to control and present verifiable credentials.
 
 ## Use Cases & Implications
 
@@ -50,7 +50,7 @@ Technology, particularly mobile banking, digital payments, and more recently, [[
 - **Digital Divide:** Lack of access to technology (smartphones, internet) can exclude many from digital financial services.
 - **Financial Literacy Gap:** Even with access, users need the skills to use services effectively and avoid risks.
 - **Regulatory Hurdles:** [[Regulation|Regulations]] (e.g., strict KYC/AML) can sometimes inadvertently create barriers, though they are necessary for security.
-- **Risks of New Technologies:** While [[Web3]] offers potential, it also comes with risks like volatility of cryptocurrencies, [[Smart contract]] vulnerabilities in [[DeFI|DeFi]], and scams. Ensuring consumer protection is crucial.
+- **Risks of New Technologies:** While Web3 offers potential, it also comes with risks like volatility of cryptocurrencies, [[Smart contract]] vulnerabilities in DeFi, and scams. Ensuring consumer protection is crucial.
 - **Sustainability of Business Models:** Finding viable business models to serve low-income populations can be challenging for providers.
 
 ## Related Concepts
@@ -59,10 +59,10 @@ Technology, particularly mobile banking, digital payments, and more recently, [[
 - microfinance
 - mobile money
 - fintech
-- KYC ([[Know your customer|Know Your Customer]])
+- KYC (Know Your Customer)
 - blockchain
 - cryptocurrency
 - [[Decentralized finance]]
-- [[Stablecoin]]
+- Stablecoin
 - digital divide
 - poverty reduction

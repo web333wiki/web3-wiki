@@ -1,6 +1,6 @@
 #awesome-card
 
-## What is [[Darwinia]]?
+## What is Darwinia?
 
 - [Get started with Darwinia](https://docs.darwinia.network/)
 - [Official Github](https://github.com/darwinia-network)

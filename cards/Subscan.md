@@ -2,9 +2,9 @@
 
 ## Overview
 
-[[Subscan]] is a high-precision, multi-chain [[Block|block]] explorer widely used within the [[Web3]] ecosystem, with a primary focus on [[Substrate]]-based networks like [[Polkadot]] and Kusama, and increasingly, [[EVM]]-compatible chains. It offers a comprehensive "Explorer as a Service" (EaaS) solution, providing users and developers with tools to explore, analyze, and understand on-chain data across a multitude of blockchain networks.
+[[Subscan]] is a high-precision, multi-chain [[Block|block]] explorer widely used within the [[Web3]] ecosystem, with a primary focus on Substrate-based networks like [[Polkadot]] and Kusama, and increasingly, EVM-compatible chains. It offers a comprehensive "Explorer as a Service" (EaaS) solution, providing users and developers with tools to explore, analyze, and understand on-chain data across a multitude of blockchain networks.
 
-**Problem Solved:** Navigating and interpreting blockchain data can be complex. [[Subscan]] addresses this by providing a user-friendly, aggregated interface for real-time data, analytics, and [[Smart contract|smart contract]] exploration across nearly 100 networks. It simplifies the process of tracking transactions, examining [[Block|blocks]], monitoring addresses, and understanding network activity.
+**Problem Solved:** Navigating and interpreting blockchain data can be complex. Subscan addresses this by providing a user-friendly, aggregated interface for real-time data, analytics, and [[Smart contract|smart contract]] exploration across nearly 100 networks. It simplifies the process of tracking transactions, examining blocks, monitoring addresses, and understanding network activity.
 
 **Value Proposition:**
 
@@ -21,24 +21,24 @@
 
 Subscan provides a rich set of features for interacting with blockchain data:
 
-- **[[Block]] Exploration:** Detailed views of individual [[Block|blocks]], including their contents, extrinsic, events, and parent hash.
+- **Block Exploration:** Detailed views of individual blocks, including their contents, extrinsic, events, and parent hash.
 - **Transaction (Extrinsic) Exploration:** In-depth information about specific transactions (or extrinsics in [[Substrate]] terminology), including sender, receiver, value, status, and associated events.
 - **Address Tracking:** Ability to view balances, transaction history, and related on-chain activities for any given address.
-- **[[Smart contract]] Interaction:** For supported [[EVM]] chains, users can view contract details, read contract state, and sometimes interact with contract functions.
+- **Smart contract Interaction:** For supported EVM chains, users can view contract details, read contract state, and sometimes interact with contract functions.
 - **Network Analytics:** Provides statistics and charts on network activity, such as transaction volume, active accounts, and [[Staking|staking]] information.
 - **Cross-Network Support:** Seamlessly switch between different supported blockchains from a unified interface.
-- **[[API]] Services:** Offers [[API|APIs]] for developers to integrate [[Subscan]]'s data into their own applications and services.
-- **Governance Exploration:** Tools to view and track on-chain governance proposals, referenda, and voting activity on supported chains like [[Polkadot]] and Kusama.
-- **[[Staking]] Dashboard:** Detailed information about [[Validator|validators]], nominators, staking rewards, and other staking-related data for Proof-of-Stake networks.
+- **[[API]] Services:** Offers APIs for developers to integrate Subscan's data into their own applications and services.
+- **Governance Exploration:** Tools to view and track on-chain governance proposals, referenda, and voting activity on supported chains like Polkadot and Kusama.
+- **Staking Dashboard:** Detailed information about [[Validator|validators]], nominators, staking rewards, and other staking-related data for Proof-of-Stake networks.
 
 ## Technology
 
-- **Blockchain/Platform:** Primarily built for [[Substrate]]-based blockchains, including major networks like [[Polkadot]], Kusama, [[Acala]], [[Moonbeam]], and [[Astar]]. It also offers robust support for various [[EVM]]-compatible chains.
-- **Architecture:** [[Subscan]] operates on an "Explorer as a Service" (EaaS) model. This involves sophisticated data indexing [[Node|nodes]] for each supported chain, which collect, process, and store blockchain data. This data is then made available through its web interface and [[API]].
-- **Core Mechanism(s):** The core of [[Subscan]] involves:
+- **Blockchain/Platform:** Primarily built for Substrate-based blockchains, including major networks like Polkadot, Kusama, [[Acala]], [[Moonbeam]], and [[Astar]]. It also offers robust support for various EVM-compatible chains.
+- **Architecture:** Subscan operates on an "Explorer as a Service" (EaaS) model. This involves sophisticated data indexing [[Node|nodes]] for each supported chain, which collect, process, and store blockchain data. This data is then made available through its web interface and API.
+- **Core Mechanism(s):** The core of Subscan involves:
   - **Data Indexing:** Efficiently retrieving and indexing vast amounts of data from multiple heterogeneous blockchain networks.
   - **Data Aggregation & Presentation:** Consolidating data and presenting it in a structured, human-readable format.
-  - **[[API]] Provisioning:** Exposing processed blockchain data through a set of [[API|APIs]] for third-party use.
+  - **API Provisioning:** Exposing processed blockchain data through a set of APIs for third-party use.
 
 ## Ecosystem & Use Cases
 
@@ -46,27 +46,27 @@ Subscan provides a rich set of features for interacting with blockchain data:
   - **Users:** Individuals interacting with supported blockchains for checking transaction statuses, managing assets, or participating in governance.
   - **Developers:** Building [[DApp|dApps]] or services that require access to reliable on-chain data.
   - **Researchers & Analysts:** Studying blockchain activity, network health, and tokenomics.
-  - **Projects & Teams:** Monitoring their own network or [[Smart contract|smart contracts]], and providing an explorer for their user [[Base|base]].
+  - **Projects & Teams:** Monitoring their own network or smart contracts, and providing an explorer for their user [[Base|base]].
 - **How it's Used (Detailed Use Cases):**
-  - **Transaction Verification:** Confirming if a transaction has been included in a [[Block|block]] and its final status.
+  - **Transaction Verification:** Confirming if a transaction has been included in a block and its final status.
   - **Account Monitoring:** Tracking token balances and transaction history for specific [[Wallet|wallet]] addresses.
-  - **[[Smart contract]] Auditing (Preliminary):** Inspecting deployed smart contract code (if verified) and transaction interactions.
-  - **Network Health Check:** Observing [[Block|block]] production, transaction throughput, and active [[Validator|validator]] sets.
-  - **[[Staking]] Management:** Researching [[Validator|validators]] and tracking staking rewards.
+  - **Smart contract Auditing (Preliminary):** Inspecting deployed smart contract code (if verified) and transaction interactions.
+  - **Network Health Check:** Observing block production, transaction throughput, and active validator sets.
+  - **Staking Management:** Researching validators and tracking staking rewards.
   - **Governance Participation:** Following proposals and understanding voting outcomes.
-- **Integrations:** Many projects within the [[Polkadot]] and Kusama ecosystems recommend or directly integrate [[Subscan]] as their preferred [[Block|block]] explorer. For example, [[Parachain|parachain]] projects often guide their users to Subscan for exploring their specific chain data.
+- **Integrations:** Many projects within the Polkadot and Kusama ecosystems recommend or directly integrate Subscan as their preferred block explorer. For example, [[Parachain|parachain]] projects often guide their users to Subscan for exploring their specific chain data.
 
 ## Getting Started & Resources
 
-- **Accessing [[Subscan]]:**
+- **Accessing Subscan:**
   - Navigate to the main portal: [https://www.subscan.io/](https://www.subscan.io/)
   - Select your desired network from the dropdown list or by visiting a network-specific subdomain (e.g., `https://polkadot.subscan.io/`).
-- **Documentation:** While a centralized documentation portal isn't prominently featured, usage is generally intuitive. [[API]] documentation is available for developers.
+- **Documentation:** While a centralized documentation portal isn't prominently featured, usage is generally intuitive. API documentation is available for developers.
 - **Community Channels & Support:**
-  - Support is often provided through community channels of the respective blockchains [[Subscan]] supports.
+  - Support is often provided through community channels of the respective blockchains Subscan supports.
   - Issues or feature requests can sometimes be raised via their GitHub.
-- **Source Code:** Parts of [[Subscan]]'s infrastructure are open-source.
-  - **[[Subscan]] Essentials GitHub:** [subscan-explorer/subscan-essentials](https://github.com/subscan-explorer/subscan-essentials) (A scaffold project for [[Substrate]] explorers)
+- **Source Code:** Parts of Subscan's infrastructure are open-source.
+  - **Subscan Essentials GitHub:** [subscan-explorer/subscan-essentials](https://github.com/subscan-explorer/subscan-essentials) (A scaffold project for Substrate explorers)
 
 ## Team and Project History
 
@@ -74,8 +74,8 @@ Subscan is developed and maintained by the Subscan team, known for their experti
 
 ## Comparative Analysis
 
-- **[[Etherscan]]**: The leading [[Block|block]] explorer for [[Ethereum]] and [[EVM]] chains. [[Subscan]] provides similar functionality but with a broader focus that includes the [[Substrate]] ecosystem.
-- **[[Polkadot]].js Apps**: A powerful tool for interacting with [[Substrate]]-based chains, offering explorer features. However, Polkadot.js is often more developer-centric, while [[Subscan]] aims for a more user-friendly experience for a wider audience.
-- **Other Chain-Specific Explorers (e.g., Solscan for [[Solana]], Tronscan for [[TRON]]):** Many L1 blockchains have their own dedicated explorers. [[Subscan]]'s strength lies in its multi-chain aggregation, particularly for the interconnected [[Polkadot]] ecosystem.
+- **[[Etherscan]]**: The leading block explorer for [[Ethereum]] and EVM chains. Subscan provides similar functionality but with a broader focus that includes the Substrate ecosystem.
+- **Polkadot.js Apps**: A powerful tool for interacting with Substrate-based chains, offering explorer features. However, Polkadot.js is often more developer-centric, while Subscan aims for a more user-friendly experience for a wider audience.
+- **Other Chain-Specific Explorers (e.g., Solscan for [[Solana]], Tronscan for [[TRON]]):** Many L1 blockchains have their own dedicated explorers. Subscan's strength lies in its multi-chain aggregation, particularly for the interconnected Polkadot ecosystem.
 
 Subscan differentiates itself through its specialized focus on the Substrate ecosystem, its "Explorer as a Service" model, and its commitment to providing high-precision data across a large and growing number of networks.

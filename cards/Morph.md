@@ -25,7 +25,7 @@ Morpho provides a suite of services and features designed for various participan
 
 ### Earn
 
-This feature allows users to deposit their crypto assets and earn interest. Morpho vaults are designed to optimize allocations continuously, aiming to provide competitive yields. Users can select strategies that align with their risk appetite. The platform operates on a [[Custody|custody]] wallet]] basis, meaning users retain control over their assets deposited into trustless [[Smart contract]].
+This feature allows users to deposit their crypto assets and earn interest. Morpho vaults are designed to optimize allocations continuously, aiming to provide competitive yields. Users can select strategies that align with their risk appetite. The platform operates on a [[Custody|custody]] [[Wallet|wallet]]]] basis, meaning users retain control over their assets deposited into trustless [[Smart contract]].
 
 ### Borrow
 
@@ -33,7 +33,7 @@ Borrowers can use Morpho to access loans by providing collateral. The platform a
 
 ### Curate (For Curators & Businesses)
 
-Curators can leverage Morpho to create and manage lending markets. This feature allows them to earn fees by optimizing [[Yield farming]], risk, and [[Liquidity]] for users. The platform provides an open environment where vaults and markets can be deployed quickly using public code. Curators have the flexibility to define custom strategies, permissions, and [[Onchain governance]] for their markets. Morpho emphasizes the scalability of this model, where revenue can grow proportionally to deposits, and curators can benefit from the broader Morpho ecosystem, brand, and distribution network.
+Curators can leverage Morpho to create and manage lending markets. This feature allows them to earn fees by optimizing [[Yield farming]], risk, and Liquidity for users. The platform provides an open environment where vaults and markets can be deployed quickly using public code. Curators have the flexibility to define custom strategies, permissions, and [[Onchain governance]] for their markets. Morpho emphasizes the scalability of this model, where revenue can grow proportionally to deposits, and curators can benefit from the broader Morpho ecosystem, brand, and distribution network.
 
 ### Build (For Curators & Businesses)
 

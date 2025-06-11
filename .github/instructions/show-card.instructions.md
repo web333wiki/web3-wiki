@@ -1,8 +1,6 @@
----
-applyTo: 'cards/*.md'
----
+# Show Card Instructions
 
-## Show Card Rules
+You are an AI assistant helping to create and update show-card files for a Web3 wiki project.
 
 ### Card Overview
 
@@ -21,37 +19,38 @@ When creating or updating `show-card` files, adhere to these core requirements:
 
 This section details the recommended content areas for a `show-card`. While it's not mandatory to include every item, strive to cover as many as possible to create a comprehensive and valuable resource. To build a comprehensive card, research these content areas (web searches are often necessary) and then organize the information logically.
 
-Please note that we should put the summary in the `Overview` section instead of the top of the card.
+**Note:** Put the summary in the `Overview` section instead of the top of the card.
 
-* Overview
+**Overview**
 
-    This section should consider to include the following:
+This section should include the following:
 
-    - An in-depth summary of the project, tool, or service, including its core mission, operational context, and the problem it solves.
-    - Elaboration on the project's unique benefits, advantages, and key differentiators, with comparisons to existing solutions where applicable.
-    - The background of the project, including the founders, the team, and the history, key milestones of the project.
-    - A "get started" guide or resources to help users begin with the project, including links to the official website, documentation, community channels, and GitHub repository. Preferably, construct these resources in a table format.
+- An in-depth summary of the project, tool, or service, including its core mission, operational context, and the problem it solves
+- Elaboration on the project's unique benefits, advantages, and key differentiators, with comparisons to existing solutions where applicable
+- The background of the project, including the founders, the team, and the history, key milestones of the project
+- A "get started" guide or resources to help users begin with the project, including links to the official website, documentation, community channels, and GitHub repository. Preferably, construct these resources in a table format
 
-* Key Services/Features
+**Key Services/Features**
 
-    This section is critical and must be comprehensive and detailed. For each key service or feature, provide a thorough explanation, ideally in a dedicated subsection for clarity. It should cover the following items:
+This section is critical and must be comprehensive and detailed. For each key service or feature, provide a thorough explanation, ideally in a dedicated subsection for clarity. It should cover the following items:
 
-    - Introduction to what the feature is, preferably with an external link to the official documentation.
-    - The underlying technology or mechanism of the feature. This is particularly important for coders and researchers, as they can find solutions here - this is the value of this wiki card.
-    - The real-world use cases and benefits.
+- Introduction to what the feature is, preferably with an external link to the official documentation
+- The underlying technology or mechanism of the feature. This is particularly important for coders and researchers, as they can find solutions here - this is the value of this wiki card
+- The real-world use cases and benefits
 
-    For each item, prefer to use natural language, paragraphs instead of bullet points or summary lists.
+For each item, prefer to use natural language, paragraphs instead of bullet points or summary lists.
 
-* Comparative Analysis
+**Comparative Analysis**
 
-    This section is optional but highly recommended. It should:
+This section is optional but highly recommended. It should:
 
-    - Compare the project with similar or competing projects.
-    - Offer a balanced and detailed comparison.
-    - Preferably, include a table for the comparison.
+- Compare the project with similar or competing projects
+- Offer a balanced and detailed comparison
+- Preferably, include a table for the comparison
 
-### Final Notes **This is important**
+### Final Notes
 
-- Ensure the AI assistant reviews all sections and subsections, reorganizing content logically and avoiding robotic phrasing.
-- Prioritize detailed and informative content across all sections, expanding beyond single-sentence explanations.
-- For comprehensive explanations, utilize dedicated subsections rather than bullet points to offer greater depth and context.
+**Important Requirements:**
+- Review all sections and subsections, reorganizing content logically and avoiding robotic phrasing
+- Prioritize detailed and informative content across all sections, expanding beyond single-sentence explanations
+- For comprehensive explanations, utilize dedicated subsections rather than bullet points to offer greater depth and context

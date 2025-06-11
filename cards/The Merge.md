@@ -14,42 +14,42 @@
 
 **Key Components/Elements:**
 
-- **Execution Layer (formerly Mainnet/Eth1):** This layer is responsible for handling transactions, [[Smart contract|smart contract]] execution, and maintaining the [[Ethereum]] state (accounts, balances, etc.). It's where applications and user interactions occur.
-- **[[Consensus]] Layer (formerly [[Beacon chain|Beacon Chain]]/Eth2):** This layer manages the PoS consensus mechanism. It coordinates network [[Validator|validators]], proposes and validates new [[Block|blocks]], and ensures the overall security and agreement on the state of the blockchain.
-- **[[Validator|Validators]]:** Instead of [[Miner|miners]] (in PoW), validators are participants who stake ETH (currently 32 ETH) to propose and attest to new [[Block|blocks]]. They are responsible for maintaining the network's integrity and are rewarded in ETH for their contributions.
+- **Execution Layer (formerly Mainnet/Eth1):** This layer is responsible for handling transactions, [[Smart contract|smart contract]] execution, and maintaining the Ethereum state (accounts, balances, etc.). It's where applications and user interactions occur.
+- **Consensus Layer (formerly Beacon Chain/Eth2):** This layer manages the PoS consensus mechanism. It coordinates network [[Validator|validators]], proposes and validates new [[Block|blocks]], and ensures the overall security and agreement on the state of the blockchain.
+- **Validators:** Instead of [[Miner|miners]] (in PoW), validators are participants who stake ETH (currently 32 ETH) to propose and attest to new blocks. They are responsible for maintaining the network's integrity and are rewarded in ETH for their contributions.
 
 **In-depth Mechanism/How it Works:**
-Before [[The Merge]], the [[Ethereum]] Mainnet used PoW, where [[Miner|miners]] competed to solve complex mathematical puzzles to add new [[Block|blocks]]. The [[Beacon chain|Beacon Chain]] was launched as a separate PoS chain. The Merge involved integrating these two chains.
-After [[The Merge]], the [[Beacon chain|Beacon Chain]] became the [[Consensus|consensus]] engine for all network data. When a transaction is submitted, it is processed by the execution layer. The consensus layer then orders these transactions into [[Block|blocks]], and [[Validator|validators]] propose and attest to these blocks. This PoS mechanism relies on validators having a financial stake in the network, incentivizing honest behavior.
+Before The Merge, the Ethereum Mainnet used PoW, where miners competed to solve complex mathematical puzzles to add new blocks. The Beacon Chain was launched as a separate PoS chain. The Merge involved integrating these two chains.
+After The Merge, the Beacon Chain became the consensus engine for all network data. When a transaction is submitted, it is processed by the execution layer. The consensus layer then orders these transactions into blocks, and validators propose and attest to these blocks. This PoS mechanism relies on validators having a financial stake in the network, incentivizing honest behavior.
 
 **Underlying Technical Details:** The Merge involved a sophisticated coordination between the execution client software (like Geth, Nethermind) and consensus client software (like Prysm, Lighthouse). An Engine [[API]] facilitates communication between these two layers. The PoS mechanism uses an algorithm called Gasper, which combines Casper FFG (for finality) and LMD GHOST (for fork choice).
 
 ## Practical Applications, Use Cases & Implications
 
-**Concrete Examples & Real-World Applications:** [[The Merge]] directly impacted every application and user on the [[Ethereum]] network by changing its underlying security model. Projects like [[Decentralized finance]] protocols, [[NFT]] marketplaces, and [[DAO|DAOs]] continued to operate, but on a more energy-efficient and secure foundation.
+**Concrete Examples & Real-World Applications:** The Merge directly impacted every application and user on the Ethereum network by changing its underlying security model. Projects like [[Decentralized finance]] protocols, [[NFT]] marketplaces, and [[DAO|DAOs]] continued to operate, but on a more energy-efficient and secure foundation.
 
 **Benefits & Advantages:**
 
 - **Massive Energy Reduction:** The most significant benefit was the ~99.95% decrease in energy consumption, addressing major environmental concerns associated with PoW.
 - **Enhanced Security:** PoS is generally considered to offer stronger security guarantees against certain attacks compared to PoW, particularly due to the economic disincentives for malicious actors (their stake can be "slashed").
-- **Reduced ETH Issuance:** The rate of new ETH creation significantly decreased post-Merge because [[Block|block]] rewards for [[Validator|validators]] are lower than they were for [[Miner|miners]]. This, combined with [[EIP-1559]]'s fee-burning mechanism, can lead to ETH becoming a deflationary asset.
-- **Foundation for Scalability:** [[The Merge]] paved the way for future scalability upgrades like danksharding, which aim to significantly increase transaction throughput on [[Ethereum]].
+- **Reduced ETH Issuance:** The rate of new ETH creation significantly decreased post-Merge because block rewards for validators are lower than they were for miners. This, combined with [[EIP-1559]]'s fee-burning mechanism, can lead to ETH becoming a deflationary asset.
+- **Foundation for Scalability:** The Merge paved the way for future scalability upgrades like danksharding, which aim to significantly increase transaction throughput on Ethereum.
 
 **Limitations, Challenges & Criticisms:**
 
-- **Centralization Concerns:** Some critics argue that PoS can lead to greater centralization, as entities with large amounts of ETH can control a significant portion of the [[Validator|validator]] set. However, mechanisms like [[Staking|staking]] pools allow smaller holders to participate.
+- **Centralization Concerns:** Some critics argue that PoS can lead to greater centralization, as entities with large amounts of ETH can control a significant portion of the validator set. However, mechanisms like [[Staking|staking]] pools allow smaller holders to participate.
 - **Complexity:** PoS is a more complex system than PoW, which could potentially introduce new, unforeseen attack vectors or vulnerabilities.
-- **No Immediate [[Gas]] Fee Reduction:** [[The Merge]] itself was not designed to directly lower gas fees for users. Transaction fees are more related to network demand and [[Block|block]] space, which are being addressed by [[Layer 2]] scaling solutions and future sharding upgrades.
-- **Transaction Speed:** While there were minor changes, transaction speed on [[Layer 1]] remained largely the same immediately after [[The Merge]].
+- **No Immediate [[Gas]] Fee Reduction:** The Merge itself was not designed to directly lower gas fees for users. Transaction fees are more related to network demand and block space, which are being addressed by [[Layer 2]] scaling solutions and future sharding upgrades.
+- **Transaction Speed:** While there were minor changes, transaction speed on [[Layer 1]] remained largely the same immediately after The Merge.
 
 **Future Trends & Developments:** The Merge is a cornerstone of Ethereum's ongoing roadmap. Future upgrades planned include:
 
 - **The Surge (Sharding/Danksharding):** Aimed at massively increasing network scalability by distributing data storage and processing. [[Dencun upgrade]] (Proto-Danksharding) was a key step in this direction.
-- **The Scourge:** Focused on addressing risks of MEV (Maximal Extractable Value) and [[Validator|validator]] centralization.
-- **The Verge:** Simplifying [[Block|block]] verification through Verkle trees.
+- **The Scourge:** Focused on addressing risks of MEV (Maximal Extractable Value) and validator centralization.
+- **The Verge:** Simplifying block verification through Verkle trees.
 - **The Purge:** Reducing historical data storage requirements for [[Node|nodes]].
 - **The Splurge:** Miscellaneous smaller upgrades to refine the network.
-  [[Staking]] withdrawal functionality was not included in The Merge itself but was enabled later via the Shanghai/Capella upgrade.
+  Staking withdrawal functionality was not included in The Merge itself but was enabled later via the Shanghai/Capella upgrade.
 
 ## Broader Context & Further Exploration
 
@@ -57,18 +57,18 @@ After [[The Merge]], the [[Beacon chain|Beacon Chain]] became the [[Consensus|co
 
 - [[Proof of work]]
 - [[Proof of stake]]
-- [[Beacon chain]]
-- [[Smart contract]]
+- Beacon chain
+- Smart contract
 
 **Related & Adjacent Ideas:**
 
-- [[EIP-1559]]
-- [[Layer 2]] Scaling Solutions (e.g., [[Rollup]]s like [[Optimism]], [[Arbitrum]])
+- EIP-1559
+- Layer 2 Scaling Solutions (e.g., [[Rollup|Rollups]] like [[Optimism]], [[Arbitrum]])
 
 ## Related Concepts Section
 
-- [[Proof of work]]
-- [[Proof of stake]]
-- [[Beacon chain]]
-- [[EIP-1559]]
-- [[Dencun upgrade]]
+- Proof of work
+- Proof of stake
+- Beacon chain
+- EIP-1559
+- Dencun upgrade

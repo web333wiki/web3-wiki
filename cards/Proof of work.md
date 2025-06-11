@@ -20,7 +20,7 @@ The concept of "Proof of Work" predates cryptocurrencies. It was first formally 
 
 ### Key Components/Elements
 
-1.  The Puzzle: A computationally intensive problem that is difficult to solve but easy to verify. In most PoW systems, this involves finding a [[Nonce]] (a number used once) such that when combined with the data of the proposed [[Block|block]] and hashed, the resulting hash value is below a certain target [[Difficulty|difficulty]].
+1.  The Puzzle: A computationally intensive problem that is difficult to solve but easy to verify. In most PoW systems, this involves finding a [[Nonce]] (a number used once) such that when combined with the data of the proposed block and hashed, the resulting hash value is below a certain target [[Difficulty|difficulty]].
 2.  Hashing: A cryptographic hash function (e.g., SHA-256 in Bitcoin) is used to transform an input of any size into a fixed-size string of characters (the hash). This process is one-way and deterministic (the same input always produces the same output).
 3.  Difficulty Target: A value set by the network that determines how hard it is to find a valid proof of work. This target adjusts periodically to ensure that blocks are generated at a relatively consistent rate, regardless of changes in the total network hashing power.
 4.  Miners: Network participants who compete to solve the puzzle. They invest in specialized hardware (like ASICs or GPUs) and consume electricity to perform the necessary computations.
@@ -31,12 +31,12 @@ The concept of "Proof of Work" predates cryptocurrencies. It was first formally 
 1.  Transaction Collection: Miners collect pending transactions broadcast to the network.
 2.  Block Construction: They assemble these transactions into a candidate block.
 3.  Puzzle Solving (Mining):
-    - [[Miner|Miners]] add a piece of data called a [[Nonce|nonce]] to their candidate [[Block|block]].
-    - They hash the [[Block|block]]'s header (which includes the [[Nonce|nonce]], a hash of the previous block, a hash of the transactions in the current block, and other metadata).
-    - If the resulting hash is numerically lower than the current [[Difficulty|difficulty]] target, the [[Proof of work|proof of work]] is valid.
-    - If not, they change the [[Nonce|nonce]] and try again. This is a brute-force trial-and-error process that requires many hash computations.
+    - Miners add a piece of data called a nonce to their candidate block.
+    - They hash the block's header (which includes the nonce, a hash of the previous block, a hash of the transactions in the current block, and other metadata).
+    - If the resulting hash is numerically lower than the current difficulty target, the proof of work is valid.
+    - If not, they change the nonce and try again. This is a brute-force trial-and-error process that requires many hash computations.
 4.  Block Propagation: Once a miner finds a valid nonce, they broadcast their solved block (including the proof of work) to the rest of the network.
-5.  Verification: Other [[Node|nodes]] in the network quickly verify the [[Proof of work|proof of work]] by performing a single hash computation with the provided [[Nonce|nonce]]. They also validate the transactions within the [[Block|block]].
+5.  Verification: Other [[Node|nodes]] in the network quickly verify the proof of work by performing a single hash computation with the provided nonce. They also validate the transactions within the block.
 6.  Chain Extension: If the block is valid, other nodes add it to their copy of the blockchain, and the process begins anew for the next block, with miners attempting to build on top of this newly added block.
 
 ### Underlying Technical Details
@@ -53,7 +53,7 @@ The difficulty adjustment algorithm is crucial. For example, in Bitcoin, the dif
 
 ### Concrete Examples & Real-World Applications
 
-Proof of Work is most famously implemented in [[Bitcoin]], where it underpins the security of its network and the validation of transactions. Historically, [[Ethereum]] also utilized PoW with its Ethash algorithm before its transition to [[Proof of stake]]. Other cryptocurrencies such as Litecoin, Monero, and Bitcoin Cash also employ PoW or variations of it as their consensus mechanism, showcasing its widespread adoption in securing decentralized ledgers.
+Proof of Work is most famously implemented in Bitcoin, where it underpins the security of its network and the validation of transactions. Historically, [[Ethereum]] also utilized PoW with its Ethash algorithm before its transition to [[Proof of stake]]. Other cryptocurrencies such as Litecoin, Monero, and Bitcoin Cash also employ PoW or variations of it as their consensus mechanism, showcasing its widespread adoption in securing decentralized ledgers.
 
 ### Benefits & Advantages
 
@@ -63,7 +63,7 @@ In principle, PoW fosters decentralization because anyone can become a miner, th
 
 The system is permissionless, meaning no central authority is required to validate transactions or create new currency units. This autonomy is a core tenet of many decentralized systems.
 
-Furthermore, PoW has a proven track record. It has been operational and battle-tested for over a decade in major cryptocurrencies like [[Bitcoin]], demonstrating its reliability and resilience in real-world, adversarial environments.
+Furthermore, PoW has a proven track record. It has been operational and battle-tested for over a decade in major cryptocurrencies like Bitcoin, demonstrating its reliability and resilience in real-world, adversarial environments.
 
 ### Limitations, Challenges & Criticisms
 
@@ -75,11 +75,11 @@ The competitive nature of mining has driven the development of specialized and e
 
 While a 51% attack is very costly on large, established networks, smaller PoW blockchains can be more vulnerable. If a single entity or a coordinated group manages to control more than 50% of the network's total hashing power, they could potentially disrupt the network, for example, by double-spending transactions or preventing new transactions from gaining confirmations.
 
-Finally, transaction costs can become a concern. As block rewards for miners diminish over time (such as with [[Bitcoin]]'s [[Halving]] events), transaction fees become an increasingly important part of the miner's incentive. If these fees need to rise substantially to maintain network security, it could make small-value transactions uneconomical.
+Finally, transaction costs can become a concern. As block rewards for miners diminish over time (such as with Bitcoin's [[Halving]] events), transaction fees become an increasingly important part of the miner's incentive. If these fees need to rise substantially to maintain network security, it could make small-value transactions uneconomical.
 
 ### Comparative Analysis
 
-[[Proof of work|Proof of Work]] is often contrasted with [[Proof of stake]] (PoS). PoS mechanisms select [[Block|block]] [[Validator|validators]] based on the number of coins they hold and are willing to "stake" as collateral, aiming to address PoW's high energy consumption and offering potentially different scalability and governance characteristics. Other [[Consensus|consensus]] mechanisms also exist, such as [[Proof of authority]] (PoA), where validators are chosen based on reputation, or Delegated Proof of Stake (DPoS), where coin holders vote for a limited number of delegates to produce blocks. Each of these alternatives comes with its own set of trade-offs regarding security, decentralization, and efficiency.
+Proof of Work is often contrasted with Proof of stake (PoS). PoS mechanisms select block [[Validator|validators]] based on the number of coins they hold and are willing to "stake" as collateral, aiming to address PoW's high energy consumption and offering potentially different scalability and governance characteristics. Other consensus mechanisms also exist, such as [[Proof of authority]] (PoA), where validators are chosen based on reputation, or Delegated Proof of Stake (DPoS), where coin holders vote for a limited number of delegates to produce blocks. Each of these alternatives comes with its own set of trade-offs regarding security, decentralization, and efficiency.
 
 ## Broader Context & Further Exploration
 
@@ -91,9 +91,9 @@ Finally, transaction costs can become a concern. As block rewards for miners dim
 
 ### Related & Adjacent Ideas
 
-- [[Proof of stake]]: The most prominent alternative [[Consensus|consensus]] mechanism.
-- [[Miner]]: The process of participating in PoW to create new [[Block|blocks]].
-- [[Consensus]]: The broader category of algorithms used to achieve agreement in distributed systems.
+- Proof of stake: The most prominent alternative consensus mechanism.
+- Miner: The process of participating in PoW to create new blocks.
+- Consensus: The broader category of algorithms used to achieve agreement in distributed systems.
 - 51 percent attack: A potential attack vector against PoW blockchains.
 
 ### Advanced Topics & Future Research

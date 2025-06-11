@@ -48,7 +48,7 @@ Cryptocurrencies and new payment technologies can be exploited for terrorist fin
 
 ### Limitations & Challenges
 
-- **Adaptability of Terrorist Groups:** Terrorists continuously seek new methods to raise and [[Move|move]] funds, often exploiting informal and unregulated channels.
+- **Adaptability of Terrorist Groups:** Terrorists continuously seek new methods to raise and move funds, often exploiting informal and unregulated channels.
 - **Balancing Security with Rights:** CTF measures must be implemented in a way that respects human rights, due process, and privacy.
 - **Complexity of Tracing Funds:** Following complex financial trails, especially those involving cash, informal value transfer systems (like Hawala), or privacy-enhancing technologies, can be difficult.
 - **Resource Intensity:** Effective CTF requires significant resources for investigation, intelligence, and enforcement.
@@ -56,5 +56,5 @@ Cryptocurrencies and new payment technologies can be exploited for terrorist fin
 
 ## Related Concepts
 
-- [[Anti money laundering]]
-- [[Regulation]]
+- Anti money laundering
+- Regulation

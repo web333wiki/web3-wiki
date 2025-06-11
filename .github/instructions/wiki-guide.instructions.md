@@ -1,18 +1,18 @@
----
-applyTo: 'cards/*.md'
----
+# Wiki General Guidelines
 
-## Web3 Wiki General Guidelines
+You are an AI assistant helping to create and maintain content for a Web3 wiki project. This document outlines the general guidelines 
+you must follow when creating, maintaining, and improving wiki content.
 
-This document outlines the general guidelines for contributing to the Web3 Wiki. It also instructs the AI assistant on its role in creating, maintaining, and improving wiki content. The AI assistant must strictly adhere to these guidelines to ensure consistency, accuracy, and quality across all cards.
+## Project Overview
 
-### Project Overview
+This project is an open-source, community-driven initiative to build a comprehensive Web3 wiki. The entire project is built and published 
+as a website using the Obsidian Publish system. Consequently, all content creation, including writing and formatting, must adhere to 
+Obsidian's conventions, particularly for features like jump links, backlinks, and overall Markdown formatting.
 
-This project is an open-source, community-driven initiative to build a comprehensive Web3 wiki. The entire project is built and published as a website using the Obsidian Publish system. Consequently, all content creation, including writing and formatting, must adhere to Obsidian's conventions, particularly for features like jump links, backlinks, and overall Markdown formatting.
+The wiki is organized into individual "cards" where each card is a distinct Markdown file within the `cards` directory. 
+Cards are interconnected using Obsidian's internal linking system (e.g., `[[Ethereum]]`, `[[Bitcoin]]`) to create a navigable knowledge network.
 
-The wiki is organized into individual "cards," where each card is a distinct Markdown file within the `cards` directory. Cards are interconnected using Obsidian's internal linking system (e.g., `[[Ethereum]]`, `[[Bitcoin]]`) to create a navigable knowledge network.
-
-### Card Introduction
+## Card Introduction
 
 Each card serves as a standalone resource on a specific topic within the Web3 ecosystem.
 
@@ -27,9 +27,8 @@ Each card must belong to one of the following three types:
    - These cards must adhere to the specific guidelines outlined for `show-card`s.
    - Examples: `Ethereum.md`, `Uniswap.md`, `Metamask.md`.
 3. `awesome-card`: For cards that curate a list of valuable resources related to a topic.
-
-- These cards must adhere to the specific guidelines outlined for `awesome-card`s.
-- Examples: `Web3 resources.md`, `Blockchain tools.md`, `Awesome ethereum.md`.
+   - These cards must adhere to the specific guidelines outlined for `awesome-card`s.
+   - Examples: `Web3 resources.md`, `Blockchain tools.md`, `Awesome ethereum.md`.
 
 ### Card Location
 
@@ -38,7 +37,8 @@ All card Markdown files **MUST** be placed **directly within the `cards` directo
 ### Card Naming Conventions
 
 1. The filename of a card should accurately represent its core topic.
-2. No special characters are allowed in the filename, only letters, numbers, and spaces. Only the first letter of the first word should be capitalized, and the rest should be in lowercase (e.g., `Decentralized finance.md`, `Smart contracts.md`).
+2. No special characters are allowed in the filename, only letters, numbers, and spaces. Only the first letter of the first word should be capitalized, 
+   and the rest should be in lowercase (e.g., `Decentralized finance.md`, `Smart contracts.md`).
    - Example: `Decentralized finance.md` is acceptable, while `decentralized-finance.md` or `Decentralized-Finance.md` are not.
    - Example: `Smart contracts.md` is acceptable, while `smart_contracts.md` or `SmartContracts.md` are not.
 3. For concepts with commonly used abbreviations (e.g., EIP55, ERC721, ERC1155), follow the most widely accepted naming convention (e.g., `EIP55.md`, `ERC721.md`, `ERC1155.md`).
@@ -49,12 +49,15 @@ All card Markdown files **MUST** be placed **directly within the `cards` directo
 
 Since this wiki is built using Obsidian, two types of links can be used within cards: internal and external.
 
-- Internal Links: These links point to existing cards within the wiki. They are created using the syntax `[[Page name]]`, where `Page name` is the name of the target card (e.g., `[[Ethereum]]` links to `Ethereum.md`). Internal links connect related concepts and provide easy navigation. It is crucial to ensure all internal links are valid.
+- Internal Links: These links point to existing cards within the wiki. They are created using the syntax `[[Page name]]`, where `Page name` is the name of 
+   the target card (e.g., `[[Ethereum]]` links to `Ethereum.md`). Internal links connect related concepts and provide easy navigation. It is crucial to ensure 
+   all internal links are valid.
 - External Links: These links point to external resources like official websites or documentation; External links provide additional context and references.
 
 For the internal links, follow these guidelines:
 
-- A script stores all existing card names in `scripts/card_index.txt` (one name per line, without the `.md` extension). Use this file to verify if a card name exists before creating a new card.
+- A script stores all existing card names in `scripts/card_index.txt` (one name per line, without the `.md` extension). Use this file to verify if a card name 
+   exists before creating a new card.
 - Use the `[[Page name]]` syntax for internal links. If the target card doesn't exist, ask the user for confirmation before creating it. The new card must follow all rules.
 
 For the external links, follow these guidelines:
@@ -64,12 +67,13 @@ For the external links, follow these guidelines:
 
 ### General Card Authoring Standards
 
-Once the card type and name are established, create the content according to the specific rules for that card type. Each card type has its own rules and structure. This section provides general rules applicable to all card types. **This is critically important.**
+Once the card type and name are established, create the content according to the specific rules for that card type. Each card type has its own rules and structure. This section provides general rules applicable to all card types.
 
-- Prefer using natural language and paragraphs explanations instead of summary lists. But keep the tables format. **This is critically important.**
-- Do not use bold markdown in the card content, even in the list items. **This is critically important.**
-- Mandatory Category Tag: The very first line of every card file **MUST** be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`), with no preceding blank lines or content. This is a strict requirement.
-- Style and Tone: Content should be neutral and informative, similar to Wikipedia articles. Avoid promotional language or subjective opinions. The writing style should be clear, concise, and accessible.
-- Category-Specific Rules: Each card must follow the specific rules for its category, detailed in separate rule files. Refer to those files for detailed content structure instructions.
-- Accurate and In-Depth Content: Ensure content is accurate, up-to-date, and provides sufficient depth. Avoid generic or superficial content. Adapt the level of detail based on available information: for topics with limited sources, consolidate related items into fewer sections; for topics with rich information, provide comprehensive and detailed explanations.
-- Exception - Main Page: The card `Web3 Wiki.md` serves as the main page. The AI assistant **MUST NOT** modify its content, as it is maintained manually.
+**Critical Requirements:**
+- Prefer using natural language and paragraphs explanations instead of summary lists. But keep the tables format.
+- Do not use bold markdown in the card content, even in the list items
+- Mandatory Category Tag: The very first line of every card file MUST be the tag corresponding to its category (e.g., `#explain-card`, `#show-card`, `#awesome-card`), with no preceding blank lines or content
+- Style and Tone: Content should be neutral and informative, similar to Wikipedia articles. Avoid promotional language or subjective opinions. The writing style should be clear, concise, and accessible
+- Category-Specific Rules: Each card must follow the specific rules for its category, detailed in separate rule files
+- Accurate and In-Depth Content: Ensure content is accurate, up-to-date, and provides sufficient depth. Avoid generic or superficial content. Adapt the level of detail based on available information
+- Exception - Main Page: The card `Web3 Wiki.md` serves as the main page. You MUST NOT modify its content, as it is maintained manually

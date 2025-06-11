@@ -6,22 +6,22 @@
 
 **Analogy/ELI5:** Imagine a vending machine that always has two types of snacks. When you buy one snack, the machine automatically adjusts the price of that snack to be slightly higher (because there's less of it) and the price of the other snack to be slightly lower (because there's relatively more of it). AMMs work similarly with tokens.
 
-**Importance & Purpose:** [[AMM|AMMs]] are crucial in the [[Decentralized finance|Decentralized Finance]] ([[DeFI|DeFi]]) ecosystem because they:
+**Importance & Purpose:** AMMs are crucial in the [[Decentralized finance|Decentralized Finance]] ([[DeFI|DeFi]]) ecosystem because they:
 
 - Enable permissionless and automated trading of digital assets.
-- Provide continuous [[Liquidity|liquidity]], even for less popular tokens.
-- Allow anyone to become a [[Liquidity|liquidity]] provider and earn fees.
-- Form a foundational layer for many other [[DeFI|DeFi]] applications.
+- Provide continuous liquidity, even for less popular tokens.
+- Allow anyone to become a liquidity provider and earn fees.
+- Form a foundational layer for many other DeFi applications.
 
-**Historical Context & Evolution:** The concept of [[AMM|AMMs]] was popularized by platforms like Uniswap, drawing inspiration from earlier ideas about on-chain [[Market maker|market makers]]. Since their inception, various [[AMM]] designs have emerged, each with different formulas and targeting specific use cases (e.g., Curve for [[Stablecoin|stablecoins]], Balancer for multi-asset pools).
+**Historical Context & Evolution:** The concept of AMMs was popularized by platforms like Uniswap, drawing inspiration from earlier ideas about on-chain market makers. Since their inception, various AMM designs have emerged, each with different formulas and targeting specific use cases (e.g., Curve for [[Stablecoin|stablecoins]], Balancer for multi-asset pools).
 
 ## Core Principles & Detailed Mechanism
 
 **Key Components/Elements:**
 
-- **[[Liquidity]] Pools:** These are [[Smart contract|smart contracts]] that hold reserves of two or more tokens. Traders swap tokens with these pools.
-- **[[Liquidity]] Providers (LPs):** Users who deposit their tokens into liquidity pools. In return, they typically receive LP tokens representing their share of the pool and earn a portion of the trading fees.
-- **Mathematical Formula (Pricing Algorithm):** This is the core of an [[AMM]]. It determines the price of tokens in a pool based on their relative quantities. The most common is the constant product formula (x \* y = k), where 'x' and 'y' are the quantities of two tokens in the pool, and 'k' is a constant. When a trade occurs, the quantities of 'x' and 'y' change, but 'k' must remain constant (excluding fees and new [[Liquidity|liquidity]]), thus dictating the new price.
+- **Liquidity Pools:** These are smart contracts that hold reserves of two or more tokens. Traders swap tokens with these pools.
+- **Liquidity Providers (LPs):** Users who deposit their tokens into liquidity pools. In return, they typically receive LP tokens representing their share of the pool and earn a portion of the trading fees.
+- **Mathematical Formula (Pricing Algorithm):** This is the core of an AMM. It determines the price of tokens in a pool based on their relative quantities. The most common is the constant product formula (x \* y = k), where 'x' and 'y' are the quantities of two tokens in the pool, and 'k' is a constant. When a trade occurs, the quantities of 'x' and 'y' change, but 'k' must remain constant (excluding fees and new liquidity), thus dictating the new price.
 
 **In-depth Mechanism/How it Works:**
 
@@ -39,46 +39,46 @@
 
 **Variations, Types, or Implementations:**
 
-- **Constant Sum [[Market maker|Market Makers]] (CSMMs):** Better for zero-slippage trades but don't offer infinite [[Liquidity|liquidity]] (e.g., `x + y = k`).
-- **Constant Mean [[Market maker|Market Makers]] (CMMMs):** Allow for more than two assets and different weightings (e.g., Balancer).
-- **Hybrid [[AMM|AMMs]]:** Combine features of different models, often optimized for specific asset types like [[Stablecoin|stablecoins]] to minimize slippage (e.g., Curve Finance's StableSwap invariant).
+- **Constant Sum Market Makers (CSMMs):** Better for zero-slippage trades but don't offer infinite liquidity (e.g., `x + y = k`).
+- **Constant Mean Market Makers (CMMMs):** Allow for more than two assets and different weightings (e.g., Balancer).
+- **Hybrid AMMs:** Combine features of different models, often optimized for specific asset types like stablecoins to minimize slippage (e.g., Curve Finance's StableSwap invariant).
 
 ## Practical Applications, Use Cases & Implications
 
 **Concrete Examples & Real-World Applications:**
 
-- Uniswap: A pioneering [[AMM]] protocol on [[Ethereum]].
-- PancakeSwap: A leading [[AMM]] on BNB Smart Chain.
-- Curve Finance: Specializes in [[Stablecoin|stablecoin]] swaps, minimizing slippage.
+- Uniswap: A pioneering AMM protocol on [[Ethereum]].
+- PancakeSwap: A leading AMM on BNB Smart Chain.
+- Curve Finance: Specializes in stablecoin swaps, minimizing slippage.
 - Balancer: Allows for multi-token pools with custom weightings.
 - SushiSwap: A community-driven fork of Uniswap with additional features.
 
 **Benefits & Advantages:**
 
-- **Accessibility:** Anyone can trade or provide [[Liquidity|liquidity]] without permission.
-- **Continuous [[Liquidity]]:** Markets are always available, 24/7.
+- **Accessibility:** Anyone can trade or provide liquidity without permission.
+- **Continuous Liquidity:** Markets are always available, 24/7.
 - **Transparency:** All trades and pool states are recorded on the blockchain.
 - **Reduced Reliance on Centralized Entities:** Promotes decentralization.
-- **Passive Income for LPs:** [[Liquidity]] providers can earn fees.
+- **Passive Income for LPs:** Liquidity providers can earn fees.
 
 **Limitations, Challenges & Criticisms:**
 
-- **Impermanent Loss:** A significant risk for LPs. It occurs when the price of tokens inside an [[AMM]] diverges from when they were deposited. If an LP withdraws their [[Liquidity|liquidity]], the value of their withdrawn assets might be less than if they had simply held the original tokens.
+- **Impermanent Loss:** A significant risk for LPs. It occurs when the price of tokens inside an AMM diverges from when they were deposited. If an LP withdraws their liquidity, the value of their withdrawn assets might be less than if they had simply held the original tokens.
 - **Slippage:** Large trades can result in unfavorable execution prices.
-- **[[Smart contract|Smart Contract]] Risks:** Bugs or vulnerabilities in the [[AMM]]'s [[Smart contract|smart contracts]] can lead to loss of funds.
-- **Capital Inefficiency:** In some [[AMM]] models (like the constant product formula), much of the [[Liquidity|liquidity]] sits unused unless prices swing dramatically.
+- **Smart Contract Risks:** Bugs or vulnerabilities in the AMM's smart contracts can lead to loss of funds.
+- **Capital Inefficiency:** In some AMM models (like the constant product formula), much of the liquidity sits unused unless prices swing dramatically.
 
 **Future Trends & Developments:**
 
-- **Concentrated [[Liquidity]]:** [[AMM|AMMs]] like Uniswap v3 allow LPs to provide liquidity within specific price ranges, improving capital efficiency.
-- **[[Layer 2]] Scaling Solutions:** Moving [[AMM]] operations to Layer 2 solutions to reduce [[Gas|gas]] fees and improve transaction speed.
-- **Cross-Chain [[AMM|AMMs]]:** Enabling swaps between assets on different blockchains.
+- **Concentrated Liquidity:** AMMs like Uniswap v3 allow LPs to provide liquidity within specific price ranges, improving capital efficiency.
+- **[[Layer 2]] Scaling Solutions:** Moving AMM operations to Layer 2 solutions to reduce [[Gas|gas]] fees and improve transaction speed.
+- **Cross-Chain AMMs:** Enabling swaps between assets on different blockchains.
 - **More Sophisticated Pricing Algorithms:** Development of new formulas to reduce slippage and impermanent loss.
 
 ## Related Concepts
 
-- [[DEX]]
-- [[Liquidity]] Pool
+- DEX
+- Liquidity Pool
 - Impermanent Loss
 - Slippage
-- [[Decentralized finance]]
+- Decentralized finance

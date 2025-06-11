@@ -4,7 +4,7 @@ An [[Ethereum]] Improvement Proposal ([[EIP]]) is a design document that provide
 
 There are three types of EIPs:
 
-1. Standards Track: These [[EIP|EIPs]] propose changes to the network protocols, including [[Consensus|consensus]] and networking layers.
+1. Standards Track: These EIPs propose changes to the network protocols, including [[Consensus|consensus]] and networking layers.
 2. Informational: These provide guidelines or information to the Ethereum community but do not propose new features.
 3. Process: These describe changes to the processes surrounding Ethereum's development.
 

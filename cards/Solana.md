@@ -8,11 +8,11 @@
 
 ### Innovative Consensus Mechanism
 
-Both [[Ethereum]] and [[Solana]] use a [[Consensus|consensus]] mechanism called [[Proof of stake]] (PoS). Solana introduces an innovative global clock design called Proof of History (PoH), which arranges the sequence of blocks, transactions, and events. In the event of a fork, Solana can quickly resolve it using PoH, whereas Ethereum [[Validator|validators]] need to calculate attestations from the [[Genesis [[Block|block]]|genesis block]] to the latest block, which is time-consuming.
+Both Ethereum and Solana use a [[Consensus|consensus]] mechanism called [[Proof of stake]] (PoS). Solana introduces an innovative global clock design called Proof of History (PoH), which arranges the sequence of blocks, transactions, and events. In the event of a fork, Solana can quickly resolve it using PoH, whereas Ethereum [[Validator|validators]] need to calculate attestations from the [[Block|block]]|[[Genesis block|genesis block]]]] to the latest block, which is time-consuming.
 
 ### On-Chain Programs
 
-In Solana, [[Smart contract]]s are referred to as "on-chain programs" and are written in Rust. Each program is an on-chain account that stores executable logic, organized into specific functions called instructions. There is a framework called [Anchor](https://github.com/coral-xyz/anchor) that helps developers write, test, and deploy on-chain programs efficiently.
+In Solana, [[Smart contract|Smart contracts]] are referred to as "on-chain programs" and are written in Rust. Each program is an on-chain account that stores executable logic, organized into specific functions called instructions. There is a framework called [Anchor](https://github.com/coral-xyz/anchor) that helps developers write, test, and deploy on-chain programs efficiently.
 
 ### Account Model
 The most significant difference between Solana and Ethereum is the account model. In Ethereum, each account can be either an Externally Owned Account ([[EOA]]) or a Contract Account, where the contract logic and storage are tied together. In Solana, the contract account and storage account are separated, making contract accounts completely stateless.
@@ -33,5 +33,5 @@ The most significant difference between Solana and Ethereum is the account model
 
 ## Latest Updates
 
-- 2023-04 [[Solana]] Mobile began selling in the Solana Saga, an Android smartphone with Solana-based [[DApp|dapps]].
-- 2020-03 Generated the first [[Block|block]] on the [[Solana]] Mainnet
+- 2023-04 Solana Mobile began selling in the Solana Saga, an Android smartphone with Solana-based [[DApp|dapps]].
+- 2020-03 Generated the first block on the Solana Mainnet

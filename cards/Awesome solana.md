@@ -1,6 +1,6 @@
 #awesome-card
 
-## What is [[Solana]]?
+## What is Solana?
 
 - [The Solana Whitepaper](https://solana.com/solana-whitepaper.pdf)
 

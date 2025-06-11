@@ -9,8 +9,6 @@ all cards meet the required standards before publication.
 The script performs the following validations:
 1. Card naming conventions
 2. Category tag requirements
-3. Internal link integrity
-4. Card index generation
 
 Exit codes:
 - 0: All validations passed
@@ -91,7 +89,6 @@ def main() -> int:
     validations = [
         ("check-tag.py", "Category Tag Validation"),
         ("check-card-name.py", "Card Name Convention Validation"),
-        ("check-internal-links.py", "Internal Link Validation & Index Generation"),
     ]
     
     # Track results
